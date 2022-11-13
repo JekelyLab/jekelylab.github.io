@@ -1,4 +1,4 @@
-# Xaringan_presentation_template
+**How to make Xaringan presentations in R**
 
 You can use this .Rproject as a template to create .html presentations with the Xaringan R Markdown extension by Yihui Xie.
 
