@@ -7,7 +7,7 @@ About a year ago I started using R Markdown and Xaringan to prepare presentation
 Efficient, elegant, saves disk space and allows you you to easily prepare slides with a very consistent layout and style.
 
 You can first have a look at an example html presentation here:
-
+https://jekelylab.github.io/Presentation_template.html
 
 
 If you would like to create presentations using this template, read on.
