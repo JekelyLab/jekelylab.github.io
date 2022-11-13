@@ -68,29 +68,24 @@ Image by Reza Shahidi
 ---
 class: center
 background-image: url(assets/img/Platy_SEM.png)
-background-position: 10% 58%
+background-position: 40% 58%
 background-size: 70%
 
 .can-edit[
 
-## _Platynereis dumerilii_ - the text on this slide is editable during the presentation
+## Background image, editable text in color and emojis
 
-<img src=assets/img/Platy_adult.png style="position:absolute; width:14%; left:71.2%; top:10.9%">
+<img src=assets/img/Platy_adult.png style="position:absolute; width:14%; left:80.1%; top:10.9%">
 
 
-.left[<br><br><br><br><br><br><br><br><br><br><br>
-- breeding .blue[culture], full life-cycle
-- .cyan[embryos] daily, year round 
-- .red[genome] sequence
-- .orange[microinjection]
-- .green[transgenesis]
-- neuron-specific .purple[promoters] and .green[antibodies]
-- .red[knock-out] lines
-- cellular resolution .blue[expression profiling]
-- neuronal .purple[connectome]
-- whole-body neuronal .orange[activity imaging]
-- whole-animal .cyan[pharmacology] by bath application &#x1F60E;]
-
+.left[.pull-left[<br><br><br><br><br><br><br><br><br><br><br><br>
+- text .blue[in colour]
+- add .cyan[line breaks] with the &lt;br&gt; element <br><br>
+- for purple[emojis] &#x1F60E; use the .orange[unicodes] listed e.g., here: <br> https://bit.ly/3ttsbM6
+- for .red[editable] slides you will need .green[XaringanExtra] from here: 
+https://pkg.garrickadenbuie.com/xaringanExtra/#/?id=xaringanextra
+]
+]
 ]
 
 ---
@@ -170,7 +165,10 @@ class: center
 
 .panelset[
 .panel[.panel-name[Apical nervous system]
-<img src=assets/img/ANS.png width = 40%>
+<img src=assets/img/ANS.png width = 30%><br><br><br>
+for .red[panels] in slides you will need .green[XaringanExtra] from here: 
+https://pkg.garrickadenbuie.com/xaringanExtra/#/?id=xaringanextra
+<br><br><br><br><br><br><br>
 .footnote[___
 [Williams et al. (2017)](https://elifesciences.org/articles/26349)]
 ]
@@ -201,7 +199,7 @@ class: left
 ## More on Xaringan with further examples
 
 <br><br><br><br>
-* Introduction into Xaringan:
+* Introduction to Xaringan:
 https://bookdown.org/yihui/rmarkdown/xaringan.html
 
 * Installation:
@@ -212,5 +210,10 @@ https://www.favstats.eu/post/xaringan_tut/
 
 * Another Xaringan template:
 https://www.rostrum.blog/2019/05/24/xaringan-template/
+
+* XaringanExtra: 
+https://pkg.garrickadenbuie.com/xaringanExtra/#/?id=xaringanextra
+
+* To reload slides on change use the Infinite Moon Reader addIn: https://www.rdocumentation.org/packages/xaringan/versions/0.26/topics/infinite_moon_reader
 
 <img src=assets/img/xaringan.png style="position:absolute; width:10%; left:88%; top:74%">
