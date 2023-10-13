@@ -146,10 +146,86 @@ Luis A. Bezares-Calderón
 Luis A. Bezares-Calderón
 :::
 
+
+## Which cells respond to pressure?
+
+::: columns
+::: {.column width="45%"}
+**Microscopy pressure chamber** ![](images/pressure/CaImaging_Schematic.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="50%"}
+**Calcium imaging** ![](images/pressure/CaimagingNovs750mbpanel.png)
+:::
+:::
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Pressure-responding ciliated sensory neurons
+
+![](movies/pressure_response_calcium_cPRC.webm){.absolute top="147" left="-50" height="350" video-loop="true"}
+
+![](images/pressure/cPRC.png){.absolute top="160" left="220" width="900"}
+
+
+
 ## Pressure is sensed by photoreceptors with ramified cilia
 
 <br><br>\
 ![](images/pressure/cPRC.png) cPRC - ciliated Photoreceptor Cells
+
+
+## UV-sensing brain ciliary photoreceptors (cPRCs)
+
+![](images/pressure/c_opsin1.png){.absolute top="150" left="0" width="400"}
+
+![](images/pressure/c_opsin_KO_calcium.png){.absolute top="147" left="450" height="450"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Photoreceptor responses to pressure are graded
+
+![](images/pressure/cPRC_calcium_quantification.jpg){.absolute top="100" left="40" height="450"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Defects of pressure response in *c-opsin1* mutants
+
+![](images/pressure/Panel_prVSMaxdispInd-AVG_step2dpf.png){.absolute top="100" left="180" height="520"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Reduced ciliary compartment in *c-opsin1* mutants
+
+![](images/pressure/cPRC_WTvsCops.png){.absolute top="200" left="-50" width="500"}
+
+![](images/pressure/PanelVolumecPRCs.png){.absolute top="150" left="500" height="350"}
+
+::: footer
+Kei Jokura & Luis A. Bezares-Calderón
+:::
+
+## Defects of ciliary ultrastructure in *c-opsin1* mutants
+
+![](images/pressure/EMcPRC_supp.png){.absolute top="100" left="-50" height="520"}
+
+![](images/pressure/cPRC_arbor_length.png){.absolute top="200" left="640" height="250"}
+
+::: footer
+Réza Shahidi & Luis A. Bezares-Calderón
+:::
+
 
 ## Circuitry of ciliary photoreceptors
 
