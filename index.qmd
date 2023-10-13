@@ -1,25 +1,19 @@
 ---
-title: "index"
-format: revealjs
+format:
+  revealjs: 
+    theme: [default, custom_index.scss]  
 ---
 
-## Quarto
+## Recent presentations by Gáspár Jékely
+### Centre for Organismal Studies, Heidelberg University
 
-Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+<br><br><br>
+[Presentation](https://jekelylab.github.io/Columbia_Neuroscience_Oct_2023_NOS_pressure.html#/title-slide/) in the [Columbia Neuroscience Seminar series](https://zuckermaninstitute.columbia.edu/columbia-neuroscience-seminar-g-sp-r-j-kely) (October 17, 2023). 
 
-## Bullets
+<br><br><br>
+[Presentation](https://jekelylab.github.io/LA_Basal_Cognition_June27_2023.html#/title-slide/) at the Luskin Symposium [Pushing the Boundaries: Neuroscience, Cognition, and Life.](https://2023symposium.ibp.ucla.edu/) (June 26-27, 2023). 
+<br><br><br>
+[Presentation](https://jekelylab.github.io/Janelia_Apr_2023_NOS.html#/title-slide/) at the Janelia Conference [Neuropeptide Signaling: Bridging Cell Biology, Neurophysiology, and Behavior](https://www.janelia.org/you-janelia/conferences/neuropeptide-signaling-bridging-cell-biology-neurophysiology-and-behavior) (April 16 - 19, 2023). 
 
-When you click the **Render** button a document will be generated that includes:
-
--   Content authored with markdown
--   Output from executable code
-
-## Code
-
-When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-
+<br><br><br><br><br><br><br><br><br><br><br><br>
+All presentations were prepared with Quarto under R. Quarto is a publishing system that enables you to weave together content and executable code into a finished presentation. See <https://quarto.org/docs/presentations/>.
