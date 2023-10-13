@@ -1,0 +1,405 @@
+---
+title: "Embodied cognition in miniature brains and bodies of marine zooplankton"
+subtitle: "Pushing the Boundaries: Neuroscience, Cognition, and Life <br> June 25-27, 2023"
+author: "Gáspár Jékely"
+institute: "Living Systems Institute, University of Exeter <br> Centre for Organismal Studies, University of Heidelberg"
+format:
+  revealjs: 
+   # embed-resources: true
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+---
+
+## The 'brain'
+
+![](images/Phototaxis/MB_first_form.png)
+
+## Ciliated zooplankton larvae
+
+![](images/ciliated_larvae.png)
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%"}
+<br><br><br><br><br><br>
+
+-   breeding culture, full life-cycle
+-   embryos daily, year round
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters and antibodies
+-   knock-out lines
+-   neuronal connectome
+-   whole-body neuronal activity imaging
+-   whole-animal pharmacology by bath application 😎
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## *Platynereis dumerilii*
+
+::: columns
+::: {.column width="50%"}
+![](movies/spawning_Fischer.webm){.absolute height="450"} <br><br><br><br><br><br><br><br><br><br><br><br><br><br> **Spawning** <br> movie by Albrecht Fischer
+:::
+
+::: {.column width="50%"}
+![](movies/3d_Larvae_swimming.webm) <br> **Synchronously developing larvae**
+:::
+:::
+
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="40%"}
+![](images/Naomi.png)
+:::
+
+::: {.column width="60%"}
+![](movies/Naomi.webm)
+:::
+:::
+
+::: footer
+[Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## The nervous system of the larva
+
+![](movies/Video_bb_neurons.webm){.absolute left="300" height="600"} <br> **\~2,000 neurons**
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="250" top="50"}
+
+::: footer
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## Phototaxis
+
+![](movies/early_phototaxis.webm){.absolute left="570" top="115" height="500"} ![](images/Phototaxis/lamp.jpg){.absolute left="1110" top="320" width="60"}
+
+![](images/Phototaxis/eyespots.png){.absolute left="250" top="60" width="300"} ![](images/Phototaxis/pigment_cup.png){.absolute left="-60" top="370" width="300"} ![](images/Phototaxis/trunkbraineyeeyeciliary.svg){.absolute left="-60" top="60" width="303"} ![](images/Phototaxis/rhabdomaxonciliated.svg){.absolute left="250" top="370" width="300"}
+
+::: footer
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## Helical swimming, sensing and turning are tightly linked
+
+![](movies/Platynereis_helical_swimming.webm){.absolute left="-100" top="180" width="500" loop="true"}
+
+![](images/Phototaxis/helix.png){.absolute left="-100" top="500" width="500"} ![](images/Phototaxis/model_larva.svg){.absolute left="450" top="200" width="350"} ![](images/Phototaxis/model_loop_spin.svg){.absolute left="820" top="200" width="400"}
+
+::: footer
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## Whole-body coordination of cilia
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"} ![](movies/Loop_EM.webm){.absolute top="100" left="370" height="550"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="90" left="930" height="140"}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Whole-body coordination during startle
+
+![](movies/startle.webm){.absolute top="100" left="250" height="550"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## Coordinated arrest of all cilia
+
+![](movies/SuppVideo2_concatenatedNoELowEWideE.webm){.absolute top="100" left="190" height="450"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## No arrest in polycystin receptor mutant
+
+![](movies/SuppVideo6_FlowtracePKD11homozygoteAnnotatedTime_CRb2x2CR.webm){.absolute top="100" left="190" height="450"} ![](images/Startle/CR_cilia.svg){.absolute top="87" left="-70" height="250"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## Copepod attack
+
+![](movies/WTescape.webm){.absolute top="100" left="350" height="450"}[wild type]{.absolute top="100" left="350" height="450"} ![](movies/P2T2eaten.webm){.absolute top="100" left="855" height="450"}[polycystin mutant]{.absolute top="100" left="855" height="450"} ![](images/Startle/copepod.png){.absolute top="87" left="-160" height="250"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## Pressure response in *Platynereis* larvae
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/Platynereis_3d.jpeg){.absolute left="457" top="50" width="140"}
+
+![](movies/pressure_response.webm){.absolute left="600" top="62" width="280"}
+
+![](images/Luis_Bez.jpg){.absolute left="883" top="50" width="200"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Precise control of pressure in the pressure chamber
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/pressure/PanelAvgPressure_step2dpf.png){.absolute left="500" top="50" width="600"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Pressure response is graded
+
+![](images/pressure/PanelTvsAVGrelDisp_step3dpf.png){.absolute left="0" top="150" height="420"}
+
+![](images/pressure/Panel_prVSMaxAVGdisp_step3dpf.png){.absolute left="500" top="150" height="420"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Swimming speed increases, trajectories straighten
+
+![](images/pressure/Helix_ctr.png){.absolute left="500" top="120" height="550"} [ctr]{.absolute left="500" top="100" height="500"}
+
+![](images/pressure/Helix_pressure.png){.absolute left="700" top="120" height="550"} [pressure]{.absolute left="700" top="100" height="500"}
+
+![](images/pressure/Speed_on_pressure.png){.absolute left="190" top="180" height="350"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Ciliary beating increases under pressure
+
+![](images/pressure/CBF_assaySchematic.png){.absolute left="20" top="100" height="220"}
+
+![](images/pressure/PanelPeriodvsmax.CBF_2dpf.png){.absolute left="400" top="150" height="420"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+![](movies/high_speed_cilia.webm){.absolute left="0" top="343" height="240" loop="true"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Pressure is sensed by photoreceptors with ramified cilia
+
+<br><br>\
+![](images/pressure/cPRC.png) cPRC - ciliated Photoreceptor Cells
+
+## Circuitry of ciliary photoreceptors
+
+![](images/pressure/Jokura_Fig1_NOS_EM.png)
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Circuitry of ciliary photoreceptors
+
+![](images/pressure/cPRC_circuit_Catmaid.png)
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Serotonergic neurons to activate cilia
+
+::: columns
+::: {.column width="43%"}
+**Ser-h1 neurons, EM reconstruction** ![](movies/video_Ser_h1.webm)
+:::
+:::
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Mechanisms of barotaxis
+
+![](images/pressure/SummaryPressureMech.png){.absolute left="250" height="570" top="70"}
+
+::: footer
+[Luis A. Bezares-Calderón et al. biorxiv 2023](https://www.biorxiv.org/content/10.1101/2023.02.28.530398v1)
+:::
+
+## UV-responding brain ciliary photoreceptors (cPRCs)
+
+![](images/pressure/cPRC.png){.absolute top="150" left="70" width="1100"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## UV response in *Platynereis* larvae
+
+![](images/Platynereis_3d.jpeg){.absolute left="0" top="141" height="380"}
+
+![](movies/UV-response-elife-36440-video2.webm){.absolute left="280" top="52" height="630"}
+
+![](images/NOS/UV-response-elife-36440-fig3-v2.png){.absolute left="440" top="141" height="380"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Mediated by a UV-absorbing c-opsin1 photopigment
+
+![](images/pressure/c_opsin1.png){.absolute top="120" left="300" width="480"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## No UV avoidance in *c-opsin1* knockouts
+
+![](images/NOS/cOps_KO_UVresponse.png){.absolute top="60" left="300" width="500"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Strong c-opsin1-dependent cPRC activation by UV light
+
+![](images/NOS/cPRC_calcium_WT.png){.absolute top="130" left="200" height="420"} ![](images/NOS/arrow1.png){.absolute top="110" left="570" height="80"}
+
+::: footer
+Kei Jokura and [Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Nitric-oxyde synthase in postsynaptic interneurons
+
+![](images/NOS/Jokura_Fig1_NOS_HCR.png)
+
+```{=html}
+ <style>
+  .left-align {
+    text-align: left;
+  }
+</style>
+
+<div class="left-align">
+  HCR   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;&emsp;
+  Transgenic labelling
+</div>
+```
+## NO is produced in the neuropil after UV stimulation
+
+![](images/NOS/DAFFM.png){.absolute left="130" top="60" width="800"} ![](images/NOS/DAFFM_formula.jpeg){.absolute left="230" top="460" width="600"} ![](images/NOS/55hpf_DAF-FM_RGECO_134.95um.png){.absolute left="-100" top="60" width="220"}
+
+::: footer
+[DAF-FM Diacetate](https://www.thermofisher.com/order/catalog/product/D23844)
+:::
+
+## *NOS* mutants show defective UV avoidance
+
+![](images/NOS/vertical_tracking_position_sideUV_2d.png){.absolute left="150" top="80" width="800"}
+
+::: footer
+Kei Jokura
+:::
+
+## *NOS* mutants have altered cPRC response
+
+![](images/NOS/NOS-Architecture.png){.absolute left="280" top="60" width="450"}
+
+![](images/NOS/WTvsNOS11_cPRC.png){.absolute left="150" top="270" height="400"}
+
+::: footer
+Nobuo Ueda, Kei Jokura
+:::
+
+## Mathematical modelling of the circuit
+
+![](/images/NOS/fitting_data_block_diagram.png){.absolute left="40" top="70" height="550"} ![](/images/NOS/model_2.png){.absolute left="540" top="70" height="550"}
+
+::: footer
+with Piotr Slowinski and Kyle Wedgewood, LSI Exeter
+:::
+
+## Integration and memory of UV exposure
+
+![](movies/NOS_light_pulses.webm){.absolute left="100" height="600"}
+
+## What is the representation?
+
+<br><br><br><br><br><br><br>
+
+### Principle 9: learning occurs at the lowest level to enable a causal influence on behaviour
+
+## Up or down?
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"} ![](images/Ciliomotor/Ser_h1_basal_bodies2.png){.absolute top="60" left="80" width="450"} ['front-wheel drive']{.absolute top="680" left="80" width="450"} [head cilia fast]{.absolute top="200" left="-40"}
+
+![](images/Ciliomotor/Ser_h1_basal_bodies3.png){.absolute top="60" left="540" width="450"} ['rear-wheel drive']{.absolute top="680" left="540" width="450"} [head cilia slow]{.absolute top="200" left="940" width="200"}
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Emelie Brodrick
+-   Cyrielle Kaltenrieder
+-   Réza Shahidi
+-   Milena Marinkovic
+-   Daniel Thiel
+-   Sanja Jasek
+-   Cameron Hird
+-   Rebecca Turner
+-   Luis A. Bezares-Calderón
+-   Kei Jokura
+-   Luis Yanez Guerra
+-   Alexandra Kerbl
+:::
+
+::: {.column width="56%"}
+![](images/Lab_pic_LSI_2023Jan.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="22%"}
+<u>*Former lab members*</u>
+
+-   Albina Asadulina
+-   James Beard
+-   Markus Conzelmann
+-   Nadine Randel
+-   Philipp Bauknecht
+-   Martin Gühmann
+-   Cristina Pineiro-Lopez
+-   Nobuo Ueda
+-   Aurora Panzera
+-   Csaba Verasztó
+-   Elizabeth Williams
+:::
+:::
