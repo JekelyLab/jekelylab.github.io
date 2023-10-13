@@ -33,19 +33,6 @@ footer: <@jekely@biologists.social>
   </div>
 ```
 
-## A peptidergic connectome
-
-```{r eval=TRUE, echo=FALSE}
-
-htmltools::tags$iframe(
-  src = "images/NOS/peptidergic_networks_full.html", 
-  scrolling = "no", 
-  seamless = "seamless",
-  frameBorder = "1",
-  height=600, width=1000
-)
-```
-
 ## *Platynereis dumerilii*
 
 ![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
@@ -227,6 +214,49 @@ Réza Shahidi & Luis A. Bezares-Calderón
 :::
 
 
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="40%"}
+![](images/Naomi.png)
+:::
+
+::: {.column width="60%"}
+![](movies/Naomi.webm)
+:::
+:::
+
+::: footer
+[Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## The nervous system of the larva
+
+![](movies/Video_bb_neurons.webm){.absolute left="300" height="600"} <br> **\~2,000 neurons**
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="250" top="50"}
+
+::: footer
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+
+## Circuitry of ciliary photoreceptors
+
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/visNetwork_INNOS.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=600, width=1000
+)
+```
+
+
 ## Circuitry of ciliary photoreceptors
 
 ![](images/pressure/Jokura_Fig1_NOS_EM.png)
@@ -300,34 +330,6 @@ Réza Shahidi & Luis A. Bezares-Calderón
 
 ::: footer
 [Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
-:::
-
-## Whole-body volume EM of an entire three-day-old larva
-
-::: columns
-::: {.column width="40%"}
-![](images/Naomi.png)
-:::
-
-::: {.column width="60%"}
-![](movies/Naomi.webm)
-:::
-:::
-
-::: footer
-[Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
-:::
-
-## The nervous system of the larva
-
-![](movies/Video_bb_neurons.webm){.absolute left="300" height="600"} <br> **\~2,000 neurons**
-
-## Synaptic connectome
-
-![](images/Connectome.png){.absolute height="620" left="250" top="50"}
-
-::: footer
-[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
 :::
 
 ## Circuitry of ciliary photoreceptors
