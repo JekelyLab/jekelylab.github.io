@@ -5,7 +5,7 @@ format:
 ---
 
 ## Recent presentations by Gáspár Jékely
-### Centre for Organismal Studies, Heidelberg University
+### [Centre for Organismal Studies](https://www.cos.uni-heidelberg.de/en), Heidelberg University
 
 <br><br><br>
 [Presentation](https://jekelylab.github.io/Columbia_Neuroscience_Oct_2023_NOS_pressure.html#/title-slide/) in the [Columbia Neuroscience Seminar series](https://zuckermaninstitute.columbia.edu/columbia-neuroscience-seminar-g-sp-r-j-kely) (October 17, 2023). 
