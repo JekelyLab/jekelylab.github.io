@@ -31,7 +31,6 @@ css: xaringan-themer-GJ.css
    <b><em>Trichoplax adhaerens</em></b>
   </div>
 ```
-
 ## *Platynereis dumerilii*
 
 ![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
@@ -66,7 +65,6 @@ css: xaringan-themer-GJ.css
 ![](movies/3d_Larvae_swimming.webm) <br> **Synchronously developing larvae**
 :::
 :::
-
 
 ## Pressure response in *Platynereis* larvae
 
@@ -132,7 +130,6 @@ Luis A. Bezares-Calderón
 Luis A. Bezares-Calderón
 :::
 
-
 ## Which cells respond to pressure?
 
 ::: columns
@@ -194,7 +191,6 @@ Kei Jokura & Luis A. Bezares-Calderón
 Réza Shahidi & Luis A. Bezares-Calderón
 :::
 
-
 ## Whole-body volume EM of an entire three-day-old larva
 
 ::: columns
@@ -225,7 +221,6 @@ Réza Shahidi & Luis A. Bezares-Calderón
 
 ## Synaptic connectome
 
-
 ![](images/Connectome/Figure4_fig_suppl4.png){.absolute height="620" left="100" top="50"}
 
 ## Circuitry of ciliary photoreceptors
@@ -240,7 +235,6 @@ htmltools::tags$iframe(
   height=600, width=1000
 )
 ```
-
 
 ## Circuitry of ciliary photoreceptors
 
@@ -270,7 +264,6 @@ htmltools::tags$iframe(
 [Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
 :::
 
-
 ## Pressure increases ciliary beating through serotonergic cells
 
 ![](images/pressure/Construct_TPH-TomTetxnolabs.png){.absolute left="-50" width="300" top="250"}
@@ -290,7 +283,6 @@ Luis A. Bezares-Calderón
 ::: footer
 [Luis A. Bezares-Calderón et al. biorxiv 2023](https://www.biorxiv.org/content/10.1101/2023.02.28.530398v1)
 :::
-
 
 ## UV response in *Platynereis* larvae
 
@@ -326,11 +318,9 @@ Luis A. Bezares-Calderón
 
 ![](images/pressure/c_opsin_KO_calcium.png){.absolute top="130" left="220" height="450"}
 
-
 ::: footer
 [Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
 :::
-
 
 ## Strong cPRC activation after UV exposure
 
@@ -340,7 +330,7 @@ Luis A. Bezares-Calderón
 Kei Jokura
 :::
 
-## Nitric-oxyde synthase in postsynaptic interneurons
+## Nitric-oxide synthase in postsynaptic interneurons
 
 ![](images/NOS/Jokura_Fig1_NOS_HCR.png)
 
@@ -358,7 +348,6 @@ Kei Jokura
   Transgenic labelling
 </div>
 ```
-
 ## NO is produced in the neuropil after UV stimulation
 
 ![](images/NOS/DAFFM.png){.absolute left="130" top="60" width="800"} ![](images/NOS/DAFFM_formula.jpeg){.absolute left="230" top="460" width="600"}
@@ -431,12 +420,11 @@ Kei Jokura
 Kei Jokura
 :::
 
-
 ## NIT-GC1 mediates NO-feedback
 
 ![](images/NOS/IHC_55_AP_NITGC1_actub_58.47um.png){.absolute left="-100" top="130" height="350"}
 
-![](images/NOS/NIT1_MO_cPRC.png){.absolute left="270" top="130" height="350"} 
+![](images/NOS/NIT1_MO_cPRC.png){.absolute left="270" top="130" height="350"}
 
 ::: footer
 Kei Jokura
@@ -446,7 +434,7 @@ Kei Jokura
 
 ![](images/NOS/IHC_55_AP_NITGC2_actub_60.77um.png){.absolute left="0" top="100" height="400"}
 
-![](images/NOS/NIT2_MO1_2_cPRC.png){.absolute left="420" top="100" height="400"} 
+![](images/NOS/NIT2_MO1_2_cPRC.png){.absolute left="420" top="100" height="400"}
 
 ::: footer
 Kei Jokura
@@ -455,7 +443,6 @@ Kei Jokura
 ## Mathematical modelling of the circuit
 
 ![](/images/NOS/fitting_data_block_diagram.png){.absolute left="40" top="70" height="550"} ![](/images/NOS/model_2.png){.absolute left="540" top="70" height="550"}
-
 
 ::: footer
 with Piotr Slowinski and Kyle Wedgewood, LSI Exeter
@@ -506,7 +493,6 @@ with Piotr Slowinski and Kyle Wedgewood, LSI Exeter
 ![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"} ![](images/Ciliomotor/Ser_h1_basal_bodies2.png){.absolute top="60" left="80" width="450"} ['front-wheel drive']{.absolute top="680" left="80" width="450"} [head cilia fast]{.absolute top="200" left="-40"}
 
 ![](images/Ciliomotor/Ser_h1_basal_bodies3.png){.absolute top="60" left="540" width="450"} ['rear-wheel drive']{.absolute top="680" left="540" width="450"} [head cilia slow]{.absolute top="200" left="940" width="200"}
-
 
 ## Acknowledgements
 
