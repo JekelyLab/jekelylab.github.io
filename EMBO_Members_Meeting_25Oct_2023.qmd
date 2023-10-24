@@ -46,17 +46,17 @@ format:
 
 ## Whole-body vEM reconstruction of a 3d _Platynereis_ larva
 
-![](images/Naomi.png){.absolute height="250" left="-150" top="49"}
-![](movies/Video1_Connectome_paper.webm){.absolute height="600" left="120" top="60"}
+![](images/Naomi.png){.absolute height="250" left="-80" top="49"}
+![](movies/Video1_Connectome_paper.webm){.absolute height="600" left="170" top="60"}
 
 
 ::: footer
 [Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
 :::
 
-## Synaptic connectome
+## .
 
-![](images/Connectome.png){.absolute height="620" left="250" top="50"}
+![](images/Connectome.png){.absolute height="880" left="200" top="-20"}
 
 ::: footer
 [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
@@ -64,7 +64,7 @@ format:
 
 ## Phototaxis
 
-![](movies/early_phototaxis.webm){.absolute left="570" top="115" height="500"} ![](images/Phototaxis/lamp.jpg){.absolute left="1110" top="320" width="60"}
+![](movies/early_phototaxis.webm){.absolute left="550" top="115" height="500"} ![](images/Phototaxis/lamp.jpg){.absolute left="1080" top="320" width="60"}
 
 ![](images/Phototaxis/eyespots.png){.absolute left="250" top="60" width="300"} ![](images/Phototaxis/pigment_cup.png){.absolute left="-60" top="370" width="300"} ![](images/Phototaxis/trunkbraineyeeyeciliary.svg){.absolute left="-60" top="60" width="303"} ![](images/Phototaxis/rhabdomaxonciliated.svg){.absolute left="250" top="370" width="300"}
 
@@ -74,9 +74,9 @@ format:
 
 ## Helical swimming, sensing and turning are tightly linked
 
-![](movies/Platynereis_helical_swimming.webm){.absolute left="-100" top="180" width="500" loop="true"}
+![](movies/Platynereis_helical_swimming.webm){.absolute left="-70" top="180" width="500" loop="true"}
 
-![](images/Phototaxis/helix.png){.absolute left="-100" top="500" width="500"} ![](images/Phototaxis/model_larva.svg){.absolute left="450" top="200" width="350"} ![](images/Phototaxis/model_loop_spin.svg){.absolute left="820" top="200" width="400"}
+![](images/Phototaxis/helix.png){.absolute left="-70" top="500" width="500"} ![](images/Phototaxis/model_larva.svg){.absolute left="430" top="200" width="330"} ![](images/Phototaxis/model_loop_spin.svg){.absolute left="780" top="200" width="380"}
 
 ::: footer
 [Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
@@ -122,6 +122,14 @@ format:
 [Bezares-Calderón al. (2018)](10.7554/eLife.36262)
 :::
 
+## Startle recruits body-wide circuits and effectors
+
+![](movies/Video_startle.mp4){.absolute top="50" left="300" height="610"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
 ## Pressure response in *Platynereis* larvae
 
 ![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
@@ -154,21 +162,20 @@ Luis A. Bezares-Calderón
 <br><br>\
 ![](images/pressure/cPRC.png) cPRC - ciliated Photoreceptor Cells
 
-## Circuitry of ciliary photoreceptors
+## UV response in *Platynereis* larvae
 
-![](images/pressure/Jokura_Fig1_NOS_EM.png)
+![](images/Platynereis_3d.jpeg){.absolute left="0" top="141" height="380"}
+
+![](images/NOS/UV-response-elife-36440-fig3-v2.png){.absolute left="300" top="141" height="380"}
 
 ::: footer
 [Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
 :::
 
-## UV response in *Platynereis* larvae
 
-![](images/Platynereis_3d.jpeg){.absolute left="0" top="141" height="380"}
+## Circuitry of ciliary photoreceptors
 
-![](movies/UV-response-elife-36440-video2.webm){.absolute left="280" top="52" height="630"}
-
-![](images/NOS/UV-response-elife-36440-fig3-v2.png){.absolute left="440" top="141" height="380"}
+![](images/pressure/Jokura_Fig1_NOS_EM.png)
 
 ::: footer
 [Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
