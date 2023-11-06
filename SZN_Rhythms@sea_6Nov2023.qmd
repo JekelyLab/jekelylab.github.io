@@ -1,0 +1,228 @@
+---
+title: "Regulation of the ciliary rhythm in _Platynereis_ larvae across time scales"
+subtitle: "Rhythms@Sea Symposium, SZN<br>Nov 6, 2023"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+---
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%"}
+<br><br><br><br><br><br>
+
+-   breeding culture, full life-cycle
+-   embryos daily, year round
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters and antibodies
+-   knock-out lines
+-   neuronal connectome
+-   whole-body neuronal activity imaging
+-   whole-animal pharmacology by bath application 😎
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## Ciliary rhythm at the millisecond scale - metachronal waves
+
+<br><br>
+![](movies/high_speed_cilia.webm){width=70%}
+
+:::aside
+in collaboration with Rebecca Poon and Kirsty Wan, LSI Exeter
+:::
+
+## Ciliary rhythm at the minute scale - ciliary arrests
+
+![](movies/closures.webm){width=60%}
+
+::: footer
+[Conzelmann et al. (2011)](https://www.pnas.org/doi/full/10.1073/pnas.1109085108)
+:::
+
+## Whole-body coordination of ciliary arrests
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="88" left="380" height="550"}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Ciliary rhythm at the circadian scale - day/night regulation of arrests
+
+<br><br><br>
+![](images/Ciliomotor/Tosches_Melatonin_Fig3.jpg)
+
+::: footer
+[Tosches et al. (2014)](https://doi.org/10.1016/j.cell.2014.07.042)
+:::
+
+## Ciliary arrests are modulated by many neuromodulators
+
+![](images/Ciliomotor/Conzelmann_closures_fig04.jpg)
+
+::: footer
+[Conzelmann et al. (2011)](https://www.pnas.org/doi/full/10.1073/pnas.1109085108)
+:::
+
+## Whole-body vEM reconstruction of a 3d _Platynereis_ larva
+
+![](images/Naomi.png){.absolute height="250" left="-80" top="49"}
+![](movies/Video1_Connectome_paper.webm){.absolute height="600" left="170" top="60"}
+
+
+::: footer
+[Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## Ciliomotor neurons
+
+::: columns
+::: {.column width="43%"}
+**24 ciliomotor neurons** ![](movies/Video_bb_cMN.webm)
+:::
+:::
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Serotonergic neurons activate cilia
+
+**Ser-h1 neurons, EM reconstruction** 
+
+![](movies/video_Ser_h1.webm){width=40%}
+
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+## Cholinergic neurons induce ciliary arrests
+
+**Cholinergic Loop neurons, EM reconstruction** 
+
+![](movies/Loop_EM.webm){width=50%}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+## Ciliary beating increases under pressure
+
+![](images/pressure/CBF_assaySchematic.png){.absolute left="20" top="100" height="220"}
+
+![](images/pressure/PanelPeriodvsmax.CBF_2dpf.png){.absolute left="400" top="150" height="420"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+![](movies/high_speed_cilia.webm){.absolute left="0" top="343" height="240" loop="true"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+
+## Pressure is sensed by photoreceptors with ramified cilia
+
+![](movies/pressure_response_calcium_cPRC.webm){.absolute top="147" left="-50" height="350" video-loop="true"}
+
+![](images/pressure/cPRC.png){.absolute top="160" left="220" width="900"}
+
+## Circuitry of ciliary photoreceptors
+
+![](images/pressure/cPRC_circuit_Catmaid.png)
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Myoinhibitory peptide increases closures during settlement 
+
+::: columns
+::: {.column width=30%}
+![](images/Ciliomotor/Conzelmann_MIP_fig01.jpg)
+
+:::
+::: {.column width=50%}
+
+![](images/Ciliomotor/Conzelmann_MIP_fig02.jpg)
+
+:::
+:::
+
+::: footer
+[Conzelmann, Williams et al 2013](https://doi.org/10.1073/pnas.1220285110)
+:::
+
+## Mushroom body inputs to the ciliomotor system
+
+::: columns
+::: {.column width=30%}
+![](images/Ciliomotor/Figure_head_sensory_anterior.png)
+![](images/Ciliomotor/Figure_MB_overviewDant.png)
+:::
+::: {.column width=30%}
+![](images/Ciliomotor/Figure_MB_circuits_INdecusshook.png)
+![](images/Ciliomotor/Figure_MB_circuits_type5.png)
+:::
+::: {.column width=30%}
+![](images/Ciliomotor/Figure_head_Suppl_SNhook.png)
+![](images/Ciliomotor/Figure_head_Suppl_SNhorn.png)
+:::
+:::
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Emelie Brodrick
+-   Cyrielle Kaltenrieder
+-   Réza Shahidi
+-   Milena Marinkovic
+-   Daniel Thiel
+-   Sanja Jasek
+-   Cameron Hird
+-   Rebecca Turner
+-   Luis A. Bezares-Calderón
+-   Kei Jokura
+-   Luis Yanez Guerra
+-   Alexandra Kerbl
+:::
+
+::: {.column width="56%"}
+![](images/Lab_pic_LSI_2023Jan.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="22%"}
+<u>*Former lab members*</u>
+
+-   Albina Asadulina
+-   James Beard
+-   Markus Conzelmann
+-   Nadine Randel
+-   Philipp Bauknecht
+-   Martin Gühmann
+-   Cristina Pineiro-Lopez
+-   Nobuo Ueda
+-   Aurora Panzera
+-   Csaba Verasztó
+-   Elizabeth Williams
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="710" width="100"}
+
