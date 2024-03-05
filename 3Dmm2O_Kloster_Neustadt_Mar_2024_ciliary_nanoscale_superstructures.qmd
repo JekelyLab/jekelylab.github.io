@@ -1,0 +1,326 @@
+---
+title: "Ciliary nanoscale superstructures"
+subtitle: "Kloster Neustadt, 3DMM2O Meeting<br>March 5-6, 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: true   
+css: xaringan-themer-GJ.css
+---
+
+## Emerging marine model organisms
+
+![](images/Nematostella_Patrick.jpg){.absolute top="100" left="-80" height="300"} ![](images/Platynereis_SEM_4seg.png){.absolute top="100" left="475" height="300"} ![](images/Trichoplax_SEM.png){.absolute top="100" left="780" height="300"}
+
+```{=html}
+  <div style="position: absolute; left: 0px; top: 90px; font-size: 12px;">
+   <em>Image: Patrick Steinmetz</em>
+  </div>
+  <div style="position: absolute; left: 100px; top: 420px;">
+   <b><em>Nematostella vectensis</em></b><br>
+  </div>
+  <div style="position: absolute; left: 520px; top: 420px;">
+   <b><em>Platynereis dumerilii</em></b>
+  </div>
+  <div style="position: absolute; left: 825px; top: 420px;">
+   <b><em>Trichoplax adhaerens</em></b>
+  </div>
+```
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%" .nonincremental}
+<br><br><br><br><br><br>
+
+-   breeding culture
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height=550}
+
+
+::: footer
+Réza Shahidi, EMCF
+:::
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
+
+
+
+## Array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: footer
+Alexandra Kerbl, COS
+:::
+
+## Array tomography workflow
+
+
+![](images/Connectome/Zeiss_Gemini500.jpg
+){.absolute left="130" top="100" height="500" loop="true"}
+
+. . .
+
+![](images/Connectome/SEM_arriving_2024-02-23.jpeg){.absolute left="530" top="100" height="500"}
+
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image7.jpg){.absolute left="0" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image9.jpg){.absolute left="410" top="100" height="400"}
+
+## Whole-body vEM reconstruction
+
+![](movies/Video1_Connectome_paper.webm){height=550}
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="240" top="50"}
+
+::: footer
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## Eukaryotic cilia
+
+::: columns
+::: {.column width="40%"}
+![](images/Aiptasia__25kX_0001.png)
+Emelie Brodrick
+:::
+::: {.column width="60%"}
+<br>
+![](movies/Nicastro_cilia.webm)
+[Lin et al, 2018](https://www.science.org/doi/full/10.1126/science.aar1968#vid1)
+:::
+:::
+
+
+## Ciliary superstructure 1 --- metachronal waves
+
+::: columns
+::: {.column width="50%"}
+![](movies/high_speed_cilia.webm)
+with Kirsty Wan, LSI Exeter
+:::
+::: {.column width="25%"}
+![](images/Ciliomotor/multiciliary_band.png)
+:::
+::: {.column width="25%"}
+![](images/Platynereis_SEM_2d.jpg)
+![](images/Ciliomotor/Platyneres_cilia_Osmium_70hpf.jpeg)
+:::
+:::
+
+## Distributed actuation and ionic regulation
+
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"} ![](movies/Loop_EM.webm){.absolute top="100" left="370" height="550"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="90" left="930" height="140"}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Distributed actuation and ionic regulation
+
+![](images/Ciliomotor/Closures_calcium.jpg) ![](images/Platynereis_SEM_3d_2.png){.absolute top="90" left="930" height="140"}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+## Whole-body reconstruction and mathematical modelling
+
+::: columns
+::: {.column width="57%"}
+![](movies/coral_cilia4.webm)
+with Eric Keaveny, Imperial
+:::
+::: {.column width="43%"}
+![](movies/video_bb.webm)
+with Stephan Schneider, Academia Sinica
+:::
+:::
+
+::: footer
+[Poon et al. 2023](https://doi.org/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## Ciliary superstructure 2 --- pressure-sensing photoreceptors
+
+![](images/pressure/cPRC.png){.absolute left="-50" top="168" height="300"}
+![](movies/cPRC_Video6.webm){.absolute left="722" top="180" height="300"}
+
+::: footer
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306)
+:::
+
+## Pressure response in *Platynereis* larvae
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/Platynereis_3d.jpeg){.absolute left="457" top="50" width="140"}
+
+![](movies/pressure_response.webm){.absolute left="600" top="62" width="280"}
+
+![](images/Luis_Bez.jpg){.absolute left="883" top="50" width="200"}
+
+::: footer
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306)
+:::
+
+## Ciliary photoreceptor cells sense Δ pressure
+
+::: columns
+::: {.column width="45%"}
+**Microscopy pressure chamber** ![](images/pressure/CaImaging_Schematic.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="50%"}
+**Calcium imaging** ![](images/pressure/CaimagingNovs750mbpanel.png)
+:::
+:::
+
+::: footer
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306)
+:::
+
+## Photoreceptor responses to pressure are graded
+
+![](images/pressure/cPRC_calcium_quantification.jpg){.absolute top="100" left="40" height="450"}
+
+::: footer
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306)
+:::
+
+## Ciliary superstructure 3 --- ctenophore balancer organ
+
+::: columns
+::: {.column width="25%"}
+![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
+[Bruno C. Vellutini](https://commons.wikimedia.org/w/index.php?curid=30155106)
+:::
+::: {.column width="33%"}
+![](movies/Jokura_cteno_cilia.webm)
+Kei Jokura
+:::
+::: {.column width="41%"}
+![](images/Ctenophore/cteno_gravitaxis.png)
+:::
+
+:::
+
+## Ciliary superstructure 3 --- ctenophore balancer organ
+
+![](images/Ctenophore/all_cells_3_views.png)
+
+#### - vEM reconstruction of the ctenophore apical organ
+
+::: footer
+Kei Jokura
+:::
+
+## Ciliary superstructure 3 --- ctenophore balancer organ
+
+::: columns
+::: {.column width="33%"}
+![](images/Ctenophore/Tamm_balancer.png)
+
+[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
+![](images/Ctenophore/balancer_schematic.png)
+
+:::
+::: {.column width="50%"}
+![](movies/Tamm_balancer_mmc2.webm){width=150%}
+
+[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)
+:::
+:::
+
+## Ciliary superstructure 3 --- ctenophore balancer organ
+
+![](images/Ctenophore/balancer_statolith.png)
+
+::: footer
+Kei Jokura
+:::
+
+## Ctenophore balancer --- capacitative coupling?
+
+::: columns
+::: {.column width="50%"}
+![](images/Ctenophore/balancer_statolith_Q3.png)
+::: 
+::: {.column width="50%"}
+![](images/Ctenophore/lamellate_body_multicil_SEM_7um.png)
+
+:::
+:::
+
+::: footer
+Kei Jokura
+:::
+
+## Ctenophore balancer --- capacitative coupling?
+
+![](images/Ctenophore/Fluorescent_tube_under_electric_line.jpg)
+
+## Acknowledgements 
+
+::: columns 
+::: {.column width="22%" .nonincremental} 
+### Heidelberg
+-   Alexandra Kerbl
+-   Sanja Jasek
+-   Emily Savage
+-   Simone Wolters
+:::
+
+::: {.column width="56%"}
+![](images/Lab_pic_LSI_2023Jan.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="22%" .nonincremental}
+### Exeter
+- Kei Jokura
+- Emelie Brodrick
+- Luis A. Bezares-Calderón
+- Luis Yanez
+- Victoria Moris
+- Daniel Thiel
+- Adam Johnstone
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="710" width="100"}
+

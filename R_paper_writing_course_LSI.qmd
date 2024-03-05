@@ -1,0 +1,34 @@
+---
+title: "Paper writing in R"
+author: "Gaspar Jekely"
+format: revealjs
+---
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see <https://quarto.org/docs/presentations/>.
+
+## R Projects
+
+### Use Rstudio projects
+
+- Keep your work tidy, portable and self-contained
+
+
+## How to set up reproducible R projects
+
+https://annakrystalli.me/rrresearch/10_compendium.html
+
+When you click the **Render** button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+## Reading list
+
+### The Turing Way handbook to reproducible, ethical and collaborative data science
+
+https://the-turing-way.netlify.app/index.html
+
+
