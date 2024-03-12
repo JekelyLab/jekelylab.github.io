@@ -270,6 +270,19 @@ FDSS/μCELL Kinetic Plate Imager
 [Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
 :::
 
+## The multilayer peptidergic connectome of *Nematostella*
+
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/neuropeptides/peptidergic_networks_full_peptides.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=600, width=1000
+)
+```
+
 
 ## *Platynereis dumerilii*
 
@@ -443,6 +456,7 @@ htmltools::tags$iframe(
 )
 ```
 
+
 ## *NOS* mutants have altered cPRC response
 
 ![](images/NOS/NOS-Architecture.png){.absolute left="50" top="60" width="450"}
@@ -514,6 +528,41 @@ Kei Jokura
 ::: {.column width="50%"}
 ![](images/Ctenophore/lamellate_body_multicil_SEM_7um.png)
 
+:::
+:::
+
+::: footer
+Kei Jokura
+:::
+
+## Connectome of the ctenophore apical organ
+
+::: columns
+::: {.column width="50%"}
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/Ctenophore/visNetwork_celltype_connectome.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=600, width=1000
+)
+```
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_lateral.png)
+
+lateral view
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_oral.png)
+
+oral view
 :::
 :::
 
@@ -621,7 +670,7 @@ Kei Jokura
 -   Emily Savage
 -   Benedikt Dürr
 -   Simone Wolters
--   Lara Kewaloh
+-   Lara Keweloh
 -   Kevin Urbansky
 <br><br>
 -   Suat Özbek
@@ -630,7 +679,7 @@ Kei Jokura
 :::
 
 ::: {.column width="56%"}
-![](images/Lab_pic_LSI_2023Jan.jpg) ![](images/funding.png)
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding.png)
 :::
 
 ::: {.column width="22%" .nonincremental}
@@ -645,5 +694,6 @@ Kei Jokura
 :::
 :::
 
-![](images/Kei_Jokura.jpg){.absolute top="50" left="710" width="100"}
+![](images/Kei_Jokura.jpg){.absolute top="50" left="725" height="80"}
+![](images/Bezares-Calderon.jpg){.absolute top="50" left="250" height="80"}
 
