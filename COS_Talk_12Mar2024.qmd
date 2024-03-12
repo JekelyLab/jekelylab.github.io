@@ -599,6 +599,16 @@ Kei Jokura
 - that is free and open-source?
 - that would even allow me to prepare slides for my progress report...
 
+## Prevalence of gene name errors in supplementary Excel files
+
+<br><br>
+
+![](images/Excel_gene_name_errors.png)
+
+::: footer
+[Ziemann et al. 2016](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
+:::
+
 
 ## TO DO...
 
