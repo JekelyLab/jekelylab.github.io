@@ -214,6 +214,13 @@ Réza Shahidi & Luis A. Bezares-Calderón
 [Jékely et al. (2024)](ttps://doi.org/10.1101/2024.03.17.585258 )
 :::
 
+## Head neuropils and connectivity
+
+![](images/Connectome/Figure6.png)
+
+::: footer
+[Jékely et al. (2024)](ttps://doi.org/10.1101/2024.03.17.585258 )
+:::
 
 
 ## Circuitry of ciliary photoreceptors
