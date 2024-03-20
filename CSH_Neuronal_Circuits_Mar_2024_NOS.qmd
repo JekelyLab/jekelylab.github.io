@@ -131,6 +131,8 @@ panel_cOpsin + panel_HCR1 + panel_HCR2 +
 ::: {.column width="20%"}
 <br>
 ![](images/Naomi.png)
+![](images/Connectome/Connectome_paper_QR.png)
+link to preprint
 :::
 ::: {.column width="80%"}
 ![](movies/Video1_Connectome_paper.webm){height=550}
@@ -250,6 +252,13 @@ htmltools::tags$iframe(
 [Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
 :::
 
+## NO signal is short-range
+
+![](images/NOS/NO_signal_range.png)
+
+::: footer
+[Garthwaite, 2015](http://dx.doi.org/10.1113/JP270297)
+:::
 
 ## NOS protein in the INNOS dendritic compartment
 
