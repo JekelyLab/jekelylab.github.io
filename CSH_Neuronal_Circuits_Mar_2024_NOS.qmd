@@ -2,7 +2,7 @@
 title: "Nitric oxide feedback to ciliary photoreceptor cells gates a UV avoidance circuit"
 subtitle: "Neuronal Circuits Conference<br>March 21, 2024"
 author: "Gáspár Jékely"
-institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>Mastodon: @jekely@biologists.social"
 format:
   revealjs: 
     theme: [default, custom.scss]  
