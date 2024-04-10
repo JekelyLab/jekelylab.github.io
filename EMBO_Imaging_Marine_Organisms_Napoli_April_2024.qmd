@@ -15,11 +15,27 @@ css: xaringan-themer-GJ.css
 
 ## COS Symposium 2024
 
-![](images/Poster_A2_COS_Symp_2024_ctenoflat-kelp-final.png){height=600}
+![](images/cos_symposium_2024-life_in_context.png){height=600}
 
-## Taking back control of social media
+## Mastodon - take back control of social media
 
+::: columns
+::: {.column width="20%"}
+![](images/qr_code_mastodon_invitation.png)
+
+- My personal invitation to you
+:::
+::: {.column width="80%"}
 ![](images/mastodon.png)
+
+- non-corporate, federated, free
+- no adds
+- institutions/organisations can self-host their server
+- no crazy billionaires can ever take it over (to destroy it)
+
+
+:::
+:::
 
 ## *Platynereis dumerilii*
 
