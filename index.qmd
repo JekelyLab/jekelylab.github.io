@@ -10,6 +10,10 @@ format:
 
 <br>
 
+[Presentation](https://jekelylab.github.io/EMBO_Imaging_Marine_Organisms_Napoli_April_2024.html#/title-slide/) at the [EMBO Lecture Course Imaging Marine Organisms Across Scales](https://meetings.embo.org/event/24-marine-imaging) (April 9-12, 2024). 
+
+<br>
+
 [Presentation](https://jekelylab.github.io/CSH_Neuronal_Circuits_Mar_2024_NOS.html#/title-slide/) at the [CSHL Neuronal Ciruits Conference](https://meetings.cshl.edu/meetings.aspx?meet=CIRCUITS&year=24) (March 20-23, 2024). 
 
 <br>
