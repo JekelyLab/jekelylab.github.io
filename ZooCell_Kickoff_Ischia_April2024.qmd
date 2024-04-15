@@ -1,0 +1,359 @@
+---
+title: "vEM and connectome of the ctenophore apical organ"
+subtitle: "ZooCELL Kickoff meeting
+ | 12-14 April 2024, Ischia - Italy"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+## Our marine animal facility @329
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/329_facility_March2024_2.jpg)
+:::
+::: {.column width="50%"}
+![](images/329_facility_March2024_3.jpg)
+:::
+:::
+
+::: footer
+Emily Savage and Simone Wolters
+:::
+
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%" .nonincremental}
+<br><br><br><br><br><br>
+
+-   breeding culture
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height=550}
+
+
+::: footer
+Réza Shahidi, EMCF
+:::
+
+## High pressure freezing
+
+![](images/HPF_setup_EMBL.jpg){height=400}
+
+- HPF setup at EMBL
+- similar setup at UHEI EMCF (Réza Shahidi, Charlotta Funaya)
+- excellent fixation is key and often the most difficult and critical step
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
+
+
+
+## Array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: footer
+Alexandra Kerbl, COS
+:::
+
+## Array tomography workflow
+
+
+![](images/Connectome/Zeiss_Gemini500.jpg
+){.absolute left="130" top="100" height="500" loop="true"}
+
+. . .
+
+![](images/Connectome/SEM_arriving_2024-02-23.jpeg){.absolute left="530" top="100" height="500"}
+
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image7.jpg){.absolute left="0" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image9.jpg){.absolute left="410" top="100" height="400"}
+
+
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="20%"}
+<br>
+![](images/Naomi.png)
+:::
+::: {.column width="80%"}
+![](movies/Video1_Connectome_paper.webm){height=550}
+:::
+:::
+
+::: aside
+[Randel et al. (2015)](https://elifesciences.org/articles/08069) <br> [Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
+:::
+
+## A cell-type-level synaptic connectome
+
+![](images/Connectome/Figure4_fig_suppl6.png){height=550}
+
+::: aside
+[Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
+:::
+
+## Brain ciliary photoreceptors with ramified cilia
+
+<br><br><br>
+![](images/pressure/cPRC.png)
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+
+## Reduced ciliary compartment in *c-opsin1* mutants
+
+![](images/pressure/cPRC_WTvsCops.png){.absolute top="200" left="-50" width="500"}
+
+![](images/pressure/PanelVolumecPRCs.png){.absolute top="150" left="500" height="350"}
+
+::: aside
+[Luis A. Bezares-Calderón et al. 2023](https://www.biorxiv.org/content/10.1101/2023.02.28.530398v1)
+:::
+
+## Specific ultrastrucutral defects in *c-opsin1* mutants
+
+![](images/pressure/Figure3-FigureSupplement2.png)
+
+::: aside
+[Luis A. Bezares-Calderón et al. 2023](https://www.biorxiv.org/content/10.1101/2023.02.28.530398v1)
+:::
+
+
+## Volume-EM reconstruction of the ctenophore apical organ
+
+::: columns
+::: {.column width="25%"}
+![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
+[Bruno C. Vellutini](https://commons.wikimedia.org/w/index.php?curid=30155106)
+:::
+::: {.column width="33%"}
+![](movies/Jokura_cteno_cilia.webm)
+Kei Jokura
+:::
+::: {.column width="41%"}
+![](images/Ctenophore/cteno_gravitaxis.png)
+:::
+
+:::
+
+
+## Ctenophore balancer organ
+
+::: columns
+::: {.column width="33%"}
+![](images/Ctenophore/Tamm_balancer.png)
+
+[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
+![](images/Ctenophore/balancer_schematic.png)
+
+:::
+::: {.column width="50%"}
+![](movies/Tamm_balancer_mmc2.webm){width=150%}
+
+[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)
+:::
+:::
+
+## Ctenophore balancer organ
+
+![](images/Ctenophore/all_cells_3_views.png)
+
+#### Ctenophore balancer organ
+
+::: footer
+Kei Jokura
+:::
+
+
+## A syncytial nerve net at the base of the AO
+
+![](movies/cteno_net.webm){width=600}
+
+::: aside
+Kei Jokura
+:::
+
+## Ctenophore balancer organ
+
+![](images/Ctenophore/balancer_statolith.png)
+
+::: footer
+Kei Jokura
+:::
+
+## Ctenophore balancer organ - ciliary photoreceptors
+
+::: columns
+::: {.column width="50%"}
+![](images/Ctenophore/balancer_statolith_Q3.png)
+::: 
+::: {.column width="50%"}
+![](images/Ctenophore/lamellate_body_multicil_SEM_7um.png)
+
+:::
+:::
+
+::: footer
+Kei Jokura
+:::
+
+## Connectome of the ctenophore apical organ
+
+::: columns
+::: {.column width="50%"}
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/Ctenophore/visNetwork_celltype_connectome.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=600, width=1000
+)
+```
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_lateral.png)
+
+lateral view
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_oral.png)
+
+oral view
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+## Four quadrants
+
+::: columns
+::: {.column width="50%"}
+![](images/Ctenophore/quadrants.png)
+:::
+::: {.column width="50%"}
+![](images/Ctenophore/groove.png)
+
+- same cell types in each quadrant
+- annotate one quadrant
+- test on other three
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+## vEM capabilities
+
+- HPF at EMBL, SZN, UEXE and UHEI
+- Leica Ultracut for AT
+- 2 Zeiss Gemini SEMs at COS, more to come in 2025
+- resolution from 2 nm XY (synaptic) or lower
+- 30-80 nm sections
+- 200 μm long larva ~5,000 sections
+- 100-500 sections collected as ribbons on a slide
+- imaging time from days to months
+
+## Data analysis challenges
+
+- potentially large (Tbyte) datasets
+- alignment of thousands of sections a challenge
+- collaborative annotation (CATMAID)
+- segmentation vs. skeletonisation
+- data sharing
+- etc...
+
+## Projects
+
+- our lab: new 6d high-res *Platynereis* full-body vEM
+- with Anna: segment AI-aligned (zetta.ai) cteno AO
+- with Liz: vEM of the *Platynereis massiliensis* AO
+- with Detlev: align new 6d *Platynereis* with 6d morhofeatures and gene expression atlas
+- with Carsten: La Palma brachiopod vEM
+- with Michalis: *Parhyale* leg
+- and many more...
+
+## Acknowledgements 
+
+::: columns 
+::: {.column width="22%" .nonincremental} 
+### Heidelberg
+-   Alexandra Kerbl
+-   Sanja Jasek
+-   Emily Savage
+-   Benedikt Dürr
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+<br><br>
+-   Suat Özbek
+-   Maike Fath
+-   Ibrahim Akhtar
+:::
+
+::: {.column width="56%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="22%" .nonincremental}
+### Exeter
+- Kei Jokura
+- Emelie Brodrick
+- Luis A. Bezares-Calderón
+- Luis Yanez
+- Victoria Moris
+- Daniel Thiel
+- Adam Johnstone
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="725" height="80"}
+![](images/Bezares-Calderon.jpg){.absolute top="50" left="250" height="80"}
+
