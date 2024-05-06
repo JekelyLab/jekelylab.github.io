@@ -1,0 +1,286 @@
+---
+title: "Neurobiology of marine invertebrates"
+subtitle: "HP E1 Nucleic Acids - Introduction<br>May 6, 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+
+## Evolution of nervous systems
+
+::: columns
+::: {.column width="33%"}
+mollusk
+![](images/Kilias_snail_NS_1985.gif){height=400}
+
+Kilias, 1985
+:::
+::: {.column width="33%"}
+planarian
+![](images/Kellogg_Planarian_1903.png){height=400}
+
+Kellogg, 1903
+:::
+::: {.column width="33%"}
+vertebrate
+![](images/Jefferys_1763_human_NS_Wellcome.jpg){height=400}
+
+Jefferys, 1763
+:::
+:::
+
+## Evolution - a historical science
+
+::: columns
+::: {.column width="60%"}
+![](images/Vitex_tree.jpg){height=400}
+:::
+::: {.column width="30%"}
+![](images/Amundson_book.jpg){height=400}
+:::
+:::
+
+**Population genetics approach** (the flowers) <br>vs.<br> **Structuralist approach** (rest of the tree)
+
+::: footer
+[Ron Amundson](https://mitpressbookstore.mit.edu/book/9780521703970)
+:::
+
+## The Structuralist Approach
+
+::: columns
+::: {.column width="24%"}
+- Geology
+- Fossil Record
+
+![](images/DickinsoniaCostata.jpg){height=300}
+*Dickinsonia costata* 
+
+:::
+::: {.column width="38%"}
+- Phylogeny
+- Comparative biology
+
+![](images/agnathans_gnathostomes_tree1-s2.0-S0012160613001140-gr1_lrg.jpg){height=300}
+:::
+::: {.column width="38%"}
+- Theory
+- Transition Analysis
+
+![](images/Arendt_rstb20150286f06.jpg){height=300}
+:::
+:::
+
+## Marine animal models
+
+![](images/Nematostella_Patrick_cut.jpg){.absolute top="100" left="-81" height="300"} ![](images/Hydra.png){.absolute top="100" left="150" height="300"}
+
+![](images/macrostomum.png){.absolute top="100" left="375" height="300"} ![](images/Platynereis_SEM_4seg_cut.png){.absolute top="100" left="571" height="300"} ![](images/Trichoplax_SEM.png){.absolute top="100" left="800" height="300"}
+
+```{=html}
+  <div style="position: absolute; left: -30px; top: 420px;">
+   <b><em>Nematostella</em></b><br>
+  </div>
+  <div style="position: absolute; left: 230px; top: 420px;">
+   <b><em>Hydra</em></b><br>
+  </div>
+  <div style="position: absolute; left: 400px; top: 420px;">
+   <b><em>Macrostomum</em></b>
+  </div>
+  <div style="position: absolute; left: 630px; top: 420px;">
+   <b><em>Platynereis</em></b>
+  </div>
+  <div style="position: absolute; left: 895px; top: 420px;">
+   <b><em>Trichoplax</em></b>
+  </div>
+```
+
+## Our marine animal facility @329
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/329_facility_March2024_2.jpg)
+:::
+::: {.column width="50%"}
+![](images/329_facility_March2024_3.jpg)
+:::
+:::
+
+::: footer
+Emily Savage and Simone Wolters
+:::
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%" .nonincremental}
+<br><br><br><br><br><br>
+
+-   breeding culture
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## *Platynereis dumerilii*
+
+::: columns
+::: {.column width="50%"}
+![](movies/spawning_Fischer.webm){.absolute height="450"} <br><br><br><br><br><br><br><br><br><br><br><br><br><br> **Spawning** <br> movie by Albrecht Fischer
+:::
+
+::: {.column width="50%"}
+![](movies/3d_Larvae_swimming.webm) <br> **Synchronously developing larvae**
+:::
+:::
+
+## Phototaxis
+
+![](movies/early_phototaxis.webm){.absolute left="570" top="115" height="500"} ![](images/Phototaxis/lamp.jpg){.absolute left="1110" top="320" width="60"}
+
+![](images/Phototaxis/eyespots.png){.absolute left="250" top="60" width="300"} ![](images/Phototaxis/pigment_cup.png){.absolute left="-60" top="370" width="300"} ![](images/Phototaxis/trunkbraineyeeyeciliary.svg){.absolute left="-60" top="60" width="303"} ![](images/Phototaxis/rhabdomaxonciliated.svg){.absolute left="250" top="370" width="300"}
+
+::: footer
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## Whole-body coordination during a startle response
+
+![](movies/startle.webm){.absolute top="100" left="250" height="550"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height=550}
+
+
+::: footer
+Réza Shahidi, EMCF
+:::
+
+## Whole-body vEM reconstruction
+
+![](movies/Video1_Connectome_paper.webm){height=550}
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="240" top="50"}
+
+::: footer
+[Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
+:::
+
+## Neuronal signalling substances are released by vesicle fusion
+
+::: columns
+::: {.column width="60%"}
+![](images/synapcse_ch9f1.jpg)
+
+[Basic Neurochemistry: Molecular, Cellular and Medical Aspects](https://www.ncbi.nlm.nih.gov/books/NBK27964/)
+:::
+::: {.column width="30%"}
+- vesicle fusion at the synapse
+- small-transmitter release (Glu, GABA, ACh, Gly)
+- synaptic or extrasynaptic release of neuropeptides
+- synaptic or extrasynaptic release of monoamines (serotonin, noradrenaline etc.)
+:::
+:::
+
+## Different neurotransmitters are produced by different pathways
+
+![](images/neurotransmitter_vesicles.png){height=530}
+
+::: aside
+Flames & Hobert (2011) Annu Rev Neurosci
+:::
+
+## Neurotransmitters are differntially used in the brain
+
+::: columns
+::: {.column width="50%"}
+![](images/mammal_neurotransmitter_brain.png){height=520}
+:::
+::: {.column width="50%"}
+<br><br>
+
+### Terminal selector genes:
+
+- Transcription factors
+- Expressed postmitotically
+- Mutants lose monoamine marker
+- Genes in white directly bind or activate monoamine pathway genes
+:::
+:::
+
+::: aside
+Flames & Hobert (2011) Annu Rev Neurosci
+:::
+
+## Biosynthesis of monoamines
+
+![](images/Bauknecht_biosynthesis.png)
+
+::: footer
+[Bauknecht & Jékely, 2017](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-016-0341-7)
+:::
+
+
+## A new model of neurotransmitter evolution
+
+<br><br>
+
+![](images/Bauknecht_model.png)
+
+::: footer
+[Bauknecht & Jékely, 2017](https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-016-0341-7)
+:::
+
+## Serotonergic neurons in _Platynereis_
+
+::: columns
+::: {.column width="43%"}
+**Ser-tr1 neurons, EM reconstruction** ![](movies/video_Ser_tr1.webm)
+:::
+::: {.column width="43%"}
+**Ser-tr1 neurons, transgenic labelling** ![](movies/Ser_tr_transgene.webm)
+:::
+:::
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Goals of the practical
+
+<br><br>
+
+- learn basic techniques with RNA and DNA (sequence analysis, isolation, PCR, cloning, sequencing)
+- generate transgenic reporter constructs for _Platynereis_
+- clone regulatory regions from genomic DNA for genes interest
+- focus on monoamine biosynthesis enzyme-encoding genes
+
+
