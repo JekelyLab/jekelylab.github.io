@@ -9,6 +9,7 @@ format:
 ### [Centre for Organismal Studies](https://www.cos.uni-heidelberg.de/en), Heidelberg University
 
 <br>
+<br>
 
 [Presentation](https://jekelylab.github.io/EMBO_Imaging_Marine_Organisms_Napoli_April_2024.html#/title-slide/) at the [EMBO Lecture Course Imaging Marine Organisms Across Scales](https://meetings.embo.org/event/24-marine-imaging) (April 9-12, 2024). 
 
