@@ -1,6 +1,6 @@
 ---
-title: "Regulation of the ciliary rhythm in _Platynereis_ larvae across time scales"
-subtitle: "Rhythms@Sea Symposium, SZN<br>Nov 6, 2023"
+title: "From brain evolution to the fate of coral reefs"
+subtitle: "Bio(R)evolutions: new Faces, new Ideas, new Horizons<br>June 10, 2024"
 author: "Gáspár Jékely"
 institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
 format:
@@ -11,268 +11,758 @@ format:
       buttons: false
     preview-links: auto
 ---
-## *Platynereis dumerilii*
+
+
+## Evolution of nervous systems
+
+::: columns
+::: {.column width="33%"}
+mollusk
+![](images/Kilias_snail_NS_1985.gif){height=400}
+
+Kilias, 1985
+:::
+::: {.column width="33%"}
+planarian
+![](images/Kellogg_Planarian_1903.png){height=400}
+
+Kellogg, 1903
+:::
+::: {.column width="33%"}
+vertebrate
+![](images/Jefferys_1763_human_NS_Wellcome.jpg){height=400}
+
+Jefferys, 1763
+:::
+:::
+
+
+## Zooplankton behaviour
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+![](movies/early_phototaxis.webm){height=320}
+phototaxis
+:::
+::: {.column width="33%"}
+![](movies/startle.webm){height=320}
+startle response
+:::
+::: {.column width="33%"}
+![](movies/crawling_juvenile.webm){height=320}
+crawling
+:::
+:::
+
+## Zooplankton in Heidelberg
 
 ![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
 
 ::: columns
 ::: {.column width="60%"}
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 
--   breeding culture, full life-cycle
--   embryos daily, year round
--   genome sequence
--   microinjection, transgenesis
--   neuron-specific promoters and antibodies
--   knock-out lines
--   neuronal connectome
--   whole-body neuronal activity imaging
--   whole-animal pharmacology by bath application 😎
+- *Platynereis dumerilii*, a marine ragworm
+- marine animal facility
+- embryos year round
+- several methods etablished
+- neuronal connectome
+- gene knockouts (CRISPR)
 :::
 
 ::: {.column width="40%"}
 :::
 :::
 
-## Ciliary rhythm at the millisecond scale - metachronal waves
+## Pressure response in *Platynereis* larvae
 
-<br><br>
-![](movies/high_speed_cilia.webm){width=70%}
+![](images/Platynereis_3d.jpeg){.absolute left="240" top="50" width="140"}
 
-:::aside
-in collaboration with Rebecca Poon and Kirsty Wan, LSI Exeter
-:::
+![](movies/pressure_response.webm){.absolute left="400" top="62" width="280"}
 
-## Ciliary rhythm at the minute scale - ciliary arrests
+![](images/Luis_Bez.jpg){.absolute left="700" top="50" width="200"}
 
-![](movies/closures.webm){width=60%}
-
-::: footer
-[Conzelmann et al. (2011)](https://www.pnas.org/doi/full/10.1073/pnas.1109085108)
-:::
-
-## Whole-body coordination of ciliary arrests
-
-![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="88" left="380" height="550"}
-
-::: footer
-[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
-:::
-
-## Ciliary rhythm at the circadian scale - day/night regulation of arrests
-
-<br><br><br>
-![](images/Ciliomotor/Tosches_Melatonin_Fig3.jpg)
-
-::: footer
-[Tosches et al. (2014)](https://doi.org/10.1016/j.cell.2014.07.042)
-:::
-
-## Ciliary arrests are modulated by many neuromodulators
-
-![](images/Ciliomotor/Conzelmann_closures_fig04.jpg)
-
-::: footer
-[Conzelmann et al. (2011)](https://www.pnas.org/doi/full/10.1073/pnas.1109085108)
-:::
-
-## Whole-body vEM reconstruction of a 3d _Platynereis_ larva
-
-![](images/Naomi.png){.absolute height="250" left="-80" top="49"}
-![](movies/Video1_Connectome_paper.webm){.absolute height="600" left="170" top="60"}
-
-
-::: footer
-[Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
-:::
-
-## Ciliomotor neurons
-
-::: columns
-::: {.column width="43%"}
-**24 ciliomotor neurons** ![](movies/Video_bb_cMN.webm)
-:::
-:::
-
-::: footer
-[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
-:::
-
-## Serotonergic neurons activate cilia
-
-**Ser-h1 neurons, EM reconstruction** 
-
-![](movies/video_Ser_h1.webm){width=40%}
-
-
-::: footer
-[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+::: aside
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306v1)
 :::
 
 
-## Cholinergic neurons induce ciliary arrests
+## Pressure is sensed by light-sensory cells
 
-**Cholinergic Loop neurons, EM reconstruction** 
+<br>
+![](images/pressure/cPRC.png)
 
-![](movies/Loop_EM.webm){width=50%}
+- cPRC = ciliary photoreceptor cell
+- these cells can also sense UV light
+- higly ramified cilia, large membrane surface, curved microtubules
 
-::: footer
-[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+::: aside
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306v1)
 :::
 
 
 ## Ciliary beating increases under pressure
 
-![](images/pressure/CBF_assaySchematic.png){.absolute left="20" top="100" height="220"}
-
-![](images/pressure/PanelPeriodvsmax.CBF_2dpf.png){.absolute left="400" top="150" height="420"}
-
-![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
-
-![](movies/high_speed_cilia.webm){.absolute left="0" top="343" height="240" loop="true"}
-
-::: footer
-Luis A. Bezares-Calderón
-:::
-
-
-## Pressure is sensed by photoreceptors with ramified cilia
-
-![](movies/pressure_response_calcium_cPRC.webm){.absolute top="147" left="-50" height="350" video-loop="true"}
-
-![](images/pressure/cPRC.png){.absolute top="160" left="220" width="900"}
-
-## Circuitry of ciliary photoreceptors
-
-![](images/pressure/cPRC_circuit_Catmaid.png)
-
-::: footer
-[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
-:::
-
-## Myoinhibitory peptide increases closures during settlement 
+<br><br>
 
 ::: columns
-::: {.column width=30%}
-![](images/Ciliomotor/Conzelmann_MIP_fig01.jpg)
+::: {.column width="50%"}
+![](movies/high_speed_cilia.webm)
 
+in collaboration with Rebecca Poon and Kirsty Wan, LSI Exeter
+::: 
+::: {.column width="50%"}
+![](images/pressure/PanelPeriodvsmax.CBF_2dpf.png)
 :::
-::: {.column width=50%}
-
-![](images/Ciliomotor/Conzelmann_MIP_fig02.jpg)
-
-:::
-:::
-
-::: footer
-[Conzelmann, Williams et al 2013](https://doi.org/10.1073/pnas.1220285110)
 :::
 
-## Mushroom body inputs to the ciliomotor system
+::: aside
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306v1)
+:::
+
+
+## Electron microscopy reconstruction of an entire ragworm larva
+
+ ![](movies/Video1_Connectome_paper.webm){height=550}
+
+::: aside
+[Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Field trips lead to unexpected discoveries
+
+![](movies/polyclads_Ischia_May2024.webm){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## Field trips lead to unexpected discoveries
+
+![](movies/polyclads_Ischia_May2024zoom.webm){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+- ### these are embryo pockets of polyclad flatworms!
+- ### go and explore nature!
+
+## Tree of main animal lineages
+
+![](images/coral/non_bilaterian_tree_Burkhardt.png){height=580}
+
+:::aside
+Pawel Burkhardt
+:::
+
+## Ctenophores - comb jellies
 
 ::: columns
-::: {.column width=30%}
-![](images/Ciliomotor/Figure_head_sensory_anterior.png)
-![](images/Ciliomotor/Figure_MB_overviewDant.png)
+::: {.column width="30%"}
+- gelatinous plankonic animals
+- swim with large plates of glued-together cilia
+- many of their features evolved independently of other animals
+- unique neuronal anatomy with syncytial nerve net
 :::
-::: {.column width=30%}
-![](images/Ciliomotor/Figure_MB_circuits_INdecusshook.png)
-![](images/Ciliomotor/Figure_MB_circuits_type5.png)
+::: {.column width="70%"}
+
+![](movies/Mnemiopsis_Pawel_Burkhardt.webm)
+
+Pawel Burkhardt
 :::
-::: {.column width=30%}
-![](images/Ciliomotor/Figure_head_Suppl_SNhook.png)
-![](images/Ciliomotor/Figure_head_Suppl_SNhorn.png)
 :::
+
+## Ctenophores swim with large plates of cilia
+
+![](movies/Jokura_cteno_cilia.webm)
+
+Kei Jokura
+
+## Ctenophore balancer organ
+
+::: columns
+::: {.column width="33%"}
+![](images/Ctenophore/Tamm_balancer.png)
+
+[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
+![](images/Ctenophore/balancer_schematic.png)
+
+:::
+::: {.column width="50%"}
+![](movies/Tamm_balancer_mmc2.webm){width=150%}
+
+[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)
+:::
+:::
+
+## Volume-EM reconstruction of the ctenophore apical organ
+
+::: columns
+::: {.column width="30%"}
+![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
+[Bruno C. Vellutini](https://commons.wikimedia.org/w/index.php?curid=30155106)
+:::
+::: {.column width="60%"}
+![](images/Ctenophore/cteno_gravitaxis.png)
+:::
+
+:::
+
+
+
+
+## Ctenophore balancer organ
+
+![](images/Ctenophore/balancer_statolith.png){width=850}
+![](images/Ctenophore/all_cells_3_views.png){width=850}
+
+
+::: aside
+Kei Jokura
+:::
+
+
+## A syncytial nerve net at the base of the AO
+
+![](movies/cteno_net.webm){width=600}
+
+::: aside
+Kei Jokura
+:::
+
+## Connectome of the ctenophore apical organ
+
+::: columns
+::: {.column width="50%"}
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/Ctenophore/visNetwork_celltype_connectome.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=550, width=900
+)
+```
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_lateral.png)
+
+lateral view
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_oral.png)
+
+oral view
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+
+## Coral larvae
+
+![](images/coral/Poon_fig1.png){height=550}
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## Coral larvae
+
+::: columns
+::: {.column width="25%"}
+![](images/coral/bodywall_Acropora_SEM.png)
+Emelie Brodrick
+:::
+::: {.column width="33%"}
+<br>
+![](movies/coral_cilia1.webm)
+Hannah Laeverenz
+:::
+::: {.column width="42%"}
+<br><br>
+![](movies/coral_cilia2.webm)
+Rebecca Poon & Kirsty Wan
+:::
+:::
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## A coral larval nerve net - simplest nervous system?
+
+![](movies/Aiptasia_video1.webm){height=500}
+
+:::aside
+Emelie Brodrick, Lara Keweloh
+:::
+
+## How did the first nervous systems look like?
+
+![](images/Chemical_brain2.png)
+
+
+## Metamorphosis into polyps 
+
+::: columns
+::: {.column width="50%"}
+Video from Liz
+:::
+::: {.column width="50%"}
+<br><br>
+
+### Metamorphosed polyp
+![](images/coral/coral_polyps.jpg)
+Emelie Brodrick
+:::
+:::
+
+## A coral peptide that induces larval metamorphosis
+
+<br>
+
+::: columns
+::: {.column width="50%"}
+![](images/coral/Fig_Adig_CCamide.png){height=300}
+
+### metamorphosis peptide
+![](images/coral/coral_polyps.jpg){height=100}
+:::
+::: {.column width="50%"}
+![](images/coral/Fig_Adig_GLWamide.png){height=300}
+
+### control peptide
+:::
+:::
+
+::: aside
+Emelie Brodrick et al.
+:::
+
+## Coral bleaching
+
+![](images/coral/ecological_grief_says_marine_biologist_Fiona_Merida_photo_@theundertow.ocean_and_@diversforclimate8.png){height=550}
+@theundertow.ocean & @diversforclimate
+
+## Coral restauration projects
+
+::: columns
+::: {.column width="70%"}
+![](images/coral/Coral_restauration_NOAA.png)
+:::
+::: {.column width="30%"}
+![](images/coral/NOAA_Divers_99713566.jpg)
+![](images/coral/corals_grown_md_UPCOxcg0dz01.jpg)
+:::
+:::
+
+:::aside
+[NOAA Fisheries: Restoring Seven Iconic Reefs](https://www.fisheries.noaa.gov/southeast/habitat-conservation/restoring-seven-iconic-reefs-mission-recover-coral-reefs-florida-keys)
+:::
+
+## Today's CO~2~ concentrations are unprecedented in the last 800,000 years
+
+![](images/biosphere/CO2_levels.png){height=400}
+
+- current carbon pulse is occurring at an unprecedented geological speed 
+- 50% higher (424 ppm) than 800k average
+
+:::aside
+[British Antarctic Survey](https://www.bas.ac.uk/data/our-data/publication/ice-cores-and-climate-change/)
 :::
 
 ## Average global surface temperature anomalies
 
-![](images/biosphere/Global_Temp_Thompson-fig1.jpeg){height=550}
+![](images/biosphere/Global_Temp_Thompson-fig1.jpeg){height="550"}
 
 ::: aside
 [Thompson, 2023](https://doi.org/10.1177/20530196231177686)
 :::
 
-## Global energy consumption
+## Sea surface temperature
 
-![](images/biosphere/Global_energy_consumption_fig2.jpeg){height=550}
+![](images/biosphere/Sea_surface_temp_anomaly.png){height=550}
 
-::: aside
-[Thompson, 2023](https://doi.org/10.1177/20530196231177686)
+:::aside
+[Climate Change Institute, University of Maine](https://climatereanalyzer.org/clim/sst_daily/)
+:::
+
+## Reefs consistently disappeared at major extinctions and were missing for millions of years
+
+::: columns
+::: {.column width="70%"}
+<br>
+![](images/coral/Stanley_coral_gaps.png)
+brick symbols: reefs <br>
+black intervals: post-extinction reef eclipses
+:::
+
+::: {.column width="30%"}
+<br>
+
+- repeated global mass bleaching
+- at end-Triassic 96% of coral species
+became extinct
+- extended post-extinction reef eclipse (few to 10 million years)
+- the implications are bleak for the future evolution of coral reefs
+:::
+:::
+:::aside
+[Stanley & Schootbrugge, 2018](https://doi.org/10.1007/978-3-319-75393-5_2)
+:::
+
+## Global decline of coral reefs
+
+<br>
+![](images/coral/Coral_decline.png){}
+
+- up to 50% decline until 2007, more since then
+- most reefs will disappear at 2 °C warming (very soon...)
+
+:::aside
+[Eddy et al, 2021](https://doi.org/10.1016/j.oneear.2021.08.016)
+:::
+:::{.notes}
+- Erschreckende 99% der tropischen Korallen sollen verloren gehen, wenn die globale Durchschnittstemperatur um 2 °C ansteigt, aufgrund von Wechselwirkungen zwischen Erwärmung, Ozeanversauerung und Verschmutzung.
+- Dies würde einen tiefgreifenden Verlust der marinen Biodiversität und menschlicher Lebensgrundlagen darstellen.
 :::
 
 ## Aerosol cooling - a Faustian bargain
 
 ::: columns
-::: {.column width=70%}
+::: {.column width="70%"}
 ![](images/biosphere/Aerosol_coolin_kgad008f13.jpeg)
 :::
-::: {.column width=30%}
+
+::: {.column width="30%"}
 <br>
 
-- Observed global surface temperature (black line) 
-- Expected GHG warming with two choices 
-- Blue area is the estimated aerosol cooling effect
+-   Observed global surface temperature (black line)
+-   Expected GHG warming with two choices
+-   Blue area is the estimated aerosol cooling effect
 :::
 :::
-
-## quotes
-
-- "Caution has merits, but the delayed response and amplifying feedbacks of climate make excessive reticence a danger."
-- "Are we scientists not complicit if we allow reticence and comfort to obfuscate our description of the climate situation?"
-- "...do we not have an obligation, analogous to the code of ethics of medical professionals, to render to the public our full and unencumbered diagnosis?"
-
 
 ::: aside
 [Hansen et al. 2023](https://doi.org/10.1093/oxfclm/kgad008)
 :::
 
-## Green energy to the rescue?
+## Decline of fish at coral reefs
 
-- "If net-zero targets are to be met, and global temperature rises held to below 2 °C, the rate of deployment of clean power sources will need to accelerate 100-fold, to around 50 EJ year−1, within the decade."
+:::columns
+:::{.column width=50%}
+![](images/coral/Coral_CPUE){height=550}
+:::
+:::{.column width=50%}
+- catch-per-unit effort (CPUE) reached max. in 1971
+- consistent decline in many countries
+
+![](images/coral/coral_bleaching.png){height=220}
+
+Bleeched coral reef near Moorea Island (French Polynesia)
+:::
+:::
+
+:::aside
+[Eddy et al, 2021](https://doi.org/10.1016/j.oneear.2021.08.016)
+:::
+
+:::{.notes}
+
+:::
+
+## Global decline in oceanic sharks and rays
+
+:::columns
+:::{.column width=50%}
+![](images/biosphere/Shark_decline1.png){}
+:::
+:::{.column width=50%}
+<br><br>
+
+- 71% decline since 1970
+- 18-fold increase of fishing
+- 3/4 of species at the brink of extinction
+:::
+:::
+
+:::aside
+[Pacoureau et al, 2021](https://doi.org/10.1038/s41586-020-03173-9)
+:::
+
+:::{.notes}
+ 
+:::
+
+## Global decline in oceanic sharks and rays
+
+![](images/biosphere/Shark_decline3.png){}
+
+- Decline of 18 shark species (1970-2018) by ocean, traits and species
+
+:::aside
+[Pacoureau et al, 2021](https://doi.org/10.1038/s41586-020-03173-9)
+:::
+:::{.notes}
+
+:::
+
+## {background-image="images/coral/cowtail_stingray_Heron_Island_@amyintheocean.png" background-size="1500px"}
+
+:::aside
+   **@amyintheocean**
+:::
+
+## Climate tipping points
+
+:::columns
+:::{.column width=80%}
+![](images/biosphere/Lenton_science.abn7950-fa.jpg){}
+:::
+:::{.column width=20%}
+
+- tipping point - a self-reinforcing change beyond a threshold
+- irreversible
+- ice shields, glaciers, forests, reefs, ocean currents
+:::
+:::
+
+:::aside
+[McKay et al. 2022](https://www.science.org/doi/full/10.1126/science.abn7950)
+:::
+:::{.notes}
+
+:::
+
+## Tipping point
+
+:::columns
+:::{.column width=50%}
+![](images/biosphere/tipping.png){}
+:::
+:::{.column width=50%}
+- change of outside conditions
+- a threshold is crossed
+- the dynamics of the system speeds up change
+- positive feedback
+- uncontrolled, rapid system change
+- switch to an alternative stable state
+:::
+:::
+
+:::aside
+[van Nes et al, 2023](https://doi.org/10.1016/j.tree.2016.09.011)
+:::
+:::{.notes}
+
+:::
+
+## Climate tipping points
+
+:::columns
+:::{.column width=70%}
+![](images/biosphere/Lenton_science.abn7950-f2.jpg){}
+:::
+:::{.column width=30%}
+
+- 1°C warming may already have triggered some tipping points
+- positive feedbacks
+- up to 15 tipping points are now active
+- changes likely not proportional to warming
+- particularly worrying is a “tipping cascade”
+- strong, intrinsic, biogeophysical feedbacks difficult to influence by human actions
+:::
+:::
+
+:::aside
+[McKay et al. 2022](https://www.science.org/doi/full/10.1126/science.abn7950)
+:::
+:::{.notes}
+
+:::
+
+## Potential massive global heating of ~7,5 °C
+
+![](images/biosphere/Clark_temperature_futures.png)
+
+(the scariest scientific diagram ever...)
+
+- model predictions vary between ~2 °C to ~7,5 °C
+- even if we stop emitting now, CO~2~ concentrations remain high for centuries
+
+
+:::aside
+[Clark et al., 2016](https://www.nature.com/articles/nclimate2923)
+:::
+:::{.notes}
+:::
+
+## Sea-level rise
+
+![](images/biosphere/Clark_sea_level_futures.png){}
+
+- Sea-level rise will be a reaction lasting for hundreds of years
+- Greenland ice sheet ~ 7m rise
+- West-Antarctic ice shield ~ 5m
+- Total Antarctic ~58m
+
+:::aside
+[Clark et al., 2016](https://www.nature.com/articles/nclimate2923)
+:::
+:::{.notes}
+:::
+
+
+## Macroeconomic impact of global warming
+
+::: columns
+::: {.column width="49%"}
+![](images/biosphere/Climate_Output_capital.png) ![](images/biosphere/Climate_comsumption_welfare.png)
+:::
+
+::: {.column width="50%"}
+<br>
+
+-   a 1°C rise in global temperature causes global GDP to decline by 12%
+-   31% welfare loss from a moderate warming scenario
+-   "These effects are comparable to having a major war fought domestically, forever." <br>
+
+![](images/biosphere/4500.avif){height="200"}
+
+^Nhac\ Nguyen/AFP/Getty\ Images^
+:::
+:::
 
 ::: aside
-(Thompson, 2023)[https://doi.org/10.1177/20530196231177686]
+[Adrien Bilal & Diego R. Känzig, 2024](https://www.nber.org/papers/w32450)
+:::
+
+## Cascading global climate endgame
+
+:::columns
+:::{.column width=50%}
+![](images/biosphere/Climate_Endgame){height=550}
+
+
+:::
+:::{.column width=50%}
+<br><br>
+
+- could global warming result in worldwide societal collapse?
+- a dangerously underexplored topic
+- extreme weather, water scarcity, explitation of resources, sea-level rise, breadbasket failures, famine, mass migration and mortality, inequality, regional and global conflict, systemic financial risk, systemic financial crysis, ecological collapse, failed states etc...
+- reinforcing “synchronous failures”
+:::
+:::
+
+:::aside
+[Kemp et al., 2022](https://doi.org/10.1073/pnas.2108146119 )
+:::
+:::{.notes}
+
+:::
+
+## The responsibility of scientists and universities
+
+-   Caution (not to be alarmists) has merits, but excessive reticence is dangerous
+- current approach is "err on the side of least drama” is irresponsible
+- "Prudent risk management requires consideration of bad-to-worst-case scenarios"
+-   Are we scientists not complicit if we allow reticence to obfuscate the assessment of the situation?
+- "Facing a future of accelerating climate change while blind to worst-case scenarios is naive risk management at best and fatally foolish at worst."
+
+![](images/biosphere/Canada_fire.jpg){height=300}
+
+::: aside
+[Hansen et al. 2023](https://doi.org/10.1093/oxfclm/kgad008)
+:::
+
+
+## {background-image="images/biosphere/Bosch-Hell.jpg" background-size="1500px"}
+
+:::{.notes}
+-
+- I think the question now is whether some form of technological civilisation can be maintained longer term at least in some sheltered parts of the globe
+- We should have a plan B or at least risk assessment for the event of cascading and catastrophic global collapse and consider what skills and knowledge will the next generation need the most
+- for example, maybe every medical student should learn to deliver a baby and carry out an appendectomy, without electricity...
+
+:::
+
+## Green energy to the rescue?
+
+-   "If net-zero targets are to be met, and global temperature rises held to below 2 °C, the rate of deployment of clean power sources will need to accelerate 100-fold ... within the decade."
+
+![](images/biosphere/Global_energy_consumption_fig2.jpeg){height="400"}
+
+### Global energy consumption
+
+
+::: aside
+[Thompson, 2023](https://doi.org/10.1177/20530196231177686)
+:::
+
+## A Global Futures Initiative for Heidelberg
+
+
+::: columns
+::: {.column width="60%"}
+- thinktank/institute, research/teaching in areas related to:
+  - catastrophic risks
+  - deep cuts in greenhouse gas emissions
+  - enhancement of biosphere (Half-Earth principle of E.O. Wilson)
+  - CO~2~ removal from the atmosphere
+  - possibly solar radiation management
+  - adaptation to warming, improve resilience
+  - new economic models to tax externalities (extraction and waste)
+  - more resilient democracies
+  - global cooperation 
+  - effective Earth System stewardship
+  - ...
+
+::: 
+::: {.column width="40%"}
+<br><br>
+![](images/biosphere/Earth_system_stability_pnas.webp)
+:::
+:::
+
+
+:::aside
+[Kemp et al., 2022 ](https://doi.org/10.1073/pnas.2108146119 ) [ Steffen et al. 2018](https://doi.org/10.1073/pnas.1810141115)
 :::
 
 ## Acknowledgements
 
 ::: columns
 ::: {.column width="22%"}
--   Emelie Brodrick
--   Cyrielle Kaltenrieder
--   Réza Shahidi
--   Milena Marinkovic
--   Daniel Thiel
 -   Sanja Jasek
--   Cameron Hird
--   Rebecca Turner
--   Luis A. Bezares-Calderón
--   Kei Jokura
--   Luis Yanez Guerra
 -   Alexandra Kerbl
+-   Emily Savage
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+-   Karel Mocaer
+-   David Hug
+-   Benedikt Dürr
+-   Ira Maegele
+-   Emelie Brodrick (Exeter)
 :::
 
-::: {.column width="56%"}
-![](images/Lab_pic_LSI_2023Jan.jpg) ![](images/funding.png)
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding.png)
 :::
 
-::: {.column width="22%"}
+::: {.column width="28%"}
 <u>*Former lab members*</u>
 
--   Albina Asadulina
--   James Beard
--   Markus Conzelmann
--   Nadine Randel
--   Philipp Bauknecht
--   Martin Gühmann
--   Cristina Pineiro-Lopez
--   Nobuo Ueda
--   Aurora Panzera
--   Csaba Verasztó
--   Elizabeth Williams
+- Kei Jokura, Luis A. Bezares-Calderón, Luis A. Yanez-Guerra, Victoria Moris, Daniel Thiel, Albina Asadulina, Cameron Hird, Adam Johnstone, Markus Conzelmann, Nadine Randel, Philipp Bauknecht, Martin Gühmann, Cristina Pineiro-Lopez, Nobuo Ueda, Aurora Panzera, Csaba Verasztó, Elizabeth Williams
 :::
 :::
 
-![](images/Kei_Jokura.jpg){.absolute top="50" left="710" width="100"}
-
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}
