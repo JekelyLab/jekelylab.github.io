@@ -36,6 +36,21 @@ Jefferys, 1763
 :::
 :::
 
+## Tree of main animal lineages
+
+![](images/coral/non_bilaterian_tree_Burkhardt.png){height=580}
+
+:::aside
+Pawel Burkhardt
+:::
+
+## Nervous systems evolved in the sea
+
+![](images/trilobite-cambrian-explosion-full-width.jpg.thumb.1160.1160.jpg)
+
+:::aside
+National History Museum
+:::
 
 ## Zooplankton behaviour
 
@@ -43,18 +58,39 @@ Jefferys, 1763
 
 ::: columns
 ::: {.column width="33%"}
-![](movies/early_phototaxis.webm){height=320}
+![](movies/larvae.webm){height=320 loop="true"}
 phototaxis
 :::
 ::: {.column width="33%"}
-![](movies/startle.webm){height=320}
+![](movies/startle.webm){height=320 loop="true"}
 startle response
 :::
 ::: {.column width="33%"}
-![](movies/crawling_juvenile.webm){height=320}
+![](movies/crawling_juvenile.webm){height=320 loop="true"}
 crawling
 :::
 :::
+
+## How do brains work?
+
+<br><br><br><br>
+
+### "As simple as possible"
+
+:::aside
+Bio(R)evolutions: Kerstin Göpfrich
+:::
+
+## The simplest circuit to mediate behaviour - phototaxis
+
+![](movies/early_phototaxis.webm){.absolute left="550" top="115" height="500"} ![](images/Phototaxis/lamp.jpg){.absolute left="1080" top="320" width="60"}
+
+![](images/Phototaxis/eyespots.png){.absolute left="250" top="60" width="300"} ![](images/Phototaxis/pigment_cup.png){.absolute left="-60" top="370" width="300"} ![](images/Phototaxis/trunkbraineyeeyeciliary.svg){.absolute left="-60" top="60" width="303"} ![](images/Phototaxis/rhabdomaxonciliated.svg){.absolute left="250" top="370" width="300"}
+
+::: footer
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
 
 ## Zooplankton in Heidelberg
 
@@ -131,13 +167,33 @@ in collaboration with Rebecca Poon and Kirsty Wan, LSI Exeter
 [Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
 :::
 
+## Field trips to explore marine plankton
+
+![](images/Sorgeto_Pic.jpeg){height=500}
+
+![](images/Ischia_boat.jpg){.absolute top="60" left="870" width="140"}
+
+Ischia, Sorgeto, 2024
+
+## Field trips to explore marine plankton
+
+![](images/Ischia_lab.jpg){height=500}
+
+The lab
+
 ## Field trips lead to unexpected discoveries
 
-![](movies/polyclads_Ischia_May2024.webm){height=500}
+![](images/Ischia_polyclad.jpg){height=500}
 
 with Alexandra Kerbl, Ischia May 31, 2024
 
-## Field trips lead to unexpected discoveries
+## What is this??
+
+![](images/Ischia_polyclad2.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## OMG
 
 ![](movies/polyclads_Ischia_May2024zoom.webm){height=500}
 
@@ -145,6 +201,23 @@ with Alexandra Kerbl, Ischia May 31, 2024
 
 - ### these are embryo pockets of polyclad flatworms!
 - ### go and explore nature!
+
+## Egg capsules of Muller larvae of polyclad flatworms
+
+::: columns
+::: {.column width="50%"}
+![](images/Maritigrella_d9695.jpg)
+:::
+::: {.column width="50%"}
+![](images/79910_65b3ff96ac7b0.jpg)
+*Prostheceraeus giesbrechtii*
+:::
+:::
+
+## But are we sure...?
+
+![](images/alien_eggs_th-4185021372.jpeg)
+
 
 ## Tree of main animal lineages
 
@@ -174,6 +247,8 @@ Pawel Burkhardt
 ## Ctenophores swim with large plates of cilia
 
 ![](movies/Jokura_cteno_cilia.webm)
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="850" width="140"}
 
 Kei Jokura
 
@@ -282,7 +357,7 @@ Emelie Brodrick
 :::
 ::: {.column width="33%"}
 <br>
-![](movies/coral_cilia1.webm)
+![](movies/coral_cilia1.webm){loop="true"}
 Hannah Laeverenz
 :::
 ::: {.column width="42%"}
@@ -300,6 +375,9 @@ Rebecca Poon & Kirsty Wan
 
 ![](movies/Aiptasia_video1.webm){height=500}
 
+![](images/Emelie_Brodrick.jpg){.absolute top="50" left="850" width="140"}
+
+
 :::aside
 Emelie Brodrick, Lara Keweloh
 :::
@@ -313,13 +391,18 @@ Emelie Brodrick, Lara Keweloh
 
 ::: columns
 ::: {.column width="50%"}
-Video from Liz
+<br><br>
+
+### Swimming larvae turn into polyps
+
+![](movies/Amillepora_8dpf_Liz30.webm){height=300}
+Elizabeth Williams, University of Exeter
 :::
 ::: {.column width="50%"}
 <br><br>
 
 ### Metamorphosed polyp
-![](images/coral/coral_polyps.jpg)
+![](images/coral/coral_polyps.jpg){height=300}
 Emelie Brodrick
 :::
 :::
@@ -339,6 +422,8 @@ Emelie Brodrick
 ![](images/coral/Fig_Adig_GLWamide.png){height=300}
 
 ### control peptide
+
+![](movies/Coral_larva_Liz_Video_010.webm){height=100}
 :::
 :::
 
@@ -394,6 +479,18 @@ Emelie Brodrick et al.
 [Climate Change Institute, University of Maine](https://climatereanalyzer.org/clim/sst_daily/)
 :::
 
+## Global decline of coral reefs
+
+<br>
+![](images/coral/Coral_decline.png){}
+
+- up to 50% decline until 2007, more since then
+- 99% of reefs could disappear at 2 °C warming (very soon...)
+
+:::aside
+[Eddy et al, 2021](https://doi.org/10.1016/j.oneear.2021.08.016)
+:::
+
 ## Reefs consistently disappeared at major extinctions and were missing for millions of years
 
 ::: columns
@@ -418,21 +515,13 @@ became extinct
 [Stanley & Schootbrugge, 2018](https://doi.org/10.1007/978-3-319-75393-5_2)
 :::
 
-## Global decline of coral reefs
 
-<br>
-![](images/coral/Coral_decline.png){}
-
-- up to 50% decline until 2007, more since then
-- most reefs will disappear at 2 °C warming (very soon...)
+## {background-image="images/quit_drinking_by_2025.png" background-size="1200px"}
 
 :::aside
-[Eddy et al, 2021](https://doi.org/10.1016/j.oneear.2021.08.016)
+[The Shovel](https://theshovel.com.au/2021/10/26/man-announces-he-will-quit-drinking-by-2050/)
 :::
-:::{.notes}
-- Erschreckende 99% der tropischen Korallen sollen verloren gehen, wenn die globale Durchschnittstemperatur um 2 °C ansteigt, aufgrund von Wechselwirkungen zwischen Erwärmung, Ozeanversauerung und Verschmutzung.
-- Dies würde einen tiefgreifenden Verlust der marinen Biodiversität und menschlicher Lebensgrundlagen darstellen.
-:::
+
 
 ## Aerosol cooling - a Faustian bargain
 
@@ -548,6 +637,8 @@ Bleeched coral reef near Moorea Island (French Polynesia)
 ![](images/biosphere/tipping.png){}
 :::
 :::{.column width=50%}
+<br>
+
 - change of outside conditions
 - a threshold is crossed
 - the dynamics of the system speeds up change
