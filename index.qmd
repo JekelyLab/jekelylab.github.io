@@ -11,6 +11,10 @@ format:
 <br>
 <br>
 
+[Presentation](https://jekelylab.github.io/EvoDevo_Platynereis_Satellite_24June2024.html#/title-slide/) at the [Platynereis satellite meeting at Euro-EvoDevo in Helsinki](https://www.helsinki.fi/en/conferences/euroevodevo-2024/satellite-meetings) (June 24-18, 2024). 
+
+<br>
+
 [Presentation](https://jekelylab.github.io/EMBO_Imaging_Marine_Organisms_Napoli_April_2024.html#/title-slide/) at the [EMBO Lecture Course Imaging Marine Organisms Across Scales](https://meetings.embo.org/event/24-marine-imaging) (April 9-12, 2024). 
 
 <br>

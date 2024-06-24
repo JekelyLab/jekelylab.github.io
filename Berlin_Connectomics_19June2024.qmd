@@ -1,0 +1,335 @@
+---
+title: "In quest of nerve nets"
+subtitle: "CONNECTOMICS CONFERENCE 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+---
+
+
+## Nervous systems evolved in the sea
+
+![](images/trilobite-cambrian-explosion-full-width.jpg.thumb.1160.1160.jpg)
+
+:::aside
+National History Museum
+:::
+
+
+## How do brains work?
+
+<br><br><br><br>
+
+### "As simple as possible - but complete"
+
+
+## Zooplankton behaviour
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+![](movies/larvae.webm){height=320 loop="true"}
+phototaxis
+:::
+::: {.column width="33%"}
+![](movies/startle.webm){height=320 loop="true"}
+startle response
+:::
+::: {.column width="33%"}
+![](movies/crawling_juvenile.webm){height=320 loop="true"}
+crawling
+:::
+:::
+
+
+## The simplest circuit to mediate behaviour - phototaxis
+
+![](movies/early_phototaxis.webm){.absolute left="580" top="115" height="450"} ![](images/Phototaxis/lamp.jpg){.absolute left="1080" top="320" width="60"}
+
+![](images/Phototaxis/eyespots.png){.absolute left="250" top="60" width="300"} ![](images/Phototaxis/pigment_cup.png){.absolute left="-60" top="370" width="300"} ![](images/Phototaxis/trunkbraineyeeyeciliary.svg){.absolute left="-60" top="60" width="303"} ![](images/Phototaxis/rhabdomaxonciliated.svg){.absolute left="250" top="370" width="300"}
+
+::: footer
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## *Platynereis* - a marine annelid
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+## Whole-body connectome of a segmented annelid larva
+
+![](movies/Video1_Connectome_paper.webm){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## {background-image="images/Connectome/Full_connectomeNo_text_modules.png" background-size="900px"}
+
+
+## Information flow from sensors to effectors
+
+![](images/Connectome/Figure4_fig_suppl6.png){height=530}
+![](images/Connectome/Fig4_label_celltype_distr.png){height=20}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+
+## ZooCell - MSCA Doctoral Network (2024-2026)
+
+::: columns
+::: {.column width="80%"}
+![](images/ciliated_larvae.png)
+![](images/ZooCELL_Logo_WithClaim_RGB.jpg){height=80}
+
+[https://zoocell.eu/](https://zoocell.eu/)
+:::
+::: {.column width="20%"}
+<br>
+
+- 10 labs (EU, UK)
+- vEM of marine invertebrates
+- evolution of cell types
+- comparative connectomics
+:::
+:::
+
+## Field trips to explore marine plankton
+
+![](images/Sorgeto_Pic.jpeg){height=500}
+
+![](images/Ischia_boat.jpg){.absolute top="60" left="870" width="140"}
+
+Ischia, Sorgeto, 2024
+
+## Field trips lead to unexpected discoveries
+
+![](images/Ischia_polyclad.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## What is this??
+
+![](images/Ischia_polyclad2.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## OMG
+
+![](movies/polyclads_Ischia_May2024zoom.webm){height=550}
+
+## Egg plates of polyclad flatworms
+
+::: columns
+::: {.column width="50%"}
+![](images/Maritigrella_d9695.jpg)
+:::
+::: {.column width="50%"}
+![](images/79910_65b3ff96ac7b0.jpg)
+*Prostheceraeus giesbrechtii*
+:::
+:::
+
+## But are we sure...?
+
+![](images/alien_eggs_th-4185021372.jpeg)
+
+## Ctenophores - comb jellies
+
+::: columns
+::: {.column width="30%"}
+- gelatinous plankonic animals
+- swim with large plates of glued-together cilia
+- many of their features evolved independently of other animals
+- unique neuronal anatomy with syncytial nerve net
+:::
+::: {.column width="70%"}
+
+![](movies/Bolinopsis_Jokura.mp4)
+
+:::
+:::
+
+:::aside
+[Jokura et al. 2019](https://www.cell.com/current-biology/fulltext/S0960-9822(19)31109-1)
+:::
+## Ctenophores swim with large plates of cilia
+
+![](movies/Jokura_cteno_cilia.webm)
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="850" width="140"}
+
+Kei Jokura
+
+## Ctenophore balancer organ
+
+::: columns
+::: {.column width="33%"}
+![](images/Ctenophore/Tamm_balancer.png)
+
+[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
+![](images/Ctenophore/balancer_schematic.png)
+
+:::
+::: {.column width="50%"}
+![](movies/Tamm_balancer_mmc2.webm){width=150%}
+
+[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)
+:::
+:::
+
+## Ctenophore balancer organ
+
+![](images/Ctenophore/balancer_statolith.png){width=850}
+![](images/Ctenophore/all_cells_3_views.png){width=850}
+
+
+::: aside
+Kei Jokura
+:::
+
+## Biradial symmetry, four equal quadrants
+
+
+::: columns
+::: {.column width="50%"}
+![](images/Ctenophore/Tamm_schematic_symmetry.png){height=430}
+
+Sydney Tamm
+:::
+::: {.column width="50%"}
+
+![](images/Ctenophore/quadrants.png){height=430}
+
+Kei Jokura
+:::
+:::
+
+
+## A syncytial nerve net at the base of the AO
+
+![](movies/cteno_net.webm){width=600}
+
+::: aside
+Kei Jokura
+:::
+
+## Connectome of the ctenophore apical organ
+
+::: columns
+::: {.column width="50%"}
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/Ctenophore/visNetwork_celltype_connectome.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=550, width=900
+)
+```
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_lateral.png)
+
+lateral view
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_oral.png)
+
+oral view
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+
+## Coral larvae
+
+::: columns
+::: {.column width="25%"}
+![](images/coral/bodywall_Acropora_SEM.png)
+Emelie Brodrick
+:::
+::: {.column width="33%"}
+<br>
+![](movies/coral_cilia1.webm){loop="true"}
+Hannah Laeverenz
+:::
+::: {.column width="42%"}
+<br><br>
+![](movies/coral_cilia2.webm)
+Rebecca Poon & Kirsty Wan
+:::
+:::
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## A coral larval nerve net - simplest nervous system?
+
+![](movies/Aiptasia_video1.webm){height=500}
+
+![](images/Emelie_Brodrick.jpg){.absolute top="50" left="850" width="140"}
+
+
+:::aside
+Emelie Brodrick, Lara Keweloh
+:::
+
+## A coral larval nerve net - simplest nervous system?
+
+<br>
+
+![](images/Connectome/Aiptasia_celltype_connectome.png){height=400}
+
+:::aside
+Emelie Brodrick, Lara Keweloh
+:::
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Sanja Jasek
+-   Alexandra Kerbl
+-   Emily Savage
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+-   Karel Mocaer
+-   David Hug
+-   Benedikt Dürr
+-   Ira Maegele
+-   Emelie Brodrick (Exeter)
+:::
+
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="28%"}
+<u>*Former lab members*</u>
+
+- Kei Jokura, Luis A. Bezares-Calderón, Luis A. Yanez-Guerra, Victoria Moris, Daniel Thiel, Albina Asadulina, Cameron Hird, Adam Johnstone, Markus Conzelmann, Nadine Randel, Philipp Bauknecht, Martin Gühmann, Cristina Pineiro-Lopez, Nobuo Ueda, Aurora Panzera, Csaba Verasztó, Elizabeth Williams
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}

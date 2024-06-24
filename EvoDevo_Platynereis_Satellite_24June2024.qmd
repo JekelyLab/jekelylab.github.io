@@ -1,0 +1,206 @@
+---
+title: "The *Platynereis* larval connectome and diversity of sensory cells and circuits"
+subtitle: "2nd Platynereis Satellite meeting
+<br>24 - 25th of June 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+---
+
+
+
+
+## Neuronal circuit bases of larval behaviour
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+![](movies/larvae.webm){height=320 loop="true"}
+phototaxis
+:::
+::: {.column width="33%"}
+![](movies/startle.webm){height=320 loop="true"}
+startle response
+:::
+::: {.column width="33%"}
+![](movies/crawling_juvenile.webm){height=320 loop="true"}
+crawling
+:::
+:::
+
+## *Platynereis* larval and juvenile stages
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+## Whole-body connectome of a three-day-old larva
+
+![](movies/Video1_Connectome_paper.webm){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Whole-body connectome of a three-day-old larva
+
+![](images/Connectome/Figure4_fig_suppl4.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Annotation of all cell types
+
+![](images/Connectome/Figure3.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Information flow from sensors to effectors
+
+![](images/Connectome/Figure4_fig_suppl6.png){height=530}
+![](images/Connectome/Fig4_label_celltype_distr.png){height=20}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+## Sensory cell synapses
+
+![](images/Connectome/Fig1_synapses.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Sensory cells project ipsilaterally
+
+![](images/Connectome/Fig1_SN_neuropil.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Sensory cells in the head
+
+<br><br>
+
+![](images/Connectome/Figure6_SNb.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Connections of head sensory cells
+
+![](images/Connectome/Figure6_fig_suppl1.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Postural control system
+
+![](images/Connectome/Postural_control_circuit.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+## Shared circuit of eyespot and eyes
+
+![](images/Connectome/Eyes_eyespot_circuit.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## MNant circuit
+
+<br>
+
+![](images/Connectome/MNant_circuit.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Mushroom bodies
+
+<br>
+
+![](images/Connectome/MB_Overview_Figure8.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## The mechanosensory girdle
+
+<br>
+
+![](images/Connectome/MS_girdle.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Chaetal mechanoreceptors
+
+<br><br>
+![](images/Connectome/chaeMech_Figure15.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Evolution by duplication and divergence
+
+![](images/Connectome/SN_trunk_Figure16.png)
+![](images/Connectome/IN_trunk_Figure16.png){height=300}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Sanja Jasek
+-   Alexandra Kerbl
+-   Emily Savage
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+-   Karel Mocaer
+-   David Hug
+-   Benedikt Dürr
+-   Ira Maegele
+-   Emelie Brodrick (Exeter)
+:::
+
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="28%"}
+<u>*Former lab members*</u>
+
+- Kei Jokura, Luis A. Bezares-Calderón, Luis A. Yanez-Guerra, Victoria Moris, Daniel Thiel, Albina Asadulina, Cameron Hird, Adam Johnstone, Markus Conzelmann, Nadine Randel, Philipp Bauknecht, Martin Gühmann, Cristina Pineiro-Lopez, Nobuo Ueda, Aurora Panzera, Csaba Verasztó, Elizabeth Williams
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}
