@@ -174,6 +174,24 @@ crawling
 [Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
 :::
 
+## Pygidial cells
+
+:::columns
+:::{.column width="33%"}
+![](images/Ciliomotor/Figure6_pyg_SN.png)
+:::
+:::{.column width="33%"}
+![](images/Ciliomotor/Figure6_pygPBunp.png)
+:::
+:::{.column width="33%"}
+![](images/Ciliomotor/Figure6_pyg_cioMNcover.png)
+:::
+:::
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
 ## Functional analysis of circuits
 
 ![](images/NOS/NOS_summary.png){height=550}
