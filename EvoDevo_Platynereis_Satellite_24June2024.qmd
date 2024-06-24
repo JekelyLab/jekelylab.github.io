@@ -43,6 +43,8 @@ crawling
 
 ![](movies/Video1_Connectome_paper.webm){height=550}
 
+![](images/Connectome/Connectome_paper_QR.png){.absolute top="100" left="960" height="150"}
+
 ::: aside
 [Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
 :::
@@ -172,7 +174,13 @@ crawling
 [Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
 :::
 
+## Functional analysis of circuits
 
+![](images/NOS/NOS_summary.png){height=550}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
 
 
 ## Acknowledgements
