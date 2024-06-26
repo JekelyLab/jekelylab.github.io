@@ -11,7 +11,13 @@ format:
 <br>
 <br>
 
-[Presentation](https://jekelylab.github.io/EvoDevo_Platynereis_Satellite_24June2024.html#/title-slide/) at the [Platynereis satellite meeting at Euro-EvoDevo in Helsinki](https://www.helsinki.fi/en/conferences/euroevodevo-2024/satellite-meetings) (June 24-18, 2024). 
+EvoDevo_Neuro_Evo_27June2024.qmd
+
+[Presentation](https://jekelylab.github.io/EvoDevo_Neuro_Evo_27June2024.html#/title-slide/) at the [Euro-EvoDevo in Helsinki](https://www.helsinki.fi/en/conferences/euroevodevo-2024) (June 24-28, 2024). 
+
+<br>
+
+[Presentation](https://jekelylab.github.io/EvoDevo_Platynereis_Satellite_24June2024.html#/title-slide/) at the [Platynereis satellite meeting at Euro-EvoDevo in Helsinki](https://www.helsinki.fi/en/conferences/euroevodevo-2024/satellite-meetings) (June 24-28, 2024). 
 
 <br>
 
