@@ -1,0 +1,454 @@
+---
+title: "Origin and evolution of animal eyes and light-guided behaviours"
+subtitle: "Nencki Open Lab Academy of Neuroscience -- Faculty of Physics of the University of Warsaw <br> July 12, 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University"
+format:
+  revealjs: 
+   # embed-resources: true
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+---
+
+## Charles Darwin set us a problem…	{background-color="white" background-image="images/Phototaxis/eye.png" background-size="600px" background-opacity=0.5} 
+
+<br>
+
+::: {.incremental}
+
+- ### “To suppose that the eye, with all its inimitable contrivances […] could have been formed by natural selection, seems, I freely confess, absurd in the highest possible degree.” 
+<br><br><br><br>
+
+- ### “Yet reason tells me …”	
+
+:::
+
+## … and gave us the solution	{background-color="white" background-image="images/Phototaxis/eye.png" background-size="600px" background-opacity=0.5} 
+
+
+::: columns
+::: {.column width="60%"}
+<br><br><br>
+
+- ### Gradual evolution by natural selection
+<br>
+
+- #### Variation
+- #### Inheritance
+- #### Differential survival 
+:::
+::: {.column width="40%"}
+:::
+:::
+
+
+## Darwin’s ‘proto-eye’
+
+<br><br>
+
+![](images/Phototaxis/protoeye.png){height=400}
+
+“We can commence a series with an optic nerve merely coated with pigment”
+<br>
+*Charles Darwin*
+
+
+## Natural selection for a gradual increase in resolution
+
+::: columns
+::: {.column width="80%"}
+![](images/Phototaxis/resolution_increment.png)
+:::
+::: {.column width="20%"}
+<br><br>?<br><br>?<br><br><br><br><br><br><br><br><br><br>Lamprey<br><br>Human<br><br>Eagle
+:::
+:::
+
+## A pessimistic estimate of the time required for an eye to evolve
+
+![](images/Phototaxis/eye_evo_Nilsson_Pelger.png){height=550}
+
+::: aside
+[Nilsson & Pelger, 1994](https://doi.org/10.1098/rspb.1994.0048)
+:::
+
+## Proto-eyes still exist in marine plankton
+
+![](images/Phototaxis/Arendt_2002_eyespots.png){height=550}
+
+:::aside
+[Arendt, 2001](https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2001.0971)
+:::
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%"}
+<br><br><br><br><br><br><br><br>
+
+-   breeding culture
+-   microinjection, transgenesis
+-   neuron-specific promoters and antibodies
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging 😎
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## *Platynereis dumerilii*
+
+::: columns
+::: {.column width="50%"}
+![](movies/spawning_Fischer.webm){.absolute height="450"} <br><br><br><br><br><br><br><br><br><br><br><br><br><br> **Spawning** <br> movie by Albrecht Fischer
+:::
+
+::: {.column width="50%"}
+![](movies/3d_Larvae_swimming.webm) <br> **Synchronously developing larvae**
+:::
+:::
+
+
+## Proto-eyes still exist in marine plankton
+
+::: columns
+::: {.column width="50%"}
+![](images/Phototaxis/eyespots.png){height=480}
+:::
+::: {.column width="50%"}
+![](images/Phototaxis/trunkbraineyeeyeciliary.svg){height=480}
+trochophora larva
+:::
+:::
+
+::: aside
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+
+## Direct sensory-motor coupling of eyes to cilia
+
+::: columns
+::: {.column width="50%"}
+![](images/Phototaxis/pigment_cup.png){height=480}
+pigment cup of eye
+:::
+::: {.column width="50%"}
+![](images/Phototaxis/rhabdomaxonciliated.svg){height=480}
+photoreceptor cell
+:::
+:::
+
+::: aside
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## The eyespots mediate phototaxis
+
+![](movies/early_phototaxis.webm)
+![](images/Phototaxis/lamp.jpg){.absolute top="270" left="820" height="40"}
+
+::: aside
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## Helical swimming, sensing and turning are tightly linked
+
+![](movies/Platynereis_helical_swimming.webm){.absolute left="-100" top="180" width="500" loop="true"}
+
+![](images/Phototaxis/helix.png){.absolute left="-100" top="500" width="500"} ![](images/Phototaxis/model_larva.svg){.absolute left="450" top="200" width="350"} ![](images/Phototaxis/model_loop_spin.svg){.absolute left="820" top="200" width="400"}
+
+::: footer
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## Visual phototaxis with 2-pixel eyes
+
+::: columns
+::: {.column width="50%"}
+![](movies/phototactic_turn.webm){height=400}
+:::
+::: {.column width="50%"}
+![](movies/phototaxis.webm){height=400}
+:::
+:::
+
+::: footer
+[Randel et al. 2014](https://elifesciences.org/articles/02730)
+:::
+
+
+## Whole-body volume EM of an entire *Platynereis* larva
+
+::: columns
+::: {.column width="40%"}
+![](images/Naomi.png)
+:::
+
+::: {.column width="60%"}
+![](movies/Naomi.webm)
+:::
+:::
+
+::: footer
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## The nervous system of the larva
+
+![](movies/Video_bb_neurons.webm){.absolute left="300" height="600"} <br> **\~2,000 neurons**
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="250" top="50"}
+
+::: footer
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+
+## Neural circuit of the visual eyes
+
+:::columns
+:::{.column width="30%"}
+![](movies/phototactic_turn.webm){width=275}
+![](images/Connectome/eye_Circuit_rendering){width=275}
+:::
+:::{.column width="70%"}
+<br>
+![](images/Phototaxis/phototaxis_circuit.png)
+:::
+:::
+
+:::aside
+[Randel et al. 2014](https://doi.org/10.7554/elife.02730)
+:::
+
+## Diversity of larval eyes
+
+![](images/Phototaxis/Arendt_2002_eyespots.png){height=550}
+
+:::aside
+[Arendt, 2001](https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2001.0971)
+:::
+
+## In quest of the origin of eyes
+
+![](images/ERC_Figure1.png){height=550}
+
+## Ciliated zooplankton larvae
+
+![](images/ciliated_larvae.png)
+
+
+## Coral larvae
+
+![](images/coral/Poon_fig1.png){height=500}
+
+In collaboration with Kirsty Wan (LSI Exeter) and Jamie Craggs (Horniman Museum)
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## Coral larvae
+
+::: columns
+::: {.column width="25%"}
+![](images/coral/bodywall_Acropora_SEM.png)
+Emelie Brodrick
+:::
+::: {.column width="33%"}
+<br>
+![](movies/coral_cilia1.webm){loop="true"}
+Hannah Laeverenz
+:::
+::: {.column width="42%"}
+<br><br>
+![](movies/coral_cilia2.webm)
+Rebecca Poon & Kirsty Wan
+:::
+:::
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## Coral larvae react to light
+
+::: columns
+::: {.column width="60%"}
+<br>
+![](movies/Emelie/free_swim_02_crop_dark_to_Light.webm)
+:::
+::: {.column width="40%"}
+<br>
+![](movies/Emelie/larva06_contr_slow.webm)
+:::
+:::
+
+:::aside
+Emelie Brodrick
+:::
+
+## Light-off induces contraction and ciliary arrest
+
+![](images/coral/Fig03_shapechanges.png){width=800}
+![](images/coral/Fig02_PIVdata_ALL.png){width=800}
+
+:::aside
+Emelie Brodrick
+:::
+
+## A coral larval nerve net - simplest nervous system?
+
+![](movies/Aiptasia_video1.webm){height=500}
+
+![](images/Emelie_Brodrick.jpg){.absolute top="50" left="850" width="140"}
+
+
+:::aside
+Emelie Brodrick, Lara Keweloh
+:::
+
+## Hydrozoan larval phototaxis
+
+::: columns
+::: {.column width="30%"}
+![](images/cnidaria/Clava_gbif.png)
+Jeff Goddard, iNaturalist 
+
+![](images/cnidaria/Clava_d9465.png){width=140}
+![](images/cnidaria/Clava_d9603.png){width=140}
+GJ & Jürgen Berger
+:::
+::: {.column width="70%"}
+![](movies/Clava.webm)
+
+*Clava multicornis*
+
+
+:::
+:::
+
+
+## Field trips to explore marine plankton
+
+![](images/Sorgeto_Pic.jpeg){height=500}
+
+![](images/Ischia_boat.jpg){.absolute top="60" left="870" width="140"}
+
+Ischia, Sorgeto, 2024
+
+## Field trips lead to unexpected discoveries
+
+![](images/Ischia_polyclad.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## What is this??
+
+![](images/Ischia_polyclad2.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## OMG
+
+![](movies/polyclads_Ischia_May2024zoom.webm){height=550}
+
+## Egg plates and Müller's larvae of polyclad flatworms
+
+::: columns
+::: {.column width="40%"}
+![](images/Fichier_1Polyclad_larvae_SEM1.png){height=450}
+
+#### -> brought them back to Heidelberg
+:::
+::: {.column width="60%"}
+![](images/planocera_ceratommata-slb21_image1200.jpg){height=450}
+*Planocera ceratommata*
+:::
+:::
+
+::: aside
+Karel Mocaer, Alexandra Kerbl
+:::
+
+## But are we sure...?
+
+![](images/alien_eggs_th-4185021372.jpeg)
+
+## Müller's larvae are phototactic and have three eyespots
+
+![](movies/Muller_larvae_swimming.webm){height=550}
+
+## Rhabdomeric and ciliary photoreceptors
+
+![](images/pressure/cPRC.png){height=200}
+*Platynereis*
+
+![](images/pressure/Muller_larva_cPRC.png){height=330}
+*Müller's larva*
+
+:::aside
+[Rawlinson et al. 2019](https://doi.org/10.7554/eLife.45465)
+:::
+
+
+## Natural selection for a gradual increase in resolution
+
+::: columns
+::: {.column width="80%"}
+![](images/Phototaxis/resolution_increment.png)
+:::
+::: {.column width="20%"}
+<br>coral larvae, helical phototaxis<br>2-pixel eyes<br><br><br><br><br><br><br><br><br><br><br>Lamprey<br><br>Human<br><br>Eagle
+:::
+:::
+
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Emelie Brodrick
+-   Cyrielle Kaltenrieder
+-   Réza Shahidi
+-   Milena Marinkovic
+-   Daniel Thiel
+-   Sanja Jasek
+-   Cameron Hird
+-   Rebecca Turner
+-   Luis A. Bezares-Calderón
+-   Kei Jokura
+-   Luis Yanez Guerra
+-   Alexandra Kerbl
+:::
+
+::: {.column width="56%"}
+![](images/Lab_pic_LSI_2023Jan.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="22%"}
+<u>*Former lab members*</u>
+
+-   Albina Asadulina
+-   James Beard
+-   Markus Conzelmann
+-   Nadine Randel
+-   Philipp Bauknecht
+-   Martin Gühmann
+-   Cristina Pineiro-Lopez
+-   Nobuo Ueda
+-   Aurora Panzera
+-   Csaba Verasztó
+-   Elizabeth Williams
+:::
+:::
