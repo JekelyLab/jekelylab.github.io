@@ -1,0 +1,725 @@
+---
+title: "On chemical and synaptic brains and the evolution of nervous systems"
+subtitle: "School of Ideas in Neuroscience <br> July 15, 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+css: xaringan-themer-GJ.css
+---
+
+## What is a nervous system?
+
+![](images/Connectome/fly_brain_Dorkenwald.png)
+
+::: aside
+[Dorkenwald et al. 2023](https://www.biorxiv.org/content/10.1101/2023.06.27.546656v2)
+:::
+
+## What is a nervous system?
+
+:::{.incremental}
+- consists of cells
+- neurons, glia etc.
+- neurons are excitable 
+- neurons can influence each others activity
+- and the activity of effectors
+- some neurons may be sensory, tuned to environmental cues
+- neurons have projections
+- connections by synapses
+- connections are specific (wiring specificity)
+- organised into a complex network (connectome)
+- is there a different way to wire complex networks?
+:::
+
+## A synaptic connectivity matrix
+
+
+
+::: aside
+[Widing et al. 2023](https://www.science.org/doi/full/10.1126/science.add9330)
+:::
+
+## Chemical signalling between cells
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/chemical_brain1.png)
+:::
+::: {.column width="50%"}
+<br><br>
+
+- some cells release a chemical (e.g. short peptide)
+- other cells express a specific receptor for the chemical
+- receptor activation -> change in cell state
+- a specific cell-to-cell signalling is possible
+- no synaptic connection
+:::
+:::
+
+:::aside
+[Jékely, 2021](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0761)
+:::
+
+## Chemical signalling between cells
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/chemical_brain2.png)
+:::
+::: {.column width="50%"}
+<br><br>
+
+- several cell types, each expressing a different chemical signal
+- several specific receptors expressed in target cells
+- chemical 'wiring diagram'
+- no synaptic connection
+:::
+:::
+
+:::aside
+[Jékely, 2021](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0761)
+:::
+
+## Chemical connectomes
+
+::: columns
+::: {.column width="45%"}
+![](images/neuropeptides/chemical_brain4.png)
+:::
+::: {.column width="50%"}
+<br><br>
+
+- sending and receiving cells
+- a chemical connectivity matrix
+- can be arbitrarily complex
+:::
+:::
+
+:::aside
+[Jékely, 2021](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0761)
+:::
+
+## Chemical connectomes
+
+::: columns
+::: {.column width="60%"}
+![](images/neuropeptides/chemical_brain3.png)
+:::
+::: {.column width="40%"}
+<br><br>
+
+- co-expression of chemical signals or receptors
+- combinatorics, cascades
+- synergism, antagonism
+:::
+:::
+
+:::aside
+[Jékely, 2021](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0761)
+:::
+
+
+## Neuropeptides are produced from precursor peptides
+
+<br><br><br>
+![](images/neuropeptides/Daniel_slide3.png)
+
+## Neuropeptides are produced from precursor peptides
+
+<br><br><br>
+![](images/neuropeptides/Nv_MS_example_HIRamide.png)
+
+- mass spectrometry  (LC-MS/MS) can identify the processed neuropeptides
+- MetOH/acetic acid extraction of small peptides
+- search also for modifications
+
+:::aside
+[Thiel et al. 2023](https://elifesciences.org/articles/90674)
+:::
+
+
+## Global view of the evolution of neuropeptides
+
+![](images/neuropeptides/global_view_of_pNPs.png){height=550}
+
+:::aside
+[Jékely, 2013](https://www.pnas.org/doi/full/10.1073/pnas.1221833110)
+:::
+
+## Global view of the evolution of neuropeptides
+
+![](images/neuropeptides/Neuropeptide_distribution.png){height=550}
+
+:::aside
+[Jékely, 2013](https://www.pnas.org/doi/full/10.1073/pnas.1221833110)
+:::
+
+
+## Tree of main animal lineages
+
+![](images/coral/non_bilaterian_tree_Burkhardt.png){height=580}
+
+:::aside
+Pawel Burkhardt
+:::
+
+
+## Emerging marine model organisms
+
+![](images/Nematostella_Patrick.jpg){.absolute top="100" left="-80" height="300"} ![](images/Platynereis_SEM_4seg.png){.absolute top="100" left="475" height="300"} ![](images/Trichoplax_SEM.png){.absolute top="100" left="780" height="300"}
+
+```{=html}
+  <div style="position: absolute; left: 0px; top: 90px; font-size: 12px;">
+   <em>Image: Patrick Steinmetz</em>
+  </div>
+  <div style="position: absolute; left: 100px; top: 420px;">
+   <b><em>Nematostella vectensis</em></b><br>
+  </div>
+  <div style="position: absolute; left: 520px; top: 420px;">
+   <b><em>Platynereis dumerilii</em></b>
+  </div>
+  <div style="position: absolute; left: 825px; top: 420px;">
+   <b><em>Trichoplax adhaerens</em></b>
+  </div>
+```
+
+## Placozoa -- no synapses, many peptides
+
+::: columns
+::: {.column width="50%"}
+![](images/Trichoplax_SEM.png)
+
+*Trichoplax adhaerens*
+
+- placozoans - simplest animals
+- no neurons, no muscles
+- upper and lower ciliated epithelium
+- many neuropeptide-like molecules
+:::
+
+::: {.column width="50%"}
+![](images/neuropeptides/Trichoplax2.png)
+
+- few morphological cell types
+:::
+:::
+
+::: aside
+[Varoqueaux et al. (2018)](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31197-7)
+:::
+
+##  Placozoa – fission 
+
+![](movies/Trichoplax_spaltung.webm)
+
+::: aside
+[Prakash et al. (2021)](https://doi.org/10.1038/s41567-020-01134-7)
+:::
+
+
+##  Placozoa – external digestion 
+
+::: columns
+::: {.column width="50%"}
+![](images/cnidaria/Mayorova_et_al_2019_2_m_bio04567403.png){height=400}
+
+* adhearance to substrate
+* secretion of digestive enzymes
+
+:::
+::: {.column width="35%"}
+![](movies/Trichoplax_feeding.webm)
+
+* external digestion
+
+:::
+:::
+
+::: aside
+[Mayorova et al., 2019](https://doi.org/10.1242/bio.045674)
+<br>[Smith et al. 2018](https://doi.org/10.1073/pnas.1815655116)
+:::
+
+## Placozoa -- no synapses, many peptides
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/Trichoplax_pNPs1.png)
+
+- neuropeptides are expressed in specific cell populations
+- non-overlapping expression
+- over 30 proneuropeptides
+:::
+::: {.column width="50%"}
+![](images/neuropeptides/Trichoplax_pNPs2.png)
+
+- peptidergic cells tile the epithelium
+:::
+:::
+
+::: aside
+[Varoqueaux et al. (2018)](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31197-7)
+:::
+
+## Placozoa -- peptide effects
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/Trichoplax1.png)
+
+-  neuropeptides influence placozoan behaviour
+:::
+
+::: {.column width="50%"}
+![](movies/Trichoplax_LF.webm)
+
+LF peptide
+:::
+:::
+
+::: aside
+[Varoqueaux et al. (2018)](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31197-7)
+:::
+
+## Placozoa -- peptide effects
+
+::: columns
+::: {.column width="50%"}
+![](movies/Trichoplax_SIFGa.webm){height=400}
+
+SIFGamide peptide
+:::
+
+::: {.column width="50%"}
+![](movies/Trichoplax_WPPF.webm){height=400}
+
+WPPF peptide
+:::
+:::
+
+::: aside
+[Varoqueaux et al. (2018)](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31197-7)
+:::
+
+## How can we identify and characterise neuropeptide receptors?
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/GPCR_assay.png)
+:::
+::: {.column width="50%"}
+![](images/neuropeptides/MIHR_dose_curve.png)   
+:::
+:::
+
+## Identification of placozoan neuropeptide GPCRs
+
+![](images/neuropeptides/placozoan_GPCRs-1.png){height=550}
+
+:::aside
+Luis Yanez Guerra
+:::
+
+
+## Identification of placozoan neuropeptide GPCRs
+
+<br><br><br>
+
+![](images/neuropeptides/placozoan_GPCRs-2.png)
+
+:::aside
+Luis Yanez Guerra
+:::
+
+## Neuropeptides in Cnidaria
+
+![](images/neuropeptides/Nematostella_pNPs.png){height=550}
+
+::: aside
+[Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
+:::
+
+## Large-scale GPCR-peptide screen in *Nematostella*
+
+![](images/Nematostella_Patrick.jpg){.absolute top="200" left="-150" height="170"}
+
+![](images/Nematostella_GPCRs.png){.absolute left="180" top="40" height="630"}
+
+::: aside
+[Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
+:::
+
+## Mapping to single-cell data
+
+![](images/Nematostella_scRNA.svg){.absolute left="10" top="40" height="630"}
+
+::: aside
+[Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
+:::
+
+## A peptidergic connectome
+
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/NOS/peptidergic_networks_full.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=600, width=1000
+)
+```
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%"}
+<br><br><br><br><br><br>
+
+-   breeding culture, full life-cycle
+-   embryos daily, year round
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters and antibodies
+-   knock-out lines
+-   neuronal connectome
+-   whole-body neuronal activity imaging
+-   whole-animal pharmacology by bath application 😎
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## *Platynereis dumerilii*
+
+::: columns
+::: {.column width="50%"}
+![](movies/spawning_Fischer.webm){.absolute height="450"} <br><br><br><br><br><br><br><br><br><br><br><br><br><br> **Spawning** <br> movie by Albrecht Fischer
+:::
+
+::: {.column width="50%"}
+![](movies/3d_Larvae_swimming.webm) <br> **Synchronously developing larvae**
+:::
+:::
+
+## UV response in *Platynereis* larvae
+
+![](images/Platynereis_3d.jpeg){.absolute left="0" top="141" height="380"}
+
+![](movies/UV-response-elife-36440-video2.webm){.absolute left="280" top="52" height="630"}
+
+![](images/NOS/UV-response-elife-36440-fig3-v2.png){.absolute left="440" top="141" height="380"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## UV-responding brain ciliary photoreceptors (cPRCs)
+
+![](images/pressure/cPRC.png){.absolute top="60" left="70" width="900"}
+
+![](images/pressure/c_opsin1.png){.absolute top="370" left="360" width="280"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## No UV avoidance in *c-opsin1* knockouts
+
+![](images/NOS/cOps_KO_UVresponse.png){.absolute top="60" left="250" width="500"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## No cPRC response in *c-opsin1* knockouts
+
+![](images/pressure/c_opsin_KO_calcium.png){.absolute top="130" left="220" height="450"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="40%"}
+![](images/Naomi.png)
+:::
+
+::: {.column width="60%"}
+![](movies/Naomi.webm)
+:::
+:::
+
+::: footer
+[Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## The nervous system of the larva
+
+![](movies/Video_bb_neurons.webm){.absolute left="300" height="600"} <br> **\~2,000 neurons**
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="250" top="50"}
+
+::: footer
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## Circuitry of ciliary photoreceptors
+
+<br><br><br><br> ![](images/NOS/NOS_Fig1_upper_panels.png)
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Circuitry of ciliary photoreceptors
+
+![](images/NOS/Jokura_Fig1_NOS_EM.png){.absolute top="60" left="-50" width="1000"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="310" left="955" width="250"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Strong cPRC activation after UV exposure
+
+![](images/NOS/cPRC_calcium_WT.png){.absolute top="130" left="220" height="450"} ![](images/NOS/arrow1.png){.absolute top="90" left="610" height="100"}
+
+::: footer
+Kei Jokura
+:::
+
+## Many peptides and modulators in the circuit
+
+### Multiplex immunogold for neuropeptides in the EM volume
+
+::: columns
+::: {.column width="40%"}
+![](images/siGOLD_1.png)
+
+![](images/siGOLD_2.png)
+:::
+
+::: {.column width="40%"}
+![](images/siGOLD_4.png) ![](images/siGOLD_layers.png)
+:::
+:::
+
+::: footer
+[Shahidi et al. (2015)](https://elifesciences.org/articles/11147)
+:::
+
+## Mapping of (pro)neuropeptides
+
+![](images/pNPs_elife_26349-fig1-figsupp3-v3.jpg){.absolute top="50" left="-100" width="500"} ![](images/elife-26349-fig1-figsupp4-v3.jpg){.absolute top="50" left="500" width="600"}
+
+::: footer
+[Williams et al. (2017)](https://elifesciences.org/articles/26349)
+:::
+
+## Single-cell data for cPRC cells and their interneurons
+
+![](images/NOS/cPRC_NOS_scRNA.png){.absolute top="50" left="320" height="610"} ::: footer Kei Jokura :::
+
+## Nitric-oxyde synthase in postsynaptic interneurons
+
+![](images/NOS/Jokura_Fig1_NOS_HCR.png)
+
+```{=html}
+ <style>
+  .left-align {
+    text-align: left;
+  }
+</style>
+
+<div class="left-align">
+  HCR   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;&emsp;
+  Transgenic labelling
+</div>
+```
+## NO is produced in the neuropil after UV stimulation
+
+![](images/NOS/DAFFM.png){.absolute left="130" top="60" width="800"} ![](images/NOS/DAFFM_formula.jpeg){.absolute left="230" top="460" width="600"}
+
+::: footer
+[DAF-FM Diacetate](https://www.thermofisher.com/order/catalog/product/D23844)
+:::
+
+## *NOS* mutants have altered cPRC response
+
+![](images/NOS/NOS-Architecture.png){.absolute left="50" top="60" width="450"}
+
+![](images/NOS/WTvsNOS11_cPRC.png){.absolute left="-30" top="270" height="300"} ![](images/NOS/WTvsNOS11_INNOS.png){.absolute left="600" top="270" height="300"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: footer
+Nobuo Ueda, Kei Jokura
+:::
+
+## *NOS* mutants have altered INRGW and motoneuron response
+
+![](images/NOS/WTvsNOS23_INRGW.png){.absolute left="-30" top="270" height="300"} ![](images/NOS/WTvsNOS11_Ser-h1.png){.absolute left="600" top="270" height="300"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: footer
+Kei Jokura
+:::
+
+## *NOS* mutants show defective UV avoidance
+
+![](images/NOS/vertical_tracking_position_sideUV_2d.png){.absolute left="150" top="80" width="800"}
+
+::: footer
+Kei Jokura
+:::
+
+## Two unusual guanylyl cyclases in the cPRCs
+
+```{=html}
+  <div style="position: absolute; left: 70px; top: 320px">
+    <b><em>NIT-GC1</em> RNA</b>
+  </div>
+  <div style="position: absolute; left: 35px; top: 400px;">
+   <b>NIT-GC1 protein</b>
+  </div>
+    <div style="position: absolute; left: 850px; top: 320px">
+    <b><em>NIT-GC2</em> RNA</b>
+  </div>
+    <div style="position: absolute; left: 850px; top: 400px">
+    <b>NIT-GC2 protein</b>
+  </div>
+```
+![](images/NOS/HCR-IHC_51_AP_NITGC1_actub_52.24um.png){.absolute left="230" top="60" height="290"}
+
+![](images/NOS/IHC_55_AP_NITGC1_actub_58.47um.png){.absolute left="230" top="370" height="290"}
+
+![](images/NOS/HCR-IHC_51_AP_NITGC2_actub_52%C2%B5m.png){.absolute left="540" top="60" height="290"}
+
+![](images/NOS/IHC_55_AP_NITGC2_actub_60.77um.png){.absolute left="540" top="370" height="290"}
+
+![](images/NOS/NIT_GC_domains.png){.absolute left="860" top="120" height="140"}
+
+::: footer
+Kei Jokura
+:::
+
+## Two unusual guanylyl cyclases in the cPRCs
+
+![](images/NOS/NIT_GCb.png){.absolute left="-30" top="60" width="600"} ![](images/NOS/NIT_GCa.png){.absolute left="575" top="60" width="600"}
+
+::: footer
+Kei Jokura
+:::
+
+## NIT-GC morphants have altered circuit activity
+
+![](images/NOS/NIT1_MO_cPRC.png){.absolute left="-30" top="270" height="250"} ![](images/NOS/NIT2_MO1_2_cPRC.png){.absolute left="660" top="270" height="250"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: footer
+Kei Jokura
+:::
+
+## Mathematical modelling of the circuit
+
+![](/images/NOS/NOS_block_diagram.png)
+
+::: footer
+with Piotr Slowinski and Kyle Wedgewood, LSI Exeter
+:::
+
+## Model fitting
+
+```{=html}
+  <div style="position: absolute; left: 0px; top: 320px">
+    <b>wild type</b>
+  </div>
+  <div style="position: absolute; left: 18px; top: 400px;">
+   <b><em>NOS-11</em></b>
+  </div>
+    <div style="position: absolute; left: 960px; top: 320px">
+    <b><em>NOS-23</em></b>
+  </div>
+    <div style="position: absolute; left: 960px; top: 400px">
+    <b>NIT-GC2 mo.</b>
+  </div>
+```
+![](images/NOS/wt_fits.svg){.absolute left="120" top="60" height="270"}
+
+![](images/NOS/ko_NOS11_fits.svg){.absolute left="120" top="370" height="270"}
+
+![](images/NOS/ko_NOS23_fits.svg){.absolute left="540" top="60" height="270"}
+
+![](images/NOS/mo_fits.svg){.absolute left="540" top="370" height="270"}
+
+::: footer
+with Piotr Slowinski and Kyle Wedgewood, LSI Exeter
+:::
+
+## Integration and memory of UV exposure
+
+![](movies/NOS_light_pulses.webm){.absolute left="100" height="600"}
+
+::: footer
+[with Piotr Slowinski and Kyle Wedgewood, LSI Exeter]()
+:::
+
+## Integration and memory of UV exposure
+
+![](images/NOS/visNetwork_INNOS.png){.absolute left="150" top="160" width="750"}
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Emelie Brodrick
+-   Cyrielle Kaltenrieder
+-   Réza Shahidi
+-   Milena Marinkovic
+-   Daniel Thiel
+-   Sanja Jasek
+-   Cameron Hird
+-   Rebecca Turner
+-   Luis A. Bezares-Calderón
+-   Kei Jokura
+-   Luis Yanez Guerra
+-   Alexandra Kerbl
+:::
+
+::: {.column width="56%"}
+![](images/Lab_pic_LSI_2023Jan.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="22%"}
+<u>*Former lab members*</u>
+
+-   Albina Asadulina
+-   James Beard
+-   Markus Conzelmann
+-   Nadine Randel
+-   Philipp Bauknecht
+-   Martin Gühmann
+-   Cristina Pineiro-Lopez
+-   Nobuo Ueda
+-   Aurora Panzera
+-   Csaba Verasztó
+-   Elizabeth Williams
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="710" width="100"}
+
+## We have recently moved to Heidelberg
+
+![](images/Heidelberg.jpeg){.absolute top="60" left="0" height="360"} ![](images/COS_Logo.png){.absolute top="450" left="660" height="100"} ![](images/COS.webp){.absolute top="60" left="650" height="360"} <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> Postdoc openings - please get in touch!

@@ -11,6 +11,12 @@ format:
 <br>
 <br>
 
+__"On chemical and synaptic brains and the evolution of nervous systems"__ <br>
+[Presentation](https://jekelylab.github.io/Warsaw_School_of_Ideas_in_Neuroscience_July2024.html#/title-slide/) at the School of Ideas in Neuroscience by [Nencki Open Lab](https://nenckiopenlab.org/), Warsaw (July 15, 2024). 
+
+
+<br>
+
 __"Origin and evolution of animal eyes and light-guided behaviours"__ <br>
 [Presentation](https://jekelylab.github.io/Warsaw_Uni_EyeEvo_July12_2024.html#/title-slide/) at the [Nencki Open Lab](https://nenckiopenlab.org/) Academy of Neuroscience public lecture at the Faculty of Physics of the University of Warsaw (July 12, 2024). 
 
