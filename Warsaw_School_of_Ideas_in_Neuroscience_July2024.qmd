@@ -45,6 +45,70 @@ css: xaringan-themer-GJ.css
 [Widing et al. 2023](https://www.science.org/doi/full/10.1126/science.add9330)
 :::
 
+## Origin of the nervous system as a reflex arc?
+
+::: columns
+::: {.column width="80%"}
+![](images/history/Parker_book.png){height=550}
+:::
+::: {.column width="20%"}
+![](images/history/800px-George_Howard_Parker.jpg)
+George Howard Parker (1864 - 1955)
+:::
+:::
+
+:::aside
+[Parker 1919](https://archive.org/details/bwb_P8-BNW-265/page/n7/mode/2up)
+:::
+
+## Origin of the nervous system as a reflex arc?
+
+::: columns
+::: {.column width="50%"}
+![](images/history/Parker_reflex1.png)
+
+- independent effectors evolved first
+- then receptor-effector systems
+- then organisation into nerve nets
+- diffuseness of transmission (no centralisation)
+
+::: 
+::: {.column width="50%"}
+![](images/history/Parker_reflex2.png)
+![](images/history/Parker_reflex3.png)
+
+:::
+:::
+
+:::aside
+[Parker 1919](https://archive.org/details/bwb_P8-BNW-265/page/n7/mode/2up)
+:::
+
+
+## Neuronal communication by chemical signals?
+
+::: columns
+::: {.column width="80%"}
+<br><br>
+
+- argued against the “connectionist view”
+- proposed instead that neurons could communicate by specific chemical signals
+- like a radio broadcast
+- chemicals diffuse through the nervous system 
+- detected by specific chemical receptors in the target cells
+- communications could occur in the absence of synaptic transmission
+- discovery of pituitary hormones (1950ies)
+:::
+::: {.column width="20%"}
+![](images/history/Paul_Alfred_Weiss.jpg)
+Paul Alfred Weiss (1898 – 1989)
+:::
+:::
+
+:::aside
+[Parker 1919](https://archive.org/details/bwb_P8-BNW-265/page/n7/mode/2up)
+:::
+
 ## Chemical signalling between cells
 
 ::: columns
@@ -363,6 +427,16 @@ Luis Yanez Guerra
 
 ::: aside
 [Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
+:::
+
+## Peptidergic nerve nets
+
+![](/images/neuropeptides/Nematostella_LWamide.png){height=500}
+
+LWamide transgene
+
+:::aside
+[Havrilak et al. 2017](https://www.sciencedirect.com/science/article/pii/S0012160617302452?via%3Dihub)
 :::
 
 ## Large-scale GPCR-peptide screen in *Nematostella*
