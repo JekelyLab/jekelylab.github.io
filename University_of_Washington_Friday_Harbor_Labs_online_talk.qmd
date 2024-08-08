@@ -1,0 +1,766 @@
+---
+title: "Neurobiology of the *Platynereis* ciliated larva"
+subtitle: "University of Washington’s Friday Harbor Labs <br> Recorded talk Aug 8, 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University"
+format:
+  revealjs: 
+   # embed-resources: true
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+---
+
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%"}
+<br><br><br><br><br><br><br><br>
+
+-   breeding culture
+-   microinjection, transgenesis
+-   neuron-specific promoters and antibodies
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging 😎
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## *Platynereis dumerilii*
+
+::: columns
+::: {.column width="50%"}
+![](movies/spawning_Fischer.webm){.absolute height="450"} <br><br><br><br><br><br><br><br><br><br><br><br><br><br> **Spawning** <br> movie by Albrecht Fischer
+:::
+
+::: {.column width="50%"}
+![](movies/3d_Larvae_swimming.webm) <br> **Synchronously developing larvae**
+:::
+:::
+
+
+
+## Simple direction-sensing eyespots in the trochophore
+
+::: columns
+::: {.column width="50%"}
+![](images/Phototaxis/eyespots.png){height=480}
+:::
+::: {.column width="50%"}
+![](images/Phototaxis/trunkbraineyeeyeciliary.svg){height=480}
+trochophora larva
+:::
+:::
+
+::: aside
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## Direct sensory-motor coupling of eyes to cilia
+
+::: columns
+::: {.column width="50%"}
+![](images/Phototaxis/pigment_cup.png){height=480}
+pigment cup of eye
+:::
+::: {.column width="50%"}
+![](images/Phototaxis/rhabdomaxonciliated.svg){height=480}
+photoreceptor cell
+:::
+:::
+
+::: aside
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## The eyespots mediate phototaxis
+
+![](movies/early_phototaxis.webm)
+![](images/Phototaxis/lamp.jpg){.absolute top="270" left="820" height="40"}
+
+::: aside
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## Helical swimming, sensing and turning are tightly linked
+
+![](movies/Platynereis_helical_swimming.webm){.absolute left="-100" top="180" width="500" loop="true"}
+
+![](images/Phototaxis/helix.png){.absolute left="-100" top="500" width="500"} ![](images/Phototaxis/model_larva.svg){.absolute left="450" top="200" width="350"} ![](images/Phototaxis/model_loop_spin.svg){.absolute left="820" top="200" width="400"}
+
+::: footer
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## Visual phototaxis with 2-pixel eyes
+
+::: columns
+::: {.column width="50%"}
+![](movies/phototactic_turn.webm){height=400}
+:::
+::: {.column width="50%"}
+![](movies/phototaxis.webm){height=400}
+:::
+:::
+
+::: footer
+[Randel et al. 2014](https://elifesciences.org/articles/02730)
+:::
+
+
+
+
+
+## Whole-body volume EM of an entire *Platynereis* larva
+
+::: columns
+::: {.column width="40%"}
+![](images/Naomi.png)
+:::
+
+::: {.column width="60%"}
+![](movies/Naomi.webm)
+:::
+:::
+
+::: footer
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## The nervous system of the larva
+
+![](movies/Video_bb_neurons.webm){.absolute left="300" height="600"} <br> **\~2,000 neurons**
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="250" top="50"}
+
+::: footer
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+
+## Annotation of all cell types
+
+![](images/Connectome/Figure3.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Information flow from sensors to effectors
+
+![](images/Connectome/Figure4_fig_suppl6.png){height=530}
+![](images/Connectome/Fig4_label_celltype_distr.png){height=20}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+## Sensory cell synapses
+
+![](images/Connectome/Fig1_synapses.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+## Sensory cells in the head
+
+<br><br>
+
+![](images/Connectome/Figure6_SNb.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+## Mushroom bodies
+
+<br>
+
+![](images/Connectome/MB_Overview_Figure8.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## The mechanosensory girdle
+
+<br>
+
+![](images/Connectome/MS_girdle.png)
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## Hydrodynamic startle response
+
+![](movies/startle.webm){.absolute top="100" left="250" height="550"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+
+## Neural circuit of the visual eyes
+
+:::columns
+:::{.column width="30%"}
+![](movies/phototactic_turn.webm){width=275}
+![](images/Connectome/eye_Circuit_rendering){width=275}
+:::
+:::{.column width="70%"}
+<br>
+![](images/Phototaxis/phototaxis_circuit.png)
+:::
+:::
+
+:::aside
+[Randel et al. 2014](https://doi.org/10.7554/elife.02730)
+:::
+
+## Simple eyespots are widespread in marine larvea
+
+![](images/Phototaxis/Arendt_2002_eyespots.png){height=550}
+
+:::aside
+[Arendt, 2001](https://royalsocietypublishing.org/doi/pdf/10.1098/rstb.2001.0971)
+:::
+
+
+## In quest of the origin of eyes
+
+![](images/ERC_Figure1.png){height=550}
+
+
+## UV response in *Platynereis* larvae
+
+![](images/NOS/vertical_experiment_setup.png){.absolute left="-50" top="141" height="380"}
+![](movies/UV-response-elife-36440-video2.webm){.absolute left="550" top="52" height="630"}
+![](images/Platynereis_3d.jpeg){.absolute left="800" top="141" height="380"}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## UV response in *Platynereis* larvae
+
+![](images/NOS/UV-response-elife-36440-fig3-v2.png)
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Brain ciliary photoreceptors with ramified cilia
+
+<br><br><br>
+![](images/pressure/cPRC.png)
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Ciliary photoreceptors express a UV opsin, c-opsin1
+
+
+```{r}
+library(png)
+library(cowplot)
+library(patchwork)
+library(ggplot2)
+
+panel_cOpsin <- ggdraw() + 
+  draw_image(readPNG("images/pressure/c_opsin1.png"))
+
+panel_HCR1 <- ggdraw() + 
+  draw_image(readPNG("images/NOS/HCR_2d_647-NIT-GC2_546-c-opsin1_AP_c_106.62um.png")) +
+  draw_label("HCR c-opsin1", x = 0.5, y = 0.9, size = 14) 
+panel_HCR2 <- ggdraw() + 
+  draw_image(readPNG("images/NOS/HCR_2d_647-NIT-GC2_546-c-opsin1_AP_106.62um.png")) +
+  draw_label("HCR c-opsin1, NIT-GC2", x = 0.5, y = 0.9, size = 14) 
+panel_cOpsin + panel_HCR1 + panel_HCR2 + 
+  patchwork::plot_layout(design = "A#B#C", 
+                         widths = c(1, 0.05, 1, 0.05, 1)) & 
+  ggplot2::theme(plot.tag = element_text(size = 12))
+
+```
+
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## Reduced ciliary compartment in *c-opsin1* mutants
+
+![](images/pressure/cPRC_WTvsCops.png){.absolute top="200" left="-50" width="500"}
+
+![](images/pressure/PanelVolumecPRCs.png){.absolute top="150" left="500" height="350"}
+
+::: aside
+[Luis A. Bezares-Calderón et al. biorxiv 2023](https://www.biorxiv.org/content/10.1101/2023.02.28.530398v1)
+:::
+
+## UV avoidance is dependent on c-opsin1
+
+![](images/NOS/cOps_KO_UVresponse.png){height=550}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+
+
+## Circuitry of ciliary photoreceptors
+
+<br><br><br> ![](images/NOS/NOS_Fig1_upper_panels.png)
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Circuitry of ciliary photoreceptors
+
+
+::: columns
+::: {.column width="55%"}
+<br>
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/visNetwork_INNOS.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=400, width=700
+)
+```
+
+:::
+::: {.column width="45%"}
+
+![](images/pressure/cPRC_circuit_Catmaid.png)
+:::
+:::
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Serotonergic neurons to activate cilia
+
+::: columns
+::: {.column width="43%"}
+**Ser-h1 neurons, EM reconstruction** ![](movies/video_Ser_h1.webm)
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+## Strong cPRC activation after UV exposure
+
+![](images/NOS/UV_stimulation.png){.absolute top="200" left="-30" height="310"}
+![](images/NOS/cPRC_calcium_WT.png){.absolute top="130" left="450" height="450"} ![](images/NOS/arrow1.png){.absolute top="90" left="840" height="100"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## UV response is *c-opsin1*-dependent
+
+![](images/pressure/c_opsin_KO_calcium.png){.absolute top="130" left="220" height="450"}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Nitric-oxide synthase in postsynaptic interneurons
+
+<br><br>
+
+![](images/NOS/Jokura_Fig1_NOS_HCR.png)
+
+```{=html}
+ <style>
+  .left-align {
+    text-align: left;
+  }
+</style>
+
+<div class="left-align">
+  &emsp;&emsp;&emsp;&emsp;&emsp; HCR   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;
+  Transgenic labelling
+  &emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;
+  immunostaining
+</div>
+```
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## NO is produced in the neuropil after UV stimulation
+
+![](images/NOS/DAFFM_neuropil.png){.absolute left="0" top="60" height="350"}
+![](images/NOS/DAFFM.png){.absolute left="450" top="60" height="350"}
+
+![](images/NOS/DAFFM_formula.jpeg){.absolute left="230" top="420" width="600"}
+
+::: aside
+[DAF-FM Diacetate](https://www.thermofisher.com/order/catalog/product/D23844)
+:::
+
+## *NOS* mutants have altered cPRC response
+
+![](images/NOS/NOS-Architecture.png){.absolute left="50" top="60" width="450"}
+
+![](images/NOS/WTvsNOS11_cPRC.png){.absolute left="-30" top="270" height="300"} ![](images/NOS/WTvsNOS11_INNOS.png){.absolute left="600" top="270" height="300"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## *NOS* mutants have altered INRGW response
+
+![](images/NOS/NOS-Architecture.png){.absolute left="50" top="60" width="450"}
+![](images/NOS/WTvsNOS23_INRGW.png){.absolute left="230" top="270" height="300"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## Ciliary response to UV in wt and *NOS* mutants
+
+![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: columns
+:::{.column width="50%"}
+<br><br><br><br><br><br>
+![](images/NOS/CBF_3d_plot.png)
+ciliary beat frequency
+:::
+:::{.column width="50%"}
+<br><br><br><br><br><br>
+![](images/NOS/vertical_tracking_mean_speed_3d.png)
+Swimming speed
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+## *NOS* mutants show defective UV avoidance
+
+<br><br>
+![](images/NOS/vertical_tracking_position_sideUV_3d.png)
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+## NO signal is short-range
+
+![](images/NOS/NO_signal_range.png)
+
+::: aside
+[Garthwaite, 2015](http://dx.doi.org/10.1113/JP270297)
+:::
+
+## NOS protein in the INNOS dendritic compartment
+
+```{r}
+library(png)
+library(cowplot)
+library(patchwork)
+library(ggplot2)
+
+
+#read png convert to image panel
+arrow <- data.frame(x1 = 0.95, x2 = 0.95, y1 = 0.8, y2 = 0.9)
+
+panel_INNOS_split <- ggdraw() + 
+  draw_image(readPNG("images/NOS/INNOS_axon_dendrite_split.png")) +
+  geom_segment(aes(x = x1, y = y1, xend = x2, yend = y2), data = arrow, 
+               arrow = arrow(ends = "both", type = "closed", length = unit(0.1,"cm")),
+               lineend = "butt",
+               linejoin = "mitre",
+               arrow.fill = "black", size = 0.2) +
+  draw_label("D", x = 0.95, y = 0.93, size = 8) +
+  draw_label("V", x = 0.95, y = 0.77, size = 8) +
+  draw_label("INNOS", x = 0.4, y = 0.9, size = 14) +
+  draw_label("dendrite", x = 0.8, y = 0.45, size = 12, color='grey40') +
+  draw_label("axon", x = 0.75, y = 0.2, size = 12, color='grey20') +
+  draw_label("*", x = 0.52, y = 0.36, color='black',size = 18) 
+
+panel_cPRC <- ggdraw() + 
+  draw_image(readPNG("images/NOS/cPRC_synapses.png")) +
+  draw_label("cPRC", x = 0.5, y = 0.9, size = 14) +
+  draw_label("*", x = 0.5, y = 0.36, color='black',size = 18)
+
+panel_NOS_IHC <- ggdraw() + 
+  draw_image(readPNG("images/NOS/IHC_NOS_3d_48.1um_3.png")) +
+  draw_label("anti-NOS immuno", x = 0.5, y = 0.9, size = 14) +
+  draw_label("*", x = 0.5, y = 0.49, color='white',size = 18) +
+  draw_line(x = c(0.1, 0.51), y = c(0.17, 0.17), color = "white", size = 1) +
+  draw_label(expression(paste("20 ", mu, "m")), x = 0.3, y = 0.2, color = "white", size = 12)
+
+panel_cPRC + panel_INNOS_split + panel_NOS_IHC + 
+  patchwork::plot_layout(design = "A#B#C", 
+                         widths = c(1, 0.05, 0.6, 0.05, 1)) & 
+  ggplot2::theme(plot.tag = element_text(size = 12))
+
+```
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+## Two unusual guanylyl cyclases in the cPRCs
+
+```{=html}
+  <div style="position: absolute; left: 50px; top: 320px">
+    <b><em>NIT-GC1</em> RNA</b>
+  </div>
+  <div style="position: absolute; left: 15px; top: 400px;">
+   <b>NIT-GC1 protein</b>
+  </div>
+    <div style="position: absolute; left: 830px; top: 320px">
+    <b><em>NIT-GC2</em> RNA</b>
+  </div>
+    <div style="position: absolute; left: 830px; top: 400px">
+    <b>NIT-GC2 protein</b>
+  </div>
+```
+![](images/NOS/HCR-IHC_51_AP_NITGC1_actub_52.24um.png){.absolute left="210" top="60" height="290"}
+
+![](images/NOS/IHC_55_AP_NITGC1_actub_58.47um.png){.absolute left="210" top="370" height="290"}
+
+![](images/NOS/HCR-IHC_51_AP_NITGC2_actub_52%C2%B5m.png){.absolute left="520" top="60" height="290"}
+
+![](images/NOS/IHC_55_AP_NITGC2_actub_60.77um.png){.absolute left="520" top="370" height="290"}
+
+![](images/NOS/NIT_GC_domains.png){.absolute left="810" top="120" height="140"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## Two unusual guanylyl cyclases in the cPRCs
+
+![](images/NOS/NIT_GCb.png){.absolute left="-20" top="60" width="560"} ![](images/NOS/NIT_GCa.png){.absolute left="565" top="60" width="560"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## NIT-GC1 producs cGMP upon NO addition
+
+![](images/NOS/NITGC1_cell_culture.png){height=550}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## NIT-GC1 mediates NO-feedback
+
+::: columns
+::: {.column width=30%}
+<br><br><br>
+![](images/NOS/IHC_55_AP_NITGC1_actub_58.47um.png)
+anti-NIT-GC1 immuno
+:::
+::: {.column width=70%}
+<br><br><br>
+![](images/NOS/NIT1_MO_cPRC.png)
+:::
+:::
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## NIT-GC2 mediates phototransduction
+
+::: columns
+::: {.column width=30%}
+<br><br><br>
+![](images/NOS/IHC_55_AP_NITGC2_actub_60.77um.png)
+anti-NIT-GC2 immuno
+:::
+::: {.column width=70%}
+![](images/NOS/NIT2_MO1_2_cPRC.png){width=430}
+![](images/NOS/NIT2MO_INNOS.png){width=430}
+:::
+:::
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## Mathematical modelling of the circuit
+
+![](/images/NOS/fitting_data_block_diagram.png){.absolute left="40" top="70" height="550"} ![](/images/NOS/model_2.png){.absolute left="540" top="70" height="550"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## Model fitting
+
+```{=html}
+  <div style="position: absolute; left: 0px; top: 280px">
+    <b>wild type</b>
+  </div>
+  <div style="position: absolute; left: 18px; top: 400px;">
+   <b><em>NOS-11</em></b>
+  </div>
+    <div style="position: absolute; left: 950px; top: 280px">
+    <b><em>NOS-23</em></b>
+  </div>
+    <div style="position: absolute; left: 950px; top: 400px">
+    <b>NIT-GC2 mo.</b>
+  </div>
+```
+![](images/NOS/wt_fits.svg){.absolute left="120" top="40" height="270"}
+
+![](images/NOS/ko_NOS11_fits.svg){.absolute left="120" top="350" height="270"}
+
+![](images/NOS/ko_NOS23_fits.svg){.absolute left="540" top="40" height="270"}
+
+![](images/NOS/mo_fits.svg){.absolute left="540" top="350" height="270"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## Integration and memory of UV exposure
+
+![](movies/NOS_light_pulses.webm){.absolute left="100" height="550"}
+
+::: aside
+[with Piotr Slowinski and Kyle Wedgewood, LSI Exeter]()
+:::
+
+## Synaptic+chemical connectomes -> circuit dynamics and function
+
+![](/images/NOS/model_2.png){height=550}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## Pressure response in *Platynereis* larvae
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/Platynereis_3d.jpeg){.absolute left="457" top="50" width="140"}
+
+![](movies/pressure_response.webm){.absolute left="600" top="62" width="280"}
+
+![](images/Luis_Bez.jpg){.absolute left="883" top="50" width="200"}
+
+::: footer
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306)
+:::
+
+## Ciliary photoreceptor cells sense Δ pressure
+
+::: columns
+::: {.column width="45%"}
+**Microscopy pressure chamber** ![](images/pressure/CaImaging_Schematic.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="50%"}
+**Calcium imaging** ![](images/pressure/CaimagingNovs750mbpanel.png)
+:::
+:::
+
+::: footer
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306)
+:::
+
+## Photoreceptor responses to pressure are graded
+
+![](images/pressure/cPRC_calcium_quantification.jpg){.absolute top="100" left="40" height="450"}
+
+::: footer
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306)
+:::
+
+## Pressure increases ciliary beating through serotonergic cells
+
+![](images/pressure/Construct_TPH-TomTetxnolabs.png){.absolute left="-50" width="300" top="250"}
+
+![](images/pressure/TPH-TeTxLC_noventralnolabs.png){.absolute left="280" width="250" top="100"}
+
+![](images/pressure/PanelPeriodvsmax.CBF_TetxvsControl2dpf.png){.absolute left="550" width="550" top="100"}
+
+::: footer
+[Bezares-Calderón et al. 2023](https://elifesciences.org/reviewed-preprints/94306)
+:::
+
+## Marine larvae are complex...
+
+![](movies/Video1_Connectome_paper.webm){height=550}
+
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Emelie Brodrick
+-   Cyrielle Kaltenrieder
+-   Réza Shahidi
+-   Milena Marinkovic
+-   Daniel Thiel
+-   Sanja Jasek
+-   Cameron Hird
+-   Rebecca Turner
+-   Luis A. Bezares-Calderón
+-   Kei Jokura
+-   Luis Yanez Guerra
+-   Alexandra Kerbl
+:::
+
+::: {.column width="56%"}
+![](images/Lab_pic_LSI_2023Jan.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="22%"}
+<u>*Former lab members*</u>
+
+-   Albina Asadulina
+-   James Beard
+-   Markus Conzelmann
+-   Nadine Randel
+-   Philipp Bauknecht
+-   Martin Gühmann
+-   Cristina Pineiro-Lopez
+-   Nobuo Ueda
+-   Aurora Panzera
+-   Csaba Verasztó
+-   Elizabeth Williams
+:::
+:::

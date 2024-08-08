@@ -11,6 +11,14 @@ format:
 <br>
 <br>
 
+
+
+__"Neurobiology of the *Platynereis* ciliated larva"__ <br>
+[Online recorded presentation](https://jekelylab.github.io/.webm) and [slides](https://jekelylab.github.io/University_of_Washington_Friday_Harbor_Labs_online_talk.html#/title-slide/) for the "Functional Biodiversity course" at the University of Washington’s Friday Harbor Labs (August 9, 2024). 
+
+
+<br>
+
 __"On chemical and synaptic brains and the evolution of nervous systems"__ <br>
 [Presentation](https://jekelylab.github.io/Warsaw_School_of_Ideas_in_Neuroscience_July2024.html#/title-slide/) at the School of Ideas in Neuroscience by [Nencki Open Lab](https://nenckiopenlab.org/), Warsaw (July 15, 2024). 
 
