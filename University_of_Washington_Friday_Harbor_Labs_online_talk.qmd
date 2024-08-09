@@ -232,7 +232,7 @@ photoreceptor cell
 [Randel et al. 2014](https://doi.org/10.7554/elife.02730)
 :::
 
-## Simple eyespots are widespread in marine larvea
+## Simple eyespots are widespread in marine larvae
 
 ![](images/Phototaxis/Arendt_2002_eyespots.png){height=550}
 
