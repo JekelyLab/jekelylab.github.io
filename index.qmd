@@ -12,6 +12,11 @@ format:
 <br>
 
 
+__"Neuronal mechanism of hydrostatic pressure sensation in zooplankton"__ <br>
+[Presentation](https://jekelylab.github.io/NIBB_Okazaki_Oct2024.html#/title-slide/) during the 2nd NIBB-COS Heidelberg Joint Workshop at [NIBB, Okazaki](https://www.nibb.ac.jp/en/) (Oct 8-10, 2024). 
+
+
+<br>
 
 __"Neurobiology of the *Platynereis* ciliated larva"__ <br>
 [Online recorded presentation](https://www.dropbox.com/scl/fi/6iwpx7mdswhj21mk57647/Friday_Harbor_Aug8_2024_online_video.mp4?rlkey=95161na6milyvj10x9s12id3h&st=d4g9vh59&dl=0) and [slides](https://jekelylab.github.io/University_of_Washington_Friday_Harbor_Labs_online_talk.html#/title-slide/) for the "Functional Biodiversity course" at the University of Washington’s Friday Harbor Labs (August 9, 2024). 
