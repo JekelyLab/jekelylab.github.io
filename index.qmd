@@ -11,6 +11,11 @@ format:
 <br>
 <br>
 
+__"Neurobiology of marine zooplankton"__ <br>
+[Presentation](https://jekelylab.github.io/Shimoda_Marine_Station_Oct2024.html#/title-slide/) at the [Shimoda Marine Station](https://www.shimoda.tsukuba.ac.jp/en/about.html) (Oct 15, 2024). 
+
+<br>
+
 
 __"Neuronal mechanism of hydrostatic pressure sensation in zooplankton"__ <br>
 [Presentation](https://jekelylab.github.io/NIBB_Okazaki_Oct2024.html#/title-slide/) during the 2nd NIBB-COS Heidelberg Joint Workshop at [NIBB, Okazaki](https://www.nibb.ac.jp/en/) (Oct 8-10, 2024). 
