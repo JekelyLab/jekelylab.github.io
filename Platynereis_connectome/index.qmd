@@ -10,6 +10,12 @@ format:
 ### by the Jékely lab, [Centre for Organismal Studies](https://www.cos.uni-heidelberg.de/en), Heidelberg University
 
 <br>
+
+```{html}
+<iframe width="780" height="500" src="https://jekelylab.github.io/Platynereis_connectome/network_with__IO_layout_transmitters.html" title="The cell-type-level connectome of the three-day-old *Platynereis dumerilii* larva."></iframe>
+
+```
+
 <br>
 
 [Cell type compendium](https://jekelylab.github.io/Platynereis_connectome/celltype_compendium/index.html) of the three-day-old *Platynereis dumerilii* larva.
@@ -18,11 +24,11 @@ format:
 
 [Interactive visualisation of the connectome graph](https://jekelylab.github.io/Platynereis_connectome/Full_connectome_segments.html), same graph as before, but the nodes are coloured by body segment.
 
-[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/connectome.html/) of the three-day-old *Platynereis dumerilii* larva. Nodes represent cell types (cells groupped into one node by cell type).
+[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/connectome.html) of the three-day-old *Platynereis dumerilii* larva. Nodes represent cell types (cells groupped into one node by cell type).
 
-[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/network_with__IO_layout_transmitters.html/), same graph as before, but the nodes are coloured by transmitter phenotype.
+[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/network_with__IO_layout_transmitters.html), same graph as before, but the nodes are coloured by transmitter phenotype.
 
-[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/network_with_IO_layout.html/), same graph as before, but the nodes are arranged based on the ratio of incoming to outgoing synapses.
+[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/network_with_IO_layout.html), same graph as before, but the nodes are arranged based on the ratio of incoming to outgoing synapses.
 
 
 
