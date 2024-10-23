@@ -12,5 +12,19 @@ format:
 <br>
 <br>
 
-[Cell type compendium](https://jekelylab.github.io/Platynereis_connectome/celltype_compendium/index.html/) of the three-day-old *Platynereis dumerilii* larva.
+[Cell type compendium](https://jekelylab.github.io/Platynereis_connectome/celltype_compendium/index.html) of the three-day-old *Platynereis dumerilii* larva.
+
+[Interactive visualisation of the connectome graph](https://jekelylab.github.io/Platynereis_connectome/Full_connectome_modules.html) of the three-day-old *Platynereis dumerilii* larva, containing all cells in the whole-body connectome. Nodes represent individual neurons or effector cells. Directed edges (arrows) represent synaptic connections from the presynaptic neuron to the postsynaptic cell. Nodes are coloured by connectome module.
+
+[Interactive visualisation of the connectome graph](https://jekelylab.github.io/Platynereis_connectome/Full_connectome_segments.html), same graph as before, but the nodes are coloured by body segment.
+
+[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/connectome.html/) of the three-day-old *Platynereis dumerilii* larva. Nodes represent cell types (cells groupped into one node by cell type).
+
+[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/network_with__IO_layout_transmitters.html/), same graph as before, but the nodes are coloured by transmitter phenotype.
+
+[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/network_with_IO_layout.html/), same graph as before, but the nodes are arranged based on the ratio of incoming to outgoing synapses.
+
+
+
+
 
