@@ -1,0 +1,103 @@
+---
+format:
+  html:
+    smooth-scroll: true
+    theme: [default, custom_index.scss]  
+---
+
+## Recent presentations by Gáspár Jékely
+### [Centre for Organismal Studies](https://www.cos.uni-heidelberg.de/en), Heidelberg University
+
+<br>
+<br>
+
+__"Neurobiology of marine zooplankton"__ <br>
+[Presentation](https://jekelylab.github.io/Shimoda_Marine_Station_Oct2024.html#/title-slide/) at the [Shimoda Marine Station](https://www.shimoda.tsukuba.ac.jp/en/about.html) (Oct 15, 2024). 
+
+<br>
+
+
+__"Neuronal mechanism of hydrostatic pressure sensation in zooplankton"__ <br>
+[Presentation](https://jekelylab.github.io/NIBB_Okazaki_Oct2024.html#/title-slide/) during the 2nd NIBB-COS Heidelberg Joint Workshop at [NIBB, Okazaki](https://www.nibb.ac.jp/en/) (Oct 8-10, 2024). 
+
+
+<br>
+
+__"Neurobiology of the *Platynereis* ciliated larva"__ <br>
+[Online recorded presentation](https://www.dropbox.com/scl/fi/6iwpx7mdswhj21mk57647/Friday_Harbor_Aug8_2024_online_video.mp4?rlkey=95161na6milyvj10x9s12id3h&st=d4g9vh59&dl=0) and [slides](https://jekelylab.github.io/University_of_Washington_Friday_Harbor_Labs_online_talk.html#/title-slide/) for the "Functional Biodiversity course" at the University of Washington’s Friday Harbor Labs (August 9, 2024). 
+
+
+<br>
+
+__"On chemical and synaptic brains and the evolution of nervous systems"__ <br>
+[Presentation](https://jekelylab.github.io/Warsaw_School_of_Ideas_in_Neuroscience_July2024.html#/title-slide/) at the School of Ideas in Neuroscience by [Nencki Open Lab](https://nenckiopenlab.org/), Warsaw (July 15, 2024). 
+
+
+<br>
+
+__"Origin and evolution of animal eyes and light-guided behaviours"__ <br>
+[Presentation](https://jekelylab.github.io/Warsaw_Uni_EyeEvo_July12_2024.html#/title-slide/) at the [Nencki Open Lab](https://nenckiopenlab.org/) Academy of Neuroscience public lecture at the Faculty of Physics of the University of Warsaw (July 12, 2024). 
+
+<br>
+
+__"Insights into circuit evolution and cell-type diversity from the whole-body connectome of the *Platynereis* larva"__<br>
+[Presentation](https://jekelylab.github.io/EvoDevo_Neuro_Evo_27June2024.html#/title-slide/) at the [Euro-EvoDevo in Helsinki](https://www.helsinki.fi/en/conferences/euroevodevo-2024) (June 24-28, 2024). 
+
+<br>
+
+__"The *Platynereis* larval connectome and diversity of sensory cells and circuits"__<br>
+[Presentation](https://jekelylab.github.io/EvoDevo_Platynereis_Satellite_24June2024.html#/title-slide/) at the [Platynereis satellite meeting at Euro-EvoDevo in Helsinki](https://www.helsinki.fi/en/conferences/euroevodevo-2024/satellite-meetings) (June 24-28, 2024). 
+
+<br>
+
+__"Whole-body volume EM and synaptic connectome of a segmented marine annelid larva"__<br>
+[Presentation](https://jekelylab.github.io/EMBO_Imaging_Marine_Organisms_Napoli_April_2024.html#/title-slide/) at the [EMBO Lecture Course Imaging Marine Organisms Across Scales](https://meetings.embo.org/event/24-marine-imaging) (April 9-12, 2024). 
+
+<br>
+
+__"Nitric oxide feedback to ciliary photoreceptor cells gates a UV avoidance circuit"__<br>
+[Presentation](https://jekelylab.github.io/CSH_Neuronal_Circuits_Mar_2024_NOS.html#/title-slide/) at the [CSHL Neuronal Ciruits Conference](https://meetings.cshl.edu/meetings.aspx?meet=CIRCUITS&year=24) (March 20-23, 2024). 
+
+<br>
+
+__"Mechanism of barotaxis in marine zooplankton"__<br>
+[Seminar at NYU](https://jekelylab.github.io/NYU_Mar_2024_pressure_NOS_connectome.html#/title-slide/) (March 19, 2024). 
+
+<br>
+
+__"Sliced brains and open science"__<br>
+[COS Talk](https://jekelylab.github.io/COS_Talk_12Mar2024.html#/title-slide/) (March 12, 2024). 
+
+<br>
+
+__"Ciliary nanoscale superstructures"__<br>
+[Presentation](https://jekelylab.github.io/3Dmm2O_Kloster_Neustadt_Mar_2024_ciliary_nanoscale_superstructures.html#/title-slide/) at the 3DMM2O Winter Meeting at Schloss Neustadt (March 6, 2024). 
+
+<br>
+
+__"Regulation of the ciliary rhythm in _Platynereis_ larvae across time scales"__<br>
+[Presentation](https://jekelylab.github.io/SZN_Rhythms@sea_6Nov2023.html#/title-slide/) at the Rhythms@Sea Symposium at Stazione Zoologica Napoli (November 6O, 2023). 
+
+<br>
+
+__"Embodied cognition in miniature brains and bodies of marine zooplankton"__<br>
+[Presentation](https://jekelylab.github.io/EMBO_Members_Meeting_25Oct_2023.html#/title-slide/) at the [EMBO Members' Meeting 2023](https://conference-service.com/MM2023/welcome.html) (October 25, 2023). 
+
+<br>
+
+__"Neuronal mechanism of hydrostatic pressure sensation in zooplankton"__<br>
+[Presentation](https://jekelylab.github.io/Columbia_Neuroscience_Oct_2023_NOS_pressure.html#/title-slide/) in the [Columbia Neuroscience Seminar series](https://zuckermaninstitute.columbia.edu/columbia-neuroscience-seminar-g-sp-r-j-kely) (October 17, 2023). 
+
+<br>
+
+__"Embodied cognition in miniature brains and bodies of marine zooplankton"__<br>
+[Presentation](https://jekelylab.github.io/LA_Basal_Cognition_June27_2023.html#/title-slide/) at the Luskin Symposium [Pushing the Boundaries: Neuroscience, Cognition, and Life.](https://2023symposium.ibp.ucla.edu/) (June 26-27, 2023). <br>
+Watch the recorded talk [here](https://www.youtube.com/watch?v=UUljcwW2LfE&t=1200s).
+
+<br>
+
+__"Nitric-oxide-feedback to ciliary photoreceptor cells orchestrates UV avoidance in a peptidergic circuit in <em>Platynereis</em>"__<br>
+[Presentation](https://jekelylab.github.io/Janelia_Apr_2023_NOS.html#/title-slide/) at the Janelia Conference [Neuropeptide Signaling: Bridging Cell Biology, Neurophysiology, and Behavior](https://www.janelia.org/you-janelia/conferences/neuropeptide-signaling-bridging-cell-biology-neurophysiology-and-behavior) (April 16 - 19, 2023). 
+
+<br>
+All presentations were prepared with Quarto under R. Quarto is a publishing system that enables you to weave together content and executable code into a finished presentation. See <https://quarto.org/docs/presentations/>.
