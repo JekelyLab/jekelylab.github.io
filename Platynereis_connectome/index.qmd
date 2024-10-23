@@ -3,32 +3,46 @@ format:
   html:
     smooth-scroll: true
     theme: [default, custom_index.scss]  
+
 ---
 
-## Whole-body connectome of a segmented annelid larva - interactive resources
+## Whole-body connectome of a segmented annelid larva 
 
-### by the Jékely lab, [Centre for Organismal Studies](https://www.cos.uni-heidelberg.de/en), Heidelberg University
+#### Interactive visualisations and resources of the *Platynereis dumerilii* three-day-old larvae whole-body connectome based on the [connectome paper](https://elifesciences.org/reviewed-preprints/97964v1){.external target="_blank"}.
 
-<br>
-
-```{html}
-<iframe width="780" height="500" src="https://jekelylab.github.io/Platynereis_connectome/network_with__IO_layout_transmitters.html" title="The cell-type-level connectome of the three-day-old *Platynereis dumerilii* larva."></iframe>
-
-```
+#### by the Jékely lab, [Centre for Organismal Studies](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely){.external target="_blank"}, Heidelberg University
 
 <br>
 
-[Cell type compendium](https://jekelylab.github.io/Platynereis_connectome/celltype_compendium/index.html) of the three-day-old *Platynereis dumerilii* larva.
+::: columns
+::: {.column width="31%"}
 
-[Interactive visualisation of the connectome graph](https://jekelylab.github.io/Platynereis_connectome/Full_connectome_modules.html) of the three-day-old *Platynereis dumerilii* larva, containing all cells in the whole-body connectome. Nodes represent individual neurons or effector cells. Directed edges (arrows) represent synaptic connections from the presynaptic neuron to the postsynaptic cell. Nodes are coloured by connectome module.
+![](Platynereis_SEM_3d_2.png)
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="65%"}
 
-[Interactive visualisation of the connectome graph](https://jekelylab.github.io/Platynereis_connectome/Full_connectome_segments.html), same graph as before, but the nodes are coloured by body segment.
+![](network_with_IO_layout.png)
+:::
+:::
 
-[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/connectome.html) of the three-day-old *Platynereis dumerilii* larva. Nodes represent cell types (cells groupped into one node by cell type).
+<br>
 
-[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/network_with__IO_layout_transmitters.html), same graph as before, but the nodes are coloured by transmitter phenotype.
+[Cell type compendium](celltype_compendium/index.html){.external target="_blank"} of the three-day-old *Platynereis dumerilii* larva.
+<br>
 
-[Interactive visualisation of the cell-type-level connectome graph](https://jekelylab.github.io/Platynereis_connectome/network_with_IO_layout.html), same graph as before, but the nodes are arranged based on the ratio of incoming to outgoing synapses.
+[Interactive visualisation of the connectome graph](Full_connectome_modules_with_names.html){.external target="_blank"} of the three-day-old *Platynereis dumerilii* larva, containing all cells in the whole-body connectome. Nodes represent individual neurons or effector cells. Directed edges (arrows) represent synaptic connections from the presynaptic neuron to the postsynaptic cell. Nodes are coloured by connectome module.
+<br>
+
+
+[Interactive visualisation of the cell-type-level connectome graph](Figure4_celltype_network.html){.external target="_blank"} of the three-day-old *Platynereis dumerilii* larva. Nodes represent cell types (cells grouped into one node by cell type).
+<br>
+
+[Interactive visualisation of the cell-type-level connectome graph](network_with_transmitters.html){.external target="_blank"}, same graph as before, but the nodes are coloured by transmitter phenotype.
+<br>
+
+[Interactive visualisation of the cell-type-level connectome graph](network_with_IO_layout.html){.external target="_blank"}, same graph as before, but the nodes are arranged based on the ratio of incoming to outgoing synapses.
 
 
 
