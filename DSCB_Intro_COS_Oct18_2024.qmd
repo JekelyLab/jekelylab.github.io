@@ -1,0 +1,547 @@
+---
+title: "Neurobiology of marine zooplankton"
+subtitle: "DSCB Intro week -- COS <br>Oct 18, 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+css: xaringan-themer-GJ.css
+---
+
+## Ciliated zooplankton larvae
+
+![](images/ciliated_larvae.png)
+
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height=550}
+
+
+::: footer
+Réza Shahidi, EMCF
+:::
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
+
+
+
+## Array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: footer
+Alexandra Kerbl, COS
+:::
+
+## Array tomography workflow
+
+
+![](images/Connectome/Zeiss_Gemini500.jpg
+){height=550}
+
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image7.jpg){.absolute left="0" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image9.jpg){.absolute left="410" top="100" height="400"}
+
+
+
+## Coral larvae
+
+![](images/coral/Poon_fig1.png){height=500}
+
+In collaboration with Kirsty Wan (LSI Exeter) and Jamie Craggs (Horniman Museum)
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## Coral larvae
+
+::: columns
+::: {.column width="25%"}
+![](images/coral/bodywall_Acropora_SEM.png)
+Emelie Brodrick
+:::
+::: {.column width="33%"}
+<br>
+![](movies/coral_cilia1.webm){loop="true"}
+Hannah Laeverenz
+:::
+::: {.column width="42%"}
+<br><br>
+![](movies/coral_cilia2.webm)
+Rebecca Poon & Kirsty Wan
+:::
+:::
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## Coral larvae react to light
+
+::: columns
+::: {.column width="60%"}
+<br>
+![](movies/Emelie/free_swim_02_crop_dark_to_Light.webm)
+:::
+::: {.column width="40%"}
+<br>
+![](movies/Emelie/larva06_contr_slow.webm)
+:::
+:::
+
+:::aside
+Emelie Brodrick
+:::
+
+## Light-off induces contraction and ciliary arrest
+
+![](images/coral/Fig03_shapechanges.png){width=800}
+![](images/coral/Fig02_PIVdata_ALL.png){width=800}
+
+:::aside
+Emelie Brodrick
+:::
+
+
+## A coral larval nerve net - simplest nervous system?
+
+![](movies/Aiptasia_video1.webm){height=500}
+
+![](images/Emelie_Brodrick.jpg){.absolute top="50" left="850" width="140"}
+
+
+:::aside
+Emelie Brodrick, Lara Keweloh
+:::
+
+## Hydrozoan larval phototaxis
+
+::: columns
+::: {.column width="30%"}
+![](images/cnidaria/Clava_gbif.png)
+Jeff Goddard, iNaturalist 
+
+![](images/cnidaria/Clava_d9465.png){width=140}
+![](images/cnidaria/Clava_d9603.png){width=140}
+GJ & Jürgen Berger
+:::
+::: {.column width="70%"}
+![](movies/Clava.webm)
+
+*Clava multicornis*
+
+
+:::
+:::
+
+
+## Field trips to explore marine plankton
+
+![](images/Sorgeto_Pic.jpeg){height=500}
+
+![](images/Ischia_boat.jpg){.absolute top="60" left="870" width="140"}
+
+Ischia, Sorgeto, 2024
+
+## Field trips lead to unexpected discoveries
+
+![](images/Ischia_polyclad.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## What is this??
+
+![](images/Ischia_polyclad2.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## OMG
+
+![](movies/polyclads_Ischia_May2024zoom.webm){height=550}
+
+## Egg plates and Müller's larvae of polyclad flatworms
+
+::: columns
+::: {.column width="40%"}
+![](images/Fichier_1Polyclad_larvae_SEM1.png){height=450}
+
+#### -> brought them back to Heidelberg
+:::
+::: {.column width="60%"}
+![](images/planocera_ceratommata-slb21_image1200.jpg){height=450}
+*Planocera ceratommata*
+:::
+:::
+
+::: aside
+Karel Mocaer, Alexandra Kerbl
+:::
+
+## Müller's larvae are phototactic and have three eyespots
+
+![](movies/Muller_larvae_swimming.webm){height=550}
+
+
+## Emerging marine model organisms
+
+![](images/Nematostella_Patrick.jpg){.absolute top="100" left="-80" height="300"} ![](images/Platynereis_SEM_4seg.png){.absolute top="100" left="475" height="300"} ![](images/Trichoplax_SEM.png){.absolute top="100" left="780" height="300"}
+
+```{=html}
+  <div style="position: absolute; left: 0px; top: 90px; font-size: 12px;">
+   <em>Image: Patrick Steinmetz</em>
+  </div>
+  <div style="position: absolute; left: 100px; top: 420px;">
+   <b><em>Nematostella vectensis</em></b><br>
+  </div>
+  <div style="position: absolute; left: 520px; top: 420px;">
+   <b><em>Platynereis dumerilii</em></b>
+  </div>
+  <div style="position: absolute; left: 825px; top: 420px;">
+   <b><em>Trichoplax adhaerens</em></b>
+  </div>
+```
+
+
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%"}
+<br><br><br><br><br><br>
+
+-   breeding culture, full life-cycle
+-   embryos daily, year round
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters and antibodies
+-   knock-out lines
+-   neuronal connectome
+-   whole-body neuronal activity imaging
+-   whole-animal pharmacology by bath application 😎
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## *Platynereis dumerilii*
+
+::: columns
+::: {.column width="50%"}
+![](movies/spawning_Fischer.webm){.absolute height="450"} <br><br><br><br><br><br><br><br><br><br><br><br><br><br> **Spawning** <br> movie by Albrecht Fischer
+:::
+
+::: {.column width="50%"}
+![](movies/3d_Larvae_swimming.webm) <br> **Synchronously developing larvae**
+:::
+:::
+
+
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="40%"}
+![](images/Naomi.png)
+:::
+
+::: {.column width="60%"}
+![](movies/Naomi.webm)
+:::
+:::
+
+::: aside
+[Randel et al. (2015)](https://elifesciences.org/articles/08069)      [Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## The nervous system of the larva
+
+![](movies/Video_bb_neurons.webm){.absolute left="300" height="600"} <br> **\~2,000 neurons**
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="240" top="50"}
+
+::: aside
+[Verasztó et al. (2021)](https://www.biorxiv.org/content/10.1101/2020.08.21.260984v2)
+:::
+
+## Visual phototaxis with 2-pixel eyes
+
+::: columns
+::: {.column width="50%"}
+![](movies/phototactic_turn.webm){height=400}
+:::
+::: {.column width="50%"}
+![](movies/phototaxis.webm){height=400}
+:::
+:::
+
+::: footer
+[Randel et al. 2014](https://elifesciences.org/articles/02730)
+:::
+
+
+## Neural circuit of the visual eyes
+
+:::columns
+:::{.column width="30%"}
+![](movies/phototactic_turn.webm){width=275}
+![](images/Connectome/eye_Circuit_rendering){width=275}
+:::
+:::{.column width="70%"}
+<br>
+![](images/Phototaxis/phototaxis_circuit.png)
+:::
+:::
+
+:::aside
+[Randel et al. 2014](https://doi.org/10.7554/elife.02730)
+:::
+
+
+## Pressure response in *Platynereis* larvae
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/Platynereis_3d.jpeg){.absolute left="457" top="50" width="140"}
+
+![](movies/pressure_response.webm){.absolute left="600" top="62" width="280"}
+
+![](images/Luis_Bez.jpg){.absolute left="883" top="50" width="200"}
+
+::: aside
+Luis A. Bezares-Calderón
+:::
+
+## Precise control of pressure in the pressure chamber
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/pressure/PanelAvgPressure_step2dpf.png){.absolute left="500" top="50" width="600"}
+
+::: aside
+Luis A. Bezares-Calderón
+:::
+
+## Pressure response is graded
+
+![](images/pressure/PanelTvsAVGrelDisp_step3dpf.png){.absolute left="0" top="150" height="420"}
+
+![](images/pressure/Panel_prVSMaxAVGdisp_step3dpf.png){.absolute left="500" top="150" height="420"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+::: aside
+Luis A. Bezares-Calderón
+:::
+
+
+## Which cells respond to pressure?
+
+::: columns
+::: {.column width="45%"}
+**Microscopy pressure chamber** ![](images/pressure/CaImaging_Schematic.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="50%"}
+**Calcium imaging** ![](images/pressure/CaimagingNovs750mbpanel.png)
+:::
+:::
+
+::: aside
+Luis A. Bezares-Calderón
+:::
+
+## Pressure is sensed by photoreceptors with ramified cilia
+
+![](movies/pressure_response_calcium_cPRC.webm){.absolute top="147" left="-50" height="350" video-loop="true"}
+
+![](images/pressure/cPRC.png){.absolute top="160" left="220" width="900"}
+
+
+## Circuit of ciliary photoreceptors
+
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/visNetwork_INNOS.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=600, width=1000
+)
+```
+
+
+
+## Mechanism of barotaxis
+
+![](images/pressure/SummaryPressureMech.png){.absolute left="250" height="570" top="70"}
+
+::: aside
+[Luis A. Bezares-Calderón et al. biorxiv 2023](https://www.biorxiv.org/content/10.1101/2023.02.28.530398v1)
+:::
+
+## UV response in *Platynereis* larvae
+
+![](images/Platynereis_3d.jpeg){.absolute left="0" top="141" height="380"}
+
+![](movies/UV-response-elife-36440-video2.webm){.absolute left="280" top="52" height="630"}
+
+![](images/NOS/UV-response-elife-36440-fig3-v2.png){.absolute left="440" top="141" height="380"}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## UV avoidance is dependent on c-opsin1
+
+![](images/pressure/c_opsin1.png){.absolute top="150" left="0" width="400"}
+
+![](images/NOS/cOps_KO_UVresponse.png){.absolute top="100" left="600" width="420"}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## How can cPRCs mediate two responses with opposing sign?
+
+![](images/pressure/cPRC.png){.absolute top="170" left="20" width="1300"}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+
+## Strong cPRC activation after UV exposure
+
+![](images/NOS/cPRC_calcium_WT.png){.absolute top="130" left="220" height="450"} ![](images/NOS/arrow1.png){.absolute top="90" left="610" height="100"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+\
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+
+## Nitric-oxide synthase in postsynaptic interneurons
+
+![](images/NOS/Jokura_Fig1_NOS_HCR.png)
+
+```{=html}
+ <style>
+  .left-align {
+    text-align: left;
+  }
+</style>
+
+<div class="left-align">
+  HCR   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;&emsp;
+  Transgenic labelling
+</div>
+```
+## NO is produced in the neuropil after UV stimulation
+
+![](images/NOS/DAFFM.png){.absolute left="130" top="60" width="800"} ![](images/NOS/DAFFM_formula.jpeg){.absolute left="230" top="460" width="600"}
+
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="940" width="150"}
+
+
+```{=html}
+  <div style="position: absolute; left: 940px; top: 240px">
+    Kei Jokura (now @NIBB)
+  </div>
+```
+
+
+::: footer
+[DAF-FM Diacetate](https://www.thermofisher.com/order/catalog/product/D23844)
+:::
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+## *NOS* mutants have altered cPRC response
+
+![](images/NOS/NOS-Architecture.png){.absolute left="50" top="60" width="450"}
+
+![](images/NOS/WTvsNOS11_cPRC.png){.absolute left="-30" top="270" height="300"} ![](images/NOS/WTvsNOS11_INNOS.png){.absolute left="600" top="270" height="300"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+## *NOS* mutants show defective UV avoidance
+
+![](images/NOS/vertical_tracking_position_sideUV_2d.png){.absolute left="150" top="80" width="800"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+
+## Mixed synaptic and volume signalling
+
+![](images/NOS/model_2.png){height=550}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Sanja Jasek
+-   Alexandra Kerbl
+-   Emily Savage
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+-   Karel Mocaer
+-   David Hug
+-   Benedikt Dürr
+-   Ira Maegele
+-   Emelie Brodrick (Exeter)
+:::
+
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="28%"}
+<u>*Former lab members*</u>
+
+- Kei Jokura, Luis A. Bezares-Calderón, Luis A. Yanez-Guerra, Victoria Moris, Daniel Thiel, Albina Asadulina, Cameron Hird, Adam Johnstone, Markus Conzelmann, Nadine Randel, Philipp Bauknecht, Martin Gühmann, Cristina Pineiro-Lopez, Nobuo Ueda, Aurora Panzera, Csaba Verasztó, Elizabeth Williams
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}
