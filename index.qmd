@@ -11,6 +11,13 @@ format:
 <br>
 <br>
 
+__"The interplay of synaptic and volumetric signalling during behaviour in *Platynereis*
+larvae"__ <br>
+[Online presentation](https://jekelylab.github.io/OIST_Talk_4Nov2024.html#/title-slide/) at the OIST Workshop
+[Principles of Synapse Organization and Neural Network Regulation Gained Through Evolution](https://groups.oist.jp/syn-net-evo) (Nov 5-7, 2024). 
+
+<br>
+
 __"Neurobiology of marine zooplankton"__ <br>
 [Presentation](https://jekelylab.github.io/Shimoda_Marine_Station_Oct2024.html#/title-slide/) at the [Shimoda Marine Station](https://www.shimoda.tsukuba.ac.jp/en/about.html) (Oct 15, 2024). 
 
