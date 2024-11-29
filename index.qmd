@@ -11,6 +11,12 @@ format:
 <br>
 <br>
 
+
+__"On chemical and synaptic brains and the evolution of nervous systems"__ <br>
+[Presentation](https://jekelylab.github.io/Bonn_Uni_Talk_28Nov2024.html#/title-slide/) at Universität Bonn, Institut für Physiologie (Nov 28, 2024). 
+
+<br>
+
 __"The interplay of synaptic and volumetric signalling during behaviour in *Platynereis*
 larvae"__ <br>
 [Online presentation](https://jekelylab.github.io/OIST_Talk_4Nov2024.html#/title-slide/) at the OIST Workshop
