@@ -28,6 +28,7 @@ scrollable: true
 
 ## What is open science?
 
+<br>
 
 - data are shared, indexed, properly archived and discoverable
 - same for scientific code
@@ -137,25 +138,55 @@ scrollable: true
 [Errington et al., Reproducibility Project: Cancer Biology, 2014](https://elifesciences.org/collections/9b1e83d1/reproducibility-project-cancer-biology)
 :::
 
+## Reporting and citation bias
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/citation_bias.jpeg)
+
+- The cumulative impact of reporting and citation biases on the evidence base for antidepressants
+::: 
+:::{.column width=50%}
+- up to half of all randomized controlled trials have never been published
+- trials with statistically significant findings are more likely to be published than those without
+- citation bias -> studies with positive results receive more citations than negative studies 
+:::
+:::
+
+:::footer
+[de Vries et al., 2018](https://www.cambridge.org/core/journals/psychological-medicine/article/cumulative-effect-of-reporting-and-citation-biases-on-the-apparent-efficacy-of-treatments-the-case-of-depression/71D73CADE32C0D3D996DABEA3FCDBF57)
+:::
+
 
 ## Code is very often not shared or not shared stably
 
-- *We assess the effectiveness of such a policy by (i) requesting data and code from authors and (ii) attempting replication of the published findings. We chose a random sample of 204 scientific papers published in the journal Science ... We found that we were able to obtain artifacts from 44% of our sample and were able to reproduce the findings for 26%.*
+::: columns
+:::{.column width=50%}
+![](images/Stodden_PNAS.png){height=200}
+
+- study to assess the effectiveness of code sharing policy
+- a random sample of 204 *Science* papers
+- able to obtain artifacts from 44% 
+- able to reproduce the findings for 26%
+:::
+:::{.column width=50%}
+- **Typical responses:**
 
 ::: {.incremental}
-- "When you approach a PI for the source codes and raw data, you better explain who you are, whom you work for, why you need the data and what you are going to do with it."
+  - *"When you approach a PI for the source codes and raw data, you better explain who you are, whom you work for, why you need the data and what you are going to do with it."*
 
-- "I have to say that this is a very unusual request without any explanation! Please ask your supervisor to send me an email with a detailed, and I mean detailed, explanation."
+  - *"I have to say that this is a very unusual request without any explanation! Please ask your supervisor to send me an email with a detailed, and I mean detailed, explanation."*
 
-- "The data files remains our property and are not deposited for free access. Please, let me know the purpose you want to get the file and we will see how we can help you."
+  - *"The data files remains our property and are not deposited for free access. Please, let me know the purpose you want to get the file and we will see how we can help you."*
 
-- "We do not typically share our internal data or code with people outside our collaboration."
+  - *"We do not typically share our internal data or code with people outside our collaboration."*
 
 :::
+:::
+:::
 
-![](images/Stodden_PNAS.png){.absolute top="480" left="300" height="200"}
 
-::: aside
+::: footer
 [Stodden et al. (2018) ](https://doi.org/10.1073/pnas.1708290115)
 :::
 
@@ -307,6 +338,8 @@ scrollable: true
 
 ## JIF does not correlate with quality metrics (e.g. statistical power)
 
+<br>
+
 ::: columns
 :::{.column width=50%}
 ![](images/open_science/fnhum-07-00291-g002.jpg)
@@ -323,6 +356,9 @@ scrollable: true
 
 ## But: JIF correlates with retractions
 
+<br>
+
+
 ::: columns
 :::{.column width=50%}
 ![](images/open_science/retraction_IF.jpeg)
@@ -336,6 +372,29 @@ scrollable: true
 :::footer
 [Fang & Casadevall, 2011](https://journals.asm.org/doi/10.1128/iai.05661-11)
 [Brembs et al. 2013](https://doi.org/10.3389/fnhum.2013.00291)
+:::
+
+## Open Publishing and False Metrics
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/National_Cancer_Institute_director_Harold_E._Varmus_(2).jpg){height=300}
+
+[Harold Varnus](https://en.wikipedia.org/wiki/Harold_E._Varmus#Publication_practices_in_science)<br>
+*"We need to get away from false metrics and return to the task of looking at our colleagues' work closely."* 
+
+::: 
+:::{.column width=50%}
+- we continue to pay allegiance to the idea that the most important work is published in so-called ‘high-impact’ journals
+- ceding judgments to journal editors, rather than retain it among working scientists
+- we have to eliminate the current situation in which the fate of an individual researcher and their trainees depends on publishing in certain journals
+- once we achieve that, we'll eliminate a lot of distinctions between journals
+- also eliminate resistance to open access
+:::
+:::
+
+:::footer
+[Harold Varnus, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6451421/)
 :::
 
 ## New approaches to research assessment
@@ -359,7 +418,7 @@ scrollable: true
 [DORA](https://sfdora.org/read/)
 :::
 
-## Publications categorised by type of access
+## Progress is slow and hijacked
 
 ::: columns
 :::{.column width=60%}
@@ -368,8 +427,8 @@ scrollable: true
 :::{.column width=40%}
 - Diamond: article published in an open access (only) journal without an article processing charge
 - Green only: not openly accessible from the publisher website but a free copy is accessible via a repository or other platform
-- Gold: article published in an open access (only) journal that includes article processing charges
-- Hybrid
+- Gold: article published in an open access (only) journal that includes article processing charges (**profits can remain high!**)
+- Hybrid (**profits can remain high!**)
 - Bronze: free to read on the publisher’s website, but with no identifiable licence
 :::
 :::
@@ -390,6 +449,7 @@ Robert Maxwell in 1985. *Photograph: Terry O’Neill/Hulton/Getty*
 - dominated by five large publishing houses: Elsevier, Black & Wiley, Taylor & Francis, Springer Nature and SAGE
 - Elsevier has a profit margin around 40 % (higher than Microsoft, Google and Coca Cola)
 - about **USD 6 billion per year** goes to profits = 2 CERNs/year 
+- APCs can be as high as $10,000
 :::
 :::
 
@@ -398,7 +458,7 @@ Robert Maxwell in 1985. *Photograph: Terry O’Neill/Hulton/Getty*
 [Buranyi 2017](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science)
 :::
 
-## Kleptistan (Bindzsisztán)
+## Kleptistan (Binjistan) - I
 
 ::: columns
 :::{.column width=80%}
@@ -419,21 +479,74 @@ Robert Maxwell in 1985. *Photograph: Terry O’Neill/Hulton/Getty*
 [Majka](https://www.youtube.com/watch?app=desktop&v=f2iQfEcO39A)
 :::
 
-## We have the solution, but not the balls to implement it
+## Kleptistan (Binjistan) - II
 
-<br>
+::: columns
+:::{.column width=70%}
+![](images/open_science/workflows-elsevier.png)
+![](images/open_science/workflows-springernature1.png)
+![](images/open_science/workflows-google.png)
+:::
+:::{.column width=30%}
 
-- under ‘closed’ models, institutions are already spending money on scientific publications 
-- transitioning those funds to support diamond open access publication could fully support a global shift to open access publishing 
-- at the same time strenghten scholarly infrastructure for code, data, interoperability etc.
-- with the potential for cost savings (Schimmer et al. 2015)
-- with publishing in the hand of public institutions
-- USD 6 billion/year is a lot of money for that
-
+- workflow monopoly
+- tools to cover the entire academic workflow
+- e.g. Elsevier can now cover the entire workflow
+- high risk of vendor lock-in
+- preconditions for a functioning market exist, but a common standard is missing
+:::
+:::
 
 :::footer
-[UNESCO - Open Science Outlook 1](https://unesdoc.unesco.org/ark:/48223/pf0000387324)
+[Brembs et al. 2024](https://royalsocietypublishing.org/doi/full/10.1098/rsos.230206)
 :::
+
+## Kleptistan (Binjistan) - III
+
+#### *or* <br> How to milk the same cow multiple times?
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/elsevier.png)
+:::
+:::{.column width=50%}
+- scientists provide content for free
+- scientist peer review for free
+- scientists buy over-priced product as APC, subscription or 'transformative' deals
+- publisher (now 'data analysis company') sells entire workflows to scientists
+- publishers tracks scientists on its platforms
+- sells the data to the employers (e.g. quality assessment) or third parties
+:::
+:::
+
+:::footer
+[Majka](https://www.youtube.com/watch?app=desktop&v=f2iQfEcO39A)
+:::
+
+## Unacceptable practices of data tracking by publishers
+
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/data-tracking.jpg)
+[Watchthem](https://watchthem.live/data-tracking/)
+*'Data gathering is an essential process, and most companies use it for their success.'*
+
+::: 
+:::{.column width=50%}
+-  tracking site visits via authentication systems to detailed real-time data on the information behaviour of individuals and institution
+- page visits, accesses, downloads, etc. 
+– assembly of granular profiles of academic behaviour 
+– without user consent
+- selling the data, e.g. RELX – the parent company of Elsevier – establishes PURE at universities around the world
+- to provide 'insights' into the entire research cycle
+:::
+:::
+
+:::footer
+[DFG Report on Data Tracking](https://www.dfg.de/resource/blob/174924/d99b797724796bc1a137fe3d6858f326/datentracking-papier-en-data.pdf)
+:::
+
 
 
 ## Open Science under attack
@@ -442,7 +555,14 @@ Robert Maxwell in 1985. *Photograph: Terry O’Neill/Hulton/Getty*
 :::{.column width=50%}
 <br>
 
-![](images/open_science/elsevier.png)
+![](images/open_science/the-ultimate-guide-to-avoiding-predatory-conferences-377090-1280x720.webp)
+
+[*Credit: iStock* ](https://www.technologynetworks.com/tn/articles/the-ultimate-guide-to-avoiding-predatory-conferences-377090)
+
+*Dear Valued Professor,*
+
+*Please be joining us for the next installment of our top quality scientific program at the 423rd International Conference on ... *
+
 ::: 
 :::{.column width=50%}
 <br><br>
@@ -493,7 +613,34 @@ Robert Maxwell in 1985. *Photograph: Terry O’Neill/Hulton/Getty*
 ![](images/open_science/funding_for_NIH_databases.png)
 
 
-## Taking back control
+## We have the solution, but not the balls to implement it
+
+<br>
+
+- under ‘closed’ models, institutions are already spending money on scientific publications 
+- transitioning those funds to support diamond open access publication could fully support a global shift to open access publishing 
+- at the same time strenghten scholarly infrastructure for code, data, interoperability etc.
+- with the potential for cost savings (Schimmer et al. 2015)
+- with publishing in the hand of public institutions
+- USD 6 billion/year is a lot of money for that
+- would also solve most of the problems with predatory publishers
+
+:::footer
+[UNESCO - Open Science Outlook 1](https://unesdoc.unesco.org/ark:/48223/pf0000387324)
+:::
+
+## What should scientists and institutions do? 
+### for the realist:
+
+#### Safest bet: buy RELX stocks
+(RELX: parent company of Elsevier)
+
+![](images/open_science/relx_stocks.png){height=400}
+
+## What should scientists and institutions do? 
+### for the idealist:
+
+#### Taking back control
 
 ::: columns
 :::{.column width=40%}
@@ -536,6 +683,8 @@ Robert Maxwell in 1985. *Photograph: Terry O’Neill/Hulton/Getty*
 ::: columns
 :::{.column width=60%}
 ![](images/open_science/elife.png)
+
+- funded by HHMI, Wellcome Trust, MPS, K&A Wallenberg Foundation
 
 ::: 
 :::{.column width=40%}
@@ -723,13 +872,22 @@ https://open-science-cloud.ec.europa.eu/
 
 ::: columns
 :::{.column width=40%}
-![](images/open_science/)
+
+![](images/open_science/ELTE_talk_QR_code.png){height=200}
+
+*"Open Science in (In)Action: Why, What, and How"* <br>
+[Gáspár Jékely](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely) <br> Centre for Organismal Studies, Heidelberg University
+
 ::: 
 :::{.column width=60%}
+
 - open science is key for reproducibility, scientific progress, integrity, global fairness, resilience, cost-cutting
 - solutions exist and are scaleable
 - money could come by scaling back payment to legacy publishers
 - problems: inertia, lack of coordination, lack of understanding the landscape, political and corporate takeover, prestige and other incentives to maintain status quo
+
+![](images/open_science/open_science_unesco_pic.png){height=150}
+
 :::
 :::
 
