@@ -11,6 +11,10 @@ format:
 <br>
 <br>
 
+__"Open Science in (In)Action: Why, What, and How"__ <br>
+[Presentation](https://jekelylab.github.io/ELTE_Open_Science_28Jan2025.html#/title-slide/) at the [2025 V4SDB Winter School](https://danio-elte.github.io/2025V4SDBStudentWinterSchoolMaterials/programme.html) at ELTE (Jan 28, 2025). 
+
+<br>
 
 __"On chemical and synaptic brains and the evolution of nervous systems"__ <br>
 [Presentation](https://jekelylab.github.io/Bonn_Uni_Talk_28Nov2024.html#/title-slide/) at Universität Bonn, Institut für Physiologie (Nov 28, 2024). 
