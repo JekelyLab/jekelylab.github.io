@@ -606,6 +606,30 @@ Robert Maxwell in 1985. *Photograph: Terry O’Neill/Hulton/Getty*
 
 ![](images/open_science/nasa_404.png){height=650}
 
+
+## Open Science under attack
+
+::: columns
+:::{.column width=50%}
+
+![](images/open_science/who.png){height=300}
+
+- US left the WHO under Trump
+- US was the largest funder
+::: 
+:::{.column width=50%}
+![](images/open_science/nextstrain.png){height=300}
+
+- does not bode well for fighting future pandemics
+- open data was key to track new strains and spread
+:::
+:::
+
+:::footer
+[Nextstrain](https://nextstrain.org/ncov/gisaid/global/6m)
+:::
+
+
 ## Major repositories and databases in constant danger
 
 ![](images/open_science/pubmed_shutdown.jpg)
@@ -867,6 +891,27 @@ https://open-science-cloud.ec.europa.eu/
 
 ![](images/open_science/eu_open_science.png)
 
+## While we wait...
+
+
+::: columns
+:::{.column width=70%}
+
+![](images/open_science/approach_to_publications.png)
+
+
+::: 
+:::{.column width=30%}
+
+- individual labs can change behaviour
+- my lab has completely switched to publishing preprints and in OA-only not-for-profit journals
+- raise your voice in hiring/promotion committees for DORA principles
+:::
+:::
+
+:::footer
+[Our Approach to Publication](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely/our-approach-to-publication)
+:::
 
 ## Summary
 
