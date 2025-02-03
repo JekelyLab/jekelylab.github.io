@@ -1,0 +1,195 @@
+---
+title: "Analysis of the *Platynereis dumerilii* connectome with CATMAID and R"
+author: "Gáspár Jékely <br> Centre for Organismal Studies, Heidelberg University"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-number: true
+    code-fold: false
+    code-summary: "Code"
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+scrollable: true
+---
+
+## How do brains work?
+
+<br><br><br><br>
+
+### "As simple as possible - but complete"
+
+
+## Zooplankton behaviour
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+![](movies/larvae.webm){height=320 loop="true"}
+phototaxis
+:::
+::: {.column width="33%"}
+![](movies/startle.webm){height=320 loop="true"}
+startle response
+:::
+::: {.column width="33%"}
+![](movies/crawling_juvenile.webm){height=320 loop="true"}
+crawling
+:::
+:::
+
+
+## The simplest circuit to mediate behaviour - phototaxis
+
+![](movies/early_phototaxis.webm){.absolute left="580" top="115" height="450"} ![](images/Phototaxis/lamp.jpg){.absolute left="1080" top="320" width="60"}
+
+![](images/Phototaxis/eyespots.png){.absolute left="250" top="60" width="300"} ![](images/Phototaxis/pigment_cup.png){.absolute left="-60" top="370" width="300"} ![](images/Phototaxis/trunkbraineyeeyeciliary.svg){.absolute left="-60" top="60" width="303"} ![](images/Phototaxis/rhabdomaxonciliated.svg){.absolute left="250" top="370" width="300"}
+
+::: footer
+[Jekely et al. (2008)](https://www.nature.com/articles/nature07590)
+:::
+
+## *Platynereis* - a marine annelid
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+## Whole-body connectome of a segmented annelid larva
+
+![](movies/Video1_Connectome_paper.webm){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## {background-image="images/Connectome/Full_connectomeNo_text_modules.png" background-size="700px"}
+
+
+## Information flow from sensors to effectors
+
+![](images/Connectome/Figure4_fig_suppl6.png){height=530}
+![](images/Connectome/Fig4_label_celltype_distr.png){height=20}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+## Whole-body coordination of cilia
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="88" left="-70" height="240"}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Whole-body coordination of cilia
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"} ![](movies/Loop_EM.webm){.absolute top="100" left="370" height="550"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="88" left="-70" height="240"}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Whole-body coordination during startle
+
+![](movies/startle.webm){.absolute top="100" left="250" height="550"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## Coordinated arrest of all cilia
+
+![](movies/SuppVideo2_concatenatedNoELowEWideE.webm){.absolute top="100" left="190" height="450"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## No arrest in polycystin receptor mutant
+
+![](movies/SuppVideo6_FlowtracePKD11homozygoteAnnotatedTime_CRb2x2CR.webm){.absolute top="100" left="190" height="450"} ![](images/Startle/CR_cilia.svg){.absolute top="87" left="-70" height="250"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## Startle recruits body-wide circuits and effectors
+
+![](movies/Video_startle.webm){height=550}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## Pressure response in *Platynereis* larvae
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/Platynereis_3d.jpeg){.absolute left="457" top="50" width="140"}
+
+![](movies/pressure_response.webm){.absolute left="600" top="62" width="280"}
+
+![](images/Luis_Bez.jpg){.absolute left="883" top="50" width="200"}
+
+::: footer
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+
+## Pressure response is graded
+
+![](images/pressure/PanelTvsAVGrelDisp_step3dpf.png){.absolute left="0" top="150" height="400"}
+
+![](images/pressure/Panel_prVSMaxAVGdisp_step3dpf.png){.absolute left="460" top="150" height="400"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="900" top="0" height="140"}
+
+::: footer
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Pressure is sensed by photoreceptors with ramified cilia
+
+<br><br>\
+![](images/pressure/cPRC.png) cPRC - ciliated Photoreceptor Cells
+
+## UV response in *Platynereis* larvae
+
+![](images/Platynereis_3d.jpeg){.absolute left="0" top="141" height="380"}
+
+![](images/NOS/UV-response-elife-36440-fig3-v2.png){.absolute left="300" top="141" height="380"}
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+## Circuitry of ciliary photoreceptors
+
+![](images/pressure/Jokura_Fig1_NOS_EM.png)
+
+::: footer
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+
+## Part 1 - The online CATMAID interface
+
+<br>
+
+CATMAID = Collaborative Annotation Toolkit for Massive Amounts of Image Data
+
+<br>
+<br>
+
+Navigate to:
+
+
+https://catmaid.jekelylab.ex.ac.uk/
+
+<br>
+
+[*Platynereis* CATMAID server](https://catmaid.jekelylab.ex.ac.uk/)
