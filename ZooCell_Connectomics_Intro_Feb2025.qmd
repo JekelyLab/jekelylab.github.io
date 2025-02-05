@@ -1,0 +1,647 @@
+---
+title: "Large-volume EM and connectomics - An (incomplete) history of neuronal connectomics"
+subtitle: "ZooCELL 1st Practical Course
+ | 03-14 February 2025, COS and EMBL, Heidelberg"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+## 
+
+<br><br><br>
+
+### An (incomplete) history of neuronal connectomics
+<br><br><br>
+
+#### "Its technology - who are we kidding?"
+*Winfried Denk*
+
+
+## Towards the first connectome
+
+
+![](images/Connectome/c_elegans_rstb20140309f01.jpg)
+
+- *Caenorhabditis elegans* nematode worm
+- 1 mm long
+- hermaphrodites and males
+
+::: footer
+[Emmons, 2015](https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0309)
+:::
+
+## The mind of the worm
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/c_elegnas_ns_rstb20140309f02.jpg)
+:::
+::: {.column width="30%"}
+- the hermaphrodite wiring diagram 
+- 5,000 chemical synapses, 2,000 neuromuscular junctions and 600 gap junctions
+- from John White's start in 1969 to completion, the project took 15 years
+- a 340 page magnum opus by Sydney Brenner, John White and others
+:::
+:::
+
+::: footer
+[Emmons, 2015](https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0309)
+:::
+
+
+## Manual annotation and naming of all cell types
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/c_elegans_cross_section.png)
+:::
+::: {.column width="30%"}
+- transverse section through the ventral ganglion
+- each cell type individually identified and named
+- left-right stereotypy
+:::
+:::
+
+::: footer
+[White et al. 1986](https://doi.org/10.1098/rstb.1986.0056)
+:::
+
+
+## The computational challenge
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/c_elegans_modular_I_rstb20140309f03.jpg){height=500}
+:::
+::: {.column width="30%"}
+- John White standing next to the Modular I computer
+- the box in front is the storage disk drive (22 MB)
+- room-sized computer with only 64 K of memory
+- input was punched paper tape
+- capacity was not enough!
+:::
+:::
+
+::: footer
+[Emmons, 2015](https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0309)
+:::
+
+
+## Back to manual
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/c_elegans_manual_rstb20140309f04.jpg)
+:::
+::: {.column width="30%"}
+- large, 12 × 16 inch glossy prints
+- marked with Rotring Rapidograph coloured pens 
+- trace neurons through the stack of images
+- movie film reel of serial EM images in the background
+:::
+:::
+
+::: footer
+[Emmons, 2015](https://royalsocietypublishing.org/doi/10.1098/rstb.2014.0309)
+:::
+
+
+
+## The first circuit diagrams
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/c_elegans_mn_conn_1976.png){height=550}
+:::
+::: {.column width="30%"}
+- *C. elegans* pharynx nervous system
+- 20 neurons
+- the connectivity of these neurons has been described at the level of synapses
+:::
+:::
+
+
+::: footer
+[Albertson & Thompson 1976](https://doi.org/10.1098/rstb.1976.0085)
+:::
+
+
+## The first circuit diagrams
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/c_elegans_amphid_circuit.png)
+:::
+::: {.column width="30%"}
+- hermaphrodite nervous system 
+- a total complement of 302 neurons
+- invariant structure
+- neurons with similar morphologies and connectivities have been grouped together into 118 classes
+- ~5000 chemical synapses, ~2000 neuromuscular junctions and ~600 gap junctions
+- several detailed circuit diagrams
+:::
+:::
+
+
+::: footer
+[White et al. 1986](https://doi.org/10.1098/rstb.1986.0056)
+:::
+
+## Serial Block-Face Scanning Electron Microscopy
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/sBEM_pbio.0020329.g002.png)
+:::
+::: {.column width="30%"}
+- automated block-face imaging 
+- combined with serial sectioning inside the chamber of a SEM
+- backscattering contrast to visualise heavy-metal staining 
+:::
+:::
+
+
+::: footer
+[Winfried Denk & Heinz Horstmann 2004](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020329)
+:::
+
+
+
+## Axon tracing is possible
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/axon_nihms44875f6.jpg){height=550}
+:::
+::: {.column width="30%"}
+- tracking axons across large distances in volumes
+:::
+:::
+
+
+::: footer
+[Jurrus et al 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2597704/)
+:::
+
+## Method improvements
+
+- Rotring Rapidograph coloured pens for tracing!
+- automated sectioning and imaging (SBEM, FIB-SEM)
+- better cameras with larger FoV (e.g. 4k x 4k pixels)
+- autoloader and camera array for TEM
+- improved SBEM embedding (conducting block)
+- enhanced FIB-SEM
+- multi-beam SEM
+- automated TEM with beam deflection
+- ATUM-TOME
+- improvements in alignments, segmentation, proofreading
+- ...
+
+
+## Improved TEM methods
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/Bock_Reid.png)
+:::
+::: {.column width="30%"}
+- combination of in vivo physiology and network anatomy
+- mouse cortex
+- custom TEM Camera Array
+- 1,215 thin sections (40–45 nm), 450 μm x 350 μm sections
+:::
+:::
+
+
+::: footer
+[Bock et al. 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3095821/pdf/nihms263529.pdf)
+:::
+
+
+## Re-analysis of legacy *C. elegans* data
+
+::: columns
+::: {.column width="70%"}
+
+
+![](images/Connectome/c_elegans_pvv_module.png){height=100}
+
+![](images/Connectome/c_elegans_feedforward.png){height=400}
+:::
+::: {.column width="30%"}
+- posterior nervous system of adult male
+- sexually dimorphic circuits for mating
+- short synaptic pathways directly connecting
+sensory neurons to end organs
+- reciprocal connectivity among sensory neurons
+- interneurons acting in feedforward loops
+:::
+:::
+
+::: footer
+[Jarrell et al. 2012](https://www.science.org/doi/pdf/10.1126/science.1221762)
+:::
+
+
+## Mouse inner plexiform layer
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/plexiform_41586_2013_BFnature12346_Fig1_HTML.webp){height=550}
+:::
+::: {.column width="30%"}
+- mouse inner plexiform layer
+- reconstruction of 950 neurons and their mutual contacts
+- crowd-sourced manual annotation and machine-learning-based volume segmentation
+:::
+:::
+
+
+:::footer
+[Helmstaedter et al, 2013](https://www.nature.com/articles/nature12346)
+:::
+
+
+
+## Visual connectomes - fly medulla
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/fly_visual_41586_2013_BFnature12450_Fig3_HTML.webp)
+
+- fly medulla connectome as matrix and as graph
+:::
+::: {.column width="30%"}
+- reconstruction of the *Drosophila* optic medulla
+- 379 neurons and 8,637 chemical synapses
+- reconstruction of a motion detection circuit
+:::
+:::
+
+::: footer
+[Takemura et al. 2013](https://www.nature.com/articles/nature12450)
+:::
+
+
+## The first complete visual circuit
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/Randel_eye_circ_merged.png)
+:::
+::: {.column width="30%"}
+- neuronal connectome of a four-eye visual circuit in the larva of the annelid *Platynereis dumerilii*
+- 71-neuron circuit from eyes to muscles
+- circuit motif for contrast enhancement and left-right comparison of light
+- spatial light detection during visual phototaxis
+:::
+:::
+
+::: footer
+[Randel et al. 2014](https://elifesciences.org/articles/02730)
+:::
+
+
+
+
+## A volume of the *Drosophila* larval brain
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/fly_41586_2015_Article_BFnature14297_Fig5_HTML.webp){height=550}
+:::
+::: {.column width="30%"}
+- an EM volume that spans the entire fly larval nervous system
+- collaborative annotation by CATMAID
+- many circuits mapped over the years on the same volume
+:::
+:::
+
+::: footer
+[Ohyama et al, 2015](https://www.nature.com/articles/nature14297)
+:::
+
+## The connectome of the *Ciona* tadpole larva
+
+::: columns
+::: {.column width="70%"}
+![](movies/ciona_larva_elife-16962-media1.webm)
+:::
+::: {.column width="30%"}
+- *Ciona intestinalis* (ascidian) larva
+- symmetrical undulations of the non-segmented tail
+- simple nervous system
+:::
+:::
+
+::: footer
+[Ryan et al. 2016](https://doi.org/10.7554/eLife.16962)
+:::
+
+## The connectome of the *Ciona* tadpole larva
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/ciona_lax_16962_elife-16962-fig9-figsupp1-v1.tif.jpg)
+:::
+::: {.column width="30%"}
+- total network of synaptic pathways
+- grouped by cell type 
+- line width indicates the total synaptic number
+- arrows indicate direction of synaptic connection
+- 177 CNS neurons, 6618 synapses including 1772 neuromuscular junctions, 1206 gap junctions
+- asymmetries (e.g. right ocellus, left coronet cells)
+:::
+:::
+
+::: footer
+[Ryan et al. 2016](https://doi.org/10.7554/eLife.16962)
+:::
+
+
+## Connectome of both sexes of *C. elegans*
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/c_elegans_both_sexes.png){height=550}
+:::
+::: {.column width="30%"}
+- both male and hermaphrodite whole-animal connectomes
+- the nervous system differs between sexes at multiple levels
+- several sex-shared neurons are sexually dimorphic
+:::
+:::
+
+::: footer
+[Cook et al. 2019](https://www.nature.com/articles/s41586-019-1352-7)
+:::
+
+
+## Developmental connectomics
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/c_elegans_dev_41586_2021_3778_Fig1_HTML.webp){height=550}
+:::
+::: {.column width="30%"}
+- full brain of eight *Caenorhabditis elegans* individuals across postnatal stages 
+- investigate how wiring changes with age
+- connections become stronger, new connections appear
+:::
+:::
+
+::: footer
+[Witvliet et al. 2021](https://www.nature.com/articles/s41586-021-03778-8)
+:::
+
+
+## Enhanced FIB-SEM
+
+::: columns
+::: {.column width="70%"}
+![](movies/fib_sem_elife-25916-media2.webm)
+
+:::
+::: {.column width="30%"}
+- Focused Ion Beam Scanning Electron Microscopy (FIB-SEM)
+- re-engineered commercial FIB-SEMs
+- imaging speed improvement and error detection 
+- generating continuously imaged volumes > 10^6 µm^3 
+:::
+:::
+
+::: footer
+[Xu et al. 2017](https://elifesciences.org/articles/25916)
+:::
+
+## The fly hemibrain connectome
+
+::: columns
+::: {.column width="33%"}
+![](images/Connectome/hemibrain_lax_57443_elife-57443-fig1-v4.tif.jpg)
+
+- [link to data in neuroglancer](https://neuroglancer-demo.appspot.com/#!gs://flyem-views/hemibrain/v1.2/base.json)
+:::
+::: {.column width="33%"}
+![](images/Connectome/hemibrain_lax_57443_elife-57443-fig2-v4.tif.jpg)
+
+- 'hot knife approach' (slice the brain into 20-μm-thick slabs)
+:::
+::: {.column width="33%"}
+- central brain FIB-SEM dataset
+- ~25,000 neurons and ~20 million connection
+- half of the cell types newly identified
+:::
+:::
+
+::: footer
+[Scheffer et al. 2020](https://elifesciences.org/articles/57443)
+:::
+
+
+## FAFB - a whole fly brain volume
+
+::: columns
+::: {.column width="50%"}
+![](movies/autoloader_1-s2.0-S0092867418307876-mmc4.webm)
+
+- custom high-throughput EM platform
+:::
+::: {.column width="50%"}
+![](images/Connectome/FAFB_1-s2.0-S0092867418307876-gr1_lrg.jpg)
+
+- serial sectioning and TEM imaging of a fly brain
+- brain-spanning mapping of circuits at synaptic resolution
+- 100,000-neuron adult brain
+- https://catmaid-fafb.virtualflybrain.org/
+:::
+:::
+
+::: footer
+[Zheng et al. 2018](https://doi.org/10.1016/j.cell.2018.06.019)
+:::
+
+
+## Partial reconstructions in the FAFB dataset - olfactory system
+
+::: columns
+::: {.column width="70%"}
+![](movies/Bates_mmc7.webm)
+:::
+::: {.column width="30%"}
+- complete inventory of olfactory projections connecting the antennal lobe to higher-order brain regions
+- the lateral horn is the main target for olfactory information
+- many new PN cell types identified
+:::
+:::
+
+::: footer
+[Bates et al. 2020](https://www.cell.com/current-biology/fulltext/S0960-9822(20)30858-7)
+:::
+
+
+## Fly larva whole-brain connectome
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/Winding_science.add9330-fa.jpg)
+:::
+::: {.column width="30%"}
+- *Drosophila* larval brain 
+- 3,016 neurons and 548,000 synapses
+- 93 neuron types
+- extensive multisensory integration
+:::
+:::
+
+::: footer
+[Winding et al. 2023](https://www.science.org/doi/10.1126/science.add9330)
+:::
+
+
+## Whole-body three-segmented *Platynereis* larva
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/Platynereis_connectome_modules.jpg){height=550}
+:::
+::: {.column width="30%"}
+- *Platynereis dumerilii* three-segmented larva
+- whole-body connectome
+- ~2,000 neurons
+- 202 neuronal and 92 non-neuronal cell types
+
+:::
+:::
+
+::: footer
+[Verasztó et al. 2024](https://elifesciences.org/reviewed-preprints/97964)
+:::
+
+
+## Complete fly brain connectome
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/Schlegel_fly_brain.png)
+:::
+::: {.column width="30%"}
+- 139,255 neurons
+- hierarchical annotations
+- 8,453 annotated cell types (3,643 were previously proposed in the partial hemibrain connectome)
+- available in CATMAID (https://fafb-flywire.catmaid.org/)
+:::
+:::
+
+::: footer
+[Schlegel et al. 2024](https://doi.org/10.1038/s41586-024-07686-5)
+:::
+
+
+## Complete fly brain connectome
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/Dorkenwald_fly_brain.png)
+:::
+::: {.column width="30%"}
+- adult female *Drosophila melanogaster*
+- full reconstruction of the FAFB dataset
+- FlyWire Consortium, over 200 scientists contributed
+- principle of openness: "similar approaches based on an open ecosystem will enable connectomics to scale more efficiently, economically and equitably"
+:::
+:::
+
+::: footer
+[Dorkenwald et al. 2024](https://www.nature.com/articles/s41586-024-07558-y)
+:::
+
+
+
+
+
+
+## Octopus connectomics
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/octopus_lax_84257_elife-84257-fig1-v1.tif.jpg)
+:::
+::: {.column width="30%"}
+- *Octopus vulgaris* vertical lobe (memory center)
+- small volume of 892 serial sections
+- unique circuit architecture for associative learning based on feedforward information flow
+:::
+:::
+
+::: footer
+[Bidel et al. 2023](https://elifesciences.org/articles/84257)
+:::
+
+## The brain of a mini-wasp
+
+::: columns
+::: {.column width="70%"}
+
+
+![](images/Connectome/megaphragma.png){height=200}
+![](images/Connectome/wasp_1-s2.0-S096098222301237X-gr3_lrg.png){height=300}
+:::
+::: {.column width="30%"}
+- microinsect *Megaphragma viggianii*
+- highly simplified visual system
+- denucleated neurons
+:::
+:::
+
+:::footer
+[Chua et al. 2023](https://www.sciencedirect.com/science/article/pii/S096098222301237X?via%3Dihub)
+[Polilov 2012](https://www.sciencedirect.com/science/article/pii/S1467803911000946)
+:::
+
+## The Mind of a Mouse
+
+![](images/Connectome/mouse_gr1_lrg.jpg)
+
+- Each 1,000 cubic microns of brain volume is schematically represented by a 1 cm linear distance.
+- ~1 cm^3^ (125,000x larger than a *Platynereis* larva)
+- ~1 million terabytes of data will need to be acquired and analyzed to provide a complete mouse brain connectome
+
+::: footer
+[Abbott et al. 2020](https://www.cell.com/cell/fulltext/S0092-8674(20)31001-1)
+:::
+
+
+
+## The importance of openness
+
+::: columns
+::: {.column width="70%"}
+![](images/Connectome/catmaid_lax_12059_elife-12059-fig5-v3.tif.jpg)
+:::
+::: {.column width="30%"}
+- ZooCELL volumes should be released as soon as they are acquired and aligned (short data papers)
+- collaboration via online tools
+- better annotations, faster progress
+- rely on communities of experts
+- fly larva and FlyWire are good examples
+:::
+:::
+
+
+:::footer
+[Schneider-Mizell, 2016](https://elifesciences.org/articles/12059#bib47)
+:::
+
+
+
+

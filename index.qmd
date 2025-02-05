@@ -12,6 +12,11 @@ format:
 <br>
 
 
+__"Large-volume EM and connectomics - An (incomplete) history of neuronal connectomics"__<br>
+[Presentation](https://jekelylab.github.io/ZooCell_Connectomics_Intro_Feb2025.html#/title-slide/) at the [ZooCELL Practical Course: "Animal diversity and EM sample preparation"](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely/Events/zoocell-course) at COS and EMBL Heidelberg (03-14 February 2025). 
+
+<br>
+
 __"Analysis of the *Platynereis dumerilii* connectome with CATMAID and R"__<br>
 [Presentation](https://jekelylab.github.io/ELTE_Platynereis_CATMAID_Intro_29Jan2025.html#/title-slide/) at the [2025 V4SDB Winter School](https://danio-elte.github.io/2025V4SDBStudentWinterSchoolMaterials/programme.html) at ELTE (Jan 28, 2025). 
 

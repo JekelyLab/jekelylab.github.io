@@ -1,0 +1,171 @@
+---
+title: "Animal diversity and EM sample preparation"
+subtitle: "ZooCELL 1st Practical Course
+ | 03-14 February 2025, COS and EMBL, Heidelberg"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+## Wellcome to COS
+
+::: columns
+::: {.column width="50%"}
+![](images/COS.webp)
+:::
+::: {.column width="50%"}
+- Centre for Organismal Studies (COS) 
+- Established in 2010 by the merger of the former Heidelberg Institutes for Plant Science (HIP) and Zoology (HIZ)
+:::
+:::
+
+::: footer
+[COS Report 2022-2024](https://backend.cos.uni-heidelberg.de/en/media/12821/download)
+:::
+
+
+
+## Wellcome to COS
+
+
+
+::: columns
+::: {.column width="50%"}
+![](images/COS_Report_pics.png)
+:::
+::: {.column width="50%"}
+- research at the forefront of organismal biology
+- from molecules to environmental context
+- 24 independent research groups
+- 6 Core Facilities 
+- over 8M€ yearly external funding
+- 2 ERC Synergy, 2 ERC AdG, 3 DFG Emmy Noether Awards, 5 EMBO members
+:::
+:::
+
+::: footer
+[COS Report 2022-2024](https://backend.cos.uni-heidelberg.de/en/media/12821/download)
+:::
+
+## Campus map
+
+![](images/COS_map.png){height=550}
+
+## 1st Practical course - General daily program
+
+- #### Morning lectures (Seminar room 005 or 007 in INF230) or site visits
+
+  - 09:00 - 10:45: lectures 
+  - 10:45 - 11:00: Coffee break
+  - 11:00 - 12:00: lectures
+  - 12:00 - 13:00: Lunch (Uni mensa)
+
+- #### Organized Practical (EMCF INF345; COS INF230; EMBL; in four groups)
+
+  - 13:00 - 18:30: 
+    - Chemical+Micro @EMCF
+    - Sectioning @EMCF
+    - AT-SEM @COS
+    - HPF @EMCF
+
+- #### Evening lectures
+ - 18:30 - 19:30: PI talks (SR041 Bioquant or Seminar room 005 in INF230)
+
+- #### 19:30: Dinner
+
+## Highlights
+
+<br><br>
+
+- #### Day 3: Wed. 05.02, 19:30: *Pizza + Beer + Posters (Seminar room 005 in INF230)*
+
+
+- #### Day 5: Fri. 07.02, 20:30: *Dinner in Urban Kitchen*
+
+
+- #### Day 6: Sat. 08.02: *Group excursion to the Messel Pit Fossil Site*
+
+
+- #### Day 12: Fri. 14.02, 09:00 - 12:00: *Student presentations and Wrap-up*
+
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height=550}
+
+
+::: footer
+Réza Shahidi, EMCF
+:::
+
+## High pressure freezing
+
+![](images/HPF_setup_EMBL.jpg){height=400}
+
+- HPF setup at EMBL
+- similar setup at UHEI EMCF (Réza Shahidi, Charlotta Funaya)
+- excellent fixation is key and often the most difficult and critical step
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
+
+
+
+## Array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: footer
+Alexandra Kerbl, COS
+:::
+
+## Array tomography workflow
+
+
+![](images/Connectome/Zeiss_Gemini500.jpg
+){.absolute left="130" top="100" height="500" loop="true"}
+
+
+
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image7.jpg){.absolute left="0" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image9.jpg){.absolute left="410" top="100" height="400"}
+
+
+## vEM capabilities
+
+- HPF at EMBL, SZN, UEXE and UHEI
+- Leica Ultracut for AT
+- 2 Zeiss Gemini SEMs at COS, FIB-SEM at EMBL, 1 Zeiss Gemini SEM in Exeter
+- resolution from 8-2 nm XY (synaptic) or lower
+- 30-70 nm sections (8 nm in FIB-SEM)
+- a 200 μm long larva takes ~5,000 sections
+- 100-500 sections collected as ribbons on a slide (AT)
+- imaging time from days to months
+
+## Data analysis challenges
+
+- potentially large (Tbyte) datasets
+- alignment of thousands of sections a challenge
+- collaborative annotation (CATMAID)
+- segmentation vs. skeletonisation
+- data sharing
+- etc...
+
+## The EM workflow pyramid
+
+![](images/EM_pyramid.png){height=500}
