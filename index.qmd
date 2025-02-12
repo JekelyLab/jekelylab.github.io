@@ -11,6 +11,10 @@ format:
 <br>
 <br>
 
+__"Cell-type atlas and neuronal connectome of the *Platynereis dumerilii* three-day-old larva"__<br>
+[Evening lecture](https://jekelylab.github.io/ZooCELL_EM_Course_Evening_Lecture_2025Feb.html#/title-slide/) during the [ZooCELL Practical Course: "Animal diversity and EM sample preparation"](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely/Events/zoocell-course) at COS and EMBL Heidelberg (03-14 February 2025). 
+
+<br>
 
 __"Large-volume EM and connectomics - An (incomplete) history of neuronal connectomics"__<br>
 [Presentation](https://jekelylab.github.io/ZooCell_Connectomics_Intro_Feb2025.html#/title-slide/) at the [ZooCELL Practical Course: "Animal diversity and EM sample preparation"](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely/Events/zoocell-course) at COS and EMBL Heidelberg (03-14 February 2025). 
