@@ -1,0 +1,455 @@
+---
+title: "Evolutionary neurobiology of zooplankton larvae"
+subtitle: "COS SAB 2025"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
+mainfont: Arial
+format:
+  revealjs: 
+    theme: [default, custom_SAB.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo: images/COS_Logo_small.png
+---
+
+
+## Nervous systems evolved in the sea
+
+![](images/trilobite-cambrian-explosion-full-width.jpg.thumb.1160.1160.jpg)
+
+:::aside
+National History Museum
+:::
+
+## Zooplankton behaviour
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+![](movies/larvae.webm){height=320 loop="true"}
+phototaxis
+
+- UV avoidance
+- thermosensing
+- settlement
+:::
+::: {.column width="33%"}
+![](movies/startle.webm){height=320 loop="true"}
+startle response
+
+- ciliary coordination
+- chemosensing
+:::
+::: {.column width="33%"}
+![](movies/crawling_juvenile.webm){height=320 loop="true"}
+crawling
+
+- flow sensing
+- pressure response
+:::
+:::
+
+
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="100" height="600"}
+
+::: columns
+::: {.column width="60%"}
+<br><br><br><br><br><br><br>
+
+-   breeding culture
+-   microinjection, transgenesis
+-   neuron-specific promoters and antibodies
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging 
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+
+## From biophysics to environment
+
+
+::: columns
+::: {.column width="50%"}
+biophysics
+![](images/platynereis/Poon_metachrony1.png){height=250}
+
+connectomics
+![](images/Ciliomotor/Figure_head_sensory_anterior.png){height=250}
+:::
+::: {.column width="50%"}
+
+
+![](images/Startle/PKD1_transgene.png){height=250}  genetics
+
+
+![](images/Startle/copepod_predation.png){height=220}environment
+
+:::
+:::
+
+
+
+## Biophysics of ciliary microswimmers
+
+::: columns
+:::{.column width="60%"}
+![](images/platynereis/Poon_metachrony2.png)
+
+- high-speed ciliary imaging
+- laser ablations
+- modelling
+
+:::
+:::{.column width="40%"}
+![](movies/Cilia_simulation2.webm)
+
+*In collaboration with Wan and Keaveny labs, UK*
+:::
+:::
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+[Poon et al. 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2)
+:::
+
+## Array tomography for vEM and connectomics
+
+::: columns
+:::{.column width="32%"}
+![](images/Connectome/AT_SEM_image9.jpg)
+![](images/Connectome/AT_SEM_image7.jpg)
+:::
+:::{.column width="41%"}
+![](images/Connectome/Zeiss_Gemini500.jpg)
+:::
+:::{.column width="26%"}
+<br><br>
+
+- 2 Zeiss Gemin SEMs
+- Leica UC7 Ultramicrotome
+- strong collaboration with EMCF
+:::
+:::
+
+
+## Whole-body connectome of a segmented animal
+
+![](movies/Video1_Connectome_paper.webm){height=550}
+
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+## {background-image="images/Connectome/Connectome.png" background-size="700px"}
+
+
+## Information flow from sensors to effectors
+
+![](images/Connectome/Figure4_fig_suppl6.png){height=510}
+![](images/Connectome/Fig4_label_celltype_distr.png){height=20}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+## UV response in *Platynereis* larvae
+
+
+![](images/Platynereis_3d.jpeg){.absolute top="100" left="1050" height="200"}
+
+::: columns
+::: {.column width="40%"}
+<br><br>
+![](images/NOS/vertical_experiment_setup.png)
+:::
+::: {.column width="60%"}
+<br><br>
+![](images/NOS/UV-response-elife-36440-fig3-v2.png)
+
+:::
+:::
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+
+## Brain ciliary photoreceptors with ramified cilia
+
+<br><br><br>
+![](images/pressure/cPRC.png)
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+
+
+
+## Circuitry of ciliary photoreceptors
+
+
+::: columns
+::: {.column width="55%"}
+<br>
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/visNetwork_INNOS.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=400, width=700
+)
+```
+
+:::
+::: {.column width="45%"}
+
+![](images/pressure/cPRC_circuit_Catmaid.png)
+:::
+:::
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+
+## Strong cPRC activation after UV exposure
+
+![](images/NOS/UV_stimulation.png){.absolute top="200" left="-30" height="310"}
+![](images/NOS/cPRC_calcium_WT.png){.absolute top="130" left="450" height="450"} ![](images/NOS/arrow1.png){.absolute top="90" left="840" height="100"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+## Nitric-oxide synthase in postsynaptic interneurons
+
+<br><br>
+
+![](images/NOS/Jokura_Fig1_NOS_HCR.png)
+
+```{=html}
+ <style>
+  .left-align {
+    text-align: left;
+  }
+</style>
+
+<div class="left-align">
+  &emsp;&emsp;&emsp;&emsp;&emsp; HCR   &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+  &emsp;&emsp;
+  Transgenic labelling
+  &emsp;&emsp;&emsp;
+  &emsp;&emsp;&emsp;
+  immunostaining
+</div>
+```
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+## *NOS* mutants have defective UV response
+
+![](images/NOS/NOS-Architecture.png){.absolute left="50" top="60" width="450"}
+
+![](images/NOS/WTvsNOS11_cPRC.png){.absolute left="-30" top="270" height="300"} ![](images/NOS/WTvsNOS11_INNOS.png){.absolute left="600" top="270" height="300"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+
+
+## In quest of the origin of eyes
+
+![](images/ERC_Figure1.png){height=550}
+
+### ERC AdG Project - PROTOEYE
+
+
+## Coral larvae
+
+::: columns
+::: {.column width="25%"}
+![](images/coral/bodywall_Acropora_SEM.png)
+Emelie Brodrick
+:::
+::: {.column width="33%"}
+<br>
+![](movies/coral_cilia1.webm){loop="true"}
+Hannah Laeverenz
+:::
+::: {.column width="42%"}
+<br><br>
+![](movies/coral_cilia2.webm)
+Rebecca Poon & Kirsty Wan
+:::
+:::
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## Coral larval light responses and connectome
+
+::: columns
+::: {.column width="50%"}
+
+![](movies/Emelie/larva06_contr_slow.webm){height=450}
+:::
+::: {.column width="50%"}
+![](movies/Aiptasia_video1.webm){height=450}
+:::
+:::
+
+:::aside
+[Brodrick et al. 2025](https://www.biorxiv.org/content/10.1101/2025.02.06.636794v1)
+:::
+
+
+## Field trips to explore marine plankton
+
+![](images/Sorgeto_Pic.jpeg){height=500}
+
+![](images/Ischia_boat.jpg){.absolute top="60" left="870" width="140"}
+
+Ischia, Sorgeto, 2024
+
+## Field trips lead to unexpected discoveries
+
+![](images/Ischia_polyclad.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## What is this?
+
+![](images/Ischia_polyclad2.jpg){height=500}
+
+with Alexandra Kerbl, Ischia May 31, 2024
+
+## 
+
+![](movies/polyclads_Ischia_May2024zoom.webm){height=550}
+
+## Egg plates and Müller's larvae of polyclad flatworms
+
+::: columns
+::: {.column width="40%"}
+![](images/Fichier_1Polyclad_larvae_SEM1.png){height=450}
+
+:::
+::: {.column width="60%"}
+![](images/planocera_ceratommata-slb21_image1200.jpg){height=450}
+*Planocera ceratommata*
+:::
+:::
+
+::: aside
+Karel Mocaer, Alexandra Kerbl
+:::
+
+
+## Müller's larvae have a ciliomotor nervous system
+
+![](images/Ciliomotor/Lacalli_Muller_larva.png){height=550}
+
+:::aside
+[Lacalli 1982](https://doi.org/10.1098/rspb.1982.0093)
+:::
+
+## Ciliomotor system in *Platynereis*
+
+::: columns
+::: {.column width="30%"}
+**24 ciliomotor neurons** 
+![](movies/Video_bb_cMN.webm)
+:::
+::: {.column width="39%"}
+**2 Cholinergic Loop neurons** 
+![](movies/Loop_EM.webm)
+:::
+::: {.column width="31%"}
+![](movies/ciliary_coordination_3d.webm)
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Comparative vEM & connectomics of marine larvae
+
+::: columns
+::: {.column width="80%"}
+![](images/ciliated_larvae.png)
+![](images/ZooCELL_Logo_WithClaim_RGB.jpg){height=80}
+
+[https://zoocell.eu/](https://zoocell.eu/)
+
+- In collaboration with Detlev Arendt, COS EMCF and EMBL EMCF
+
+
+:::
+::: {.column width="20%"}
+<br>
+
+- 12 labs (EU, UK)
+- vEM of marine invertebrates
+- evolution of cell types
+- integrate with molecular atlases
+:::
+:::
+
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+<u>*Lab members*</u>
+
+-   Sanja Jasek
+-   Alexandra Kerbl
+-   Emily Savage
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+-   Karel Mocaer
+-   David Hug
+-   Benedikt Dürr
+-   Ira Maegele
+-   Emelie Brodrick (Exeter)
+:::
+
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding2.png)
+:::
+
+::: {.column width="28%"}
+<u>*Facilities*</u>
+
+- EM Core Facility
+    - Réza Shahidi
+    - Charlotta Funaya
+- Nikon Imaging Centre
+  - Ulrike Engel
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}

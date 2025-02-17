@@ -1,0 +1,30 @@
+/*-- scss:defaults --*/
+
+$body-bg: #FFFFFF;
+$body-color: #121212;
+$link-color: #42affa;
+$presentation-heading-color: #a40000;
+$presentation-h1-font-size: 2em;
+$presentation-font-size-root: 25px;
+$presentation-title-slide-text-align:	center;
+$presentation-slide-text-align: left;
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-left: 0.5em;
+}
+
+.reveal .slide-logo {
+  display: block;
+  position: fixed;
+  bottom: unset !important;
+  right: unset !important;
+  top: 2px;
+  left: 1250px;
+  height: 90px !important;
+  width: 90x !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
