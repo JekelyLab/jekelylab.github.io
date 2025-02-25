@@ -11,6 +11,12 @@ format:
 <br>
 <br>
 
+
+__"Neural circuit and genetic bases of behaviour in *Platynereis* larvae"__<br>
+[Presentation](https://jekelylab.github.io/SZN_Eco_Evo_Course_2025Feb.html#/title-slide/) during the *EcoEvoDevo PhD course, SZN* (24-26 February 2025). 
+
+<br>
+
 __"Evolutionary neurobiology of zooplankton larvae"__<br>
 [Presentation](https://jekelylab.github.io/COS_SAB_talk_Feb2025.html#/title-slide/) during the *COS SAB Meeting -- Current and future Research at COS* (19-20 February 2025). 
 

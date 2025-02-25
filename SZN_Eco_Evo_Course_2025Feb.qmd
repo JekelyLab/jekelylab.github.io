@@ -1,0 +1,566 @@
+---
+title: "Neural circuit and genetic bases of behaviour in *Platynereis* larvae"
+subtitle: "EcoEvoDevo PhD course | February 24th-26th, 2025, SZN"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+css: xaringan-themer-GJ.css
+---
+
+## What is a larva?
+
+
+::: columns
+::: {.column width="80%"}
+
+<br>
+
+- ### larva
+ - *noun* ˈlär-və 
+  - plural larvae ˈlär-(ˌ)vē, also larvas
+
+- 1: the immature, wingless, and often wormlike feeding form that hatches from the egg of many insects, alters chiefly in size while passing through several molts, and is finally transformed into a pupa or chrysalis (see chrysalis sense 1a) from which the adult emerges
+
+- 2: the early form of an animal (such as a frog or sea urchin) that at birth or hatching is fundamentally unlike its parent and must metamorphose before assuming the adult characters
+:::
+::: {.column width="20%"}
+![](images/Merriam_Webster.png)
+:::
+:::
+
+## What is a larva?
+
+![](images/ciliated_larvae.png)
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="1.5em" left="1em" height="60em"}
+
+::: columns
+::: {.column width="60%"}
+<br><br><br><br><br><br>
+
+-   breeding culture, full life-cycle
+-   embryos daily, year round
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters and antibodies
+-   knock-out lines
+-   neuronal connectome
+-   whole-body neuronal activity imaging
+-   whole-animal pharmacology by bath application 😎
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## What is a larva?
+
+::: columns
+::: {.column width="46%"}
+![](images/platynereis/P_dumerilii_life_cycle.png){height=15em}
+
+ *Platynereis dumerilii* 
+ 
+- a gonochorostic species 
+- lecitotrophic non-feeding larvae
+- free-swimming planktonic stage
+:::
+::: {.column width="54%"}
+![](images/platynereis/P_massiliensis_dev.png){height=15em}
+
+ *Platynereis massiliensis* 
+
+- a protandric hermaphrodite
+- lecitotrophic direct development in brood tubes
+- absence of a free-swimming stage
+
+:::
+:::
+
+::: footer
+[Helm el al. 2015](https://ijdb.ehu.eus/article/140081cb)
+<br>
+[Özpolat et al. 2021](https://evodevojournal.biomedcentral.com/articles/10.1186/s13227-021-00180-3)
+:::
+
+## A real larva vs. a blob
+
+
+::: columns
+::: {.column width="50%"}
+![](images/Platynereis_SEM_3d_2.png){height=15em}
+ 
+ *Platynereis dumerilii* 
+
+:::
+::: {.column width="50%"}
+![](images/platynereis/Pmess S3_15_Williams.png){height=15em}
+
+ *Platynereis massiliensis* 
+:::
+:::
+
+#### "*A larva [in a marine invertebrate] is a post-embryonic life-cycle stage that is freely swimming and can be lost during evolution*"
+
+::: footer
+[Liz Williams, Luis Bezares, Maria Belyaeva & Christian Hacker]()
+:::
+
+
+
+
+## *Platynereis dumerilii*
+
+::: columns
+::: {.column width="50%"}
+![](movies/spawning_Fischer.webm){height=15em} <br><br><br><br><br><br><br><br><br><br><br><br><br><br> **Spawning** <br> movie by Albrecht Fischer
+:::
+
+::: {.column width="50%"}
+![](movies/3d_Larvae_swimming.webm) <br> **Synchronously developing larvae**
+:::
+:::
+
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="20%"}
+<br>
+![](images/Naomi.png)
+:::
+::: {.column width="80%"}
+![](movies/Naomi.webm){height=550}
+:::
+:::
+
+::: aside
+[Randel et al. (2015)](https://elifesciences.org/articles/08069) <br> [Verasztó et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
+:::
+
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="20%"}
+<br>
+![](images/Naomi.png)
+:::
+::: {.column width="80%"}
+![](movies/Video1_Connectome_paper.webm){height=20em}
+:::
+:::
+
+::: aside
+[Randel et al. (2015)](https://elifesciences.org/articles/08069) <br> [Verasztó et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
+:::
+## Synaptic connectome
+
+![](images/Connectome.png){height=25em}
+
+::: aside
+[Verasztó et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
+:::
+
+
+## Whole-body coordination of cilia
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="88" left="-70" height="240"}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Whole-body coordination of cilia
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"} ![](movies/Loop_EM.webm){.absolute top="100" left="370" height="550"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="88" left="-70" height="240"}
+
+::: footer
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Whole-body coordination during startle
+
+![](movies/startle.webm){height=20em}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## Coordinated arrest of all cilia
+
+![](movies/SuppVideo2_concatenatedNoELowEWideE.webm){height=20em}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## No arrest in polycystin receptor mutant
+
+![](movies/SuppVideo6_FlowtracePKD11homozygoteAnnotatedTime_CRb2x2CR.webm){.absolute top="100" left="190" height="450"} ![](images/Startle/CR_cilia.svg){.absolute top="87" left="-70" height="250"}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+## Startle recruits body-wide circuits and effectors
+
+![](movies/Video_startle.webm){height=500}
+
+::: footer
+[Bezares-Calderón al. (2018)](10.7554/eLife.36262)
+:::
+
+
+
+## UV response in *Platynereis* larvae
+
+![](images/Platynereis_3d.jpeg){.absolute left="0em" top="4em" height="15em"}
+
+![](movies/UV-response-elife-36440-video2.webm){.absolute left="11em" top="2em" height="22em"}
+
+![](images/NOS/UV-response-elife-36440-fig3-v2.png){.absolute left="16em" top="4em" height="15em"}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## UV-responding brain ciliary photoreceptors (cPRCs)
+
+![](images/pressure/cPRC.png){.absolute top="60" left="70" width="900"}
+
+![](images/pressure/c_opsin1.png){.absolute top="370" left="360" width="280"}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## No UV avoidance in *c-opsin1* knockouts
+
+![](images/NOS/cOps_KO_UVresponse.png){height=20em}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## No cPRC response in *c-opsin1* knockouts
+
+![](images/pressure/c_opsin_KO_calcium.png){height=20em}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Circuitry of ciliary photoreceptors
+
+<br><br><br><br> ![](images/NOS/NOS_Fig1_upper_panels.png)
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Circuitry of ciliary photoreceptors
+
+![](images/NOS/Jokura_Fig1_NOS_EM.png){.absolute top="2em" left="0em" width="50em"} ![](images/Platynereis_SEM_3d_2.png){.absolute top="4em" left="40em" width="5em"}
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+
+## Serotonergic neurons to activate cilia
+
+::: columns
+::: {.column width="43%"}
+**Ser-h1 neurons, EM reconstruction** ![](movies/video_Ser_h1.webm)
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+
+
+## Strong cPRC activation after UV exposure
+
+![](images/NOS/UV_stimulation.png){.absolute top="200" left="-30" height="310"}
+![](images/NOS/cPRC_calcium_WT.png){.absolute top="130" left="450" height="450"} ![](images/NOS/arrow1.png){.absolute top="90" left="840" height="100"}
+
+::: aside
+[Jokura et al. 2023](https://elifesciences.org/reviewed-preprints/91258)
+:::
+
+
+## Nitric-oxyde synthase in postsynaptic interneurons
+
+![](images/NOS/Jokura_Fig1_NOS_HCR.png){.absolute top="5em" left="0em" height="10em"}
+![](images/NOS/INNOS_incoming_outgoing.png){.absolute top="5em" left="31em" height="10em"}
+
+```{=html}
+ <style>
+  .left-align {
+    text-align: left;
+  }
+</style>
+
+<div class="left-align">
+  &emsp;&emsp;&emsp; HCR in situ   &emsp;&emsp;
+  &emsp;
+  Transgenic labelling &emsp;&emsp;
+  Immunostaining
+</div>
+```
+
+::: aside
+[Jokura et al. 2023](https://doi.org/10.7554/eLife.91258.1)
+:::
+
+## NO is produced in the neuropil after UV stimulation
+
+::: columns
+::: {.column width="40%"}
+![](images/NOS/DAFFM_neuropil.png){height=12em}
+:::
+::: {.column width="60%"}
+![](images/NOS/DAFFM.png){height=12em} ![](images/NOS/DAFFM_formula.jpeg){height=7em}
+:::
+:::
+
+::: aside
+[Jokura et al. 2023](https://doi.org/10.7554/eLife.91258.1)
+:::
+
+## *NOS* mutants have altered cPRC response
+
+![](images/NOS/NOS-Architecture.png){.absolute left="50" top="60" width="450"}
+
+![](images/NOS/WTvsNOS11_cPRC.png){.absolute left="-30" top="270" height="300"} ![](images/NOS/WTvsNOS11_INNOS.png){.absolute left="600" top="270" height="300"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: aside
+[Jokura et al. 2023](https://doi.org/10.7554/eLife.91258.1)
+:::
+
+## *NOS* mutants have altered INRGW response
+![](images/NOS/NOS-Architecture.png){.absolute left="50" top="60" width="450"}
+
+![](images/NOS/WTvsNOS23_INRGW.png){.absolute left="-30" top="270" height="300"} ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: aside
+[Jokura et al. 2023](https://doi.org/10.7554/eLife.91258.1)
+:::
+
+## *NOS* mutants show defective UV avoidance
+
+![](images/NOS/vertical_tracking_position_sideUV_2d.png){.absolute left="-100" top="150" height="300"}
+
+![](images/NOS/Swimming_speed_NOS.png){.absolute left="450" top="150" height="300"}
+
+::: aside
+[Jokura et al. 2023](https://doi.org/10.7554/eLife.91258.1)
+:::
+
+## An unusual guanylyl cyclase in the cPRCs
+
+```{=html}
+  <div style="position: absolute; left: 70px; top: 320px">
+    <b><em>NIT-GC1</em> RNA</b>
+  </div>
+  <div style="position: absolute; left: 35px; top: 400px;">
+   <b>NIT-GC1 protein</b>
+  </div>
+```
+![](images/NOS/HCR-IHC_51_AP_NITGC1_actub_52.24um.png){.absolute left="230" top="60" height="290"}
+
+![](images/NOS/IHC_55_AP_NITGC1_actub_58.47um.png){.absolute left="230" top="370" height="290"}
+
+![](images/NOS/NIT_GC_domains.png){.absolute left="550" top="270" height="200"}
+
+::: aside
+[Jokura et al. 2023](https://doi.org/10.7554/eLife.91258.1)
+:::
+
+## An unusual guanylyl cyclase in the cPRCs
+
+![](images/NOS/NIT_GCb.png){.absolute left="0" top="3em" height="21em"} ![](images/NOS/NIT_GCa.png){.absolute left="23em" top="3em" height="21em"}
+
+::: aside
+[Jokura et al. 2023](https://doi.org/10.7554/eLife.91258.1)
+:::
+
+## NIT-GC morphants have altered circuit activity
+
+![](images/NOS/NIT1_MO_cPRC.png){.absolute left="-30" top="270" height="250"}     ![](images/NOS/visNetwork_INNOS.png){.absolute left="700" top="60" width="323"}
+
+::: aside
+[Jokura et al. 2023](https://doi.org/10.7554/eLife.91258.1)
+:::
+
+
+
+## Pressure response in *Platynereis* larvae
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/Platynereis_3d.jpeg){.absolute left="457" top="50" width="140"}
+
+![](movies/pressure_response.webm){.absolute left="600" top="62" width="280"}
+
+![](images/Luis_Bez.jpg){.absolute left="883" top="50" width="200"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Precise control of pressure in the pressure chamber
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/pressure/PanelAvgPressure_step2dpf.png){.absolute left="500" top="50" width="600"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Pressure response is graded
+
+![](images/pressure/PanelTvsAVGrelDisp_step3dpf.png){.absolute left="0" top="150" height="420"}
+
+![](images/pressure/Panel_prVSMaxAVGdisp_step3dpf.png){.absolute left="500" top="150" height="420"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Swimming speed increases, trajectories straighten
+
+![](images/pressure/Helix_ctr.png){.absolute left="500" top="120" height="550"} [ctr]{.absolute left="500" top="100" height="500"}
+
+![](images/pressure/Helix_pressure.png){.absolute left="700" top="120" height="550"} [pressure]{.absolute left="700" top="100" height="500"}
+
+![](images/pressure/Speed_on_pressure.png){.absolute left="190" top="180" height="350"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Ciliary beating increases under pressure
+
+![](images/pressure/CBF_assaySchematic.png){.absolute left="20" top="100" height="220"}
+
+![](images/pressure/PanelPeriodvsmax.CBF_2dpf.png){.absolute left="400" top="150" height="420"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+![](movies/high_speed_cilia.webm){.absolute left="0" top="343" height="240" loop="true"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Which cells respond to pressure?
+
+::: columns
+::: {.column width="45%"}
+**Microscopy pressure chamber** ![](images/pressure/CaImaging_Schematic.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="50%"}
+**Calcium imaging** ![](images/pressure/CaimagingNovs750mbpanel.png)
+:::
+:::
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Pressure is sensed by photoreceptors with ramified cilia
+
+![](movies/pressure_response_calcium_cPRC.webm){.absolute top="147" left="-50" height="350" video-loop="true"}
+
+![](images/pressure/cPRC.png){.absolute top="160" left="220" width="900"}
+
+## Photoreceptor responses to pressure are graded
+
+![](images/pressure/cPRC_calcium_quantification.jpg){.absolute top="100" left="40" height="450"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Defects of pressure response in *c-opsin1* mutants
+
+![](images/pressure/Panel_prVSMaxdispInd-AVG_step2dpf.png){.absolute top="100" left="180" height="520"}
+
+::: footer
+Luis A. Bezares-Calderón
+:::
+
+## Reduced ciliary compartment in *c-opsin1* mutants
+
+![](images/pressure/cPRC_WTvsCops.png){.absolute top="200" left="-50" width="500"}
+
+![](images/pressure/PanelVolumecPRCs.png){.absolute top="150" left="500" height="350"}
+
+::: footer
+Kei Jokura & Luis A. Bezares-Calderón
+:::
+
+## Defects of ciliary ultrastructure in *c-opsin1* mutants
+
+![](images/pressure/EMcPRC_supp.png){.absolute top="100" left="-50" height="520"}
+
+![](images/pressure/cPRC_arbor_length.png){.absolute top="200" left="640" height="250"}
+
+::: footer
+Réza Shahidi & Luis A. Bezares-Calderón
+:::
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+<u>*Lab members*</u>
+
+-   Sanja Jasek
+-   Alexandra Kerbl
+-   Emily Savage
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+-   Karel Mocaer
+-   David Hug
+-   Benedikt Dürr
+-   Ira Maegele
+-   Emelie Brodrick (Exeter)
+:::
+
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding2.png)
+:::
+
+::: {.column width="28%"}
+<u>*Facilities*</u>
+
+- EM Core Facility
+    - Réza Shahidi
+    - Charlotta Funaya
+- Nikon Imaging Centre
+  - Ulrike Engel
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}
