@@ -630,7 +630,11 @@ data analysis:|Matlab|Rstudio/python
 graphics:|Adobe|Inkscape
 cloud:|Google|self-hosted Nextcloud/Seafile
 office:|MS Office|LibreOffice
+<<<<<<< HEAD
 messaging:|WhatsApp|Signal
+=======
+
+>>>>>>> 737d8953f773ad9c517adca7b3b2603af1b25526
 <br>
 
 - delete accounts: LinkedIn, ResearchGate, Dropbox, X
