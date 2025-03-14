@@ -293,16 +293,16 @@ David Paul Morris/Bloomberg / Getty Images
 ::: {.column width="33%"}
 ![](images/AI/data_centres_energy.png)
 :::
-::: {.column width="33%"}
+::: {.column width="36%"}
 - only 16 nations use more E than data centers combined
-- one Nvidia H100 chip uses 700 watts, 8x of a 60-inch flat screen TV
+- one Nvidia H100 chip uses 700 watts, 8x 60-inch flat screen TV
 - OpenAI's data center in Abilene, Texas, will consume more electricity than some small cities
 - OpenAI, Amazon, Microsoft are all betting on nuclear energy
 - 'electricity hogs' strain the grid (e.g. in Virginia)
 - fossil fuel use is going up year on year
 - also huge demand on water, land, materials (gold, platinum, rare earth metals)
 :::
-::: {.column width="33%"}
+::: {.column width="30%"}
 ![](images/AI/loudoun_data_center_drone_credit_hugh_kenny (4 of 12) (1).jpg)
 
 - "We need terawatts and terawatts more" (global economy: 19 terawatts)
@@ -367,9 +367,9 @@ David Paul Morris/Bloomberg / Getty Images
 :::
 
 
-
-
 ## The real purpose of AI -  ii) Oil and Gas
+
+<br>
 
 :::columns
 :::{.column width=60%}
