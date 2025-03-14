@@ -147,13 +147,14 @@ behaviour|predictable|unpredictable
 ## Chatbots can lie and conceal motifs
 
 
-- models are biased
-- Chat-GPT Pretended to Be Blind and Tricked a Human Into Solving a CAPTCHA 
-- people with a stutter struggle with voice recognition AI
+- models can learn to be deceptive
 -  MIT researchers identified “wide-ranging instances of AI systems double-crossing opponents, bluffing and pretending to be human”
+- e.g. Chat-GPT Pretended to Be Blind and Tricked a Human Into Solving a CAPTCHA 
+- learned deception is a source of AI falsehoods (beyond deepfakes etc.)
 
 :::aside
-[Gizmodo](https://gizmodo.com/gpt4-open-ai-chatbot-task-rabbit-chatgpt-1850227471)
+[Gizmodo](https://gizmodo.com/gpt4-open-ai-chatbot-task-rabbit-chatgpt-1850227471)<br>
+[Park et al 2024](https://www.cell.com/patterns/fulltext/S2666-3899(24)00103-X)
 :::
 
 
@@ -347,6 +348,7 @@ David Paul Morris/Bloomberg / Getty Images
 - after bypassing some ringfences and prompting ChatGPT...
 - "Describe how an artificial superintelligence could destroy humanity"
 - ChatGPT gave 37 pages of detailed answers (biological, technological, digital, military, social engineering etc.)
+- (Is this a 'Limited-risk application'?)
 :::
 :::
 
@@ -462,6 +464,7 @@ David Paul Morris/Bloomberg / Getty Images
 - automatic kill-webs (drones, sensors, identify everyone)
 - distopias unlike anything that has been possible
 - the world is moving here with AI as fast as it can (e.g. China)
+- banned in EU (government-run social scoring)
 :::
 :::
 
@@ -578,9 +581,11 @@ Barracuda = Autonomous Air Vehicles (AAVs)
 
 ## What can we do?
 
+<br>
+
 :::columns
 :::{.column width=50%}
-![](images/AI/)
+![](images/AI/Lake-Cowal-Gold-Mine.webp)
 :::
 :::{.column width=50%}
 - Environmental effects --- (not much)
@@ -592,6 +597,8 @@ Barracuda = Autonomous Air Vehicles (AAVs)
 
 
 ## What can we do?
+
+<br>
 
 :::columns
 :::{.column width=50%}
@@ -609,11 +616,25 @@ Barracuda = Autonomous Air Vehicles (AAVs)
 [Switching Software](https://switching.software/)
 :::
 
-## More references
+## What can we do to limit tracking?
 
 
-https://www.theguardian.com/business/2025/jan/27/tech-shares-asia-europe-fall-china-ai-deepseek
+<br><br>
 
+. |Corporate tools| Open alternative
+-----|-----|----:
+code:|GitHub|Codeberg
+social media:|X/Bluesky|Mastodon/Fediverse
+OS:|MacOS/Windows|Linux
+data analysis:|Matlab|Rstudio/python
+graphics:|Adobe|Inkscape
+cloud:|Google|self-hosted Nextcloud/Seafile
+office:|MS Office|LibreOffice
+
+<br>
+
+- delete accounts: LinkedIn, ResearchGate, Dropbox, X
+- move away from: GDrive, GitHub, MS
 
 
 
