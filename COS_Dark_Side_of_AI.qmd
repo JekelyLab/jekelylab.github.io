@@ -132,6 +132,7 @@ behaviour|predictable|unpredictable
 :::{.column width=50%}
 - LLM's pseudo-reasoning is based on correlations
 - the simplest correlation will always win out
+- 'stochastic parrots'
 - DeepSeek’s chatbot made false claims 30% of the time and gave no answers to 53% of questions
 - (40% and 22% respectively for the 10 leading chatbots)
 - AI trained to detect COVID-19 from chest x-rays detected only the position of the patient, prone patients were sicker and so more likely to have COVID-19
