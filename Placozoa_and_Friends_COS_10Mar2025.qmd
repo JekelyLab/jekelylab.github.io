@@ -1,0 +1,427 @@
+---
+title: "Chemical and synaptic brains"
+subtitle: "Placozoa & Friends, COS Heidelberg, 10-11 March 2025"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+
+## Evolution of nervous systems
+
+::: columns
+::: {.column width="33%"}
+mollusk
+![](images/Kilias_snail_NS_1985.gif){height=400}
+
+Kilias, 1985
+:::
+::: {.column width="33%"}
+planarian
+![](images/Kellogg_Planarian_1903.png){height=400}
+
+Kellogg, 1903
+:::
+::: {.column width="33%"}
+vertebrate
+![](images/Jefferys_1763_human_NS_Wellcome.jpg){height=400}
+
+Jefferys, 1763
+:::
+:::
+
+## When did the first nervous systems evolve and how did they work?
+
+::: columns
+::: {.column width="75%"}
+<br><br>
+![](images/Animal_tree_NS_origins.png)\
+*Budd & Jékely*
+
+:::
+::: {.column width="25%"}
+
+![](images/Arendt_rstb20150286f06.jpg)\
+*Detlev Arendt*
+
+![](images/DickinsoniaCostata_hor.jpg)\
+*Dickinsonia costata*
+:::
+:::
+
+
+## What is a nervous system?
+
+::: columns
+::: {.column width="50%"}
+![](images/Connectome/fly_brain_Dorkenwald.png){height=300}
+
+- consists of cells (neurons, glia etc.)
+- neurons are excitable 
+- neurons can influence each others activity
+- and the activity of effectors
+
+:::
+::: {.column width="50%"}
+![](images/Connectome/fly-larva-matrix-science.add9330-f3.png){height=300}
+
+- connections are specific
+- organised into a complex network (connectome)
+- some neurons may be sensory
+:::
+:::
+
+::: aside
+[Dorkenwald et al. 2023](https://www.biorxiv.org/content/10.1101/2023.06.27.546656v2)
+[Widing et al. 2023](https://www.science.org/doi/full/10.1126/science.add9330)
+:::
+
+
+## Origin of the nervous system as a reflex arc?
+
+::: columns
+::: {.column width="40%"}
+![](images/history/800px-George_Howard_Parker.jpg){height=130}
+
+*George Howard Parker (1864 - 1955)*
+![](images/history/Parker_book.png)
+:::
+::: {.column width="60%"}
+![](images/history/Parker_reflex2.png){width=350}
+![](images/history/Parker_reflex1.png){width=350}
+
+- independent effectors evolved first
+- then receptor-effector systems
+- then organisation into nerve nets
+:::
+:::
+
+:::aside
+[Parker 1919](https://archive.org/details/bwb_P8-BNW-265/page/n7/mode/2up)
+:::
+
+
+## Neuronal communication by chemical signals?
+
+::: columns
+::: {.column width="80%"}
+<br><br>
+
+- argued against the “connectionist view”
+- proposed instead that neurons could communicate by specific chemical signals
+- like a radio broadcast
+- chemicals diffuse through the nervous system 
+- detected by specific chemical receptors in the target cells
+- communications could occur in the absence of synaptic transmission
+- discovery of pituitary hormones (1950ies)
+:::
+::: {.column width="20%"}
+![](images/history/Paul_Alfred_Weiss.jpg)
+Paul Alfred Weiss (1898 – 1989)
+:::
+:::
+
+:::aside
+[Jékely & Yuste, 2024](https://doi.org/10.1016/j.cobeha.2024.101456)
+:::
+
+## Chemical signalling between cells
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/chemical_brain1.png)
+:::
+::: {.column width="50%"}
+<br><br>
+
+- some cells release a chemical (e.g. short peptide)
+- other cells express a specific receptor for the chemical
+- receptor activation -> change in cell state
+- a specific cell-to-cell signalling is possible
+- no synaptic connection
+:::
+:::
+
+:::aside
+[Jékely, 2021](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0761)
+:::
+
+## The chemical brain hypothesis
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/chemical_brain2.png)
+:::
+::: {.column width="50%"}
+<br><br>
+
+- several cell types, each expressing a different chemical signal
+- several specific receptors expressed in target cells
+- chemical 'wiring diagram'
+- no synaptic connection
+:::
+:::
+
+:::aside
+[Jékely, 2021](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0761)
+:::
+
+## Chemical connectomes
+
+::: columns
+::: {.column width="45%"}
+![](images/neuropeptides/chemical_brain4.png)
+:::
+::: {.column width="50%"}
+<br><br>
+
+- sending and receiving cells
+- a chemical connectivity matrix
+- can be arbitrarily complex
+:::
+:::
+
+:::aside
+[Jékely, 2021](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0761)
+:::
+
+## Chemical connectomes
+
+::: columns
+::: {.column width="60%"}
+![](images/neuropeptides/chemical_brain3.png)
+:::
+::: {.column width="40%"}
+<br><br>
+
+- co-expression of chemical signals or receptors
+- combinatorics, cascades
+- synergism, antagonism
+:::
+:::
+
+:::aside
+[Jékely, 2021](https://royalsocietypublishing.org/doi/10.1098/rstb.2019.0761)
+:::
+
+
+## What was in there?
+
+![](images/DickinsoniaCostata_hor.jpg){height=500}\
+*Dickinsonia costata*
+
+
+
+## Marine animal models
+
+![](images/Nematostella_Patrick_cut.jpg){.absolute top="100" left="-81" height="300"} ![](images/Hydra.png){.absolute top="100" left="150" height="300"}
+
+![](images/macrostomum.png){.absolute top="100" left="375" height="300"} ![](images/Platynereis_SEM_4seg_cut.png){.absolute top="100" left="571" height="300"} ![](images/Trichoplax_SEM.png){.absolute top="100" left="800" height="300"}
+
+```{=html}
+  <div style="position: absolute; left: -30px; top: 420px;">
+   <b><em>Nematostella</em></b><br>
+  </div>
+  <div style="position: absolute; left: 230px; top: 420px;">
+   <b><em>Hydra</em></b><br>
+  </div>
+  <div style="position: absolute; left: 400px; top: 420px;">
+   <b><em>Macrostomum</em></b>
+  </div>
+  <div style="position: absolute; left: 630px; top: 420px;">
+   <b><em>Platynereis</em></b>
+  </div>
+  <div style="position: absolute; left: 895px; top: 420px;">
+   <b><em>Trichoplax</em></b>
+  </div>
+```
+
+## Placozoa -- no synapses, many peptides
+
+::: columns
+::: {.column width="50%"}
+![](images/Trichoplax_SEM.png)
+
+
+*Trichoplax adhaerens*
+
+- placozoans - simplest animals
+- no neurons, no muscles
+- upper and lower ciliated epithelium
+- many neuropeptide-like molecules
+:::
+
+::: {.column width="30%"}
+![](images/neuropeptides/Trichoplax2.png)
+
+- few morphological cell types
+:::
+:::{.column width="20%"}
+![](images/Animal_tree.png)
+:::
+:::
+
+::: aside
+[Varoqueaux et al. (2018)](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31197-7)
+:::
+
+## Placozoa -- no synapses, many peptides
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/Trichoplax_pNPs1.png)
+
+- neuropeptides are expressed in specific cell populations
+- non-overlapping expression
+- over 30 proneuropeptides
+:::
+::: {.column width="50%"}
+![](images/neuropeptides/Trichoplax_pNPs2.png)
+
+- peptidergic cells tile the epithelium
+:::
+:::
+
+::: aside
+[Varoqueaux et al. (2018)](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31197-7)
+:::
+
+## Placozoa -- peptide effects
+
+::: columns
+::: {.column width="50%"}
+![](images/neuropeptides/Trichoplax1.png)
+
+-  neuropeptides influence placozoan behaviour
+:::
+
+::: {.column width="50%"}
+![](movies/Trichoplax_LF.webm)
+
+LF peptide
+:::
+:::
+
+::: aside
+[Varoqueaux et al. (2018)](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31197-7)
+:::
+
+## Placozoa -- peptide effects
+
+::: columns
+::: {.column width="50%"}
+![](movies/Trichoplax_SIFGa.webm){height=400}
+
+SIFGamide peptide
+:::
+
+::: {.column width="50%"}
+![](movies/Trichoplax_WPPF.webm){height=400}
+
+WPPF peptide
+:::
+:::
+
+::: aside
+[Varoqueaux et al. (2018)](https://www.cell.com/current-biology/fulltext/S0960-9822(18)31197-7)
+:::
+
+
+## Identification of placozoan neuropeptide GPCRs
+
+![](images/neuropeptides/placozoan_GPCRs-1notext.png){height=550}
+
+:::aside
+Dr Luis Yanez Guerra
+:::
+
+
+
+## Large-scale GPCR-peptide screen in *Nematostella*
+
+
+
+::: columns
+::: {.column width="60%"}
+![](images/Thiel_Nematostella_pNPs.png){height=550}
+:::
+::: {.column width="40%"}
+<br>
+
+- mass spec for small neuropeptides
+- 64 peptides derived from 33 neuropeptide precursors
+- no homology to bilaterian neuropeptides
+
+![](images/Nematostella_Patrick_cut.jpg){height=250}
+![](images/Animal_tree.png){height=250}
+:::
+:::
+
+::: aside
+[Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
+:::
+
+
+## Neuropeptide transmitter systems in cnidarians
+
+::: columns
+::: {.column width="60%"}
+![](images/Thiel_2023_curves.png){height=550}
+:::
+::: {.column width="40%"}
+<br>
+
+- over 1000 GPCRs in the *Nematostella* genome
+- screened 161 *Nematostella* GPCRs 
+- 31 receptors specifically activated by one of 14 peptides
+
+:::
+:::
+
+::: aside
+[Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
+:::
+
+## Independent diversification of receptor-peptide systems
+
+::: columns
+::: {.column width="60%"}
+![](images/Thiel_2023_tree.png){height=550}
+:::
+::: {.column width="40%"}
+<br>
+
+- at least 8 ancestral cnidarian families of peptide GPCRs
+- independent divergence from bilaterian receptors
+- prediction of ligands across many cnidarians
+:::
+:::
+
+::: aside
+[Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
+:::
+
+
+## The multilayer peptidergic connectome of *Nematostella*
+
+
+![](images/Thiel_Figure6.png){height=380}
+
+- every node is a cell type from scRNAseq data
+- links connect peptide-expressing with receptor-expressing cells
+- different colours represent different peptide-receptor pairs
+- highly peptidergic nervous systems
+
+::: aside
+[Thiel et al. 2023](https://elifesciences.org/reviewed-preprints/90674)
+:::
+
+

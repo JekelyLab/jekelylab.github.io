@@ -1,0 +1,58 @@
+---
+title: "test of video looping"
+subtitle: "EcoEvoDevo PhD course | February 24th-26th, 2025, SZN"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+css: xaringan-themer-GJ.css
+---
+
+
+
+## *Platynereis dumerilii*
+
+
+::: columns
+::: {.column width="50%"}
+```{=html}
+<video width="100%" style="display: block; margin: 200 auto;" controls muted autoplay loop>
+  <source src="movies/spawning_Fischer.webm" type="video/webm">
+</video>
+```
+
+::: 
+::: {.column width="50%"}
+```{=html}
+<video width="100%" style="display: block; margin: 200 auto;" controls muted autoplay loop>
+  <source src="movies/3d_Larvae_swimming.webm" type="video/webm">
+</video>
+```
+ <br> **Synchronously developing larvae**
+:::
+:::
+
+
+
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="20%"}
+<br>
+![](images/Naomi.png)
+:::
+::: {.column width="80%"}
+
+```{=html}
+<video width="90%" style="display: block; margin: 0 auto;" controls muted autoplay loop>
+  <source src="movies/Video1_Connectome_paper.webm" type="video/webm">
+</video>
+```
+:::
+:::
+

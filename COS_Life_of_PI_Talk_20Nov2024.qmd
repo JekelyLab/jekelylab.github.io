@@ -1,0 +1,320 @@
+---
+title: "Life of PI"
+subtitle: "COS, November 20, 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+
+## With four hops to Heidelberg
+
+::: columns
+::: {.column width="70%"}
+![](images/PI/career_map.png)
+
+
+:::
+::: {.column width="30%"}
+- Diplom and PhD in Budapest, ELTE University (1999)
+- Postdoc in EMBL Heidelberg (2000-2007)
+- Max Planck group leader in Tübingen (2007-2017)
+- Professor of Neuroscience at the University of Exeter (2017-2023)
+- Professor of Molecular Organismal Biology at COS, Heidelberg University (since 2023)
+:::
+:::
+
+
+## Diplom in Biology at the ELTE in Budapest
+
+::: columns
+::: {.column width="33%"}
+![](images/PI/Szathmary.png)
+
+Eörs Szathmáry
+
+- evolution, genetics, ecology
+
+![](images/PI/major_transitions.jpeg){height=200}
+:::
+::: {.column width="33%"}
+![](images/PI/D_10346_Juhasz-Nagy_Pal-1055097733.jpeg)
+
+Juhász-Nagy Pál (1935-1993)
+:::
+::: {.column width="30%"}
+![](images/PI/vida_gabor_(biologus)-3994185947.jpg)
+
+Vida Gábor
+:::
+:::
+
+
+## PhD in Enzymology and Molecular Phylogeny
+
+::: columns
+::: {.column width="33%"}
+![](images/PI/enzimology.png)
+
+Institute of Enzymology, Hungarian Academy of Sciences
+
+:::
+::: {.column width="33%"}
+![](images/PI/Friedrich.png)
+
+Prof. Peter Friedrich
+:::
+::: {.column width="30%"}
+![](images/PI/polyacrylamide_gel.webp){height=250}
+
+- real Sanger sequencing (Diploma)
+- enzymology of *Drosophila* proteases
+- mol. phylogeny, evolution of proteases
+:::
+:::
+
+## First postdoc at EMBL
+
+::: columns
+::: {.column width="50%"}
+![](images/PI/EMBL.png)
+
+European Molecular Biology Laboratory, Heidelberg
+
+:::
+::: {.column width="50%"}
+- 2000-2003 (EMBO fellowships)
+- *Drosophila* developmental genetics
+![](images/PI/Rorth.png){width=300}
+Pernille Rørth
+:::
+:::
+
+## Junior Fellow at Collegium Budapest
+
+::: columns
+::: {.column width="50%"}
+![](images/PI/colbud.png)
+
+- 2003
+- cell evolution, eukaryogenesis
+
+
+
+:::
+::: {.column width="50%"}
+![](images/PI/small_GTPases1.png)
+![](images/PI/small_GTPases2.png)
+
+:::
+:::
+
+## Second postdoc at EMBL
+
+::: columns
+::: {.column width="50%"}
+![](images/PI/EMBL.png)
+
+European Molecular Biology Laboratory, Heidelberg
+
+:::
+::: {.column width="50%"}
+- 2004-2007 (FEBS fellowships)
+- *Platynereis* evo-devo, behaviour
+![](images/PI/Arendt.png){width=200}
+Detlev Arendt
+:::
+:::
+
+
+## Independent Research Group in Tübingen
+
+::: columns
+::: {.column width="50%"}
+![](images/PI/MPI.png){height=200}
+![](images/PI/MPI_dev_bio.png){height=200}
+
+- Max Planck Institute for Developmental Biology (now MPI for Biology)
+
+
+:::
+::: {.column width="50%"}
+
+
+![](images/PI/Group_MPI.png){height=300}
+
+- 2007-2017
+:::
+:::
+
+## Independent Research Group in Tübingen
+
+::: columns
+::: {.column width="50%"}
+![](images/PI/MPI_culture.jpg)
+
+- Our first marine animal facility
+
+
+:::
+::: {.column width="50%"}
+![](images/Platy_SEM.png){height=200}
+
+- *Platynereis* behaviour, neuroscience, connectomics, evo-devo, evolution of peptidergic systems...
+:::
+:::
+
+## Move to the UK (just before Brexit)
+
+::: columns
+::: {.column width="50%"}
+![](images/PI/LSI.png)
+
+- Living Systems Institute, University of Exeter
+- 2017-2023
+
+![](images/PI/LSI_logo.png)
+
+:::
+::: {.column width="50%"}
+![](images/PI/group_LSI.jpeg)
+
+- *Platynereis*, coral, *Nematostella*, *Trichoplax*
+- lock-down bioinformatics and theory
+- collaboration with physicists
+:::
+:::
+
+## At COS since 2023
+
+::: columns
+::: {.column width="50%"}
+![](images/COS.webp)
+
+::: 
+::: {.column width="50%"}
+![](images/PI/20230325_132607.jpg)
+
+:::
+:::
+
+## Neurobiology of marine zooplankton
+
+![](images/ciliated_larvae.png)
+
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height=550}
+
+
+::: footer
+Réza Shahidi, EMCF
+:::
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
+
+
+
+## Array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: footer
+Alexandra Kerbl, COS
+:::
+
+## Array tomography workflow
+
+
+![](images/Connectome/Zeiss_Gemini500.jpg
+){.absolute left="130" top="100" height="500" loop="true"}
+
+![](images/Connectome/SEM_arriving_2024-02-23.jpeg){.absolute left="530" top="100" height="500"}
+
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image7.jpg){.absolute left="0" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image9.jpg){.absolute left="410" top="100" height="400"}
+
+## Whole-body vEM reconstruction
+
+![](movies/Video1_Connectome_paper.webm){height=550}
+
+## Volume-EM reconstruction of the ctenophore apical organ
+
+::: columns
+::: {.column width="25%"}
+![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
+[Bruno C. Vellutini](https://commons.wikimedia.org/w/index.php?curid=30155106)
+:::
+::: {.column width="33%"}
+![](movies/Jokura_cteno_cilia.webm)
+Kei Jokura
+:::
+::: {.column width="41%"}
+![](images/Ctenophore/cteno_gravitaxis.png)
+:::
+
+:::
+
+## Ctenophore balancer organ
+
+![](images/Ctenophore/all_cells_3_views.png)
+
+#### Ctenophore balancer organ
+
+::: footer
+Kei Jokura
+:::
+## Acknowledgements 
+
+::: columns 
+::: {.column width="22%" .nonincremental} 
+### Heidelberg
+-   Alexandra Kerbl
+-   Sanja Jasek
+-   Emily Savage
+-   Benedikt Dürr
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+<br><br>
+-   Suat Özbek
+-   Maike Fath
+-   Ibrahim Akhtar
+:::
+
+::: {.column width="56%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding.png)
+:::
+
+::: {.column width="22%" .nonincremental}
+### Exeter
+- Kei Jokura
+- Emelie Brodrick
+- Luis A. Bezares-Calderón
+- Luis Yanez
+- Victoria Moris
+- Daniel Thiel
+- Adam Johnstone
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="725" height="80"}
+![](images/Bezares-Calderon.jpg){.absolute top="50" left="250" height="80"}
+

@@ -124,7 +124,7 @@ format:
 
 ## Startle recruits body-wide circuits and effectors
 
-![](movies/Video_startle.mp4){.absolute top="50" left="300" height="610"}
+![](movies/Video_startle.webm){height=500}
 
 ::: footer
 [Bezares-Calderón al. (2018)](10.7554/eLife.36262)
