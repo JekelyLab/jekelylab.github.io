@@ -11,6 +11,11 @@ format:
 <br>
 <br>
 
+__"Coordination Across Scales --- Or Why We Study Organisms"__<br>
+[Presentation](https://jekelylab.github.io/3DMM2O_Kloster_Schoental_Mar_2025.html#/title-slide/) during the [*3DMM2O Conference*](https://3dmm2o.de/events/the-3dmm2o-conference/) at Kloster Schöntal (23-27 March 2025). 
+
+<br>
+
 __"The Dark Side of AI"__<br>[Presentation](https://jekelylab.github.io/COS_Dark_Side_of_AI.html#/title-slide/) during the *COS AI Day* (14 March 2025). 
 
 <br>

@@ -1,0 +1,491 @@
+---
+title: "Coordination Across Scales --- Or Why We Study Organisms"
+subtitle: "Kloster Schöntal, The 3DMM2O Conference<br>March 23-27, 2024"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::::: columns
+::: {.column .nonincremental width="60%"}
+<br><br><br><br><br><br>
+
+-   breeding culture
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging
+:::
+
+::: {.column width="40%"}
+:::
+:::::
+
+## Larval behaviours
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+![](movies/larvae.webm){height=320 loop="true"}
+phototaxis
+
+- UV avoidance
+- thermosensing
+- settlement
+:::
+::: {.column width="33%"}
+![](movies/startle.webm){height=320 loop="true"}
+startle response
+
+- ciliary coordination
+- chemosensing
+:::
+::: {.column width="33%"}
+![](movies/crawling_juvenile.webm){height=320 loop="true"}
+crawling
+
+- flow sensing
+- pressure response
+:::
+:::
+
+## Eukaryotic cilia
+
+::::: columns
+::: {.column width="40%"}
+![](images/Aiptasia__25kX_0001.png) Emelie Brodrick
+:::
+
+::: {.column width="60%"}
+<br> ![](movies/Nicastro_cilia.webm) [Lin et al, 2018](https://www.science.org/doi/full/10.1126/science.aar1968#vid1)
+
+-   distributed actuation
+:::
+:::::
+
+## Multiciliated cells form ciliary bands
+
+:::::: columns
+::: {.column width="33%"}
+![](images/Platynereis_SEM_2d.jpg)
+
+:::
+
+::: {.column width="33%"}
+![](images/Ciliomotor/multiciliary_band.png)
+:::
+
+::: {.column width="33%"}
+![](images/Platynereis_SEM_3d_2.png)
+:::
+:::
+
+## Precise orientation of multiciliary arrays
+
+
+![](images/metachrony/ExM_Platy_3d_cut.png){height=20em}
+
+expansion microscopy
+
+:::aside
+Karel Mocaer
+:::
+
+
+## Precise orientation of multiciliary arrays
+
+
+![](movies/ExM_Platy_3d_3.1-expanded_DAPI-Tub-root_60x-WI_002_kept_stack.webm){height=20em}
+
+expansion microscopy
+
+:::aside
+Karel Mocaer
+:::
+
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height="550"}
+
+::: aside
+Réza Shahidi, EMCF
+:::
+
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
+
+
+
+## Array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: aside
+Alexandra Kerbl, COS
+:::
+
+## Array tomography workflow
+
+
+::: columns
+::: {.column width="33%"}
+![](images/Connectome/Zeiss_Gemini500.jpg
+)
+:::
+::: {.column width="33%"}
+
+![](images/Connectome/AT_SEM_image7.jpg)
+:::
+::: {.column width="33%"}
+
+![](images/Connectome/AT_SEM_image9.jpg)
+:::
+:::
+
+
+## Whole-body vEM reconstruction
+
+![](movies/Video1_Connectome_paper.webm){height="550"}
+
+::: aside
+[Verasztót al. 2024](https://elifesciences.org/reviewed-preprints/97964)
+:::
+
+## Synaptic connectome
+
+![](images/Connectome.png){.absolute height="620" left="240" top="50"}
+
+::: aside
+[Verasztót al. 2024](https://elifesciences.org/reviewed-preprints/97964)
+:::
+
+## Whole-body annotation of all ciliary basal bodies
+
+::::: columns
+::: {.column width="57%"}
+![](images/Platynereis_SEM_3d_2.png){height="20em"}
+:::
+
+::: {.column width="43%"}
+![](movies/video_bb.webm){height="20em"}
+:::
+:::::
+
+::: aside
+with Stephan Schneider, Academia Sinica, Taiwan
+:::
+
+## Whole-body annotation of all ciliary basal bodies
+
+::: columns
+::: {.column width="70%"}
+![](images/SS-symmetry.png)
+:::
+
+::: {.column width="30%"}
+<br>
+
+-   \~10,000 motile cilia
+-   high degree of left-right symmetry
+:::
+:::::
+
+::: aside
+with Stephan Schneider, Academia Sinica, Taiwan
+:::
+
+## Whole-body annotation of all ciliary basal bodies
+
+::::: columns
+::: {.column width="70%"}
+![](images/SS-basal-bodies.png)
+:::
+
+::: {.column width="30%"}
+![](images/SS-left-right-correlation.png)
+:::
+:::::
+
+::: aside
+with Stephan Schneider, Academia Sinica, Taiwan
+:::
+
+## Metachronal waves
+
+::::: columns
+::: {.column width="50%"}
+![](movies/SI_vid1_MCW.webm)
+:::
+
+::: {.column width="45%"}
+![](images/metachrony/Platynereis_SEM_2d_ant_d9614.jpg){height="12em"}
+
+-   high-speed imaging
+-   metachronal waves
+-   large-scale coordination of cilia
+-   theory: mediated by hydrodynamic coupling
+:::
+:::::
+
+::: aside
+[Poon, Jékely, Wan, 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
+:::
+
+
+## Simulation of ciliary flows
+
+::: columns
+::: {.column width="70%"}
+![](movies/coral_cilia4.webm) with Eric Keaveny, Imperial College
+:::
+::: {.column width="30%"}
+- mathematical modelling of thousands of cilia
+- simulation of flow fields
+- metachrony maximises flows
+- all mathematical models of metacrony use hydrodynamic coupling
+:::
+:::::
+
+::: aside
+[Poon et al. 2023](https://doi.org/10.1103/PhysRevResearch.5.L042037)
+:::
+
+## Cilia in each cell beat with different frequencies
+
+::::: columns
+::: {.column width="70%"}
+![](images/metachrony/Metachrony1.png)
+:::
+
+::: {.column width="30%"}
+<br>
+
+-   quantification of ciliary beat frequency for each cell
+-   values constant for individual cells
+-   discontinuity between cells
+:::
+:::::
+
+::: aside
+[Poon, Jékely, Wan, 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
+:::
+
+## Metachronal waves - phase locking only within cells
+
+::::: columns
+::: {.column width="70%"}
+![](images/metachrony/F2.large.jpg)
+:::
+
+::: {.column width="30%"}
+<br>
+
+-   conversion of intensity plot into Hilbert phase, φ(θ, t) (from 0 to 2π over a full beat cycle)
+-   strong phase locking within cells (∆φ(t) = φ~1~(t) − φ~2~(t) constant over time)
+-   no phase locking between cells
+:::
+:::::
+
+::: aside
+[Poon, Jékely, Wan, 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
+:::
+
+
+
+## Tiny gaps introduced by laser ablation break phase locking
+
+::::: columns
+::: {.column width="70%"}
+![](images/metachrony/F3.large.jpg)
+:::
+
+::: {.column width="30%"}
+<br>
+
+-   pulsed UV laser-ablation of patches of cilia
+-   phase locking is lost across the gap, maintained in the continuous patches
+:::
+:::::
+
+::: aside
+[Poon, Jékely, Wan, 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
+:::
+
+
+## No global coordination via flow
+
+
+::::: columns
+::: {.column width="80%"}
+![](movies/SI_vid3_ablateall.webm)
+
+-   progressive ablation of most cilia
+-   small patch maintains metachrony and phase locking
+:::
+::: {.column width="17%"}
+![](images/metachrony/Metachrony_all_ablations.png)
+:::
+:::::
+
+::: aside
+[Poon, Jékely, Wan, 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
+:::
+
+
+## Ciliary arrests are globally coordinated
+
+::::: columns
+::: {.column width="50%"}
+![](movies/SI_vid4_closure.webm)
+
+:::
+::: {.column width="50%"}
+![](images/metachrony/Metachrony_closures.png)
+
+- ciliary arrests occur regularly (~1/min)
+- all cilia close simultaneously
+:::
+:::::
+
+::: aside
+[Poon, Jékely, Wan, 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
+:::
+
+
+## Closures are induced by rise in intracellular calcium
+
+
+::: columns
+::: {.column width="40%"}
+<br><br><br>
+
+![](movies/calcium_closures_elife-26000-media4.webm){height=10em}
+::: 
+::: {.column width="60%"}
+<br><br><br>
+
+![](images/Ciliomotor/Closures_calcium.jpg){height=10em} ![](images/Platynereis_SEM_3d_2.png){.absolute top=2em left=42em height="140"}
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Closures are induced by a single giant motoneuron
+
+
+::: columns
+::: {.column width="60%"}
+
+![](images/Ciliomotor/MC_cell1.png)
+:::
+::: {.column width="40%"}
+![](movies/MC_calcium_elife-26000-media9.webm){height=10em}
+
+![](images/Ciliomotor/MC_cell_connectivity.png){height=10em}
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+
+## Coordination of closures across different bands of cilia
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="100" left="180" height="550"}  ![](images/Platynereis_SEM_3d_2.png){.absolute top="90" left="930" height="140"}
+
+. . .
+
+![](movies/Loop_EM.webm){.absolute top="100" left="370" height="550"}
+
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+
+## How are different ciliomotor neurons coordinated?
+
+::: columns
+:::{.column width="50%"}
+![](images/Connectome.png)
+:::
+:::{.column width="50%"}
+![](images/Ciliomotor/ciliomotor_schematic.png) 
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Envoi
+
+
+![](images/ciliated_larvae.png)
+
+- #### 3DMM2O: organisms can provide inspiration
+- #### hierarchical 3D organisation
+- #### multi-scale coordination
+- #### extreme reproducibility of shape and function
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+<u>*Lab members*</u>
+
+-   Sanja Jasek
+-   Alexandra Kerbl
+-   Emily Savage
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+-   Karel Mocaer
+-   David Hug
+-   Benedikt Dürr
+-   Ira Maegele
+-   Emelie Brodrick (Exeter)
+:::
+
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding2.png)
+:::
+
+::: {.column width="28%"}
+<u>*Facilities*</u>
+
+- EM Core Facility
+    - Réza Shahidi
+    - Charlotta Funaya
+- Nikon Imaging Centre
+  - Ulrike Engel
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}
