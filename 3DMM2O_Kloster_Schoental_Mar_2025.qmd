@@ -95,6 +95,29 @@ crawling
 :::
 :::
 
+
+## Metachronal waves
+
+::::: columns
+::: {.column width="50%"}
+![](movies/SI_vid1_MCW.webm)
+:::
+
+::: {.column width="45%"}
+![](images/metachrony/Platynereis_SEM_2d_ant_d9614.jpg){height="12em"}
+
+-   high-speed imaging
+-   metachronal waves
+-   large-scale coordination of cilia
+-   coupled oscillators
+-   theory: mediated by hydrodynamic coupling
+:::
+:::::
+
+::: aside
+[Poon, Jékely, Wan, 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
+:::
+
 ## Precise orientation of multiciliary arrays
 
 
@@ -208,6 +231,7 @@ with Stephan Schneider, Academia Sinica, Taiwan
 
 -   \~10,000 motile cilia
 -   high degree of left-right symmetry
+-   3D additive manufacturing from anterior to posterior of the cell
 :::
 :::::
 
@@ -231,26 +255,6 @@ with Stephan Schneider, Academia Sinica, Taiwan
 with Stephan Schneider, Academia Sinica, Taiwan
 :::
 
-## Metachronal waves
-
-::::: columns
-::: {.column width="50%"}
-![](movies/SI_vid1_MCW.webm)
-:::
-
-::: {.column width="45%"}
-![](images/metachrony/Platynereis_SEM_2d_ant_d9614.jpg){height="12em"}
-
--   high-speed imaging
--   metachronal waves
--   large-scale coordination of cilia
--   theory: mediated by hydrodynamic coupling
-:::
-:::::
-
-::: aside
-[Poon, Jékely, Wan, 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
-:::
 
 
 ## Simulation of ciliary flows
