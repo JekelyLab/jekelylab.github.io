@@ -1,0 +1,754 @@
+---
+title: "vEM and Neuronal Connectomics in Marine Zooplankton Larvae"
+subtitle: "Volume Electron Microscopy
+ <br>Gordon Research Conference<br>May 4 - 9, 2025, Castelldefels"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}<br>
+![](images/qr_code_mastodon_invitation.png){height=120}
+<br>Mastodon - take back control of social media"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+
+## Ciliated zooplankton larvae 
+
+
+![](images/ciliated_larvae.png)
+
+
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column .nonincremental width="60%"}
+<br><br><br><br><br><br>
+
+-   breeding culture
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging
+:::
+
+::: {.column width="40%"}
+:::
+:::::
+
+## *Platynereis* adults are beautiful
+
+![](movies/platynereis_adult_Savage_20220923_154727~2.webm){height=22em}
+
+*Platynereis dumerilii*
+
+:::aside
+Emily Savage
+:::
+
+
+## Larval behaviours
+
+<br><br>
+
+::: columns
+::: {.column width="33%"}
+![](movies/larvae.webm){height=320 loop="true"}
+phototaxis
+
+- UV avoidance
+- thermosensing
+- settlement
+:::
+::: {.column width="33%"}
+![](movies/startle.webm){height=320 loop="true"}
+startle response
+
+- ciliary coordination
+- chemosensing
+:::
+::: {.column width="33%"}
+![](movies/crawling_juvenile.webm){height=320 loop="true"}
+crawling
+
+- flow sensing
+- pressure response
+:::
+:::
+
+
+
+## Whole-body vEM reconstruction
+
+![](movies/Video1_Connectome_paper.webm){height="550"}
+
+::: aside
+[Verasztót al. 2024](https://elifesciences.org/reviewed-preprints/97964)
+:::
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height=550}
+
+
+::: footer
+Réza Shahidi, EMCF
+:::
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
+
+
+
+## Array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: footer
+Alexandra Kerbl, COS
+:::
+
+## Multiciliated cells form ciliary bands
+
+::: columns
+::: {.column width="30%"}
+![](images/Platynereis_SEM_2d.jpg)
+
+:::
+
+::: {.column width="36%"}
+![](images/Ciliomotor/multiciliary_band.png)
+
+- basal-body spacing: 0.35-0.55 μm
+:::
+
+::: {.column width="33%"}
+![](images/Platynereis_SEM_3d_2.png)
+:::
+:::
+
+## Precise orientation of multiciliary arrays
+
+
+![](images/metachrony/ExM_Platy_3d_cut.png){height=20em}
+
+expansion microscopy
+
+:::aside
+Karel Mocaer, Juliane Lenz
+:::
+
+
+## Whole-body annotation of all ciliary basal bodies
+
+::: columns
+::: {.column width="57%"}
+![](images/Platynereis_SEM_3d_2.png){height="20em"}
+:::
+
+::: {.column width="43%"}
+![](movies/video_bb.webm){height="20em"}
+:::
+:::::
+
+::: aside
+with Stephan Schneider, Academia Sinica, Taiwan
+:::
+
+## Whole-body annotation of all ciliary basal bodies
+
+::: columns
+::: {.column width="70%"}
+![](images/SS-symmetry.png)
+:::
+
+::: {.column width="30%"}
+<br>
+
+-   \~10,000 motile cilia
+-   high degree of left-right symmetry
+-   3D additive manufacturing from anterior to posterior of the cell
+:::
+:::::
+
+::: aside
+with Stephan Schneider, Academia Sinica, Taiwan
+:::
+
+## Whole-body annotation of all ciliary basal bodies
+
+::: columns
+::: {.column width="70%"}
+![](images/SS-basal-bodies.png)
+:::
+
+::: {.column width="30%"}
+![](images/SS-left-right-correlation.png)
+:::
+:::::
+
+::: aside
+with Stephan Schneider, Academia Sinica, Taiwan
+:::
+
+
+
+## Metachronal waves
+
+::: columns
+::: {.column width="50%"}
+![](movies/SI_vid1_MCW.webm)
+:::
+
+::: {.column width="45%"}
+![](images/metachrony/Platynereis_SEM_2d_ant_d9614.jpg){height="12em"}
+
+-   metachronal waves
+-   large-scale coordination of cilia
+-   steric interactions dominate
+:::
+:::::
+
+::: aside
+[Poon et al.   2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2.full)
+:::
+
+## Towards vEM-informed simulations of ciliary fields
+
+::: columns
+::: {.column width="30%"}
+![](images/Ciliomotor/multiciliary_band.png)
+:::
+::: {.column width="40%"}
+<br><br><br>
+
+![](movies/coral_cilia4.webm)
+:::
+::: {.column width="30%"}
+<br><br>
+
+![](movies/Cilia_simulation2.webm)
+:::
+:::
+
+::: aside
+with Eric Keaveny (Imperial College London) and Kirsty Wan (LSI Exeter)
+:::
+
+## Annotation of all cell types
+
+![](images/Connectome/Figure3.png){height=550}
+
+::: aside
+[Verasztó & Jasek et al. (2024)](https://doi.org/10.1101/2024.03.17.585258)
+:::
+
+
+## 53 muscle cell types
+
+::: columns
+::: {.column width="50%"}
+![](movies/Jasek_all_muscles_elife-71231-video1.webm)
+:::
+::: {.column width="50%"}
+![](movies/Jasek_crawling_elife-71231-video5.webm)
+:::
+:::
+
+::: aside
+[Jasek et al. 2022](https://elifesciences.org/articles/71231#content)
+:::
+
+
+## Annotation of desmosomes and their connections
+
+![](images/Jasek_Muscles_lax_71231_elife-71231-fig1-v2.tif.jpg)
+
+
+::: aside
+[Jasek et al. 2022](https://elifesciences.org/articles/71231#content)
+:::
+
+
+## Desmosomal connectome
+
+![](images/Jasek_desmosomal_connectome.jpg){height=22em}
+
+::: aside
+[Jasek et al. 2022](https://elifesciences.org/articles/71231#content)
+:::
+
+## Cell-type-level synaptic connectome
+
+![](images/Connectome/Figure4_fig_suppl6.png){height=550}
+
+::: aside
+[Verasztót al. 2024](https://elifesciences.org/reviewed-preprints/97964)
+:::
+
+## Neural circuit of the visual eyes
+
+:::columns
+:::{.column width="30%"}
+![](movies/phototactic_turn.webm){width=275}
+![](images/Connectome/eye_Circuit_rendering){width=275}
+:::
+:::{.column width="70%"}
+<br>
+![](images/Phototaxis/phototaxis_circuit.png)
+:::
+:::
+
+:::aside
+[Randel et al. 2014](https://doi.org/10.7554/elife.02730)
+:::
+
+
+## Whole-body coordination during startle
+
+![](movies/startle.webm){.absolute top="100" left="250" height="550"}
+
+::: aside
+[Bezares-Calderón al., 2018](https://elifesciences.org/articles/36262)
+:::
+
+## Startle recruits body-wide circuits and effectors
+
+:::columns
+:::{.column width="50%"}
+![](movies/Video_startle.webm){height=500}
+:::
+:::{.column width="50%"}
+
+![](images/Startle/startle_circuit_fig6B.jpg)
+:::
+:::
+
+::: aside
+[Bezares-Calderón al., 2018](https://elifesciences.org/articles/36262)
+:::
+
+
+## Whole-body coordination of cilia
+
+![](images/Platynereis_SEM_3d_2.png){.absolute top="2.55em" left="-2em" width="6em"}
+
+![](movies/ciliary_coordination_3d.webm){.absolute top="3em" left="4.5em" height="20em"} 
+
+![](movies/Loop_EM.webm){.absolute top="3em" left="11.5em" height="20em" .fragment}
+![](images/Ciliomotor/ciliomotor_circuit_elife_fig5D.jpg){.absolute top="2.55em" left="32em" height="10em" .fragment}
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+## Serotonergic ciliomotor neurons increase beat frequency
+
+::: columns
+::: {.column width="43%"}
+**Ser-h1 neurons, EM reconstruction** ![](movies/video_Ser_h1.webm)
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+
+## Pressure response in *Platynereis* larvae
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/Platynereis_3d.jpeg){.absolute left="457" top="50" width="140"}
+
+![](movies/pressure_response.webm){.absolute left="600" top="62" width="280"}
+
+![](images/Luis_Bez.jpg){.absolute left="883" top="50" width="200"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Precise control of pressure in the pressure chamber
+
+![](images/Pressure_chamber.png){.absolute left="10" top="50" width="400"}
+
+![](images/pressure/PanelAvgPressure_step2dpf.png){.absolute left="500" top="50" width="600"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Pressure response is graded
+
+![](images/pressure/PanelTvsAVGrelDisp_step3dpf.png){.absolute left="0" top="150" height="420"}
+
+![](images/pressure/Panel_prVSMaxAVGdisp_step3dpf.png){.absolute left="500" top="150" height="420"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Swimming speed increases, trajectories straighten
+
+![](images/pressure/Helix_ctr.png){.absolute left="500" top="120" height="550"} [ctr]{.absolute left="500" top="100" height="500"}
+
+![](images/pressure/Helix_pressure.png){.absolute left="700" top="120" height="550"} [pressure]{.absolute left="700" top="100" height="500"}
+
+![](images/pressure/Speed_on_pressure.png){.absolute left="190" top="180" height="350"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Ciliary beating increases under pressure
+
+![](images/pressure/CBF_assaySchematic.png){.absolute left="20" top="100" height="220"}
+
+![](images/pressure/PanelPeriodvsmax.CBF_2dpf.png){.absolute left="400" top="150" height="420"}
+
+![](images/Platynereis_SEM_3d_2.png){.absolute left="1000" top="0" height="140"}
+
+![](movies/high_speed_cilia.webm){.absolute left="0" top="343" height="240" loop="true"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Which cells respond to pressure?
+
+::: columns
+::: {.column width="45%"}
+**Microscopy pressure chamber** ![](images/pressure/CaImaging_Schematic.png)
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="50%"}
+**Calcium imaging** ![](images/pressure/CaimagingNovs750mbpanel.png)
+:::
+:::
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Pressure is sensed by photoreceptors with ramified cilia
+
+![](movies/pressure_response_calcium_cPRC.webm){.absolute top="147" left="-50" height="350" video-loop="true"}
+
+![](images/pressure/cPRC.png){.absolute top="160" left="220" width="900"}
+
+## Defects of pressure response in *c-opsin1* mutants
+
+![](images/pressure/Panel_prVSMaxdispInd-AVG_step2dpf.png){.absolute top="100" left="180" height="520"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Reduced ciliary compartment in *c-opsin1* mutants
+
+![](images/pressure/cPRC_WTvsCops.png){.absolute top="200" left="-50" width="500"}
+
+![](images/pressure/PanelVolumecPRCs.png){.absolute top="150" left="500" height="350"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Defects of ciliary ultrastructure in *c-opsin1* mutants
+
+![](images/pressure/Figure3-FigureSupplement2.png)
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+
+
+
+## Circuit of ciliary photoreceptors
+
+:::columns
+:::{.column width="50%"}
+<br>
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/visNetwork_INNOS.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "0",
+  height=500, width=500
+)
+```
+:::
+:::{.column width="50%"}
+<br>
+![](images/pressure/cPRC_circuit_Catmaid.png){height=500}
+:::
+:::
+
+::: aside
+[Verasztó, Gühmann et al. (2018)](https://elifesciences.org/articles/36440)
+:::
+  
+## Pressure increases ciliary beating through serotonergic cells
+
+![](images/pressure/Construct_TPH-TomTetxnolabs.png){.absolute left="-50" width="300" top="250"}
+
+![](images/pressure/TPH-TeTxLC_noventralnolabs.png){.absolute left="280" width="250" top="100"}
+
+![](images/pressure/PanelPeriodvsmax.CBF_TetxvsControl2dpf.png){.absolute left="550" width="550" top="100"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Mechanism of barotaxis
+
+![](images/pressure/SummaryPressureMech.png){.absolute left="250" height="570" top="70"}
+
+::: aside
+[Bezares-Calderón et al. 2024](https://elifesciences.org/articles/94306)
+:::
+
+## Ctenophores
+
+![](movies/Ctenophores_Shimoda_2024-10-13.webm){height=20em}
+
+*Bolinopsis mikado*
+
+#### Shimoda Marine Station, 2024
+
+## The ctenophore gravisensory organ
+
+::: columns
+::: {.column width="25%"}
+![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
+[Bruno C. Vellutini](https://commons.wikimedia.org/w/index.php?curid=30155106)
+:::
+::: {.column width="33%"}
+![](movies/Jokura_cteno_cilia.webm)
+Kei Jokura
+
+![](images/Ctenophore/Jokura_comb_plate.png)
+
+Kei Jokura
+:::
+::: {.column width="41%"}
+![](images/Ctenophore/cteno_gravitaxis.png)
+:::
+
+:::
+
+## Ctenophore balancer organ
+
+::: columns
+::: {.column width="33%"}
+![](images/Ctenophore/Tamm_balancer.png)
+
+[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
+![](images/Ctenophore/balancer_schematic.png)
+
+:::
+::: {.column width="50%"}
+![](movies/Tamm_balancer_mmc2.webm){width=150%}
+
+[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)
+:::
+:::
+
+## Ctenophore balancer organ
+
+![](images/Ctenophore/all_cells_3_views.png)
+
+#### Ctenophore balancer organ
+
+::: footer
+Kei Jokura
+:::
+
+
+## The ctenophore gravisensory organ
+
+::: columns
+::: {.column width="50%"}
+![](images/Ctenophore/Mnemiopsis_larva_24hpf.png){height=16em}
+
+:::
+::: {.column width="30%"}
+![](images/Ctenophore/Tamm_balancer.png)
+
+[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
+![](images/Ctenophore/balancer_schematic.png)
+:::
+:::
+
+![](images/Ctenophore/Kei_Jokura_Shimoda_2024.jpg){.absolute top="2em" left="1em" width="6em"}
+
+::: aside
+Kei Jokura
+:::
+
+## Balancer -- a bundle of cilia supporting a statolyth
+
+::: columns
+::: {.column width="50%"}
+![](movies/cteno_balancer_bb.webm){height=18em}
+
+:::
+::: {.column width="50%"}
+![](images/Ctenophore/balancer_x7736_y16657_z183.png){height=8em}
+![](movies/Tamm_balancer_mmc2.webm){height=12em}
+
+[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)
+:::
+:::
+
+::: aside
+Kei Jokura, Sanja Jasek
+:::
+
+## The beating of balancer cilia depends on body orientation
+
+::: columns
+::: {.column width="50%"}
+![](movies/balancer_beating_0_degree.webm){height=18em}
+
+:::
+::: {.column width="50%"}
+![](movies/balancer_beating_135_degree.webm){height=18em}
+
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+## The beating of balancer cilia is coordinated by a nerve net
+
+::: columns
+::: {.column width="50%"}
+![](movies/cteno_balancer_net_Video1.webm){height=18em}
+
+:::
+::: {.column width="50%"}
+![](images/Ctenophore/balancer_with_bb.png)
+![](images/Ctenophore/SSN_Q12_Q34.png)
+![](images/Ctenophore/SSN_Q1234.png)
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+
+## Synchronisation of balancer cilia
+
+::: columns
+::: {.column width="70%"}
+![](images/Ctenophore/balacer_arrest_rebeat_kymograph.png)
+:::
+
+::: {.column width="30%"}
+
+![](images/Ctenophore/arrest_rebeat_graph.png)
+
+
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+## Conntectome of the ctenophore balancer
+
+::: columns
+::: {.column width="70%"}
+![](images/Ctenophore/map_comparison.png)
+:::
+
+::: {.column width="30%"}
+- global neuronal coordination
+- synchronisation of arrests
+- synchronisation of re-beat
+- synchronisation of beat frequency
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+-   Alexandra Kerbl
+-   Karel Mocaer
+-   Sanja Jasek
+-   David Hug
+-   Jules Duruz
+-   Mateusz Kostecki
+-   Benedikt Dürr
+-   Kata Szabó
+-   Iva Verbanac
+-   Lara Keweloh
+-   Emily Savage
+-   Simone Wolters
+-   Selin Heinzelmann
+-   Kevin Urbansky
+:::
+
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding2.png)
+:::
+
+::: {.column width="28%"}
+
+<u>*Alumni*</u>
+
+- Kei Jokura (NIBB, Okazaki)
+- Luis Bezares (LBDV, Villefranche-sur-mer)
+- Emelie Brodrick (Sussex)
+- Csaba Verasztó (EPFL)
+
+<u>*Facilities*</u>
+
+- Réza Shahidi
+- Charlotta Funaya
+- Ulrike Engel
+  
+<u>*Invitation to Mastodon*</u>  
+![](images/qr_code_mastodon_invitation.png){height=120}
+
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}
+![](images/Bezares-Calderon.jpg){.absolute top="50" left="250" height="80"}
