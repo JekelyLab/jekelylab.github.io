@@ -11,8 +11,20 @@ format:
 <br>
 <br>
 
+__"vEM and Neuronal Connectomics in Marine Zooplankton Larvae"__<br>
+[Keynote lecture](https://jekelylab.github.io/GRC_Barcelona_May_2025.html#/title-slide/)
+at the [*Volume Electron Microscopy Gordon Research Conference*](https://www.grc.org/volume-electron-microscopy-conference/2025/) in Castelldefels (May 4-9, 2025).
+
+<br>
+
 __"Multimodal ciliary photoreceptors for UV and pressure sensing in marine zooplankton"__<br>
 [Presentation](https://jekelylab.github.io/Sussex_24Apr2025_pressure_UV.html#/title-slide/) at the University of Sussex (25 April 2025). 
+
+<br>
+
+__"Multiciliated sensory cells in pressure and gravity sensation"__<br>
+[Presentation](https://jekelylab.github.io/Bad_Honnef_Cilia_April_2025.html#/title-slide/)
+at [*The Biophysics of Motile Cilia -- from Structure to Function, 830. WE-Heraeus-Seminar*](https://www.we-heraeus-stiftung.de/veranstaltungen/the-biophysics-of-motile-cilia-from-structure-to-function/) in Bad Honnef (March 30 - April 2, 2025).
 
 <br>
 
