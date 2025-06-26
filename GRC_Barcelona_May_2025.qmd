@@ -705,6 +705,43 @@ Kei Jokura
 Kei Jokura
 :::
 
+## What's next?
+
+::: columns
+::: {.column width="30%"}
+![](images/Ischia_polyclad2.jpg)
+:::
+::: {.column width="70%"}
+![](movies/polyclads_Ischia_May2024zoom.webm)
+:::
+:::
+::: aside
+Alexandra Kerbl, Karel Mocaer
+:::
+
+## Comparative vEM & connectomics of marine larvae
+
+::: columns
+::: {.column width="80%"}
+![](images/ciliated_larvae.png)
+![](images/ZooCELL_Logo_WithClaim_RGB.jpg){height=80}
+
+[https://zoocell.eu/](https://zoocell.eu/)
+
+- In collaboration with Detlev Arendt, COS EMCF and EMBL EMCF
+
+
+:::
+::: {.column width="20%"}
+<br>
+
+- 12 labs (EU, UK)
+- vEM of marine invertebrates
+- evolution of cell types
+- integrate with molecular atlases
+:::
+:::
+
 ## Acknowledgements
 
 ::: columns
