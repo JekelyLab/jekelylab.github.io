@@ -1,0 +1,74 @@
+---
+title: "COS goes FOSS (Open Science @COS) <br> I - Digital Hygene"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-number: true
+    code-fold: false
+    code-summary: "Code"
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+scrollable: true
+---
+
+
+## Reading
+
+
+cut to subscriptions, except Elsevier etc.
+https://www.science.org/content/article/doge-order-leads-journal-cancellations-u-s-agricultural-library
+
+Move away from US cloud
+https://www.reuters.com/world/europe/dutch-parliament-calls-end-reliance-us-software-2025-03-18/
+
+
+## UNESCO Recommendation on Open Science
+
+![](images/open_science/UNESCO_opne_science.png){height=550}
+
+:::footer
+[UNESCO](https://unesdoc.unesco.org/ark:/48223/pf0000379949)
+:::
+
+
+## What is open science?
+
+<br>
+
+- data are shared, indexed, properly archived and discoverable
+- same for scientific code
+- analyses and workflows to process data are also shared
+- reagents (e.g. plasmids), strains (e.g. mutants) shared
+- open-source software
+- maximise reproducibility
+- text + data + code = publication
+- publications openly accessible, not behind a paywall
+- publishing is affordable and not distorting (not hijacked by corporate for-profit publishers)
+- preprints = publication, followed by post-publication peer review
+
+## Workflow Oligopoly
+
+::: columns
+:::{.column width=70%}
+![](images/open_science/workflows-elsevier.png)
+![](images/open_science/workflows-springernature1.png)
+![](images/open_science/workflows-google.png)
+:::
+:::{.column width=30%}
+
+
+- tools to cover the entire academic workflow
+- e.g. Elsevier can now cover the entire workflow
+- high risk of vendor lock-in
+- preconditions for a functioning market exist, but a common standard is missing
+:::
+:::
+
+:::footer
+[Brembs et al. 2024](https://royalsocietypublishing.org/doi/full/10.1098/rsos.230206)
+:::
+
+

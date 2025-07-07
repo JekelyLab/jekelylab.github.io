@@ -1,6 +1,6 @@
 ---
 title: "Coordination Across Scales --- Or Why We Study Organisms"
-subtitle: "Kloster Schöntal, The 3DMM2O Conference<br>March 23-27, 2024"
+subtitle: "Kloster Schöntal, The 3DMM2O Conference<br>March 23-27, 2025"
 author: "Gáspár Jékely"
 institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
 format:
