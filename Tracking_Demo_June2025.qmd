@@ -1,0 +1,87 @@
+---
+title: "Tracking Demo"
+subtitle: "COS June, 2025"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+
+## Tracking - steps - calibrate
+
+::: columns
+::: {.column width="30%"}
+- video calibration (check frame rate, image dimension)
+- calibrate video (set scale)
+:::
+::: {.column width="70%"}
+Analyze -> set scale
+
+![](images/behaviour/tracking_set_scale.png){height=400}
+
+
+:::
+:::
+
+
+
+## Tracking - steps - median projection
+
+::: columns
+::: {.column width="30%"}
+- median Zproject - moving objects will disappear
+- background will remain in the projection
+:::
+::: {.column width="70%"}
+Image -> Stack -> Zproject (median)
+
+![](images/behaviour/tracking_zproject_median.png){height=400}
+
+
+:::
+:::
+
+
+
+## Tracking - steps - subtract background
+
+::: columns
+::: {.column width="30%"}
+- subtract the median Zproject from the movie
+:::
+::: {.column width="70%"}
+Process -> Image calculator -> subtract
+
+![](images/behaviour/tracking_subtract.png){height=400}
+
+
+:::
+:::
+
+
+
+## Tracking - steps - segmentation
+
+::: columns
+::: {.column width="30%"}
+- distinguish 'objects' from 'non-objects'
+- several approaches
+- simplest: thresholding
+- more advanced: Weka classification
+:::
+::: {.column width="70%"}
+Threshold
+
+![](images/behaviour/tracking_threshold.png){height=400}
+
+
+:::
+:::
