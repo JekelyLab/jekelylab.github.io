@@ -2,7 +2,7 @@
 format:
   html:
     smooth-scroll: true
-    theme: [default, custom_index.scss]  
+    theme: [default, custom_index.scss] 
 
 ---
 
@@ -27,6 +27,15 @@ format:
 :::
 :::
 
+<br>
+
+[Morphological rendering of brain ganglia](celltype_compendium/celltype_RGLs/brain_ganglia.html){.external target="_blank"} of the three-day-old *Platynereis dumerilii* larva.
+<br>
+
+[Morphological rendering of the mushroom bodies](celltype_compendium/celltype_RGLs/mushroom_bodies.html){.external target="_blank"} of the three-day-old *Platynereis dumerilii* larva.
+<br>
+
+[Morphological rendering of the mechanosensory girdle](celltype_compendium/celltype_RGLs/mechanosensory_girdle.html){.external target="_blank"} of the three-day-old *Platynereis dumerilii* larva.
 <br>
 
 [Cell type compendium](celltype_compendium/index.html){.external target="_blank"} of the three-day-old *Platynereis dumerilii* larva.
