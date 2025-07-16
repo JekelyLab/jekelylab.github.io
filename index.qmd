@@ -11,6 +11,14 @@ format:
 <br>
 <br>
 
+__"COS goes FOSS (Open Science @COS) -- part I --  What is FOSS, why it matters and what can we do about it"__<br>
+[Presentation](https://jekelylab.github.io/COS_goes_FOSS_1_digital_hygene.html#/title-slide/)
+at [COS](https://www.cos.uni-heidelberg.de/en) in the **COS goes FOSS** series (July 17, 2025).
+
+ 
+
+<br> 
+
 __"vEM and Neuronal Connectomics in Marine Zooplankton Larvae"__<br>
 [Keynote lecture](https://jekelylab.github.io/GRC_Barcelona_May_2025.html#/title-slide/)
 at the [*Volume Electron Microscopy Gordon Research Conference*](https://www.grc.org/volume-electron-microscopy-conference/2025/) in Castelldefels (May 4-9, 2025).

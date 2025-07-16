@@ -1,5 +1,5 @@
 ---
-title: "COS goes FOSS (Open Science @COS) <br> I - Digital Hygene"
+title: "COS goes FOSS (Open Science @COS) <br> -- part I -- <br>  What is FOSS, why it matters and what can we do about it"
 author: "Gáspár Jékely"
 institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
 format:
@@ -15,21 +15,11 @@ scrollable: true
 ---
 
 
-## Reading
-
-
-cut to subscriptions, except Elsevier etc.
-https://www.science.org/content/article/doge-order-leads-journal-cancellations-u-s-agricultural-library
-
-Move away from US cloud
-https://www.reuters.com/world/europe/dutch-parliament-calls-end-reliance-us-software-2025-03-18/
-
-
 ## UNESCO Recommendation on Open Science
 
-![](images/open_science/UNESCO_opne_science.png){height=550}
+![](images/open_science/UNESCO_opne_science.png){height=18em}
 
-:::footer
+:::aside
 [UNESCO](https://unesdoc.unesco.org/ark:/48223/pf0000379949)
 :::
 
@@ -67,8 +57,292 @@ https://www.reuters.com/world/europe/dutch-parliament-calls-end-reliance-us-soft
 :::
 :::
 
-:::footer
+:::aside
 [Brembs et al. 2024](https://royalsocietypublishing.org/doi/full/10.1098/rsos.230206)
 :::
+
+
+## End of Windows 10
+
+- Support for Windows 10 ends on October 14, 2025
+- Microsoft wants you to buy a new computer
+
+![](images/FOSS/endof10.png){height=16em}
+
+:::aside
+[End of 10](https://endof10.org/)
+:::
+
+
+## New Windows - a 'Privacy Nightmare'
+
+::: columns
+:::{.column width=50%}
+![](images/FOSS/privacy_nightmare.webp)
+
+* MS marketing: *“Your data stays in Europe.”*<br>
+* MS Legal Director (under oath, in French Parliament):<br> *“No, I cannot guarantee that.”*
+
+::: 
+:::{.column width=10%}
+
+::: 
+:::{.column width=40%}
+- Microsoft rolls out AI screenshot tool dubbed 'privacy nightmare'
+- screenshot of your desktop every three seconds
+- Recall will be rolled out worldwide
+- Information about other people, who cannot consent, will be captured and processed through Recall
+- e.g. disappearing messages in Signal etc.
+- huge privacy concerns in case of security breach
+:::
+:::
+
+:::aside
+[BBC](https://www.bbc.com/news/articles/cj3xjrj7v78o)
+<br>
+[[French]SÉNAT SESSION EXTRAORDINAIRE DE 2024-2025](https://www.senat.fr/fileadmin/cru-1750816532/Structures_temporaires/commissions_d_enquete/CE_Commande_publique/r24-830-11.pdf?trk=public_post_comment-text)
+:::
+
+## New Apple Intelligence - likewise
+
+
+::: columns
+:::{.column width=50%}
+![](images/FOSS/leadspace_article.jpg)
+::: 
+:::{.column width=50%}
+- integrated into iOS 18.1, iPadOS 18.1 and macOS Sequoia 15.1
+- AI in every pocket 
+- a bonanza of social engineering and malicious exploits?
+- privacy concerns, security vulnerabilities, bias and discrimination, lack of transparency,  overreliance on automated systems
+:::
+:::
+
+:::aside
+[IBM](https://www.ibm.com/think/x-force/apple-intelligence-raises-stakes-in-privacy-and-security)
+:::
+
+## AI and trackers everywhere, even if you don't ask for it
+
+
+::: columns
+:::{.column width=33%}
+![](images/FOSS/teams_screenshot.png)
+
+*my Teams screen*
+::: 
+:::{.column width=33%}
+![](images/FOSS/whatsapp_screen.PNG){height=16em}
+
+*my Whatsapp screen*
+:::
+:::{.column width=33%}
+![](images/FOSS/Ublock_screen.png)
+
+*my uBlock Origin report (since June)*
+:::
+:::
+
+## What is FOSS?
+
+::: columns
+:::{.column width=50%}
+![](images/FOSS/foss_tree.webp)
+::: 
+:::{.column width=50%}
+- Free and Open Source Software (FOSS)
+- freedom to use, study, modify, and distribute it freely
+- "open source" = accessibility to the source code 
+- encourages collaboration and transparency, fostering innovation and community-driven improvement
+- 1989: release of the GNU General Public License (GPL)
+- four key freedoms: to use, to study, to change, and to share software
+- 1991: Linus Torvalds released the Linux kernel
+:::
+:::
+
+:::aside
+[Medium: The Growth of FOSS](https://medium.com/@suriyaseyon6/the-growth-of-free-and-open-source-software-foss-a-trip-through-stages-462dd5821856)
+:::
+
+## A shift towards FOSS in the EU
+
+![](images/FOSS/FOSS_logo.png){height=4em}
+
+- Microsoft will extend Windows 10 support for another year after all
+- however, users will need to subscribe to Microsoft 365
+- their data and meta-information will be kept in a US-based datacenter
+- when Trump imosed sancions on the International Criminal Court (ICC), ICC's chief prosecutor was reportedly locked out of his Microsoft email accounts
+- France's gendarmerie switched to Ubuntu Linux ~10y ago, now 103,000 of their computers run Linux
+- Denmark dumped Windows and Office for Linux and LibreOffice
+- Schleswig-Holstein is also bidding all Microsoft software adieu
+
+
+:::aside
+[The year of the European Union Linux desktop may finally arrive -- **The Register**](https://www.theregister.com/2025/06/27/the_european_union_linux_desktop/)
+:::
+
+## Move away from US software and cloud services
+
+::: columns
+:::{.column width=50%}
+
+![](images/FOSS/Dutch_parliament.png)
+:::
+:::{.column width=50%}
+
+- In March 2025 the Netherlands' parliament approved a series of motions calling on the government to reduce dependence on U.S. software companies
+- creating a cloud services platform under Dutch control
+- "do we feel comfortable with people like Trump, Zuckerberg and Musk ruling over our data?" (Marieke Koekkoek)
+:::
+:::
+
+
+
+:::aside
+[Reuters](https://www.reuters.com/world/europe/dutch-parliament-calls-end-reliance-us-software-2025-03-18/)
+:::
+
+## German Open Source Repository
+
+![](images/FOSS/opencode.png)
+
+- Digital Sovereignty for Public Administration 
+- openCode brings open source to the German public sector
+
+ 
+:::aside
+[OpenCode](https://opencode.de/en)
+:::
+
+## European Commission Open Source catalog
+
+::: columns
+:::{.column width=70%}
+![](images/FOSS/EC_open_source_catalog.png)
+:::
+:::{.column width=30%}
+- EU software catalog
+- so far 640 different programs
+- collection is growing
+- standardise e.g. EU administration
+:::
+:::
+
+## FOSS is control -- take back control of your computer
+
+::: columns
+:::{.column width=50%}
+![](images/FOSS/command_line.png)
+
+::: 
+:::{.column width=50%}
+- unlike proprietary software, FOSS gives control over digital tools
+- promotes principles of accessibility, customization, and shared knowledge
+- FOSS empowers users to shape technology according to their needs and preferences
+:::
+:::
+
+
+## FOSS is powerful -- Linux usage
+
+::: columns
+:::{.column width=50%}
+![](images/FOSS/May_23,_2025_International_Space_Station_Configuration.png)
+
+*ISS, May 2025*
+
+::: 
+:::{.column width=50%}
+- most websites run on Linux-based operating systems
+- all of the world's 500 most powerful supercomputers run on Linux
+- Android (runs on a modified Linux kernel) accounts for the majority of mobile device operating systems
+- ISS' primary Command & Control computer runs on Debian Linux, a switch made from Windows in 2013 for reliability and flexibility
+:::
+:::
+
+:::aside
+[Top 500: Operating system Family / Linux](https://www.top500.org/statistics/details/osfam/1/) <br>
+[Wikipedia: Linux](https://en.wikipedia.org/wiki/Linux_kernel)
+:::
+
+
+
+## Open software, open hardware -- my laptop
+
+::: columns
+:::{.column width=35%}
+![](images/FOSS/Framework_laptop.png)
+::: 
+:::{.column width=50%}
+- 2x48 GiB RAM
+- 4 TB storage
+- 22 cores CPU (Intel® Core™ Ultra 7 155H)
+- 4 exchangeable expansion cards (USB-C, HDMI, MicroSD, SD, storage ...)
+- repairable, upgradable (comes with screwdriver)
+- price: ~**2,400** EUR
+- similar configuration from Apple: ~**6,000** EUR
+- runs Linux Ubuntu 25 and lots of FOSS
+:::
+:::
+
+:::aside
+[Framework](https://frame.work/de/en/laptop13)
+:::
+
+## COS goes FOSS -- lectures and hands-on training
+
+- The command line
+- Version control with Git and Codeberg
+- The Linux OS, hackathon with your old computers
+- Digital hygiene on the internet (trackers, passwd management, browsers, etc.)
+- Literature search, Open Maps, Forms, Polls, etc.
+- Open science and open publishing
+- Structure prediction (AlphaFold, Boltz)
+- The Fediverse and taking back control of social media
+- Open hardware (Arduino, Raspberry PI)
+- Paper writing with RStudio
+- The GenAI shove and what to do about it
+- ... tbc.
+
+
+## COS goes FOSS -- software tutorials
+
+- [Inkscape (vector graphics)](https://inkscape.org/) ![](images/FOSS/inkscape-logo.svg){height=1.5em}
+
+- [Blender (3D graphics)](https://www.blender.org/) ![](images/FOSS/blender_logo.png){height=1.5em}
+
+- [LibreOffice (full office suit)](https://www.libreoffice.org/) ![](images/FOSS/libreoffice_logo.png){height=1.5em}
+
+- [Zotero (reference management)](https://www.zotero.org/) ![](images/FOSS/zotero-logo.1707326075.svg){height=1.5em}
+    
+- [LibreWolf (Browser)](https://librewolf.net/) ![](images/FOSS/librewolf_icon.svg){height=1.5em}
+
+- [Betterbird (email client)](https://www.betterbird.eu/) ![](images/FOSS/betterbird.svg){height=1.5em}
+
+- [Zettlr (note taking)](https://zettlr.com/) ![](images/FOSS/zettlr.png){height=1.5em}
+
+
+:::aside
+[FOSS applications](https://freeopensourcesoftware.org/index.php/Applications)
+:::
+
+## COS goes FOSS -- programme
+
+<br>
+
+- COS lectures with tutorial: **once per month, Thursdays at 15:00** (alternating with COS Seminar)
+- Teaching course/tutorials: starting in October, **weekly, Wednesdays at 8:15, 00.005**
+- Instructors: 
+    - GJ, Sanja Jasek
+    - Christine Schulz (Scientific Software Center [Bio-Structure Hub](https://ssciwr.github.io/BioStructureHub/))
+    - David Hug, Benedikt Dürr 
+    - Mateusz Kostecki, ...
+
+## Link to this lecture
+
+
+![](images/FOSS/talk_qr_code.png){height=5em}
+
+
 
 
