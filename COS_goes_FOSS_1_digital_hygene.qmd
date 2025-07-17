@@ -28,18 +28,18 @@ scrollable: true
 
 <br>
 
-- data are shared, indexed, properly archived and discoverable
-- same for scientific code
+- data, code and text are shared, indexed, properly archived and discoverable
 - analyses and workflows to process data are also shared
 - reagents (e.g. plasmids), strains (e.g. mutants) shared
-- open-source software
-- maximise reproducibility
+- open-source software to maximise reproducibility
 - text + data + code = publication
-- publications openly accessible, not behind a paywall
-- publishing is affordable and not distorting (not hijacked by corporate for-profit publishers)
+- publications openly accessible, not behind a paywall 
+- ideally free to read and publish = Diamond OA
 - preprints = publication, followed by post-publication peer review
+- evaluations not based on simple metrics
+- ...
 
-## Workflow Oligopoly
+## Workflow Oligopoly -- Publishing
 
 ::: columns
 :::{.column width=70%}
@@ -53,7 +53,9 @@ scrollable: true
 - tools to cover the entire academic workflow
 - e.g. Elsevier can now cover the entire workflow
 - high risk of vendor lock-in
-- preconditions for a functioning market exist, but a common standard is missing
+- common standard is missing
+- re-selling user data (surveillance capitalism)
+- about $10 billion/year from public money for science goes to profit
 :::
 :::
 
@@ -61,11 +63,28 @@ scrollable: true
 [Brembs et al. 2024](https://royalsocietypublishing.org/doi/full/10.1098/rsos.230206)
 :::
 
+## Workflow Oligopoly -- Analysis and Writing in Science and Education
+
+::: columns
+:::{.column width=50%}
+![](images/FOSS/MS_Logos.png)
+
+:::
+:::{.column width=50%}
+![](images/FOSS/adobe_logos.png)
+
+- closed-source
+- proprietary formats
+- yearly subscription renewals
+- non-compatibility ratchet (forces user to upgrade)
+- etc.
+:::
+:::
 
 ## End of Windows 10
 
 - Support for Windows 10 ends on October 14, 2025
-- Microsoft wants you to buy a new computer
+- Strong push to buy new software and hardware
 
 ![](images/FOSS/endof10.png){height=16em}
 
@@ -114,7 +133,9 @@ scrollable: true
 - integrated into iOS 18.1, iPadOS 18.1 and macOS Sequoia 15.1
 - AI in every pocket 
 - a bonanza of social engineering and malicious exploits?
-- privacy concerns, security vulnerabilities, bias and discrimination, lack of transparency,  overreliance on automated systems
+- privacy concerns, security vulnerabilities
+- bias and discrimination, lack of transparency
+- overreliance on automated systems
 :::
 :::
 
@@ -143,7 +164,24 @@ scrollable: true
 :::
 :::
 
-## What is FOSS?
+## We are locked in...
+
+
+![](images/FOSS/Matrix.jpg)
+
+- vendor lock-in, oligopoly, non-disclosure clauses
+- update ratchet
+- prestige fallacy (aka journal rank fallacy)
+- data exploitation, surveillance
+
+
+## There is a way out...
+
+![](images/FOSS/red_pill.png)
+
+*"Remember, all I am offering, is the truth, nothing more."*
+
+## Take Back Control and Freedom -- FOSS
 
 ::: columns
 :::{.column width=50%}
@@ -164,17 +202,41 @@ scrollable: true
 [Medium: The Growth of FOSS](https://medium.com/@suriyaseyon6/the-growth-of-free-and-open-source-software-foss-a-trip-through-stages-462dd5821856)
 :::
 
+##  Take Back Control and Freedom -- Diamond OA
+
+
+::: columns
+:::{.column width=50%}
+![](images/FOSS/infographic-diamond-oa.png)
+
+::: 
+:::{.column width=50%}
+
+- Diamond open access journals, publication platforms, etc.
+- no subscriptions fees
+- no publication fees to authors (i.e. no Article Processing Charges or Book Processing Charges)
+- non-profit, run by and for academics
+- (still mostly an ideal)
+:::
+:::
+
+:::aside
+[Diamond open access at the UG](https://www.rug.nl/library/open-access/diamond-open-access-at-the-ug/)
+:::
+
+
 ## A shift towards FOSS in the EU
 
-![](images/FOSS/FOSS_logo.png){height=4em}
+![](images/FOSS/FOSS_logo.png){height=2em}
 
 - Microsoft will extend Windows 10 support for another year after all
 - however, users will need to subscribe to Microsoft 365
 - their data and meta-information will be kept in a US-based datacenter
-- when Trump imosed sancions on the International Criminal Court (ICC), ICC's chief prosecutor was reportedly locked out of his Microsoft email accounts
-- France's gendarmerie switched to Ubuntu Linux ~10y ago, now 103,000 of their computers run Linux
-- Denmark dumped Windows and Office for Linux and LibreOffice
-- Schleswig-Holstein is also bidding all Microsoft software adieu
+- when Trump imposed sanctions on the International Criminal Court (ICC), ICC's chief prosecutor was reportedly locked out of his Microsoft email accounts
+- France's gendarmerie switched to Linux ~10 years ago, now 103,000 of their computers run Linux
+- Schleswig-Holstein is bidding all Microsoft software adieu
+- Denmark alsp dumped Windows and Office for Linux and LibreOffice
+- Who is next? HD Uni??
 
 
 :::aside
@@ -204,7 +266,7 @@ scrollable: true
 
 ## German Open Source Repository
 
-![](images/FOSS/opencode.png)
+![](images/FOSS/opencode.png){height=12em}
 
 - Digital Sovereignty for Public Administration 
 - openCode brings open source to the German public sector
@@ -289,6 +351,20 @@ scrollable: true
 [Framework](https://frame.work/de/en/laptop13)
 :::
 
+## Learn to use (and build) your computer -- efficiency gains
+
+<br><br>
+
+- let's assume that an academic spends on average 20 h/week at a computer
+- this is around 1000 h/year, or over 41 days = ~125 work days
+- a 5% increase in efficiency would save 6 working days per year
+- a 10% increase 12 days etc.
+- taking our FOSS courses (command line tools, FOSS, RStudio paper writing, etc.) is guaranteed to increase efficiency and compatibility
+- good return on time investment!
+- also good for the openness of your science!
+
+
+
 ## COS goes FOSS -- lectures and hands-on training
 
 - The command line
@@ -307,6 +383,13 @@ scrollable: true
 
 ## COS goes FOSS -- software tutorials
 
+
+::: columns
+:::{.column width=50%}
+
+- [Linux Mint](https://linuxmint.com/)
+![](images/FOSS/linux-mint-logo.jpg){height=1.5em}
+
 - [Inkscape (vector graphics)](https://inkscape.org/) ![](images/FOSS/inkscape-logo.svg){height=1.5em}
 
 - [Blender (3D graphics)](https://www.blender.org/) ![](images/FOSS/blender_logo.png){height=1.5em}
@@ -317,10 +400,22 @@ scrollable: true
     
 - [LibreWolf (Browser)](https://librewolf.net/) ![](images/FOSS/librewolf_icon.svg){height=1.5em}
 
+::: 
+:::{.column width=50%}
+
 - [Betterbird (email client)](https://www.betterbird.eu/) ![](images/FOSS/betterbird.svg){height=1.5em}
 
 - [Zettlr (note taking)](https://zettlr.com/) ![](images/FOSS/zettlr.png){height=1.5em}
 
+- [Fiji (Image processing)](https://imagej.net/software/fiji/downloads)
+![](images/FOSS/fiji.svg){height=1.5em}
+
+- [RStudio IDE](https://posit.co/download/rstudio-desktop/)
+![](images/FOSS/RStudio_logo_flat.svg.png){height=1.5em}
+- [Terminal and the Bash shell](https://en.wikipedia.org/wiki/Bash_(Unix_shell))
+![](images/FOSS/terminal_icon.png){height=1.5em}
+:::
+:::
 
 :::aside
 [FOSS applications](https://freeopensourcesoftware.org/index.php/Applications)
@@ -331,7 +426,9 @@ scrollable: true
 <br>
 
 - COS lectures with tutorial: **once per month, Thursdays at 15:00** (alternating with COS Seminar)
-- Teaching course/tutorials: starting in October, **weekly, Wednesdays at 8:15, 00.005**
+    - planned dates: 2 Oct, 6 Nov, 27 Nov, 29 Jan, 26 Feb, 26 Mar, 30 Apr, 11 Jun, 2 Jul
+- Teaching course/tutorials: starting on 22 October, **weekly, Wednesdays at 8:15, 00.005**
+- Heidelberg Open Lab Workshops by Mateusz Kostecki et al.
 - Instructors: 
     - GJ, Sanja Jasek
     - Christine Schulz (Scientific Software Center [Bio-Structure Hub](https://ssciwr.github.io/BioStructureHub/))
@@ -341,7 +438,9 @@ scrollable: true
 ## Link to this lecture
 
 
-![](images/FOSS/talk_qr_code.png){height=5em}
+![](images/FOSS/talk_qr_code.png){height=7em}
+
+*(It's FOSS)*
 
 
 
