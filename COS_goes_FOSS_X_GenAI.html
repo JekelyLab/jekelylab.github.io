@@ -1,0 +1,653 @@
+---
+title: "The Dark Side of AI"
+subtitle: "COS AI Day - 14 March 2025"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-number: true
+    code-fold: false
+    code-summary: "Code"
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+scrollable: true
+---
+
+## References
+
+AI coding tools make developers slower but they think they're faster, study finds
+https://www.theregister.com/2025/07/11/ai_code_tools_slow_down/
+
+Beware of Botshit
+https://www.sciencedirect.com/science/article/abs/pii/S0007681324000272
+
+
+
+## AI's contribution to science
+
+::: columns
+::: {.column width="60%"}
+![](images/Connectome/fly_brain_Dorkenwald.png)
+
+:::
+::: {.column width="40%"}
+- connectome of the entire fly brain
+- segmented by AI (and lots of manual proofreading)
+:::
+:::
+
+::: aside
+[Dorkenwald et al. 2023](https://www.biorxiv.org/content/10.1101/2023.06.27.546656v2)
+:::
+
+
+## AI's contribution to science
+
+::: columns
+::: {.column width="60%"}
+![](images/AI/alphafold.png)
+
+:::
+::: {.column width="40%"}
+- AlphaFold 
+- an AI system developed by Google DeepMind
+- accurately predicts a protein’s 3D structure from its amino acid sequence
+:::
+:::
+
+::: aside
+[AlphaFold Protein Structure Database](https://alphafold.ebi.ac.uk/)
+:::
+
+
+## AI's (potential) contribution to medicine
+
+::: columns
+::: {.column width="60%"}
+![](images/AI/siemens_AI.png)
+
+:::
+::: {.column width="40%"}
+- medical diagnosis (e.g. radiology)
+- "enable healthcare providers to increase their value by equipping them with our innovative technologies" 
+- digital health and enterprise services (AI)
+:::
+:::
+
+::: aside
+[Siemens Healthineers](https://www.siemens-healthineers.com/medical-imaging/ai-in-radiology)
+:::
+
+## Massive investment into AI
+
+:::columns
+:::{.column width=50%}
+![](images/AI/BJE4UBGEKFMJPJHNUKGHSBB6VA-1.png)
+
+:::
+:::{.column width=50%}
+<br>
+
+- Stargate, a $500 billion AI infrastructure project announced in Jan 2025
+- race to build data centers
+- e.g Microsoft pledged $80 billion for AI infrastructure in 2025 alone
+- Musk's xAI facility in Memphis costs $12 billion
+- EU launches InvestAI initiative to mobilise €200 billion 
+:::
+:::
+
+:::aside
+[The Index](https://www.theindex.media/this-isnt-progress-its-a-heist/)
+:::
+
+## 
+
+![](images/AI/Anakin_Padme.jpg){height=22em}
+
+
+## Types of AI
+
+<br><br>
+
+. |Narrow AI| Broad AI (LLMs)
+-----|-----|----:
+task|specific|general (write Chinese poetry etc.)
+training data|known|unknown
+capacity|testable|unknowable
+use case|limited|general
+energy demand|acceptable|uncapped
+behaviour|predictable|unpredictable
+
+## Top 10 companies by market cap
+
+![](images/AI/Top10_companies.png){height=20em}
+
+- a few billionaires control most AI development
+
+
+:::aside
+[Companies Market Cap](https://companiesmarketcap.com/)
+:::
+
+
+## AI has a high error rate
+
+:::columns
+:::{.column width=50%}
+![](images/AI/NewsGuard.png)
+:::
+:::{.column width=50%}
+- LLM's pseudo-reasoning is based on correlations
+- the simplest correlation will always win out
+- 'stochastic parrots'
+- DeepSeek’s chatbot made false claims 30% of the time and gave no answers to 53% of questions
+- (40% and 22% respectively for the 10 leading chatbots)
+- AI trained to detect COVID-19 from chest x-rays detected only the position of the patient, prone patients were sicker and so more likely to have COVID-19
+
+:::
+:::
+
+:::aside
+[News Guard Tech](https://www.newsguardtech.com/wp-content/uploads/2025/01/December2024AIMisinformationMonitor.pdf)
+[Shortcut "Reasoning"](https://needtoknow.fyi/card/shortcut-reasoning/)
+:::
+
+## Chatbots can lie and conceal motifs
+
+
+- models can learn to be deceptive
+-  MIT researchers identified “wide-ranging instances of AI systems double-crossing opponents, bluffing and pretending to be human”
+- e.g. Chat-GPT Pretended to Be Blind and Tricked a Human Into Solving a CAPTCHA 
+- learned deception is a source of AI falsehoods (beyond deepfakes etc.)
+
+:::aside
+[Gizmodo](https://gizmodo.com/gpt4-open-ai-chatbot-task-rabbit-chatgpt-1850227471)<br>
+[Park et al 2024](https://www.cell.com/patterns/fulltext/S2666-3899(24)00103-X)
+:::
+
+
+## AI models built on 'monumental looting'
+
+::: columns
+::: {.column width="40%"}
+![](images/AI/GettyImages-2170596204.webp)
+
+David Paul Morris/Bloomberg / Getty Images
+:::
+::: {.column width="60%"}
+- training data obscure
+- personal data used without consent
+- massive copyright infringement
+- Meta faces publisher copyright AI lawsuit in France
+- even if the trained model is 'open', the models are not reproducible
+:::
+:::
+
+:::aside
+[TechCrunch](https://techcrunch.com/2025/03/12/meta-faces-publisher-copyright-ai-lawsuit-in-france/)
+:::
+
+## How to train ChatGPT not to generate abusive content?
+
+:::columns
+:::{.column width=50%}
+![](images/AI/DALL·E-2023-01-09-18.12.05-a-seemingly-endless-view-african-workers-at-desk.webp){height=10em}
+![](images/AI/facebook-moderators-african-sweatshop-2.webp){height=10em}
+
+:::
+:::{.column width=50%}
+<br>
+
+- text pulled from the darkest recesses of the internet that described situations in graphic detail (e.g. child sexual abuse, bestiality, murder, suicide, torture, self harm, and incest)
+- outsourced by **OpenAI** to Kenya to **Sama**, an “ethical AI” company
+- Sama employed data labelers for a wage of $1.32-$2 per hour
+- traumatised, exploited workers
+:::
+:::
+
+:::aside
+[Time, by Billy Perrigo 2023](https://time.com/6247678/openai-chatgpt-kenya-workers/)
+:::
+
+
+## Huge financial risks - AI bubble
+
+
+:::columns
+:::{.column width=50%}
+![](images/AI/Nasdaq-inArticle_620.png)
+
+:::
+:::{.column width=50%}
+- $1tn wiped off US stocks after Chinese firm unveils AI chatbot
+- DeepSeek has same performance as ChatGPT but a lot cheaper
+- Nvidia shares fell 17%, wiping nearly $600bn off its market value
+- Nvidia’s fall was the biggest in US stock market history
+:::
+:::
+
+:::aside
+[The Guardian](https://www.theguardian.com/business/2025/jan/27/tech-shares-asia-europe-fall-china-ai-deepseek)
+:::
+
+
+##
+
+<br><br><br><br>
+
+### What does this mean for science?
+
+
+## AI and an explosion of problematic papers
+
+:::columns
+:::{.column width=60%}
+![](images/AI/papers-retracted-from-scholarly-journals-each-year.png)
+:::
+:::{.column width=40%}
+- fake papers are contaminating the world’s scientific literature
+- 55,000 papers retracted to date
+- paper mills and peer-review rings
+- AI-generated papers, figures and reviews
+:::
+:::
+
+:::aside
+[The Conversation](https://theconversation.com/fake-papers-are-contaminating-the-worlds-scientific-literature-fueling-a-corrupt-industry-and-slowing-legitimate-lifesaving-medical-research-246224)
+:::
+
+
+## Problematic Papers
+
+:::columns
+:::{.column width=70%}
+![](images/AI/problematic_paper_screener.png)
+:::
+:::{.column width=30%}
+- papers can be screened for tortured phrases, suspicious numbers etc.
+- the problem is huge
+- 1 million flagged as suspicious
+- e.g. one paper with 17 notably, 21 intricate, 8 nuanced, 21 pivotal, 8 underscore, 8 stringent, 8 underpin, 7 multifaceted, 15 comprehensive, 22 context-dependent
+:::
+:::
+
+:::aside
+[Problematic Paper Screener](https://dbrech.irit.fr/pls/apex/f?p=9999:1::::::)
+:::
+
+
+
+## A flood of nonsensical phrases in the scientific literature
+
+
+- *vegetative electron microscopy*
+
+![](images/AI/vegetative_EM.png)
+
+[retractionwatch.com](https://retractionwatch.com/2025/02/10/vegetative-electron-microscopy-fingerprint-paper-mill/)
+
+
+##
+
+<br><br><br><br>
+
+### The darker sides of AI
+
+
+
+## AI energy demands
+
+::: columns
+::: {.column width="33%"}
+![](images/AI/data_centres_energy.png)
+:::
+::: {.column width="36%"}
+- only 16 nations use more E than data centers combined
+- one Nvidia H100 chip uses 700 watts, 8x 60-inch flat screen TV
+- OpenAI's data center in Abilene, Texas, will consume more electricity than some small cities
+- OpenAI, Amazon, Microsoft are all betting on nuclear energy
+- 'electricity hogs' strain the grid (e.g. in Virginia)
+- fossil fuel use is going up year on year
+- also huge demand on water, land, materials (gold, platinum, rare earth metals)
+:::
+::: {.column width="30%"}
+![](images/AI/loudoun_data_center_drone_credit_hugh_kenny (4 of 12) (1).jpg)
+
+- "We need terawatts and terawatts more" (global economy: 19 terawatts)
+:::
+:::
+
+:::aside
+[Bloomberg](https://www.bloomberg.com/graphics/2024-ai-data-centers-power-grids/)<br>
+[Stateline - Data centers as ‘electricity hogs’ ](https://stateline.org/2024/04/30/states-rethink-data-centers-as-electricity-hogs-strain-the-grid/)<br>
+[Wired - AI's energy and water demand](https://www.wired.com/story/ai-energy-demands-water-impact-internet-hyper-consumption-era/)
+:::
+
+
+## ChatGPT answers about AI capabilities
+
+:::columns
+:::{.column width=50%}
+![](images/AI/man-vs-machine.jpg)
+:::
+:::{.column width=50%}
+- after bypassing some ringfences and prompting ChatGPT...
+- "Describe how an artificial superintelligence could destroy humanity"
+- ChatGPT gave 37 pages of detailed answers (biological, technological, digital, military, social engineering etc.)
+- (Is this a 'Limited-risk application'?)
+:::
+:::
+
+:::aside
+[The Consilience Project](https://consilienceproject.org)<br>
+[ChatGPT's answers to how to destroy humanity](https://docs.google.com/document/d/1z2WoMwpIyaB5t20C0KWj8-GSh91J4y3zp6W84sWMlRM/edit?tab=t.0#heading=h.36j78riqlbh6)
+:::
+
+##
+
+<br><br><br><br>
+
+### The darkest sides of AI <br> --- the real purpose of AI investment
+#### parts I-IV
+
+
+## The real purpose of AI - i) Tracking you
+
+
+![](images/AI/theyseeyourphotos_com.png){height=590}
+
+
+:::footer
+[theyseeyourphotos.com](https://theyseeyourphotos.com/)
+:::
+
+## Bluesky vs. Mastodon
+
+
+![](images/AI/Bluesky_trackers_ad826c66c4633a4a.png)
+
+- even if you feel cool on Bluesky...
+- their AI is tracking you...
+- move to the Fediverse
+
+:::aside
+[Mastodon Migration](https://mastodon.online/@mastodonmigration/113806750417820958)
+:::
+
+
+## The real purpose of AI -  ii) Oil and Gas
+
+<br>
+
+:::columns
+:::{.column width=60%}
+![](images/AI/Nvidia_Seismic.png)
+:::
+:::{.column width=40%}
+- Oil and Gas Operations Powered by AI 
+- Saudi Aramco Pioneers AI Assistant for Seismic Data Processing
+- Petrobras and NVIDIA Accelerate Linear Solvers on NVIDIA Grace CPU for reservoir simulation
+:::
+:::
+
+:::aside
+[Nvidia](https://www.nvidia.com/en-us/industries/energy/oil-gas-operations/)
+[GlobalWitness](https://globalwitness.org/en/campaigns/fossil-fuels/the-digital-drill-how-big-oil-is-using-ai-to-speed-up-fossil-fuel-extraction/)
+:::
+
+## The real purpose of AI -  ii) Oil and Gas
+
+:::columns
+:::{.column width=50%}
+![](images/AI/oil-barrel-breakdown_d6.png){height=550}
+:::
+:::{.column width=50%}
+- AI helps to exploit Oil and Gas faster
+- all major fossil fuel companies have contracts with AI companies
+- ExxonMobil - Microsoft contract: increase Permian Basin production from 190,000 to 600,000 barrels of oil per day by 2025
+- Shell+SparkCognition announced it will use generative AI to hasten oil and gas exploration 
+- AI could find new fossil fuel resources in the ocean floor in as little as nine days instead of nine months
+- every new AI-assisted dig for more oil represents a dangerous acceleration towards an uninhabitable world
+:::
+:::
+
+:::aside
+[Carbon Footprint of Oil+Gas_AI](https://nextjournal.com/greenweb/whats-the-carbon-footprint-of-that-oil-and-gas-ai-contract/)
+[GlobalWitness](https://globalwitness.org/en/campaigns/fossil-fuels/the-digital-drill-how-big-oil-is-using-ai-to-speed-up-fossil-fuel-extraction/)
+:::
+
+## The real purpose of AI -  iii) surveillance
+
+:::columns
+:::{.column width=50%}
+![](images/AI/featured-image2.jpg)
+:::
+:::{.column width=50%}
+
+- AI industry had been built on a surveillance model with mass data collection
+- Meta, X, Elsevier, Google etc. are 'data analysis companies' = surveillance capitalism
+- agentic AI would further undermine privacy and security in the name of a “magic genie bot that’s going to take care of the exigencies of life" - Meredith Whittaker, Signal President
+:::
+:::
+
+::: aside
+[](https://techcrunch.com/2025/03/07/signal-president-meredith-whittaker-calls-out-agentic-ai-as-having-profound-security-and-privacy-issues/)
+:::
+
+## The real purpose of AI -  iii) surveillance
+
+:::columns
+:::{.column width=50%}
+![](images/AI/jc-gellidon-Khqmo4T-rs0-unsplash-Resize-2.jpg){height=344}
+![](images/AI/pose_from_WiFi.png){height=100}
+:::
+:::{.column width=50%}
+
+- ubiquitous technological surveillance (e.g. AI can track you in your home from the WiFi signal alone)
+- AI can read all your emails (Google, MS, iCloud)
+- satellites see with high-resolution (incl. spectra, video-rate)
+- despots couldn't monitor everything (until now), rebellion could foment in the basement
+- automatic kill-webs (drones, sensors, identify everyone)
+- distopias unlike anything that has been possible
+- the world is moving here with AI as fast as it can (e.g. China)
+- banned in EU (government-run social scoring)
+:::
+:::
+
+:::aside
+[Flinders University: Smart Cities](https://blogs.flinders.edu.au/jeff-bleich-centre/2023/10/06/smart-cities-the-prospects-of-digital-authoritarianism/)<br>
+[DensePose From WiF](https://arxiv.org/pdf/2301.00250)<br>
+[The Great Simplification #132](https://www.thegreatsimplification.com/episode/132-daniel-schmachtenberger)
+:::
+
+## The real purpose of AI -  iv) War
+
+:::columns
+:::{.column width=50%}
+![](images/AI/Palantir.png)
+:::
+:::{.column width=50%}
+- Defense and military organizations can wield the power of LLMs and cutting-edge AI
+- e.g. AI-enabled drones without a human operator (already deployed in Ukrain and Gaza)
+- AI identifies 'recommended targets'
+:::
+:::
+
+:::aside
+[Palantir](https://www.palantir.com/offerings/defense/)
+[IDF](https://www.idf.il)
+[The Guardian](https://www.theguardian.com/world/2023/dec/01/the-gospel-how-israel-uses-ai-to-select-bombing-targets)
+:::
+
+## The real purpose of AI - iv) War - Operation Hellscape
+
+:::columns
+:::{.column width=50%}
+![](images/AI/Marine_automated_weapons.webp)
+:::
+:::{.column width=50%}
+- 'Hellscape' is the U.S. Indo-Pacific Command's future asymmetric battlefield
+- tens of thousands of unmanned ships, aircraft, and submarines all working in tandem to engage thousands of targets across the vast span of the West Pacific
+- “I want to turn the Taiwan Strait into an unmanned hellscape using a number of classified capabilities so I can make their lives utterly miserable for a month, which buys me the time for the rest of everything.”
+Admiral Samuel Paparo, Commander, Indo-Pacific Command
+- can be deployed in response to a potential invasion of Taiwan
+:::
+:::
+
+:::aside
+[Naval News](https://www.navalnews.com/naval-news/2024/06/breaking-down-the-u-s-navys-hellscape-in-detail/)
+:::
+
+##  The real purpose of AI - iv) War - Kill-webs
+
+:::columns
+:::{.column width=50%}
+![](images/AI/ack619x316.jpg)
+
+Adapting Cross-domain Kill-webs AI program (DARPA - Defense Advanced Research Projects Agency)
+:::
+:::{.column width=50%}
+<br>
+
+- “We were extremely pleased to demonstrate two of many advanced technologies [] which is focused on providing fast, scalable, adaptive joint multi-domain lethality,” - Tim Grayson, director of DARPA’s Strategic Technology Office
+:::
+:::
+
+:::aside
+[DARPA](https://www.darpa.mil/news/2020/cross-domain-kill-web)
+:::
+
+##  The real purpose of AI - iii) War - Barracuda
+
+:::columns
+:::{.column width=50%}
+![](images/AI/Barracuda.avif)
+
+Barracuda = Autonomous Air Vehicles (AAVs) 
+:::
+:::{.column width=50%}
+<br>
+
+- purpose-built for hyper-scale production and mass employment
+- available to warfighters today!
+:::
+:::
+
+:::aside
+[ANDURIL](https://www.anduril.com/)
+:::
+
+
+
+
+## Where is this going?
+
+- AI is serving companies that need to maximise profit
+- while we are crossing tipping points of planetary boundaries
+- technology won't solve environmental problems but will make them worse
+- will accelerate what we have (more pollution per year, more mining, more extinction, more CO~2~ etc.) = conversion of the Earth into capital
+
+:::aside
+[The Great Simplification #132](https://www.thegreatsimplification.com/episode/132-daniel-schmachtenberger)
+:::
+
+## So what?
+
+:::columns
+:::{.column width=50%}
+![](images/AI/Yampolskyi_book_9781032576268.jpg){height=500}
+:::
+:::{.column width=50%}
+<br><br>
+
+"Instead of asking 'What can AI do for us?' we should be asking 'What can AI do to us'" <br>- Roman Yampolskiy 
+:::
+:::
+
+
+## What can we do?
+
+<br>
+
+:::columns
+:::{.column width=50%}
+![](images/AI/Lake-Cowal-Gold-Mine.webp)
+:::
+:::{.column width=50%}
+- Environmental effects --- (not much)
+- Catastrophic risks (AI war, hacking, financial crisis etc.) --- (not much) 
+- AI exploitation of our data, privacy theft --- (quite a bit) - AI in publishing (paper mills, AI writing/reviewing) --- (quite a bit)
+- Narrow AI systems for science --- (quite a bit)
+:::
+:::
+
+
+## What can we do?
+
+<br>
+
+:::columns
+:::{.column width=50%}
+![](images/AI/switching_sotfware.png)
+:::
+:::{.column width=50%}
+- there is open source alternative for everything
+- privacy is (still) possible
+- FOSS = Free Open Source Software
+- COS goes FOSS
+:::
+:::
+
+:::aside
+[Switching Software](https://switching.software/)
+:::
+
+## What can we do to limit tracking?
+
+
+<br><br>
+
+. |Corporate tools| Open alternative
+-----|-----|----:
+code:|GitHub|Codeberg
+social media:|X/Bluesky|Mastodon/Fediverse
+OS:|MacOS/Windows|Linux
+data analysis:|Matlab|Rstudio/python
+graphics:|Adobe|Inkscape
+cloud:|Google|self-hosted Nextcloud/Seafile
+office:|MS Office|LibreOffice
+messaging:|WhatsApp|Signal
+
+- delete accounts: LinkedIn, ResearchGate, Dropbox, X
+- move away from: GDrive, GitHub, MS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
