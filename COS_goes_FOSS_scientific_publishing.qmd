@@ -1,0 +1,1025 @@
+---
+title: "Digital hygiene – how to use free open source software (FOSS) in your studies, research and teaching"
+subtitle: "Lesson XI - The sorry state of scientific publishing<br> 14 Jan, 2026"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br><br>@jekely@biologists.social <br> ![](images/mastodon-logo-purple.svg){height=40}"
+format:
+  revealjs: 
+    theme: [default, custom.scss]
+    slide-number: true
+    code-fold: false
+    code-summary: "Code"
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+scrollable: true
+---
+
+## Council of the EU
+
+- Council calls for transparent, equitable, and open access to scholarly publications
+- not-for-profit, open access and multi-format, with no costs for authors or readers
+- encourage Member States to support the pilot programme Open Research Europe (to create a large-scale open access research publishing service)
+- use of open-source software and standards
+
+https://www.consilium.europa.eu/en/press/press-releases/2023/05/23/council-calls-for-transparent-equitable-and-open-access-to-scholarly-publications/
+
+
+
+## UNESCO Recommendation on Open Science
+
+![](images/open_science/UNESCO_opne_science.png){height=550}
+
+:::footer
+[UNESCO](https://unesdoc.unesco.org/ark:/48223/pf0000379949)
+:::
+
+
+## What is open science?
+
+<br>
+
+- data are shared, indexed, properly archived and discoverable
+- same for scientific code
+- analyses and workflows to process data are also shared
+- reagents (e.g. plasmids), strains (e.g. mutants) shared
+- open-source software
+- maximise reproducibility
+- text + data + code = publication
+- publications openly accessible, not behind a paywall
+- publishing is affordable and not distorting (not hijacked by corporate for-profit publishers)
+- preprints = publication, followed by post-publication peer review
+
+## The Budapest Open Access Initiative
+
+::: columns
+:::{.column width=70%}
+![](images/open_science/BOAI.png)
+- https://www.budapestopenaccessinitiative.org/
+<br>*February 14, 2002*
+<br>Budapest, Hungary
+
+::: 
+:::{.column width=30%}
+
+- removing access barriers to literature
+- free and unrestricted online availability = **open access**
+- *experiments show that the overall costs of providing open access to this literature are far lower than the costs of traditional forms of dissemination*
+- opportunity to save money and expand the scope of dissemination 
+- recommendations: **self-archiving** (I.) and a new generation of **open-access journals** (II.)
+:::
+:::
+
+
+## The **FAIR** Guiding Principles for scientific data management and stewardship
+
+
+::: columns
+:::{.column width=70%}
+![](images/open_science/FAIR_principles.png)
+::: 
+:::{.column width=30%}
+- emphasis on ability to programmatically find and use the data
+- supporting its reuse
+- accurare description
+- https://www.go-fair.org/fair-principles/
+:::
+:::
+
+:::footer
+[Wilkinson et al. 2016](https://www.nature.com/articles/sdata201618)
+:::
+
+## One example - the Uniprot database
+
+::: columns
+:::{.column width=70%}
+![](images/open_science/uniprot.png)
+::: 
+:::{.column width=30%}
+- a comprehensive resource for protein sequence and annotation data
+- entries uniquely identified by a stable URL
+- rich metadata that is both human-readable and machine-readable
+- shared vocabularies and ontologies
+- interlinking with more than 150 different databases
+:::
+:::
+
+:::footer
+[UniProt Consortium, 2015](https://doi.org/10.1093/nar/gku989)
+:::
+
+## Why do we need open science?
+
+- Reproducibility crisis
+- Only a small fraction of research data is available
+- An even smaller fraction of code is available (physicists are notoriously bad in sharing)
+- Open access, if exists, is very expensive and maintains the profit of legacy publishers
+- Scholarly literature is antiquated, dysfunctional and rewards prestige/hype over quality and integrity
+- Scholarly workflows use non-professional, error-prone, closed-source software (MS, Adobe, Prism etc.) that makes sharing, integration, automation and collaboration difficult
+- The final product of years of research is often only a single pdf file (1990s tech) behind a paywall
+- Data, code and text are not searchable, reuseable, discoverable, shareable
+
+## Most source data collected by scientists are not available
+
+<br>
+
+![](images/Data_publication_Pyramide.png){height=450}
+
+## Majority high-impact cancer studies fail to replicate
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/cancer_replication.png)
+::: 
+:::{.column width=50%}
+- The Reproducibility Project: Cancer Biology (RP:CB) 
+- failure to replicate 30 of 53 papers published by *Science*, *Nature*, and *Cell* from 2010 to 2012
+- credibility of preclinical cancer biology?
+- need for authors to share more details of their experiments
+- vague protocols and uncooperative authors
+- one-third of contacted authors declined or did not respond
+
+:::
+:::
+
+:::footer
+[Errington et al., Reproducibility Project: Cancer Biology, 2014](https://elifesciences.org/collections/9b1e83d1/reproducibility-project-cancer-biology)
+:::
+
+## Reporting and citation bias
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/citation_bias.jpeg)
+
+- The cumulative impact of reporting and citation biases on the evidence base for antidepressants
+::: 
+:::{.column width=50%}
+- up to half of all randomized controlled trials have never been published
+- trials with statistically significant findings are more likely to be published than those without
+- citation bias -> studies with positive results receive more citations than negative studies 
+:::
+:::
+
+:::footer
+[de Vries et al., 2018](https://www.cambridge.org/core/journals/psychological-medicine/article/cumulative-effect-of-reporting-and-citation-biases-on-the-apparent-efficacy-of-treatments-the-case-of-depression/71D73CADE32C0D3D996DABEA3FCDBF57)
+:::
+
+
+## Code is very often not shared or not shared stably
+
+::: columns
+:::{.column width=50%}
+![](images/Stodden_PNAS.png){height=200}
+
+- study to assess the effectiveness of code sharing policy
+- a random sample of 204 *Science* papers
+- able to obtain artifacts from 44% 
+- able to reproduce the findings for 26%
+:::
+:::{.column width=50%}
+- **Typical responses:**
+
+::: {.incremental}
+  - *"When you approach a PI for the source codes and raw data, you better explain who you are, whom you work for, why you need the data and what you are going to do with it."*
+
+  - *"I have to say that this is a very unusual request without any explanation! Please ask your supervisor to send me an email with a detailed, and I mean detailed, explanation."*
+
+  - *"The data files remains our property and are not deposited for free access. Please, let me know the purpose you want to get the file and we will see how we can help you."*
+
+  - *"We do not typically share our internal data or code with people outside our collaboration."*
+
+:::
+:::
+:::
+
+
+::: footer
+[Stodden et al. (2018) ](https://doi.org/10.1073/pnas.1708290115)
+:::
+
+## Flipped protein structures due to buggy program
+
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/MsbA_flipped.png)
+
+*The structures of MsbA (purple) and Sav1866 (green) overlap little (left) until MsbA is inverted (right).*
+:::
+:::{.column width=60%}
+- buggy non-published program flipped two columns, inverting electron density
+- program was inherited from another lab
+- mistake repeated in several papers
+- led to five retractions (three in Science)
+:::
+:::
+
+:::footer
+[Miller 2006](https://www.science.org/doi/10.1126/science.314.5807.1856)
+:::
+
+
+## Gene name errors are widespread in the scientific literature
+
+<br><br>
+
+![](images/13059_2016_1044_Fig1_HTML.webp)
+
+
+::: aside
+[Ziemann et al. (2016)](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
+:::
+
+## Most scientists use software developed for accounting {transition="fade" transition-speed="fast"}
+
+![](images/Scientists_rename_genes.png)
+[theverge.com](https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates)
+
+- the symbol MARCH1 has now become MARCHF1, while SEPT1 has become SEPTIN1, and so on
+
+<br>
+
+
+## Current state of scholarly digital infrastructure and knowhow
+
+<img src=https://media1.tenor.com/images/f6362876996697b6a6f554b2ac3d3013/tenor.gif?itemid=10488408 width=160>
+
+
+
+## An epidemic of retractions
+
+<br><br>
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/retractions_per_year.webp)
+::: 
+:::{.column width=50%}
+- exponential increase in retractions
+- monitoring retractions: http://retractionwatch.com
+- majority of all retractions is due to misconduct
+- in 2024, **Springer Nature** retracted **2923** papers. 38.5% published after Jan 2023
+- (misleadingly called "Cleaning up the academic record")
+
+:::
+:::
+
+:::footer
+[Brembs et al. 2013](https://doi.org/10.3389/fnhum.2013.00291)
+[Springer Nature](https://www.springernature.com/gp/advancing-discovery/research-integrity#:~:text=part%20of%20our%20commitment%20to%20cleaning%20up%20the%20academic%20record)
+[Nature News Feature, 2025](https://www.nature.com/articles/d41586-025-00455-y)
+:::
+
+## The problem is the system
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/books-1200x800.jpeg)
+::: 
+:::{.column width=60%}
+- journal publishing system is fundamentally broken
+- a legacy system that prevents science from meeting its true potential for society
+- about 40,000 journals
+- public trust problem
+- science publishing must be built anew
+- illusion of truth and finality
+- artificial scarcity
+- narrow formats
+- incomplete information
+:::
+:::
+
+:::aside
+[Seemay Chou, Astera, 'Scientific Publishing: Enough is Enough'](https://astera.org/scientific-publishing-enough-is-enough/)
+:::
+
+## Perverse incentives, publish or perish
+
+::: columns
+:::{.column width=60%}
+![](images/open_science/adoration_CNS.png)
+::: 
+:::{.column width=40%}
+- chasing titles, 'stories' and IF instead of scientific integrity, hypothesis-testing, rigour, openness
+- under the spell of glamour journals
+- "**If** I get this result, this will be a *Nature* paper!"
+- reporting bias (only positive results are reported)
+- low statistical power (a p-value of 0.05 brings only 50% reproducibility)
+- in worst cases data are fabricated
+
+:::
+:::
+
+:::footer
+[after Brembs]
+:::
+
+
+## Impact factor - not a metric of quality
+
+- IF = number of citations to articles in a journal (the numerator), normalized by the number of articles in that journal (the denominator) in the last 2 y
+- calculated by Thomson Reuters
+- originally created to help librarians identify journals to purchase, not as a measure of the scientific quality of research in an article
+- yet, emerged as a pervasive metric of quality
+- in some cases not calculated but negotiated (the denominator)
+- removing editorials and News-and-Views articles from the denominator (so called “front-matter”) can dramatically alter the resulting IF
+- not reproducible, not open (calculated from proprietary data)
+- a composite of multiple, highly diverse article types
+- comparison of journals not mathematically sound
+
+:::footer
+[Brembs et al. 2013](https://doi.org/10.3389/fnhum.2013.00291)
+:::
+
+## IF - statistically flawed
+
+::: columns
+:::{.column width=60%}
+![](images/open_science/if_plots.png)
+::: 
+:::{.column width=40%}
+- highly skewed distributions
+- journal IF comparisons: comparison of means of two populations 
+- allowed only if distributions follow a **normal distributions**! 
+- simple ranking by mean is incorrect
+- median would be better or a more complex statistical test (e.g. Kruskal–Wallis test)
+:::
+:::
+
+:::footer
+[Larivière et al. 2016](https://doi.org/10.1101/062109)
+:::
+
+## IF - strongly biased by outliers
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/if_model_fit.png)
+::: 
+:::{.column width=50%}
+<br>
+
+- fitting a more complex exponential function to the citation data
+- a journal impact factor can be calculated from the parameters of the fit
+- *Science* JIF = **25.3** instead of the reported **34**
+- *Nature* JIF = **26.8** instead of the reported **37**
+- a few highly cited papers have a substantial effect on the mean, but less on the exponential function
+:::
+:::
+
+:::footer
+[Berg, 2016](https://www.science.org/content/blog-post/journal-impact-factors---fitting-citation-distribution-curves)
+:::
+
+## JIF does not correlate with quality metrics (e.g. statistical power)
+
+<br>
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/fnhum-07-00291-g002.jpg)
+::: 
+:::{.column width=50%}
+- no association between statistical power and journal IF
+:::
+:::
+
+:::footer
+[Fang & Casadevall, 2011](https://journals.asm.org/doi/10.1128/iai.05661-11)
+[Brembs et al. 2013](https://doi.org/10.3389/fnhum.2013.00291)
+:::
+
+## But: JIF correlates with retractions
+
+<br>
+
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/retraction_IF.jpeg)
+::: 
+:::{.column width=50%}
+- journal rank is a strong predictor of the rate of retractions
+- (also of Excel errors :))
+:::
+:::
+
+:::footer
+[Fang & Casadevall, 2011](https://journals.asm.org/doi/10.1128/iai.05661-11)
+[Brembs et al. 2013](https://doi.org/10.3389/fnhum.2013.00291)
+:::
+
+## Open Publishing and False Metrics
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/National_Cancer_Institute_director_Harold_E._Varmus_(2).jpg){height=300}
+
+[Harold Varnus](https://en.wikipedia.org/wiki/Harold_E._Varmus#Publication_practices_in_science)<br>
+*"We need to get away from false metrics and return to the task of looking at our colleagues' work closely."* 
+
+::: 
+:::{.column width=50%}
+- we continue to pay allegiance to the idea that the most important work is published in so-called ‘high-impact’ journals
+- ceding judgments to journal editors, rather than retain it among working scientists
+- we have to eliminate the current situation in which the fate of an individual researcher and their trainees depends on publishing in certain journals
+- once we achieve that, we'll eliminate a lot of distinctions between journals
+- also eliminate resistance to open access
+:::
+:::
+
+:::footer
+[Harold Varnus, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6451421/)
+:::
+
+
+## Current system is hugely wasteful
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/Maxwell.avif)
+Robert Maxwell in 1985. *Photograph: Terry O’Neill/Hulton/Getty*
+::: 
+:::{.column width=60%}
+- worldwide costs $10-25 billion (subscriptions and article processing charges)
+- dominated by five large publishing houses: Elsevier, Black & Wiley, Taylor & Francis, Springer Nature and SAGE
+- Elsevier has a profit margin around 40 % (higher than Microsoft, Google and Coca Cola)
+- about **USD 6 billion per year** goes to profits = 2 CERNs/year 
+- APCs can be as high as $10,000
+:::
+:::
+
+:::footer
+[Hagve, 2015](https://tidsskriftet.no/en/2020/08/kronikk/money-behind-academic-publishing)
+[Buranyi 2017](https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science)
+:::
+
+## Kleptistan (Binjistan) - I
+
+::: columns
+:::{.column width=80%}
+![](images/open_science/Majka_Csurran_Cseppen.webm)
+:::
+:::{.column width=20%}
+
+- Elsevierstan
+- Wileystan
+- Taylorfrancistan
+- Springerstan
+- ...
+- an oligopoly of legacy publishers
+:::
+:::
+
+:::footer
+[Majka](https://www.youtube.com/watch?app=desktop&v=f2iQfEcO39A)
+:::
+
+## Kleptistan (Binjistan) - II
+
+::: columns
+:::{.column width=70%}
+![](images/open_science/workflows-elsevier.png)
+![](images/open_science/workflows-springernature1.png)
+![](images/open_science/workflows-google.png)
+:::
+:::{.column width=30%}
+
+- workflow monopoly
+- tools to cover the entire academic workflow
+- e.g. Elsevier can now cover the entire workflow
+- high risk of vendor lock-in
+- preconditions for a functioning market exist, but a common standard is missing
+:::
+:::
+
+:::footer
+[Brembs et al. 2024](https://royalsocietypublishing.org/doi/full/10.1098/rsos.230206)
+:::
+
+## Kleptistan (Binjistan) - III
+
+#### *or* <br> How to milk the same cow multiple times?
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/elsevier.png)
+:::
+:::{.column width=50%}
+- scientists provide content for free
+- scientist peer review for free
+- scientists buy over-priced product as APC, subscription or 'transformative' deals
+- publisher (now 'data analysis company') sells entire workflows to scientists
+- publishers tracks scientists on its platforms
+- sells the data to the employers (e.g. quality assessment) or third parties
+:::
+:::
+
+
+## Unacceptable practices of data tracking by publishers
+
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/data-tracking.jpg)
+[Watchthem](https://watchthem.live/data-tracking/)
+*'Data gathering is an essential process, and most companies use it for their success.'*
+
+::: 
+:::{.column width=50%}
+-  tracking site visits via authentication systems to detailed real-time data on the information behaviour of individuals and institution
+- page visits, accesses, downloads, etc. 
+– assembly of granular profiles of academic behaviour 
+– without user consent
+- selling the data, e.g. RELX – the parent company of Elsevier – establishes PURE at universities around the world
+- to provide 'insights' into the entire research cycle
+:::
+:::
+
+:::footer
+[DFG Report on Data Tracking](https://www.dfg.de/resource/blob/174924/d99b797724796bc1a137fe3d6858f326/datentracking-papier-en-data.pdf)
+:::
+
+
+
+## Unacceptable practices of data tracking by publishers
+
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/ice-colorado-gty-jm-250207_1738935632933_hpEmbed_3x2.avif)
+[Denver, Colo., Feb. 5, 2025.](https://abcnews.go.com/US/ice-agents-door-door-colorado-residents-edge-reporters/story?id=118527489)
+:::
+:::{.column width=60%}
+- Thomson Reuters and RELX Group (formerly Reed Elsevier) are selling personal information, updated in real time, to ICE’s surveillance program
+- “big data policing”
+- curated by private “data brokers”
+- discover connections between individuals, their addresses, and their property
+- surveillance technology = publishers
+:::
+:::
+
+:::aside
+[When Westlaw Fuels ICE Surveillance: Legal Ethics in the Era of Big Data Policing](https://socialchangenyu.com/review/when-westlaw-fuels-ice-surveillance-legal-ethics-in-the-era-of-big-data-policing/)
+:::
+
+## The OA movement has been hijacked
+
+::: columns
+:::{.column width=60%}
+![](images/open_science/publications_by_OA_category.png)
+::: 
+:::{.column width=40%}
+- Diamond: article published in an open access (only) journal without an article processing charge
+- Green only: not openly accessible from the publisher website but a free copy is accessible via a repository or other platform
+- Gold: article published in an open access (only) journal that includes article processing charges (**profits can remain high!**)
+- Hybrid (**profits can remain high!**)
+- Bronze: free to read on the publisher’s website, but with no identifiable licence
+:::
+:::
+
+:::footer
+[UNESCO - Open Science Outlook 1](https://unesdoc.unesco.org/ark:/48223/pf0000387324)
+:::
+
+## Open Science under attack
+
+::: columns
+:::{.column width=50%}
+<br>
+
+![](images/open_science/the-ultimate-guide-to-avoiding-predatory-conferences-377090-1280x720.webp)
+
+[*Credit: iStock* ](https://www.technologynetworks.com/tn/articles/the-ultimate-guide-to-avoiding-predatory-conferences-377090)
+
+*Dear Valued Professor,*
+
+*Please be joining us for the next installment of our top quality scientific program at the 423rd International Conference on ... *
+
+::: 
+:::{.column width=50%}
+<br><br>
+
+- overt commercial predation
+- monetization of academic research output
+- predatory journals and conferences
+- the falsification of experimental evidence
+- fake qualifications, certificates and awards 
+- predatory preprint servers
+- surveillance by legacy publishers (e.g. Elsevier)
+:::
+:::
+
+:::footer
+[UNESCO - Open Science Outlook 1](https://unesdoc.unesco.org/ark:/48223/pf0000387324)
+:::
+
+
+## Open Science under attack
+
+::: columns
+:::{.column width=70%}
+<br>
+
+![](images/open_science/nasa_open_science.png)
+::: 
+:::{.column width=30%}
+<br><br>
+
+- As recently as January 2, 2025, NASA had five modules for teaching Open Science on its web site. 
+- The Trump administration has taken them down
+:::
+:::
+
+:::footer
+[@internetarchive Wayback Machine](https://web.archive.org/web/20250102141453/https://science.nasa.gov/open-science/tops/os101/)
+:::
+
+##
+
+![](images/open_science/nasa_404.png){height=650}
+
+
+## Open Science under attack
+
+::: columns
+:::{.column width=50%}
+
+![](images/open_science/who.png){height=300}
+
+- US left the WHO under Trump
+- US was the largest funder
+::: 
+:::{.column width=50%}
+![](images/open_science/nextstrain.png){height=300}
+
+- does not bode well for fighting future pandemics
+- open data was key to track new strains and spread
+:::
+:::
+
+:::footer
+[Nextstrain](https://nextstrain.org/ncov/gisaid/global/6m)
+:::
+
+
+## Major repositories and databases in constant danger
+
+![](images/open_science/pubmed_shutdown.jpg)
+
+![](images/open_science/funding_for_NIH_databases.png)
+
+
+## We have the solution, but not the balls to implement it
+
+<br>
+
+- under ‘closed’ models, institutions are already spending money on scientific publications 
+- transitioning those funds to support diamond open access publication could fully support a global shift to open access publishing 
+- at the same time strengthen scholarly infrastructure for code, data, interoperability etc.
+- with the potential for cost savings (Schimmer et al. 2015)
+- with publishing in the hand of public institutions
+- USD 6 billion/year is a lot of money for that
+- would also solve most of the problems with predatory publishers
+
+:::footer
+[UNESCO - Open Science Outlook 1](https://unesdoc.unesco.org/ark:/48223/pf0000387324)
+:::
+
+## What should scientists and institutions do? 
+### for the realist:
+
+#### Safest bet: buy RELX stocks
+(RELX: parent company of Elsevier)
+
+![](images/open_science/relx_stocks.png){height=400}
+
+## What should scientists and institutions do? 
+### for the idealist:
+
+#### Taking back control
+
+::: columns
+:::{.column width=40%}
+![](images/open_science/openaire.png)
+::: 
+:::{.column width=60%}
+- Public institutions (universities, libraries, funders etc.) should take back control of the digital scholarly infrastructure
+- create conditions of open competition for private sector (not oligopoly of a few publishers)
+- control data, text, code, citation metrics, scholarly workflows, databases, standards etc.
+- cancel all subscriptions and use money to fund databases, libraries, publishing etc.
+- support initiatives like OpenAIRE
+:::
+:::
+
+:::footer
+[OpenAIRE](https://www.openaire.eu/)
+:::
+
+
+## The task
+
+- emancipation from market control
+- strategically withdraw the labour extracted by commercial publishers
+- re-direct to those that offer self-governance through the commons
+
+![](images/open_science/9780472057634_cover1_rb_fullcover.jpg){height=12em}
+
+:::aside
+[Samuel A. Moore](https://press.umich.edu/Books/P/Publishing-Beyond-the-Market)
+:::
+
+
+## New approaches to research assessment
+
+<br>
+
+::: columns
+:::{.column width=60%}
+
+![](images/open_science/dora.png)
+::: 
+:::{.column width=40%}
+- the San Francisco Declaration on Research Assessment
+- eliminate the use of journal-based metrics, such as Journal Impact Factors, in funding, appointment, and promotion considerations
+- assess research on its own merits rather than on the basis of the journal in which the research is published
+- capitalize on the opportunities provided by online publication (e.g. relax limits on the number of words, figures, and references)
+:::
+:::
+
+:::footer
+[DORA](https://sfdora.org/read/)
+:::
+
+
+## Open Alex
+
+::: columns
+:::{.column width=60%}
+![](images/open_science/openalex.png)
+
+::: 
+:::{.column width=40%}
+- https://openalex.org/
+- indexes over 250M scholarly works
+- nlamed after the ancient Library of Alexandria 
+- export all search results for free
+- use of API or download the whole dataset
+- share and reuse as you like
+- made by OurResearch, a nonprofit dedicated to making research open
+- 100% of source code is open
+:::
+:::
+
+## eLife
+
+::: columns
+:::{.column width=60%}
+![](images/open_science/elife.png)
+
+- funded by HHMI, Wellcome Trust, MPS, K&A Wallenberg Foundation
+
+::: 
+:::{.column width=40%}
+- https://elifesciences.org/
+- **The eLife process has five steps:**
+  - Submission or transfer of a preprint from bioRxiv 
+  - Peer review (eLife editors - who are all active researchers - discuss new submissions and decide which will be peer reviewed)
+  - Publication of Reviewed Preprint
+  - Publication of revised version
+  - Publication of Version of Record
+  - papers published together   with eLife Assessment
+  
+:::
+:::
+
+
+## EBI Bioimage Archive
+
+::: columns
+:::{.column width=65%}
+![](images/open_science/bioimage_archiv.png)
+
+- https://www.ebi.ac.uk/bioimage-archive/
+
+- free, public resource for biological images
+- funded by UKRI and EMBL member state funding
+::: 
+:::{.column width=35%}
+![](images/open_science/41592_2018_195_Fig1_HTML.webp)
+
+:::
+:::
+
+:::footer
+[Ellemberg et al. 2018](https://www.nature.com/articles/s41592-018-0195-8)
+:::
+
+## What is the solution? - The Fediverse for Science
+
+::: columns
+:::{.column width=30%}
+![](images/open_science/fediverse.png)
+::: 
+:::{.column width=70%}
+<br>
+
+- a federated infrastructure
+- run by public institutions (universities, libraries etc.)
+- for communication (microblogging = Mastodon)
+- for code (GitLab), data (e.g. Omero), text (preprint servers) etc.
+- taking back control of scholarly infrastructure
+:::
+:::
+
+:::footer
+[Imagec credit: @FediTips](@FediTips@social.growyourown.services)
+:::
+
+## Towards a new, federated scholarly infrastructure
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/rsos230206f03.jpg)
+::: 
+:::{.column width=50%}
+- plan for a federated scholarly information network
+- a system that cannot be taken over by corporations
+- designed redundantly
+- open standards
+- "a decentralized, resilient, evolvable network that is interconnected by open standards and open-source norms under the governance of the scholarly community"
+
+:::
+:::
+
+:::footer
+[Brembs et al. 2023](https://royalsocietypublishing.org/doi/full/10.1098/rsos.230206)
+:::
+
+
+## One example for publishing -  Open Research Europe (ORE)
+
+::: columns
+:::{.column width=60%}
+![](images/open_science/ORE.png)
+
+- open access publishing venue for EC-funded researchers
+- no author or reader fees
+- Diamond (but authors need to be EC funded)
+- maintained by the European Commission
+- Wellcome Open Research (https://wellcomeopenresearch.org/) is similar, maintained by the Wellcome Trust
+::: 
+:::{.column width=30%}
+<br>
+
+- open up access methods, results, publications, data, software, materials, tools and peer reviews
+- standard tender process held regularly
+- no lock-in with a single publisher
+- regular procurement processes, no monopoly, fair prices
+:::
+:::
+
+:::footer
+[]()
+:::
+
+
+## Sharing code in an ideal world - federated GitLab servers
+
+<br>
+
+::: columns
+:::{.column width=60%}
+
+
+![](images/open_science/git_on_the_server.png)
+::: 
+:::{.column width=40%}
+
+- Institutions should host their **GitLab server** for code
+- (**GitLab** is a database-backed web application running *git*)
+- (*git* is a Distributed Version Control Systems)
+- servers should be federated
+- European (-> world-wide) network of research/education institutions and libraries
+- code shared upon publication in a permanent repo with DOI
+:::
+:::
+
+:::footer
+[Chacon & Straub - Pro Git Book](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F)
+:::
+
+
+## Code with persistend DOI
+
+<br>
+
+::: columns
+:::{.column width=60%}
+
+
+![](images/open_science/zenodo.png)
+::: 
+:::{.column width=40%}
+
+- Permanent repository for data, text and code
+- integration with **GitHub**
+- version control
+- **Safe** — your research is stored safely for the future in CERN’s Data Centre for as long as CERN exists
+- citeable
+- usage statistics
+:::
+:::
+
+## Preprints
+
+::: columns
+:::{.column width=50%}
+![](images/open_science/mbio.02989-25.f001.jpg)
+:::
+:::{.column width=50%}
+- preprint = author publishes manuscript before peer review
+- **bioRxiv** and **medRxiv** preprint servers for the life sciences
+- critical role in disseminating COVID research during the pandemic
+:::
+:::
+
+:::aside
+[Richard Sever, 2026](https://journals.asm.org/doi/10.1128/mbio.02989-25)
+:::
+
+## An European Infrastructure for Open Science
+
+::: columns
+:::{.column width=60%}
+<br>
+
+![](images/open_science/EOSC_EU_Node.png)
+https://open-science-cloud.ec.europa.eu/
+::: 
+:::{.column width=40%}
+- **Available Services:**
+  - File Sync & Share 
+  - Interactive Notebooks 
+  - Large File Transfer 
+  - Virtual Machines 
+  - Cloud Container Platform 
+  - Bulk Data Transfer 
+:::
+:::
+
+
+
+## ...still early days
+
+
+![](images/open_science/eu_open_science.png)
+
+## While we wait...
+
+
+::: columns
+:::{.column width=70%}
+
+![](images/open_science/approach_to_publications.png)
+
+
+::: 
+:::{.column width=30%}
+
+- individual labs can change behaviour
+- my lab has completely switched to publishing preprints and in OA-only not-for-profit journals
+- raise your voice in hiring/promotion committees for DORA principles
+:::
+:::
+
+:::footer
+[Our Approach to Publication](https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely/our-approach-to-publication)
+:::
+
+## Summary
+
+::: columns
+:::{.column width=40%}
+
+::: 
+:::{.column width=60%}
+
+- open science is key for reproducibility, scientific progress, integrity, global fairness, resilience, cost-cutting
+- solutions exist and are scaleable
+- money could come by scaling back payment to legacy publishers
+- problems: inertia, lack of coordination, lack of understanding the landscape, political and corporate takeover, prestige and other incentives to maintain status quo
+
+![](images/open_science/open_science_unesco_pic.png){height=150}
+
+:::
+:::
+
+:::footer
+[]()
+:::
+
+
+
