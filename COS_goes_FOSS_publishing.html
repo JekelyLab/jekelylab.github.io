@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="COS_goes_FOSS_publishing_files/libs/clipboard/clipboard.min.js"></script>
+<script src="COS_goes_FOSS_publishing_files/libs/quarto-html/tabby.min.js"></script>
+<script src="COS_goes_FOSS_publishing_files/libs/quarto-html/popper.min.js"></script>
+<script src="COS_goes_FOSS_publishing_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="COS_goes_FOSS_publishing_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="COS_goes_FOSS_publishing_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="COS_goes_FOSS_publishing_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="author" content="  29 January 2026   Gáspár Jékely   Centre for Organismal Studies, Heidelberg University">
+  <title>COS goes FOSS   The sorry state of scientific publishing and how we could move to an open and resilient infrastructure</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="COS_goes_FOSS_publishing_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="COS_goes_FOSS_publishing_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="COS_goes_FOSS_publishing_files/libs/revealjs/dist/theme/quarto-8febce9e91bd5c661eff95f5e36f8b97.css">
+  <link href="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title"><strong>COS goes FOSS</strong> <br> The sorry state of scientific publishing and how we could move to an open and resilient infrastructure</h1>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+<br><br> 29 January 2026 <br><br> Gáspár Jékely <br><br> Centre for Organismal Studies, Heidelberg University 
+</div>
+</div>
+</div>
+
+</section>
+<section id="the-crysis-of-publishingsymptomes" class="slide level2">
+<h2>The crysis of publishing—symptomes</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="images/open_science/scientific-publishing-profit-nature-feature.jpg"></p>
+</div><div class="column" style="width:70%;">
+<ul>
+<li>reproducibility crisis</li>
+<li>only a small fraction of primary data available</li>
+<li>even smaller fraction of code</li>
+<li>open access, if exists, is very expensive, maintains the profit of legacy publishers</li>
+<li>antiquated, dysfunctional system that rewards prestige/hype over quality/integrity</li>
+<li>scholarly workflows use non-professional, closed-source software (MS, Adobe, Prism etc.)</li>
+<li>sharing, integration, automation and collaboration difficult (who can use Git?)</li>
+<li>final product of years of research: pdf file (1990s tech) behind a paywall</li>
+<li>data, code, text not searchable, reuseable, discoverable</li>
+</ul>
+</div></div>
+</section>
+<section id="most-source-data-collected-by-scientists-are-not-available" class="slide level2">
+<h2>Most source data collected by scientists are not available</h2>
+<p><br></p>
+<p><img data-src="images/Data_publication_Pyramide.png" height="450"></p>
+</section>
+<section id="code-is-very-often-not-shared-or-not-shared-stably" class="slide level2">
+<h2>Code is very often not shared or not shared stably</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/Stodden_PNAS.png"></p>
+<ul>
+<li>study to assess the effectiveness of code sharing policy</li>
+<li>random sample of 204 <em>Science</em> papers</li>
+<li>artifacts from 44%</li>
+<li>reproduce the findings for 26%</li>
+</ul>
+</div><div class="column" style="width:60%;">
+<ul>
+<li><strong>Typical responses:</strong></li>
+</ul>
+<ul>
+<li class="fragment"><p><em>“The data files remains our property and are not deposited for free access.”</em></p></li>
+<li class="fragment"><p><em>“When you approach a PI for the source codes and raw data, you better explain who you are, whom you work for, why you need the data and what you are going to do with it.”</em></p></li>
+<li class="fragment"><p><em>“I have to say that this is a very unusual request without any explanation! Please ask your supervisor to send me an email with a detailed, and I mean detailed, explanation.”</em></p></li>
+<li class="fragment"><p><em>“We do not typically share our internal data or code with people outside our collaboration.”</em></p></li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://doi.org/10.1073/pnas.1708290115">Stodden et al.&nbsp;(2018)</a></p>
+</div></aside></section>
+<section id="flipped-protein-structures-due-to-buggy-program" class="slide level2">
+<h2>Flipped protein structures due to buggy program</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/open_science/MsbA_flipped.png"></p>
+<p><em>The structures of MsbA (purple) and Sav1866 (green) overlap little (left) until MsbA is inverted (right).</em></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li>buggy non-published program flipped two columns, inverting electron density</li>
+<li>program was inherited from another lab</li>
+<li>mistake repeated in several papers</li>
+<li>led to five retractions (three in <em>Science</em>)</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.science.org/doi/10.1126/science.314.5807.1856">Miller 2006</a></p>
+</div></aside></section>
+<section id="gene-name-errors-are-widespread-in-the-scientific-literature" class="slide level2">
+<h2>Gene name errors are widespread in the scientific literature</h2>
+<p><br><br></p>
+<p><img data-src="images/13059_2016_1044_Fig1_HTML.webp"></p>
+
+<aside><div>
+<p><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7">Ziemann et al.&nbsp;(2016)</a></p>
+</div></aside></section>
+<section id="most-scientists-use-software-developed-for-accounting" class="slide level2" data-transition="fade" data-transition-speed="fast">
+<h2>Most scientists use software developed for accounting</h2>
+<p><img data-src="images/Scientists_rename_genes.png" style="height:14em"></p>
+<ul>
+<li>the symbol MARCH1 has now become MARCHF1</li>
+<li>SEPT1 has become SEPTIN1, and so on</li>
+</ul>
+
+<aside><div>
+<p><a href="https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates">theverge.com</a></p>
+</div></aside></section>
+<section id="reporting-and-citation-bias" class="slide level2">
+<h2>Reporting and citation bias</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/open_science/citation_bias.jpeg"></p>
+<ul>
+<li>The cumulative impact of reporting and citation biases on the evidence base for antidepressants</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><br></p>
+<ul>
+<li>50% of randomized controlled trials have never been published</li>
+<li>trials with statistically significant findings are more likely to be published</li>
+<li>citation bias -&gt; studies with positive results receive more citations than negative studies</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.cambridge.org/core/journals/psychological-medicine/article/cumulative-effect-of-reporting-and-citation-biases-on-the-apparent-efficacy-of-treatments-the-case-of-depression/71D73CADE32C0D3D996DABEA3FCDBF57">de Vries et al., 2018</a></p>
+</div></aside></section>
+<section id="majority-of-high-impact-cancer-studies-fail-to-replicate" class="slide level2">
+<h2>Majority of high-impact cancer studies fail to replicate</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/open_science/cancer_replication.png"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>The Reproducibility Project: Cancer Biology (RP:CB)</li>
+<li>failure to replicate 30 of 53 papers published by <em>Science</em>, <em>Nature</em>, and <em>Cell</em> from 2010 to 2012</li>
+<li>credibility of preclinical cancer biology?</li>
+<li>need for authors to share more details of their experiments</li>
+<li>vague protocols and uncooperative authors</li>
+<li>one-third of contacted authors declined or did not respond</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://elifesciences.org/collections/9b1e83d1/reproducibility-project-cancer-biology">Errington et al., Reproducibility Project: Cancer Biology, 2014</a></p>
+</div></aside></section>
+<section id="an-epidemic-of-retractions" class="slide level2">
+<h2>An epidemic of retractions</h2>
+<p><br><br></p>
+<div class="columns">
+<div class="column" style="width:55%;">
+<p><img data-src="images/open_science/retractions_per_year.webp"></p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>steep increase in retractions</li>
+<li>monitoring retractions: http://retractionwatch.com</li>
+<li>majority of all retractions is due to misconduct</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://doi.org/10.3389/fnhum.2013.00291">Brembs et al.&nbsp;2013</a></p>
+</div></aside></section>
+<section id="perverse-incentives-publish-or-perish" class="slide level2">
+<h2>Perverse incentives, publish or perish</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/open_science/adoration_CNS.png"> Brembs</p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>chasing ‘stories’ and IF instead of integrity, hypothesis-testing, rigour, openness</li>
+<li>under the spell of glamour journals</li>
+<li>“<strong>If</strong> I get this result, this will be a <em>Nature</em> paper!”</li>
+<li>reporting bias (only positive results are reported)</li>
+<li>low statistical power (a p-value of 0.05 brings only 50% reproducibility)</li>
+<li>in worst cases data are fabricated</li>
+</ul>
+</div></div>
+</section>
+<section id="impact-factor---not-a-metric-of-quality" class="slide level2">
+<h2>Impact factor - not a metric of quality</h2>
+<ul>
+<li>IF = number of citations to articles in a journal (the numerator), normalized by the number of articles in that journal (the denominator) in the last 2 y</li>
+<li>calculated by Thomson Reuters</li>
+<li>originally created to help librarians, not as a measure of quality</li>
+<li>yet, emerged as a pervasive metric of quality</li>
+<li>in some cases not calculated but negotiated (the denominator, e.g Curr Biol)</li>
+<li>removing editorials/News-and-Views articles from the denominator (so called “front-matter”) can dramatically alter the resulting IF</li>
+<li>not reproducible, not open (calculated from proprietary data)</li>
+<li>a composite of multiple, highly diverse article types</li>
+<li>comparison of journals not mathematically sound</li>
+</ul>
+
+<aside><div>
+<p><a href="https://doi.org/10.3389/fnhum.2013.00291">Brembs et al.&nbsp;2013</a></p>
+</div></aside></section>
+<section id="if---statistically-flawed" class="slide level2">
+<h2>IF - statistically flawed</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/open_science/if_plots.png"></p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>highly skewed distributions</li>
+<li>distorted by outliers (see Nature)</li>
+<li>journal IF comparisons: comparison of means of two populations</li>
+<li>allowed only if distributions follow a <strong>normal distributions</strong>!</li>
+<li>simple ranking by mean is incorrect</li>
+<li>median would be better or a more complex statistical test (e.g.&nbsp;Kruskal–Wallis test)</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://doi.org/10.1101/062109">Larivière et al.&nbsp;2016</a></p>
+</div></aside></section>
+<section id="if---strongly-biased-by-outliers" class="slide level2">
+<h2>IF - strongly biased by outliers</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/open_science/if_model_fit.png"></p>
+</div><div class="column" style="width:50%;">
+<p><br></p>
+<ul>
+<li>fitting a more complex exponential function to the citation data</li>
+<li>a journal impact factor can be calculated from the parameters of the fit</li>
+<li><em>Science</em> JIF = <strong>25.3</strong> instead of the reported <strong>34</strong></li>
+<li><em>Nature</em> JIF = <strong>26.8</strong> instead of the reported <strong>37</strong></li>
+<li>a few highly cited papers have a substantial effect on the mean, but less on the exponential function</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.science.org/content/blog-post/journal-impact-factors---fitting-citation-distribution-curves">Berg, 2016</a></p>
+</div></aside></section>
+<section id="jif-does-not-correlate-with-quality-metrics-e.g.-statistical-power" class="slide level2">
+<h2>JIF does not correlate with quality metrics (e.g.&nbsp;statistical power)</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/open_science/fnhum-07-00291-g002.jpg"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>no association between statistical power and journal IF</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://journals.asm.org/doi/10.1128/iai.05661-11">Fang &amp; Casadevall, 2011</a> <a href="https://doi.org/10.3389/fnhum.2013.00291">Brembs et al.&nbsp;2013</a></p>
+</div></aside></section>
+<section id="but-jif-correlates-with-retractions" class="slide level2">
+<h2>But: JIF correlates with retractions</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/open_science/retraction_IF.jpeg"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>‘journal rank’ is a strong predictor of the rate of retractions</li>
+<li>(also of Excel errors :))</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://journals.asm.org/doi/10.1128/iai.05661-11">Fang &amp; Casadevall, 2011</a> <a href="https://doi.org/10.3389/fnhum.2013.00291">Brembs et al.&nbsp;2013</a></p>
+</div></aside></section>
+<section id="current-system-is-hugely-wasteful" class="slide level2">
+<h2>Current system is hugely wasteful</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/open_science/Maxwell.avif" style="height:16em"></p>
+<p>Robert Maxwell in 1985. <em>Photograph: Terry O’Neill/Hulton/Getty</em></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li>worldwide sales &gt; USD 19 billion</li>
+<li>dominated by five large publishing houses: Elsevier, Black &amp; Wiley, Taylor &amp; Francis, Springer Nature and SAGE</li>
+<li>Elsevier has a profit margin around 40 % (higher than Microsoft, Google and Coca Cola)</li>
+<li>about <strong>USD 6 billion per year</strong> goes to profits = 2 CERNs/year</li>
+<li>APCs can be as high as $12,000</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://tidsskriftet.no/en/2020/08/kronikk/money-behind-academic-publishing">Hagve, 2015</a> <a href="https://www.theguardian.com/science/2017/jun/27/profitable-business-scientific-publishing-bad-for-science">Buranyi 2017</a></p>
+</div></aside></section>
+<section id="kleptistan-binjistan---i" class="slide level2">
+<h2>Kleptistan (Binjistan) - I</h2>
+<div class="columns">
+<div class="column" style="width:80%;">
+<p><video data-src="images/open_science/Majka_Csurran_Cseppen.webm" controls=""><a href="images/open_science/Majka_Csurran_Cseppen.webm">Video</a></video></p>
+</div><div class="column" style="width:20%;">
+<ul>
+<li>an oligopoly of legacy publishers</li>
+<li>Elsevierstan</li>
+<li>Wileystan</li>
+<li>Taylorfrancistan</li>
+<li>Springerstan</li>
+<li>…</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.youtube.com/watch?app=desktop&amp;v=f2iQfEcO39A">Majka</a></p>
+</div></aside></section>
+<section id="kleptistan-binjistan---ii" class="slide level2">
+<h2>Kleptistan (Binjistan) - II</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/open_science/workflows-elsevier.png"> <img data-src="images/open_science/workflows-springernature1.png"> <img data-src="images/open_science/workflows-google.png"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>workflow monopoly</li>
+<li>tools to cover the entire academic workflow (e.g.&nbsp;Elsevier)</li>
+<li>high risk of vendor lock-in</li>
+<li>totalizing, homogenising workflows, extractive of research communities</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsos.230206">Brembs et al.&nbsp;2024</a> <a href="https://press.umich.edu/Books/P/Publishing-Beyond-the-Market">Samuel A. Moore: Publishing Beyond the Market</a></p>
+</div></aside></section>
+<section id="kleptistan-binjistan---iii" class="slide level2">
+<h2>Kleptistan (Binjistan) - III</h2>
+<h4 id="or-how-to-milk-the-same-cow-multiple-times"><em>or</em> <br> How to milk the same cow multiple times?</h4>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/open_science/elsevier.png"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>scientists provide content for free</li>
+<li>scientist peer review for free</li>
+<li>scientists buy over-priced product as APC, subscription or ‘transformative’ deals</li>
+<li>publisher (now ‘data analysis company’) sells entire workflows to scientists</li>
+<li>publishers tracks scientists on its platforms</li>
+<li>sells the data to the employers (e.g.&nbsp;quality assessment) or third parties</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.youtube.com/watch?app=desktop&amp;v=f2iQfEcO39A">Majka</a></p>
+</div></aside></section>
+<section id="unacceptable-practices-of-data-tracking-by-publishers" class="slide level2">
+<h2>Unacceptable practices of data tracking by publishers</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/open_science/data-tracking.jpg"> <a href="https://watchthem.live/data-tracking/">Watchthem</a> <em>‘Data gathering is an essential process, and most companies use it for their success.’</em></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>tracking site visits via authentication systems</li>
+<li>detailed real-time data on the information behaviour of individuals and institution</li>
+<li>page visits, accesses, clicks, downloads, etc.</li>
+<li>assembly of granular profiles of academic behaviour</li>
+<li>without user consent</li>
+<li>selling the data, e.g.&nbsp;RELX – the parent company of Elsevier – establishes PURE at universities around the world</li>
+<li>to provide ‘insights’ into the entire research cycle</li>
+<li>RELX now also sells data to ICE…</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.dfg.de/resource/blob/174924/d99b797724796bc1a137fe3d6858f326/datentracking-papier-en-data.pdf">DFG Report on Data Tracking</a></p>
+</div></aside></section>
+<section id="the-problem-is-the-system" class="slide level2">
+<h2>The problem is the system</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/open_science/books-1200x800.jpeg"></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li>journal publishing system is fundamentally broken</li>
+<li>a legacy system that prevents science from meeting its true potential for society</li>
+<li>about 40,000 journals</li>
+<li>public trust problem</li>
+<li>science publishing must be built anew</li>
+<li>illusion of truth and finality</li>
+<li>artificial scarcity</li>
+<li>narrow formats</li>
+<li>incomplete information</li>
+<li>prestige and journal-rank fallacies</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://astera.org/scientific-publishing-enough-is-enough/">Seemay Chou, Astera, ‘Scientific Publishing: Enough is Enough’</a></p>
+</div></aside></section>
+<section id="what-would-a-better-system-look-like" class="slide level2">
+<h2>What would a better system look like?</h2>
+<p><br></p>
+<ul>
+<li>data, code and text are shared, indexed, archived and discoverable</li>
+<li>analyses and workflows are also shared</li>
+<li>reagents (e.g.&nbsp;plasmids), strains (e.g.&nbsp;mutants) shared</li>
+<li>open-source software</li>
+<li>maximise reproducibility</li>
+<li>text + data + code = publication</li>
+<li>publications openly accessible, not behind a paywall</li>
+<li>affordable publishing (not hijacked by corporate for-profit publishers)</li>
+<li>preprints = publication, followed by post-publication peer review</li>
+</ul>
+</section>
+<section id="one-example---the-uniprot-database" class="slide level2">
+<h2>One example - the Uniprot database</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img data-src="images/open_science/uniprot.png"></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>a comprehensive resource for protein sequence and annotation data</li>
+<li>entries uniquely identified by a stable URL</li>
+<li>rich metadata that is both human-readable and machine-readable</li>
+<li>shared vocabularies and ontologies</li>
+<li>interlinking with more than 150 different databases</li>
+<li>© 2002 – 2026 UniProt consortium</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://doi.org/10.1093/nar/gku989">UniProt Consortium, 2015</a></p>
+</div></aside></section>
+<section id="a-history-of-open-access-the-budapest-open-access-initiative" class="slide level2">
+<h2>A history of Open Access — The Budapest Open Access Initiative</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img data-src="images/open_science/BOAI.png"> - https://www.budapestopenaccessinitiative.org/ <br><em>February 14, 2002</em> <br>Budapest, Hungary</p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>removing barriers to literature</li>
+<li>free and unrestricted online availability = <strong>open access</strong></li>
+<li>the costs of providing OA to literature are far lower than the costs of traditional publishing (printed press)</li>
+<li>opportunity to save money and expand the scope of dissemination</li>
+<li>recommendations: <strong>self-archiving</strong> (I.) and a new generation of <strong>open-access journals</strong> (II.)</li>
+</ul>
+</div></div>
+</section>
+<section id="the-launch-of-plos" class="slide level2">
+<h2>The launch of PLoS</h2>
+<p><img data-src="images/open_science/Plos_open_letter.png" style="height:20em"></p>
+</section>
+<section id="paywalls-and-the-story-of-aaron-swartz" class="slide level2">
+<h2>Paywalls and the story of Aaron Swartz</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="images/open_science/AaronSwartzPIPA.jpg"></p>
+</div><div class="column" style="width:70%;">
+<ul>
+<li>in 2011, 24 y old internet hacktivist Aaron Swartz was arrested at MIT</li>
+<li>he downloaded several million articles from an online archive (JSTOR)</li>
+<li>legal troubles</li>
+<li>Swartz committed suicide in 2013</li>
+<li>the internet was created so that scientists could communicate their research results with each other</li>
+<li>billions of videos of cats for free, research results behind paywalls</li>
+<li>(GPT-4o showed an 82% recognition rate for paywalled content)</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.michaeleisen.org/blog/?p=1346">Michael Eisen: The Past, Present and Future of Scholarly Publishing</a></p>
+</div></aside></section>
+<section id="the-politicians-weigh-in---plan-s" class="slide level2">
+<h2>The politicians weigh in - Plan S</h2>
+<ul>
+<li>Plan S was initiated in 2018 as a political solution to the OA problem</li>
+<li>funders mandate immediate open access</li>
+<li>proposal to cap APC (article processing charge)</li>
+<li>publishers whine that this would hurt their profit</li>
+<li>scrap the cap</li>
+<li>let the ‘market’ solve it (it didn’t)</li>
+<li>‘prestige’ journals can charge as much as they like (Nature-$12,690; Cell-$11,400)</li>
+</ul>
+<p><img data-src="images/open_science/Logo_PlanS.png" style="height:6em"></p>
+
+<aside><div>
+<p><a href="https://www.coalition-s.org/">Plan S by cOAlition S</a></p>
+</div></aside></section>
+<section id="oa-has-been-hijacked-by-publishers" class="slide level2">
+<h2>OA has been hijacked by publishers</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/open_science/publications_by_OA_category.png"></p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>Diamond: OA journal without an APC</li>
+<li>Green: not openly accessible from the publisher website but a free copy is accessible via a repository</li>
+<li>Gold: OA journal with APC (<strong>profits can remain high!</strong>)</li>
+<li>Hybrid: some papers OA others not (<strong>profits can remain high!</strong>)</li>
+<li>Bronze: free to read, no identifiable licence</li>
+<li>‘transformative agreements’</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://unesdoc.unesco.org/ark:/48223/pf0000387324">UNESCO - Open Science Outlook 1</a></p>
+</div></aside></section>
+<section id="towards-some-solutions" class="slide level2">
+<h2>Towards some solutions…</h2>
+<p><br><br><br></p>
+<h3 id="what-should-we-do-now">What should we do now?</h3>
+</section>
+<section id="what-should-scientists-and-institutions-do" class="slide level2">
+<h2>What should scientists and institutions do?</h2>
+<h3 id="for-the-realist">for the realist:</h3>
+<h4 id="safest-bet-buy-relx-stocks">Safest bet: buy RELX stocks</h4>
+<p>(RELX: parent company of Elsevier)</p>
+<p><img data-src="images/open_science/relx_stocks.png" height="400"></p>
+</section>
+<section id="we-have-the-solution-but-not-the-balls-to-implement-it" class="slide level2">
+<h2>We have the solution, but not the balls to implement it</h2>
+<p><br></p>
+<ul>
+<li>under ‘closed’ models, institutions spend a lot of money on publishing</li>
+<li>transitioning those funds to support community-led diamond OA, could fully support a global shift to OA</li>
+<li>strenghten scholarly infrastructure for code, data, interoperability etc.</li>
+<li>huge potential for cost savings (Schimmer et al.&nbsp;2015)</li>
+<li>publishing in the hand of public institutions</li>
+<li>USD 6 billion/year is a lot of money for that</li>
+<li>would also solve the problems with predatory publishers</li>
+</ul>
+
+<aside><div>
+<p><a href="https://unesdoc.unesco.org/ark:/48223/pf0000387324">UNESCO - Open Science Outlook 1</a></p>
+</div></aside></section>
+<section id="what-should-scientists-and-institutions-do-1" class="slide level2">
+<h2>What should scientists and institutions do?</h2>
+<h3 id="for-the-idealist">for the idealist:</h3>
+<h4 id="taking-back-control">Taking back control</h4>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/open_science/openaire.png"></p>
+</div><div class="column" style="width:60%;">
+<ul>
+<li>Public institutions (universities, libraries, funders etc.) should take back control of the digital scholarly infrastructure</li>
+<li>create conditions of open competition for private sector (not oligopoly of a few publishers)</li>
+<li>control data, text, code, citation metrics, scholarly workflows, databases, standards etc.</li>
+<li>cancel all subscriptions and use money to fund databases, libraries, publishing etc.</li>
+<li>support initiatives like OpenAIRE</li>
+<li>build community, the commons -&gt; publishing is community, care</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.openaire.eu/">OpenAIRE</a></p>
+</div></aside></section>
+<section id="new-approaches-to-research-assessment" class="slide level2">
+<h2>New approaches to research assessment</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/open_science/dora.png"></p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>the San Francisco Declaration on Research Assessment</li>
+<li>eliminate the use of journal-based metrics (IF) in funding, appointment, and promotion decisions</li>
+<li>assess research on its own merits rather than based on the journal</li>
+<li>capitalize on the opportunities provided by online publication (e.g.&nbsp;relax limits on the number of words, figures, and references)</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://sfdora.org/read/">DORA</a></p>
+</div></aside></section>
+<section id="chasing-false-metrics-the-prestige-game" class="slide level2">
+<h2>Chasing False Metrics — the Prestige Game</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<p><img data-src="images/open_science/National_Cancer_Institute_director_Harold_E._Varmus_(2).jpg" height="300"></p>
+<p><a href="https://en.wikipedia.org/wiki/Harold_E._Varmus#Publication_practices_in_science">Harold Varnus</a><br> <em>“We need to get away from false metrics and return to the task of looking at our colleagues’ work closely.”</em></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>we believe the most important work is published in so-called ‘high-impact’ journals</li>
+<li>ceding judgments to journal editors</li>
+<li>we have to eliminate the current situation in which the fate of researcher and their trainees depends on publishing in certain journals</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6451421/">Harold Varnus, 2019</a></p>
+</div></aside></section>
+<section id="elife" class="slide level2">
+<h2>eLife</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/open_science/elife.png"></p>
+<ul>
+<li>funded by HHMI, Wellcome Trust, MPS, K&amp;A Wallenberg Foundation</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>https://elifesciences.org/</li>
+<li><strong>The eLife process has five steps:</strong>
+<ul>
+<li>Submission or transfer of a preprint from bioRxiv</li>
+<li>Peer review (eLife editors - who are all active researchers - discuss new submissions and decide which will be peer reviewed)</li>
+<li>Publication of Reviewed Preprint</li>
+<li>Publication of revised version</li>
+<li>Publication of Version of Record</li>
+<li>papers published together with eLife Assessment</li>
+<li>eLife has no IF! (good!!)</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="sharing-code-in-an-ideal-world---federated-gitlab-servers" class="slide level2">
+<h2>Sharing code in an ideal world - federated GitLab servers</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/open_science/git_on_the_server.png"></p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>Institutions should host their <strong>GitLab server</strong> for code</li>
+<li>(<strong>GitLab</strong> is a database-backed web application running <em>git</em>)</li>
+<li>(<em>git</em> is a Distributed Version Control Systems)</li>
+<li>servers should be federated</li>
+<li>European (-&gt; world-wide) network of research/education institutions and libraries</li>
+<li>code shared upon publication in a permanent repo with DOI</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F">Chacon &amp; Straub - Pro Git Book</a></p>
+</div></aside></section>
+<section id="code-with-persistend-doi" class="slide level2">
+<h2>Code with persistend DOI</h2>
+<p><br></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/open_science/zenodo.png"></p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li>Permanent repository for data, text and code</li>
+<li>integration with <strong>GitHub</strong></li>
+<li>version control</li>
+<li><strong>Safe</strong> — your research is stored safely for the future in CERN’s Data Centre for as long as CERN exists</li>
+<li>citeable</li>
+<li>usage statistics</li>
+</ul>
+</div></div>
+</section>
+<section id="what-is-the-solution---the-fediverse-for-science" class="slide level2">
+<h2>What is the solution? - The Fediverse for Science</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="images/open_science/fediverse.png"></p>
+</div><div class="column" style="width:70%;">
+<p><br></p>
+<ul>
+<li>a federated infrastructure</li>
+<li>run by public institutions (universities, libraries etc.)</li>
+<li>for communication (microblogging = Mastodon)</li>
+<li>for code (GitLab), data (e.g.&nbsp;Omero), text (preprint servers) etc.</li>
+<li>taking back control of scholarly infrastructure</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="@FediTips@social.growyourown.services">Imagec credit: <span class="citation" data-cites="FediTips">@FediTips</span></a></p>
+</div></aside></section>
+<section id="towards-a-new-federated-scholarly-infrastructure" class="slide level2">
+<h2>Towards a new, federated scholarly infrastructure</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/open_science/rsos230206f03.jpg"></p>
+</div><div class="column" style="width:50%;">
+<ul>
+<li>plan for a federated scholarly information network</li>
+<li>a system that cannot be taken over by corporations</li>
+<li>designed redundantly</li>
+<li>open standards</li>
+<li>“a decentralized, resilient, evolvable network that is interconnected by open standards and open-source norms under the governance of the scholarly community”</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://royalsocietypublishing.org/doi/full/10.1098/rsos.230206">Brembs et al.&nbsp;2023</a></p>
+</div></aside></section>
+<section id="one-example-for-publishing---open-research-europe-ore" class="slide level2">
+<h2>One example for publishing - Open Research Europe (ORE)</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/open_science/ORE.png"></p>
+<ul>
+<li>open access publishing venue for EC-funded researchers</li>
+<li>no author or reader fees</li>
+<li>Diamond (but authors need to be EC funded)</li>
+<li>maintained by the European Commission</li>
+<li>Wellcome Open Research (https://wellcomeopenresearch.org/) is similar, maintained by the Wellcome Trust</li>
+<li>but too centralised and no community behind it</li>
+</ul>
+</div><div class="column" style="width:30%;">
+<p><br></p>
+<ul>
+<li>open up access methods, results, publications, data, software, materials, tools and peer reviews</li>
+<li>standard tender process held regularly</li>
+<li>no lock-in with a single publisher</li>
+<li>regular procurement processes, no monopoly, fair prices</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href=""></a></p>
+</div></aside></section>
+<section id="an-european-infrastructure-for-open-science" class="slide level2">
+<h2>An European Infrastructure for Open Science</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br></p>
+<p><img data-src="images/open_science/EOSC_EU_Node.png"> https://open-science-cloud.ec.europa.eu/</p>
+</div><div class="column" style="width:40%;">
+<ul>
+<li><strong>Available Services:</strong>
+<ul>
+<li>File Sync &amp; Share</li>
+<li>Interactive Notebooks</li>
+<li>Large File Transfer</li>
+<li>Virtual Machines</li>
+<li>Cloud Container Platform</li>
+<li>Bulk Data Transfer</li>
+</ul></li>
+</ul>
+</div></div>
+</section>
+<section id="still-early-days" class="slide level2">
+<h2>…still early days</h2>
+
+<img data-src="images/open_science/eu_open_science.png" class="r-stretch"></section>
+<section id="while-we-wait" class="slide level2">
+<h2>While we wait…</h2>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p><img data-src="images/open_science/approach_to_publications.png"></p>
+</div><div class="column" style="width:30%;">
+<ul>
+<li>individual labs can change behaviour</li>
+<li>my lab has completely switched to publishing preprints and in OA-only not-for-profit journals</li>
+<li>raise your voice in hiring/promotion committees for DORA principles</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p><a href="https://www.cos.uni-heidelberg.de/en/research-groups/gaspar-jekely/our-approach-to-publication">Our Approach to Publication</a></p>
+</div></aside></section>
+<section id="further-reading" class="slide level2">
+<h2>Further reading</h2>
+<p><img data-src="images/open_science/Moore_Publishing_Beyond_the_Market_cover1_rb_fullcover.jpg" style="height:13em"></p>
+<p><a href="https://press.umich.edu/Books/P/Publishing-Beyond-the-Market">Samuel A. Moore: Publishing Beyond the Market</a></p>
+<p>US library needs to cut subscriptions except to Elsevier etc. https://www.science.org/content/article/doge-order-leads-journal-cancellations-u-s-agricultural-library</p>
+<p>Move away from US cloud https://www.reuters.com/world/europe/dutch-parliament-calls-end-reliance-us-software-2025-03-18/</p>
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="COS_goes_FOSS_publishing_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
