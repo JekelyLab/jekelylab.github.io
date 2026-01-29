@@ -8,9 +8,8 @@ format:
     theme: [default, custom.scss]
     slide-number: true
     code-fold: false
+    embed-resources: true
     code-summary: "Code"
-    chalkboard: 
-      buttons: false
     preview-links: auto
 scrollable: true
 ---
