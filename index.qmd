@@ -12,7 +12,7 @@ format:
 <br>
 
 __"The sorry state of scientific publishing and how we could move to an open and resilient infrastructure"__<br>
-[Presentation](https://jekelylab.github.io/COS_goes_FOSS_scientific_publishing.html#/title-slide/)
+[Presentation](https://jekelylab.github.io/COS_goes_FOSS_publishing.html#/title-slide/)
 at [COS](https://www.cos.uni-heidelberg.de/en) in the **COS goes FOSS** series (January 29, 2026).
 
 

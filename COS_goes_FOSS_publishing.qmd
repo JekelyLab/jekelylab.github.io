@@ -7,8 +7,7 @@ format:
     slide-number: true
     code-fold: false
     code-summary: "Code"
-    chalkboard: 
-      buttons: false
+    embed-resources: true
     preview-links: auto
 scrollable: true
 ---
