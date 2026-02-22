@@ -1,0 +1,323 @@
+---
+title: "Neuronal Control of Motile Cilia"
+subtitle: "UNNICIL Launch Symposium
+ | 24 February 2026, LSI - Exeter"
+author: "Gáspár Jékely"
+institute: "Centre for Organismal Studies, Heidelberg University<br>Living Systems Institute, University of Exeter<br><br>@jekely@biologists.social"
+format:
+  revealjs: 
+    theme: [default, custom.scss]  
+    slide-number: false
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    incremental: false   
+css: xaringan-themer-GJ.css
+---
+
+
+## *Platynereis dumerilii*
+
+![](images/Platy_SEM.png){.absolute top="40" left="30" height="600"}
+
+::: columns
+::: {.column width="60%" .nonincremental}
+<br><br><br><br><br><br>
+
+-   breeding culture
+-   genome sequence
+-   microinjection, transgenesis
+-   neuron-specific promoters
+-   knock-out lines
+-   neuronal connectome
+-   neuronal activity imaging
+:::
+
+::: {.column width="40%"}
+:::
+:::
+
+## Volume EM with Array Tomograpy
+
+![](images/Connectome/vEM_AT.png){height=550}
+
+
+::: footer
+Réza Shahidi, EMCF
+:::
+
+## High pressure freezing
+
+![](images/HPF_setup_EMBL.jpg){height=400}
+
+- HPF setup at EMBL
+- similar setup at UHEI EMCF (Réza Shahidi, Charlotta Funaya)
+- excellent fixation is key and often the most difficult and critical step
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
+
+
+
+## Array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: footer
+Alexandra Kerbl, COS
+:::
+
+## Array tomography workflow
+
+
+![](images/Connectome/Zeiss_Gemini500.jpg
+){.absolute left="130" top="100" height="500" loop="true"}
+
+. . .
+
+![](images/Connectome/SEM_arriving_2024-02-23.jpeg){.absolute left="530" top="100" height="500"}
+
+
+## Array tomography workflow
+
+![](images/Connectome/AT_SEM_image7.jpg){.absolute left="0" top="100" height="400" loop="true"}
+![](images/Connectome/AT_SEM_image9.jpg){.absolute left="410" top="100" height="400"}
+
+
+## Whole-body volume EM of an entire three-day-old larva
+
+::: columns
+::: {.column width="20%"}
+<br>
+![](images/Naomi.png)
+:::
+::: {.column width="80%"}
+![](movies/Video1_Connectome_paper.webm){height=550}
+:::
+:::
+
+::: aside
+[Randel et al. (2015)](https://elifesciences.org/articles/08069) <br> [Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
+:::
+
+## A cell-type-level synaptic connectome
+
+![](images/Connectome/Figure4_fig_suppl6.png){height=550}
+
+::: aside
+[Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
+:::
+
+
+## Volume-EM reconstruction of the ctenophore apical organ
+
+::: columns
+::: {.column width="25%"}
+![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
+[Bruno C. Vellutini](https://commons.wikimedia.org/w/index.php?curid=30155106)
+:::
+::: {.column width="33%"}
+![](movies/Jokura_cteno_cilia.webm)
+Kei Jokura
+:::
+::: {.column width="41%"}
+![](images/Ctenophore/cteno_gravitaxis.png)
+:::
+
+:::
+
+
+## Ctenophore balancer organ
+
+::: columns
+::: {.column width="33%"}
+![](images/Ctenophore/Tamm_balancer.png)
+
+[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
+![](images/Ctenophore/balancer_schematic.png)
+
+:::
+::: {.column width="50%"}
+![](movies/Tamm_balancer_mmc2.webm){width=150%}
+
+[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)
+:::
+:::
+
+## Ctenophore balancer organ -- balancers
+
+![](movies/Jokura_Video2.webm){height=18em}
+
+- 4 clusters of ciliated balancer cells
+- statocyst: [grey spheres]{style="color:grey;"}
+- basal bodies: [red  dots]{style="color:red;"}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Ctenophore balancer organ
+
+![](images/Ctenophore/all_cells_3_views.png)
+
+#### Ctenophore balancer organ
+
+::: footer
+Kei Jokura
+:::
+
+
+## A syncytial nerve net at the base of the AO
+
+![](movies/cteno_net.webm){width=600}
+
+::: aside
+Kei Jokura
+:::
+
+## Ctenophore balancer organ
+
+![](images/Ctenophore/balancer_statolith.png)
+
+::: footer
+Kei Jokura
+:::
+
+## Connectome of the ctenophore apical organ
+
+::: columns
+::: {.column width="50%"}
+```{r eval=TRUE, echo=FALSE}
+
+htmltools::tags$iframe(
+  src = "images/Ctenophore/visNetwork_celltype_connectome.html", 
+  scrolling = "no", 
+  seamless = "seamless",
+  frameBorder = "1",
+  height=600, width=1000
+)
+```
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_lateral.png)
+
+lateral view
+:::
+
+::: {.column width="25%"}
+
+![](images/Ctenophore/celltypes_in_network_oral.png)
+
+oral view
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+## Four quadrants
+
+::: columns
+::: {.column width="50%"}
+![](images/Ctenophore/quadrants.png)
+:::
+::: {.column width="50%"}
+![](images/Ctenophore/groove.png)
+
+- same cell types in each quadrant
+- annotate one quadrant
+- test on other three
+:::
+:::
+
+::: aside
+Kei Jokura
+:::
+
+
+## Ciliomotor system in *Platynereis*
+
+::: columns
+::: {.column width="30%"}
+**24 ciliomotor neurons** 
+![](movies/Video_bb_cMN.webm)
+:::
+::: {.column width="39%"}
+**2 Cholinergic Loop neurons** 
+![](movies/Loop_EM.webm)
+:::
+::: {.column width="31%"}
+![](movies/ciliary_coordination_3d.webm)
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
+:::
+
+## Biophysics of ciliary microswimmers
+
+::: columns
+:::{.column width="60%"}
+![](images/platynereis/Poon_metachrony2.png)
+
+- high-speed ciliary imaging
+- laser ablations
+- modelling
+
+:::
+:::{.column width="40%"}
+![](movies/Cilia_simulation2.webm)
+
+*In collaboration with Wan and Keaveny labs, UK*
+:::
+:::
+
+:::aside
+[Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
+[Poon et al. 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2)
+:::
+
+
+## Acknowledgements
+
+::: columns
+::: {.column width="22%"}
+<u>*Lab members*</u>
+
+-   Sanja Jasek
+-   Alexandra Kerbl
+-   Emily Savage
+-   Simone Wolters
+-   Lara Keweloh
+-   Kevin Urbansky
+-   Karel Mocaer
+-   David Hug
+-   Benedikt Dürr
+-   Ira Maegele
+-   Emelie Brodrick (Exeter)
+:::
+
+::: {.column width="50%"}
+![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding2.png)
+:::
+
+::: {.column width="28%"}
+<u>*Facilities*</u>
+
+- EM Core Facility
+    - Réza Shahidi
+    - Charlotta Funaya
+- Nikon Imaging Centre
+  - Ulrike Engel
+:::
+:::
+
+![](images/Kei_Jokura.jpg){.absolute top="50" left="670" width="80"}

@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/clipboard/clipboard.min.js"></script>
+<script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/quarto-html/tabby.min.js"></script>
+<script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/quarto-html/popper.min.js"></script>
+<script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.25">
+
+  <meta name="author" content="Gáspár Jékely">
+  <title>Neuronal Control of Motile Cilia</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/dist/theme/quarto-8febce9e91bd5c661eff95f5e36f8b97.css">
+  <link rel="stylesheet" href="xaringan-themer-GJ.css">
+  <link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Neuronal Control of Motile Cilia</h1>
+  <p class="subtitle">UNNICIL Launch Symposium | 24 February 2026, LSI - Exeter</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Gáspár Jékely 
+</div>
+        <p class="quarto-title-affiliation">
+            Centre for Organismal Studies, Heidelberg University<br>Living Systems Institute, University of Exeter<br><br><span class="citation" data-cites="jekely">@jekely</span><span class="citation" data-cites="biologists.social">@biologists.social</span>
+          </p>
+    </div>
+</div>
+
+</section>
+<section id="platynereis-dumerilii" class="slide level2">
+<h2><em>Platynereis dumerilii</em></h2>
+<p><img data-src="images/Platy_SEM.png" class="absolute" style="top: 40px; left: 30px; height: 600px; "></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><br><br><br><br><br><br></p>
+<ul>
+<li>breeding culture</li>
+<li>genome sequence</li>
+<li>microinjection, transgenesis</li>
+<li>neuron-specific promoters</li>
+<li>knock-out lines</li>
+<li>neuronal connectome</li>
+<li>neuronal activity imaging</li>
+</ul>
+</div><div class="column" style="width:40%;">
+
+</div></div>
+</section>
+<section id="volume-em-with-array-tomograpy" class="slide level2">
+<h2>Volume EM with Array Tomograpy</h2>
+<p><img data-src="images/Connectome/vEM_AT.png" height="550"></p>
+<div class="footer">
+<p>Réza Shahidi, EMCF</p>
+</div>
+</section>
+<section id="high-pressure-freezing" class="slide level2">
+<h2>High pressure freezing</h2>
+<p><img data-src="images/HPF_setup_EMBL.jpg" height="400"></p>
+<ul>
+<li>HPF setup at EMBL</li>
+<li>similar setup at UHEI EMCF (Réza Shahidi, Charlotta Funaya)</li>
+<li>excellent fixation is key and often the most difficult and critical step</li>
+</ul>
+</section>
+<section id="array-tomography-workflow" class="slide level2">
+<h2>Array tomography workflow</h2>
+<p><img data-src="images/Connectome/AT_SEM_image2.jpg" class="absolute" style="top: 100px; left: 30px; height: 400px; " loop="true"> <img data-src="images/Connectome/AT_SEM_image3.jpg" class="absolute" style="top: 100px; left: 750px; height: 400px; "></p>
+</section>
+<section id="array-tomography-workflow-1" class="slide level2">
+<h2>Array tomography workflow</h2>
+<p><video data-src="movies/ribbon_sectionin.webm" class="absolute" style="top: 100px; left: 100px; height: 400px; " loop="true" controls=""><a href="movies/ribbon_sectionin.webm">Video</a></video> <img data-src="images/Connectome/at_section.jpeg" class="absolute" style="top: 88px; left: 350px; height: 400px; "> <img data-src="images/Connectome/at_stage_overview.jpeg" class="absolute" style="top: 88px; left: 670px; height: 400px; "></p>
+<div class="footer">
+<p>Alexandra Kerbl, COS</p>
+</div>
+</section>
+<section id="array-tomography-workflow-2" class="slide level2">
+<h2>Array tomography workflow</h2>
+<p><img data-src="images/Connectome/Zeiss_Gemini500.jpg" class="absolute" style="top: 100px; left: 130px; height: 500px; " loop="true"></p>
+<div class="fragment">
+<p><img data-src="images/Connectome/SEM_arriving_2024-02-23.jpeg" class="absolute" style="top: 100px; left: 530px; height: 500px; "></p>
+</div>
+</section>
+<section id="array-tomography-workflow-3" class="slide level2">
+<h2>Array tomography workflow</h2>
+<p><img data-src="images/Connectome/AT_SEM_image7.jpg" class="absolute" style="top: 100px; left: 0px; height: 400px; " loop="true"> <img data-src="images/Connectome/AT_SEM_image9.jpg" class="absolute" style="top: 100px; left: 410px; height: 400px; "></p>
+</section>
+<section id="whole-body-volume-em-of-an-entire-three-day-old-larva" class="slide level2">
+<h2>Whole-body volume EM of an entire three-day-old larva</h2>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><br> <img data-src="images/Naomi.png"></p>
+</div><div class="column" style="width:80%;">
+<p><video data-src="movies/Video1_Connectome_paper.webm" height="550" controls=""><a href="movies/Video1_Connectome_paper.webm">Video</a></video></p>
+</div></div>
+
+<aside><div>
+<p><a href="https://elifesciences.org/articles/08069">Randel et al.&nbsp;(2015)</a> <br> <a href="https://doi.org/10.1101/2024.03.17.585258">Jékely et al.&nbsp;(2024)</a></p>
+</div></aside></section>
+<section id="a-cell-type-level-synaptic-connectome" class="slide level2">
+<h2>A cell-type-level synaptic connectome</h2>
+<p><img data-src="images/Connectome/Figure4_fig_suppl6.png" height="550"></p>
+
+<aside><div>
+<p><a href="https://doi.org/10.1101/2024.03.17.585258">Jékely et al.&nbsp;(2024)</a></p>
+</div></aside></section>
+<section id="volume-em-reconstruction-of-the-ctenophore-apical-organ" class="slide level2">
+<h2>Volume-EM reconstruction of the ctenophore apical organ</h2>
+<div class="columns">
+<div class="column" style="width:25%;">
+<p><img data-src="images/Ctenophore/Comb_jelly_Wikipedia.jpg"> <a href="https://commons.wikimedia.org/w/index.php?curid=30155106">Bruno C. Vellutini</a></p>
+</div><div class="column" style="width:33%;">
+<p><video data-src="movies/Jokura_cteno_cilia.webm" controls=""><a href="movies/Jokura_cteno_cilia.webm">Video</a></video> Kei Jokura</p>
+</div><div class="column" style="width:41%;">
+<p><img data-src="images/Ctenophore/cteno_gravitaxis.png"></p>
+</div></div>
+</section>
+<section id="ctenophore-balancer-organ" class="slide level2">
+<h2>Ctenophore balancer organ</h2>
+<div class="columns">
+<div class="column" style="width:33%;">
+<p><img data-src="images/Ctenophore/Tamm_balancer.png"></p>
+<p><a href="https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042">Tamm, 2014</a> <img data-src="images/Ctenophore/balancer_schematic.png"></p>
+</div><div class="column" style="width:50%;">
+<p><video data-src="movies/Tamm_balancer_mmc2.webm" style="width:150.0%" controls=""><a href="movies/Tamm_balancer_mmc2.webm">Video</a></video></p>
+<p><a href="https://doi.org/10.1016/j.cub.2014.08.045">Noda &amp; Tamm, 2014</a></p>
+</div></div>
+</section>
+<section id="ctenophore-balancer-organ-balancers" class="slide level2">
+<h2>Ctenophore balancer organ – balancers</h2>
+<p><video data-src="movies/Jokura_Video2.webm" style="height:18em" controls=""><a href="movies/Jokura_Video2.webm">Video</a></video></p>
+<ul>
+<li>4 clusters of ciliated balancer cells</li>
+<li>statocyst: <span style="color:grey;">grey spheres</span></li>
+<li>basal bodies: <span style="color:red;">red dots</span></li>
+</ul>
+
+<aside><div>
+<p><a href="https://elifesciences.org/articles/108420">Jokura et al.&nbsp;2025</a></p>
+</div></aside></section>
+<section id="ctenophore-balancer-organ-1" class="slide level2">
+<h2>Ctenophore balancer organ</h2>
+
+<img data-src="images/Ctenophore/all_cells_3_views.png" class="r-stretch"><h4 id="ctenophore-balancer-organ-2">Ctenophore balancer organ</h4>
+<div class="footer">
+<p>Kei Jokura</p>
+</div>
+</section>
+<section id="a-syncytial-nerve-net-at-the-base-of-the-ao" class="slide level2">
+<h2>A syncytial nerve net at the base of the AO</h2>
+<p><video data-src="movies/cteno_net.webm" width="600" controls=""><a href="movies/cteno_net.webm">Video</a></video></p>
+
+<aside><div>
+<p>Kei Jokura</p>
+</div></aside></section>
+<section id="ctenophore-balancer-organ-3" class="slide level2">
+<h2>Ctenophore balancer organ</h2>
+
+<img data-src="images/Ctenophore/balancer_statolith.png" class="r-stretch"><div class="footer">
+<p>Kei Jokura</p>
+</div>
+</section>
+<section id="connectome-of-the-ctenophore-apical-organ" class="slide level2">
+<h2>Connectome of the ctenophore apical organ</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<iframe src="images/Ctenophore/visNetwork_celltype_connectome.html" scrolling="no" seamless="seamless" frameborder="1" height="600" width="1000"></iframe>
+</div>
+</div>
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/Ctenophore/celltypes_in_network_lateral.png"></p>
+<p>lateral view</p>
+</div><div class="column" style="width:25%;">
+<p><img data-src="images/Ctenophore/celltypes_in_network_oral.png"></p>
+<p>oral view</p>
+</div></div>
+
+<aside><div>
+<p>Kei Jokura</p>
+</div></aside></section>
+<section id="four-quadrants" class="slide level2">
+<h2>Four quadrants</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/Ctenophore/quadrants.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/Ctenophore/groove.png"></p>
+<ul>
+<li>same cell types in each quadrant</li>
+<li>annotate one quadrant</li>
+<li>test on other three</li>
+</ul>
+</div></div>
+
+<aside><div>
+<p>Kei Jokura</p>
+</div></aside></section>
+<section id="ciliomotor-system-in-platynereis" class="slide level2">
+<h2>Ciliomotor system in <em>Platynereis</em></h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><strong>24 ciliomotor neurons</strong> <video data-src="movies/Video_bb_cMN.webm" controls=""><a href="movies/Video_bb_cMN.webm">Video</a></video></p>
+</div><div class="column" style="width:39%;">
+<p><strong>2 Cholinergic Loop neurons</strong> <video data-src="movies/Loop_EM.webm" controls=""><a href="movies/Loop_EM.webm">Video</a></video></p>
+</div><div class="column" style="width:31%;">
+<p><video data-src="movies/ciliary_coordination_3d.webm" controls=""><a href="movies/ciliary_coordination_3d.webm">Video</a></video></p>
+</div></div>
+
+<aside><div>
+<p><a href="https://elifesciences.org/articles/26000">Verasztó et al.&nbsp;(2017)</a></p>
+</div></aside></section>
+<section id="biophysics-of-ciliary-microswimmers" class="slide level2">
+<h2>Biophysics of ciliary microswimmers</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="images/platynereis/Poon_metachrony2.png"></p>
+<ul>
+<li>high-speed ciliary imaging</li>
+<li>laser ablations</li>
+<li>modelling</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><video data-src="movies/Cilia_simulation2.webm" controls=""><a href="movies/Cilia_simulation2.webm">Video</a></video></p>
+<p><em>In collaboration with Wan and Keaveny labs, UK</em></p>
+</div></div>
+
+<aside><div>
+<p><a href="https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037">Poon et al.&nbsp;2023</a> <a href="https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2">Poon et al.&nbsp;2025</a></p>
+</div></aside></section>
+<section id="acknowledgements" class="slide level2">
+<h2>Acknowledgements</h2>
+<div class="columns">
+<div class="column" style="width:22%;">
+<p><u><em>Lab members</em></u></p>
+<ul>
+<li>Sanja Jasek</li>
+<li>Alexandra Kerbl</li>
+<li>Emily Savage</li>
+<li>Simone Wolters</li>
+<li>Lara Keweloh</li>
+<li>Kevin Urbansky</li>
+<li>Karel Mocaer</li>
+<li>David Hug</li>
+<li>Benedikt Dürr</li>
+<li>Ira Maegele</li>
+<li>Emelie Brodrick (Exeter)</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><img data-src="images/Lab_photo1_COS_12Mar2024.jpg"> <img data-src="images/funding2.png"></p>
+</div><div class="column" style="width:28%;">
+<p><u><em>Facilities</em></u></p>
+<ul>
+<li>EM Core Facility
+<ul>
+<li>Réza Shahidi</li>
+<li>Charlotta Funaya</li>
+</ul></li>
+<li>Nikon Imaging Centre
+<ul>
+<li>Ulrike Engel</li>
+</ul></li>
+</ul>
+</div></div>
+<p><img data-src="images/Kei_Jokura.jpg" class="absolute" style="top: 50px; left: 670px; width: 80px; "></p>
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/search/search.js"></script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="UNICIL_Kickoff_Exeter_Feb2026_files/libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
