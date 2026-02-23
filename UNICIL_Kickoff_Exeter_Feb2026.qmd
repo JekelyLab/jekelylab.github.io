@@ -1,6 +1,6 @@
 ---
 title: "Neuronal Control of Motile Cilia"
-subtitle: "UNNICIL Launch Symposium
+subtitle: "UNICIL Launch Symposium
  | 24 February 2026, LSI - Exeter"
 author: "Gáspár Jékely"
 institute: "Centre for Organismal Studies, Heidelberg University<br>Living Systems Institute, University of Exeter<br><br>@jekely@biologists.social"
@@ -15,6 +15,284 @@ format:
 css: xaringan-themer-GJ.css
 ---
 
+## Motile cilia in animal tissue
+
+![](images/Ciliomotor/aminal_cilia.png){height=20em}
+
+## Ctenophores -- the real masters of cilia
+
+![](movies/bolinopsis_shimoda.webm){height=20em}
+
+- *Bolinopsis mikado*, Shimoda Marine Station
+
+## Ctenophore aboral organ -- gravisensing (balancer)
+
+::: columns
+::: {.column width="25%"}
+![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
+[Bruno C. Vellutini](https://commons.wikimedia.org/w/index.php?curid=30155106)
+:::
+::: {.column width="33%"}
+![](movies/Jokura_cteno_cilia.webm)
+Kei Jokura
+:::
+::: {.column width="41%"}
+![](images/Ctenophore/cteno_gravitaxis.png)
+:::
+
+:::
+
+## Ctenophore aboral organ -- gravisensing (balancer)
+
+::: columns
+::: {.column width="25%"}
+![](images/Ctenophore/Mnemiopsis_larva_5d.jpg)
+![](images/Ctenophore/Tamm_balancer.png)
+:::
+::: {.column width="75%"}
+![](movies/Tamm_balancer_mmc2.webm){height=20em}
+:::
+:::
+
+::: aside
+[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)<br>
+[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
+:::
+
+## Volume EM reconstruction -- array tomography workflow
+
+![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
+![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
+![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
+
+::: footer
+Alexandra Kerbl, COS
+:::
+
+## Array tomography workflow
+
+<br>
+
+::: columns
+::: {.column width="23%"}
+![](images/Connectome/Zeiss_Gemini500.jpg){height=11em}
+
+- Zeiss Gemini SEM
+:::
+::: {.column width="30%"}
+![](images/Connectome/AT_SEM_image7.jpg){height=11em}
+
+- Large stage
+:::
+::: {.column width="47%"}
+![](images/Connectome/AT_SEM_image9.jpg){height=11em}
+
+- Atlas AT software
+:::
+:::
+
+
+## Four quadrants
+
+::: columns
+::: {.column width="35%"}
+![](images/Ctenophore/quadrants1.png){height=10em}
+:::
+::: {.column width="35%"}
+![](images/Ctenophore/larva_aboral_view_schematic.png){height=10em}
+:::
+::: {.column width="30%"}
+<br>
+
+- **S** -- sagittal plane
+- **T** -- tentacular plane
+- same cell types in each quadrant
+:::
+:::
+
+![](images/Ctenophore/groove.png){height=10em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Ctenophore balancer organ
+
+::: columns
+::: {.column width="25%"}
+![](images/Ctenophore/Mnemiopsis_larva_5d.jpg)
+![](images/Ctenophore/Tamm_balancer.png)
+:::
+::: {.column width="75%"}
+![](movies/Jokura_Video2.webm){height=18em}
+
+- 4 clusters of ciliated balancer cells
+- statocyst: [grey spheres]{style="color:grey;"}
+- basal bodies: [red  dots]{style="color:red;"}
+:::
+:::
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Balancers change beeting as a function of statocyst load
+
+![](movies/Jokura_Video8.webm){height="20em"}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## A syncytial nerve net at the base of the AO
+
+![](movies/Jokura_Video1.webm){height=20em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Connectome of the ctenophore apical organ
+
+
+![](images/Ctenophore/cell_level_connectome.jpg){height=20em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Connectome of the ctenophore apical organ
+
+![](images/Ctenophore/map_balancer_bridge_SSN_1.png){height=20em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Sagittal plane -- synchronous ciliary arrests
+
+![](movies/Jokura_Video4.webm){height=18em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Tentacular plane -- asynchronous ciliary arrests
+
+![](movies/Jokura_Video6.webm){height=18em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Synchronous re-beat in both planes
+
+![](movies/Jokura_Video5.webm){height=18em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Synchronous re-beat in both planes
+
+![](movies/Jokura_Video7.webm){height=18em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Differential control of ciliary arrests vs. re-beat
+
+::: columns
+::: {.column width="30%"}
+![](images/Ctenophore/SSN_Q12_Q34aboral.png)
+![](images/Ctenophore/four_balancers.png){height=8em}
+::: 
+::: {.column width="40%"}
+<br>
+
+```{r}
+#| fig-asp: 1
+
+library(readr)
+library(ggplot2)
+
+df_time_dif <- read_csv("images/Ctenophore/arrest_rebeat_time_differences.csv")
+
+df_time_dif |> 
+  ggplot(aes(x = response, y = time)) +  
+  geom_boxplot(aes(fill = plane), size = 0.5, 
+               outlier.shape = NA) +
+  labs(y = "Time difference (sec)") +
+  theme_minimal() +
+  theme(
+    legend.title = element_text(size=20),
+    legend.text = element_text(size=22),
+    legend.position = "inside",
+    legend.position.inside = c(0.8, 0.75),
+    axis.text = element_text(size=20),
+    axis.title = element_text(size=22)
+     ) +
+  scale_fill_manual(
+    values = c("sagittal" = "gray70", 
+               "tentacular" = "white")
+               )
+
+```
+
+:::
+::: {.column width="30%"}
+![](images/Ctenophore/SSN_Q1234aboral.png)
+![](images/Ctenophore/larva_aboral_view_schematic.png){height=8em}
+:::
+:::
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Synchronisation of beat frequencies
+
+::: columns
+::: {.column width="60%"}
+![](images/Ctenophore/CBF_barplot_23_08_01_WT1_007_Rec_at_100.20fps_dark.png){height="17em"}
+:::
+::: {.column width="40%"}
+![](images/Ctenophore/boxplot_correlation_angle_0-20_win_20.png){height="17em"}
+:::
+:::
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## The bridge may mediate synchronisation of CBF
+
+::: columns
+::: {.column width="60%"}
+![](images/Ctenophore/bridge.png)
+:::
+::: {.column width="40%"}
+![](images/Ctenophore/larva_aboral_view_schematic.png){height="10em"}
+![](images/Ctenophore/Tamm_Tamm_bridge_EM_adult_Pleurobrachia.png){height="9em"}
+
+[Tamm & Tamm, 2002](https://doi.org/10.1002/jmor.10019)
+:::
+:::
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
+
+## Ciliomotor circuit in ctenophore and annelid
+
+<br>
+
+![](images/Ctenophore/map_comparison.png){height=18em}
+
+::: aside
+[Jokura et al. 2025](https://elifesciences.org/articles/108420)
+:::
 
 ## *Platynereis dumerilii*
 
@@ -37,56 +315,29 @@ css: xaringan-themer-GJ.css
 :::
 :::
 
-## Volume EM with Array Tomograpy
+## Exquisite ciliary bands
 
-![](images/Connectome/vEM_AT.png){height=550}
+<br><br>
 
-
-::: footer
-Réza Shahidi, EMCF
+::: columns
+::: {.column width="27%"}
+![](images/Ciliomotor/Platynereis_Osm_cilia_96h.png){height=10em}
+:::
+::: {.column width="18%"}
+![](images/Ciliomotor/multiciliary_band.png){height=10em}
+:::
+::: {.column width="54%"}
+![](images/Ciliomotor/basal_bodies_proto_WT3.png){height=10em}
+:::
 :::
 
-## High pressure freezing
+- *Platynereis dumerilii* larvae -- 10,000 cilia
 
-![](images/HPF_setup_EMBL.jpg){height=400}
+## {background-image="images/Ciliomotor/MAX_32x-centrin-NHS-ester-01_processed_C1.png"}
 
-- HPF setup at EMBL
-- similar setup at UHEI EMCF (Réza Shahidi, Charlotta Funaya)
-- excellent fixation is key and often the most difficult and critical step
-
-## Array tomography workflow
-
-![](images/Connectome/AT_SEM_image2.jpg){.absolute left="30" top="100" height="400" loop="true"}
-![](images/Connectome/AT_SEM_image3.jpg){.absolute left="750" top="100" height="400"}
-
-
-
-## Array tomography workflow
-
-![](movies/ribbon_sectionin.webm){.absolute left="100" top="100" height="400" loop="true"}
-![](images/Connectome/at_section.jpeg){.absolute left="350" top="88" height="400"}
-![](images/Connectome/at_stage_overview.jpeg){.absolute left="670" top="88" height="400"}
-
-::: footer
-Alexandra Kerbl, COS
+:::aside
+[Juliane Lenz]{style="color:white;"}
 :::
-
-## Array tomography workflow
-
-
-![](images/Connectome/Zeiss_Gemini500.jpg
-){.absolute left="130" top="100" height="500" loop="true"}
-
-. . .
-
-![](images/Connectome/SEM_arriving_2024-02-23.jpeg){.absolute left="530" top="100" height="500"}
-
-
-## Array tomography workflow
-
-![](images/Connectome/AT_SEM_image7.jpg){.absolute left="0" top="100" height="400" loop="true"}
-![](images/Connectome/AT_SEM_image9.jpg){.absolute left="410" top="100" height="400"}
-
 
 ## Whole-body volume EM of an entire three-day-old larva
 
@@ -103,144 +354,6 @@ Alexandra Kerbl, COS
 ::: aside
 [Randel et al. (2015)](https://elifesciences.org/articles/08069) <br> [Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
 :::
-
-## A cell-type-level synaptic connectome
-
-![](images/Connectome/Figure4_fig_suppl6.png){height=550}
-
-::: aside
-[Jékely et al. (2024)](https://doi.org/10.1101/2024.03.17.585258 )
-:::
-
-
-## Volume-EM reconstruction of the ctenophore apical organ
-
-::: columns
-::: {.column width="25%"}
-![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
-[Bruno C. Vellutini](https://commons.wikimedia.org/w/index.php?curid=30155106)
-:::
-::: {.column width="33%"}
-![](movies/Jokura_cteno_cilia.webm)
-Kei Jokura
-:::
-::: {.column width="41%"}
-![](images/Ctenophore/cteno_gravitaxis.png)
-:::
-
-:::
-
-
-## Ctenophore balancer organ
-
-::: columns
-::: {.column width="33%"}
-![](images/Ctenophore/Tamm_balancer.png)
-
-[Tamm, 2014](https://onlinelibrary.wiley.com/doi/10.1111/ivb.12042)
-![](images/Ctenophore/balancer_schematic.png)
-
-:::
-::: {.column width="50%"}
-![](movies/Tamm_balancer_mmc2.webm){width=150%}
-
-[Noda & Tamm, 2014](https://doi.org/10.1016/j.cub.2014.08.045)
-:::
-:::
-
-## Ctenophore balancer organ -- balancers
-
-![](movies/Jokura_Video2.webm){height=18em}
-
-- 4 clusters of ciliated balancer cells
-- statocyst: [grey spheres]{style="color:grey;"}
-- basal bodies: [red  dots]{style="color:red;"}
-
-::: aside
-[Jokura et al. 2025](https://elifesciences.org/articles/108420)
-:::
-
-## Ctenophore balancer organ
-
-![](images/Ctenophore/all_cells_3_views.png)
-
-#### Ctenophore balancer organ
-
-::: footer
-Kei Jokura
-:::
-
-
-## A syncytial nerve net at the base of the AO
-
-![](movies/cteno_net.webm){width=600}
-
-::: aside
-Kei Jokura
-:::
-
-## Ctenophore balancer organ
-
-![](images/Ctenophore/balancer_statolith.png)
-
-::: footer
-Kei Jokura
-:::
-
-## Connectome of the ctenophore apical organ
-
-::: columns
-::: {.column width="50%"}
-```{r eval=TRUE, echo=FALSE}
-
-htmltools::tags$iframe(
-  src = "images/Ctenophore/visNetwork_celltype_connectome.html", 
-  scrolling = "no", 
-  seamless = "seamless",
-  frameBorder = "1",
-  height=600, width=1000
-)
-```
-:::
-
-::: {.column width="25%"}
-
-![](images/Ctenophore/celltypes_in_network_lateral.png)
-
-lateral view
-:::
-
-::: {.column width="25%"}
-
-![](images/Ctenophore/celltypes_in_network_oral.png)
-
-oral view
-:::
-:::
-
-::: aside
-Kei Jokura
-:::
-
-## Four quadrants
-
-::: columns
-::: {.column width="50%"}
-![](images/Ctenophore/quadrants.png)
-:::
-::: {.column width="50%"}
-![](images/Ctenophore/groove.png)
-
-- same cell types in each quadrant
-- annotate one quadrant
-- test on other three
-:::
-:::
-
-::: aside
-Kei Jokura
-:::
-
 
 ## Ciliomotor system in *Platynereis*
 
@@ -262,29 +375,63 @@ Kei Jokura
 [Verasztó et al. (2017)](https://elifesciences.org/articles/26000)
 :::
 
-## Biophysics of ciliary microswimmers
+## Increase in calcium induces ciliary closures
+
+<br><br>
+
+::: columns
+::: {.column width="45%"}
+![](movies/Poon_adw4067_movie_s5c.webm)
+:::
+::: {.column width="55%"}
+![](movies/calcium_closures_elife-26000-media4.webm){width=18em}
+![](images/Ciliomotor/Closures_calcium.png){width=18em}
+:::
+:::
+
+::: aside
+[Verasztó et al. (2017)](https://elifesciences.org/articles/26000)<br>
+[Poon et al. 2025](https://doi.org/10.1126/sciadv.adw4067)
+:::
+
+
+## Rich neuromodulation of ciliary closures
+
+![](images/Ciliomotor/Conzelmann_closures_fig04.jpg){height=20em}
+
+:::aside
+[Conzelmann et al. 2011](https://doi.org/10.1073/pnas.1109085108)
+:::
+
+## Calcium signalling regulates cilia across protists
+
+![](movies/choano_Colgren_adr7434_movie_s4.webm){height=20em}
+
+- choanoflagellate colonies (*Salpingoeca rosetta*)
+
+:::aside
+[Colgren et al. 2025](https://doi.org/10.1126/sciadv.adr7434)\
+:::
+
+## Combining biophysics, modelling, neuroscience
 
 ::: columns
 :::{.column width="60%"}
 ![](images/platynereis/Poon_metachrony2.png)
 
-- high-speed ciliary imaging
-- laser ablations
-- modelling
-
+- with Kirsty Wan
 :::
 :::{.column width="40%"}
 ![](movies/Cilia_simulation2.webm)
 
-*In collaboration with Wan and Keaveny labs, UK*
+-with Kirsty Wan, Eric Keaveny, UNICIL
 :::
 :::
 
 :::aside
 [Poon et al. 2023](https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.L042037)
-[Poon et al. 2025](https://www.biorxiv.org/content/10.1101/2025.02.10.637311v2)
+[Poon et al. 2025](https://doi.org/10.1126/sciadv.adw4067)
 :::
-
 
 ## Acknowledgements
 
@@ -292,21 +439,23 @@ Kei Jokura
 ::: {.column width="22%"}
 <u>*Lab members*</u>
 
--   Sanja Jasek
 -   Alexandra Kerbl
+-   Sanja Jasek
 -   Emily Savage
 -   Simone Wolters
--   Lara Keweloh
+-   Anja Ciprianidis
 -   Kevin Urbansky
 -   Karel Mocaer
 -   David Hug
+-   Jules Duruz
+-   Mateusz Kostencki
 -   Benedikt Dürr
--   Ira Maegele
--   Emelie Brodrick (Exeter)
+-   Kata Szabó
+-   Marzia Matejzek
 :::
 
 ::: {.column width="50%"}
-![](images/Lab_photo1_COS_12Mar2024.jpg) ![](images/funding2.png)
+![](images/lab_photo_2025Sept.png) ![](images/funding2.png)
 :::
 
 ::: {.column width="28%"}
