@@ -27,6 +27,9 @@ css: xaringan-themer-GJ.css
 
 ## Ctenophore aboral organ -- gravisensing (balancer)
 
+![](images/Kei_Jokura.jpg){.absolute top="18em" left="670" width="140"}
+
+
 ::: columns
 ::: {.column width="25%"}
 ![](images/Ctenophore/Comb_jelly_Wikipedia.jpg)
@@ -35,6 +38,8 @@ css: xaringan-themer-GJ.css
 ::: {.column width="33%"}
 ![](movies/Jokura_cteno_cilia.webm)
 Kei Jokura
+
+![](images/Ctenophore/Jokura_comb_plate.png)
 :::
 ::: {.column width="41%"}
 ![](images/Ctenophore/cteno_gravitaxis.png)
